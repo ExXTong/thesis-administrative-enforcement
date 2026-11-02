@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 命题漂移比对：最初版本 → 现在版本（2026-09-26）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4-2026-09-26">A4 命题漂移比对：最初版本 → 现在版本（2026-09-26）</a><ul>
+<li><a href="#_1">一、一句话结论</a></li>
+<li><a href="#_2">二、原版"升降档条件"逐条裁定（这是本次比对的硬核）</a><ul>
+<li><a href="#a">升 [A] 的两个要件（原文要求同时满足）</a></li>
+<li><a href="#c">降 [C] 的两个触发项（满足其一即降）</a></li>
+<li><a href="#b">降 [B] 的条件</a></li>
+</ul>
+</li>
+<li><a href="#p0">三、原版四项 P0 待核事项：全部闭合（其中两项推翻了原来的悲观假设）</a></li>
+<li><a href="#_3">四、漂移对照表</a><ul>
+<li><a href="#_4">保留（未动）</a></li>
+<li><a href="#_5">改写（同一事实、不同定性）</a></li>
+<li><a href="#_6">新增（本轮核到）</a></li>
+<li><a href="#_7">去掉</a></li>
+</ul>
+</li>
+<li><a href="#_8">五、必须在开题时主动交代的三处"依据替换"</a></li>
+<li><a href="#_9">六、最初版本中仍然成立且未被削弱的核心判断</a></li>
+<li><a href="#2026-09-26p0-2">七、更正记录（2026-09-26）：P0-2 的"实施阶段"限定被漏掉</a><ul>
+<li><a href="#_10">这个更正带来的更强发现（不是削弱）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4-2026-09-26">A4 命题漂移比对：最初版本 → 现在版本（2026-09-26）</h1>
+<blockquote>
+<p><strong>对照对象</strong>：用户提供的"最初版本"（案号／条文核验完成、四个暗礁裁定、五类图谱、升降档条件写死的那一版）
+<strong>比对对象</strong>：当前版本（材料包 <code>/var/nfs_share/A4-法学材料包/</code>＋<code>A4-写作总纲</code>＋<code>A4-聚焦方案</code>）
+<strong>方法</strong>：只比对<strong>命题要素与判断条件</strong>，不评价文风。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、一句话结论</h2>
+<p><strong>最初版本的骨架（概念空隙＋S3 断裂带＋16号 射程＋分层④⑤）全部保住了；但它的两条"判断规则"现在必须改写</strong>：
+1. <strong>升 [A] 的条件被"半证伪"</strong>——原文要求"16号 仍现行有效<strong>且可涵盖公民死亡</strong>"，而后半句<strong>已被证伪</strong>（20 件引用裁判中自然人死亡 0、分立合并兼并合营 0）；
+2. <strong>降 [C] 的条件已"贴边"</strong>——原文要求"检索出现行有效的规范或指导性案例<strong>允许行政非诉执行变更／追加被执行人</strong>"，我们核到 <strong>(2023)渝0109行审83号</strong>等裁判直接援引法释〔2020〕21号 §10 变更继承人（虽靠 §101 参照适用，不是"行政非诉执行的规范"本身，但已足以引发质疑）。</p>
+<p>→ <strong>现在之所以仍是 [A]，靠的是"改轴"</strong>（命题从"无装置／断裂带"改为"<strong>§101 参照适用的边界</strong>"）。<strong>这个"依据替换"必须在开题时主动交代</strong>，否则会被直接问住。</p>
+<hr />
+<h2 id="_2">二、原版"升降档条件"逐条裁定（<strong>这是本次比对的硬核</strong>）</h2>
+<h3 id="a">升 [A] 的两个要件（原文要求<strong>同时</strong>满足）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>要件</th>
+<th>裁定</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 核到 <strong>法行〔2000〕16号 仍现行有效</strong></td>
+<td>✅ <strong>满足</strong></td>
+<td>法宝标<strong>现行有效</strong>（发布 2000-05-29）；⚠️ 但<strong>未核印刷版</strong>，且法宝<strong>位阶标注两处不一致</strong>（"司法解释／司法解释性质文件" vs "司法文件"）</td>
+</tr>
+<tr>
+<td>①' <strong>且可涵盖公民死亡</strong></td>
+<td>❌ <strong>被证伪</strong></td>
+<td>16号 正文只写"<strong>法人</strong>出现分立、合并、兼并、合营"；<strong>20 件引用裁判中自然人死亡 0 件、分立合并兼并合营 0 件</strong>（全为法人／个体工商户注销）；其<strong>请示事项是"法人终止"</strong>→<strong>问而未答</strong>；两版《人民法院办理执行案件规范》小标题<strong>相反</strong>（2017 版 §752「不直接变更被执行人」vs 第二版 §1072「变更被执行人」）</td>
+</tr>
+<tr>
+<td>② 找到 <strong>2 件以上</strong>行政非诉执行中义务人死亡、处理方式不一致的裁判</td>
+<td>✅ <strong>超额满足</strong></td>
+<td><strong>≥8 件、五条路径</strong>：A 终结／驳回（吉0322行审18）｜B 转致民诉法（川1181行审52）｜C 变更主体（川1181行审42／闽0205行审165号之二／渝0109行审83／粤0204行审12）｜D <strong>否认变更权</strong>（湘04执复10）｜E 原决定失效（吉0881行审153）；<strong>C↔D、A↔C 直接对立</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>裁定：按原规则"不能升 [A]"，因为要件 ①' 被证伪。</strong>
+<strong>我们仍建议 [A]，但依据是新命题</strong>：争点不再是"16号 能否涵盖死亡"，而是"<strong>§101 参照适用的边界未定</strong>"——实证是<strong>渝0109行审83（在用）vs 湘04执复10（明确否认）</strong>。</p>
+<h3 id="c">降 [C] 的两个触发项（满足其一即降）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>触发项</th>
+<th>裁定</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(a) 检索出现行有效的<strong>规范或指导性案例</strong>允许行政非诉执行<strong>变更／追加</strong>被执行人</td>
+<td>⚠️ <strong>未正式触发，但已"贴边"</strong></td>
+<td>核到的是<strong>裁判</strong>而非"规范或指导性案例"：<strong>(2023)渝0109行审83号</strong>（援引<strong>法释〔2020〕21号 §10</strong>）、(2017)闽0205行审165号之二（民诉法旧§232＋民诉法意见§475）、(2017)川1181行审52号（经<strong>§101</strong>借民诉法§257(3)）。→ 进入通道靠<strong>§101 参照适用</strong>（解释论），<strong>法释〔2016〕21号 §10 本身是"民事执行"的规范</strong>，不是"允许行政非诉执行变更"的规范。<strong>因此严格说未触发；但答辩时对方只要举渝案，就必须正面回应。</strong></td>
+</tr>
+<tr>
+<td>(b) 出现第二篇同时做"<strong>分层＋时点两分</strong>"的文献</td>
+<td>✅ <strong>未触发</strong></td>
+<td>陈思融 2024 只做"<strong>义务继受一般理论</strong>"：原文实测「<strong>遗产管理人</strong>」0 次、「<strong>遗嘱执行人</strong>」0 次、未引<strong>法释〔2020〕21号</strong>、引《民诉法解释》<strong>§470（法人条）</strong>1 次而<strong>§473 0 次</strong>、两案例<strong>均为法人注销</strong>。→ 未做"时点两分"，也未做分层实益分析</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>裁定：降 [C] 尚未触发，但 (a) 已贴边。</strong></p>
+<h3 id="b">降 [B] 的条件</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>触发项</th>
+<th>裁定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16号 <strong>已废止且无替代</strong> → 支点 3 崩塌</td>
+<td>❌ <strong>未触发</strong>（16号 现行有效）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="p0">三、原版四项 P0 待核事项：<strong>全部闭合</strong>（其中两项推翻了原来的悲观假设）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>原 P0</th>
+<th>现状</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>① 16号 现行效力（官方废止目录为图片，未能读取）——"<strong>命门级</strong>"</td>
+<td>✅ <strong>已核：现行有效</strong>（法宝 MCP；仍未核印刷版）</td>
+<td>命门保住；<strong>但"可涵盖公民死亡"被证伪</strong></td>
+</tr>
+<tr>
+<td>② 行政非诉执行<strong>实施阶段</strong>援引变更追加规则的裁判先例：<strong>未核到任何一件</strong></td>
+<td>⚠️ <strong>只闭合一半；原判断基本成立（2026-09-26 更正）</strong>：核到的援引<strong>全部发生在审查阶段（"行审"字号）</strong>——渝0109行审83（引法释〔2020〕21号§10）／闽0205行审165号之二（引民诉法旧§232＋民诉法意见§475）／川1181行审52（经§101借民诉法§257(3)）／青0122行审17（引法行〔2000〕16号）；<strong>实施阶段（执／执复／执异）"援引并适用"的仍是 0 件</strong>，实施阶段唯一的正面接触是 <strong>(2025)湘04执复10号</strong>，且是<strong>明确否认</strong>（"《变更追加规定》……并不适用于执行行政决定的非诉执行"）</td>
+<td><strong>上一版把本项记为"已核到"是错的（漏掉"实施阶段"这一限定）</strong>。更正后：<strong>原 P0-2 的结论成立</strong>；而这一"阶段分布"本身就是暗礁二（阶段错置）的裁判层面确认</td>
+</tr>
+<tr>
+<td>③ 行政非诉执行中义务人死亡的裁判：<strong>未核到</strong>（最接近为(2017)云2931行初1号，行政公益诉讼）</td>
+<td>✅ <strong>已核到 ≥8 件、五条路径</strong></td>
+<td><strong>原"未核到"被推翻</strong></td>
+</tr>
+<tr>
+<td>④ 法释〔2016〕21号 2020 修正官方文本：<strong>仅有非官方转录</strong></td>
+<td>✅ <strong>已核</strong>：法宝版本链 <code>ConfirmedChanged</code>；最高法官网与法宝<strong>双通道确认</strong></td>
+<td>动笔前障碍清除</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_3">四、漂移对照表</h2>
+<h3 id="_4">保留（未动）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>要素</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>§40(一)「义务承受人」× §155(四)「行政行为所确定的义务人」的概念空隙</strong></td>
+<td>原命题第 1 层，完全保留</td>
+</tr>
+<tr>
+<td><strong>S3 断裂带</strong>（生效后、申请前死亡）</td>
+<td>保留为<strong>核心阶段</strong></td>
+</tr>
+<tr>
+<td><strong>16号 的射程问题</strong></td>
+<td>保留并<strong>升级</strong>为"问而未答"</td>
+</tr>
+<tr>
+<td><strong>分层实益在④加处罚款／滞纳金与⑤怠金</strong></td>
+<td>保留（但降为次要一章）</td>
+</tr>
+<tr>
+<td><strong>台湾釋 621／622＋廖義男意见书；"责任财产限遗产＋以遗产管理人为形式被执行主体"</strong></td>
+<td>保留</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="_5">改写（同一事实、不同定性）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>最初版本</th>
+<th>现在</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"<strong>两部现行有效司法解释规则相反</strong>"（§10 2020 删 vs §473 2022 留）</td>
+<td><strong>"分工"</strong>：§10＝主体变更路径／§473＝执行标的路径；2020 删除＝"同一事项只留一处"的去重＋与《民法典》§1145 对接</td>
+<td>用户指出不是冲突；且 §1145 末句使管理人<strong>永不缺位</strong></td>
+</tr>
+<tr>
+<td>"<strong>程序法上没有对应装置</strong>"／"民事有装置、行政没有"</td>
+<td>"<strong>无明文装置；但《行政诉讼法》§101 是现成的转致通道，实务已在用</strong>（渝0109行审83）"</td>
+<td>用户指出 §101 本就是参照适用条款；<strong>不能为凑问题把没问题的写成问题</strong></td>
+</tr>
+<tr>
+<td>"<strong>真正的制度断裂带</strong>＝S3 死亡"</td>
+<td>"<strong>参照适用的边界未定</strong>"（<strong>范围</strong>：法释〔2016〕21号序言自限于民事执行，渝案用／湘案否认｜<strong>阶段</strong>：§155(四) 立案关口 vs §101 实施阶段｜<strong>发动主体</strong>：民事"申请执行人申请" vs 16号"法院通知申请机关变更"，《行政强制法》"申请执行人"0 次）</td>
+<td>断裂带仍成立，但<strong>问题性质从"缺制度"变为"边界未定"</strong>——后者才经得起攻击</td>
+</tr>
+<tr>
+<td>"<strong>时点两分</strong>"作为独立命题要素</td>
+<td>并入阶段分析（S3／S7），不再单列</td>
+<td>避免与"参照适用边界"争篇幅</td>
+</tr>
+<tr>
+<td>分层（五类图谱）为核心增量</td>
+<td>降为次要一章，并<strong>新增定性层切割</strong></td>
+<td>见下</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="_6">新增（本轮核到）</h3>
+<ol>
+<li><strong>★ 定性层切割</strong>：（2018）桂03行终209号——「本案的<strong>加收滞纳金行为属于征税行为</strong>，与<strong>行政强制执行方式的加处滞纳金是不同种类的行政行为</strong>」。→ 同一个"滞纳金"两套定性，《行政强制法》§45 却与加处罚款并列——<strong>分层前必须先做定性切割</strong>。</li>
+<li><strong>实务收敛</strong>：民事"确定管理人 → 追加为被执行人 → 在遗产范围内执行"，且<strong>管理人非责任承担主体、不得执行其自有财产</strong>（山东高院典型案例之七 寇某某案 2021-08-12；(2023)渝0109行审83号同旨；(2024)辽12执复105号）。</li>
+<li><strong>民事闭环 vs 行政</strong>："<strong>终结—变更—恢复</strong>"（(2024)粤0606执恢2033号之一、(2025)琼0108执恢567号）。</li>
+<li><strong>规范层谱系</strong>：《行政强制法》<strong>仅 1 版、自 2012-01-01 施行至今整法未修改</strong>；<strong>7 部部门规章、三种立法例</strong>，无一部设"承受调查程序"；《海关办理行政处罚案件程序规定》§118(二) 与 §40(一) <strong>措辞同构</strong>，§115 是唯一明文"主体承受"的部门规章（射程不含自然人死亡）。</li>
+<li><strong>比较法扩为三条路线</strong>：德 AO §45(1)（<strong>明文排除 Zwangsgelder</strong>）／日本民法 §896 但书＋《国税徴収法》§139、§51／台湾《行政執行法》§15＋《強制執行法》§5 III。</li>
+</ol>
+<h3 id="_7">去掉</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>去掉的</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>刑事端作为<strong>对比支点</strong>（法释〔2021〕1号 §538／法释〔2014〕13号 §10）</td>
+<td><strong>你已自行排掉</strong>：那两条与"被执行人死亡的遗产执行"无关；刑事端实际是"<strong>准用民事执行</strong>"（法释〔2021〕1号 §529／§532、法释〔2014〕13号 §16），台湾《刑事诉讼法》§470 III 才是法律位阶的正面授权</td>
+</tr>
+<tr>
+<td>"规范内部冲突"作为<strong>支点 3</strong></td>
+<td>同上：改为"分工＋实务收敛"</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_8">五、必须在开题时主动交代的<strong>三处"依据替换"</strong></h2>
+<ol>
+<li><strong>升 [A] 的依据换了</strong>：原条件要求"16号 <strong>可涵盖公民死亡</strong>"——<strong>该要件被证伪</strong>；现在的依据是"<strong>§101 参照适用的边界未定</strong>"（渝案 vs 湘案）。</li>
+<li><strong>降 [C] 的触发项 (a) 已贴边</strong>：确有裁判允许行政非诉执行变更被执行人（渝0109行审83 等）；<strong>回应方式</strong>是区分"<strong>规范</strong>"与"<strong>裁判</strong>"——进入通道靠 §101 参照适用，<strong>不是行政非诉执行自己的规范</strong>，故未正式触发；<strong>但必须正面写出这个区分</strong>。</li>
+<li><strong>"无装置"改为"边界未定"</strong>：这是<strong>两轮自我更正</strong>的结果（来源：用户两次批评），必须在正文里留下一处说明，否则读者会以为你在回避"§101 就在那里"这个明显事实。</li>
+</ol>
+<hr />
+<h2 id="_9">六、最初版本中<strong>仍然成立且未被削弱</strong>的核心判断</h2>
+<ol>
+<li>实体法（§40(一) 的反面推论）<strong>留有空间，但没有配套程序</strong>；</li>
+<li><strong>§155(四) 的"义务人同一性"是真正的程序门槛</strong>（§152–161 用语检索：死亡 0／遗产 0／变更被执行人 0／追加被执行人 0；"继承人"仅 §158 且在<strong>申请执行人</strong>一侧）；</li>
+<li><strong>16号 的文本与请示事项错位</strong>（问而未答）；</li>
+<li><strong>分层实益在④⑤</strong>（继续性、施压性负担），而非①②③；</li>
+<li><strong>"责任财产限遗产＋以遗产管理人为形式被执行主体"</strong> 是正确的落点——<strong>本轮已由民事与行政两轨的裁判证实</strong>（寇案／渝案）。</li>
+</ol>
+<hr />
+<h2 id="2026-09-26p0-2">七、更正记录（2026-09-26）：P0-2 的"实施阶段"限定被漏掉</h2>
+<p><strong>原 P0-2 问的是：行政非诉执行「实施阶段」援引变更追加规则的裁判先例。</strong>
+我在第三节曾记为"✅ 已核到"，<strong>这是错的</strong>——核到的援引<strong>全部在审查阶段</strong>。按案号阶段分布更正如下：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>阶段（案号标记）</th>
+<th>案号</th>
+<th>对变更追加规则的接触</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>审查阶段</strong>（"行审"）</td>
+<td>(2023)渝0109行审83号</td>
+<td><strong>正面援引</strong>法释〔2020〕21号 §10 第1款</td>
+<td>变更继承人为被执行人</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2017)闽0205行审165号之二</td>
+<td>引民诉法（旧）§232＋《民诉法意见》§475（§10 的前身）</td>
+<td>对继承人准予执行</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2017)川1181行审42号</td>
+<td><strong>未载明任何依据</strong></td>
+<td>变更继承人</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2024)粤0204行审12号</td>
+<td>走实体法（《民法典》§1161(1)），<strong>不用</strong>变更程序</td>
+<td>遗产范围内承担</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2024)青0122行审17号</td>
+<td>引<strong>法行〔2000〕16号</strong></td>
+<td>准许变更</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2017)川1181行审52号</td>
+<td>经 <strong>§101</strong> 借民诉法§257(3)</td>
+<td>终结（<strong>不是变更</strong>）</td>
+</tr>
+<tr>
+<td><strong>审查阶段</strong></td>
+<td>(2018)吉0322行审18号／(2018)吉0881行审153号</td>
+<td>用行政法自己的 §40(一)／§58</td>
+<td>驳回／不准予执行</td>
+</tr>
+<tr>
+<td><strong>实施阶段</strong>（"执复"）</td>
+<td><strong>(2025)湘04执复10号</strong></td>
+<td><strong>明确否认</strong>："《变更追加规定》……并不适用于执行行政决定的非诉执行"</td>
+<td>拒绝追加</td>
+</tr>
+<tr>
+<td><strong>实施阶段</strong>（"执异"）</td>
+<td>(2025)川0402执异165号</td>
+<td>依 <strong>16号</strong> 申请追加/变更 → 被否定（"不适用于公司清算注销后的责任追究"）</td>
+<td>不予支持（<strong>该案案由未复核，须以原文为准</strong>）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>裁定：</strong>
+- <strong>实施阶段"援引并适用"变更追加规则的裁判：0 件</strong>（原判断成立）；
+- <strong>实施阶段出现的唯一接触是反面的</strong>；(2025)川0402执异165号 是对 <strong>16号</strong> 的接触，且亦为否定，<strong>且其案由是否属非诉执行尚未复核</strong>。</p>
+<h3 id="_10">这个更正带来的<strong>更强</strong>发现（不是削弱）</h3>
+<p>行政非诉执行中，<strong>"变更被执行主体"实际都发生在审查阶段（作出准予执行裁定时），而实施阶段明确否认自己有此权</strong>。也就是说：</p>
+<blockquote>
+<p><strong>变更"实际发生的地方（行审裁定）"与规则"自认适用的地方（民事执行实施）"不是同一个阶段。</strong></p>
+</blockquote>
+<p>这正是最初版本"<strong>暗礁二：非诉审查／执行实施阶段错置</strong>"的<strong>裁判层面确认</strong>——原文档当时把它定为"部分成立，已修正"，现在可以<strong>升级为成立且有实证</strong>：不是"我们担心阶段错置"，而是"<strong>法院自己在不同阶段给出了相反答案</strong>"。</p>
+<p>→ 这也使"<strong>阶段</strong>"成为"§101 参照适用边界"三维中<strong>证据最硬的一维</strong>（范围有渝 vs 湘，阶段有行审 vs 执复，发动主体则主要是文本缺口）。</p>
+</main>
+</body>
+</html>

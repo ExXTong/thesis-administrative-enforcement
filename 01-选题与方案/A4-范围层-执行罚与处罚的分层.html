@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 · 范围层：执行罚与行政处罚的分层（条文逐字核验版）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4">A4 · 范围层：执行罚与行政处罚的分层（条文逐字核验版）</a><ul>
+<li><a href="#_1">一、条文逐字（核验锚点）</a></li>
+<li><a href="#_2">二、执行罚的成立要件链 —— 死亡断在哪一环</a></li>
+<li><a href="#_3">三、★ 分层判准（此前缺失的那一块）</a></li>
+<li><a href="#_4">四、两种时点下的结论（覆盖完整）</a></li>
+<li><a href="#_5">五、⚠️ 剩余的缺口：罚款本金凭什么及于遗产？</a></li>
+<li><a href="#_6">六、需核的两点（引用前）</a></li>
+<li><a href="#_7">七、对本文各章的影响</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4">A4 · 范围层：执行罚与行政处罚的分层（条文逐字核验版）</h1>
+<blockquote>
+<p>条文全部取自北大法宝 MCP <code>get_article</code>，<code>timeliness</code>＝现行有效，2026-09-30 核。
+<strong>本文件替换掉此前"加处罚款／滞纳金自死亡之日停止计算"的主张</strong>（该主张已因 §73(3) 封闭列举、三法域无明文、闽0124 顶格判罚反证、§45(2) 上限吸收而废弃）。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、条文逐字（核验锚点）</h2>
+<p><strong>《行政强制法》§12（行政强制执行的方式）</strong></p>
+<blockquote>
+<p>「行政强制执行的方式：（一）<strong>加处罚款或者滞纳金</strong>；（二）划拨存款、汇款；（三）拍卖或者依法处理查封、扣押的场所、设施或者财物；（四）排除妨碍、恢复原状；（五）代履行；（六）其他强制执行方式。」</p>
+</blockquote>
+<p><strong>《行政强制法》§45</strong></p>
+<blockquote>
+<p>「行政机关依法作出金钱给付义务的行政决定，当事人逾期不履行的，行政机关可以依法加处罚款或者滞纳金。加处罚款或者滞纳金的标准应当告知当事人。
+加处罚款或者滞纳金的数额<strong>不得超出金钱给付义务的数额</strong>。」</p>
+</blockquote>
+<p><strong>《行政强制法》§35（催告）</strong></p>
+<blockquote>
+<p>「行政机关<strong>作出强制执行决定前，应当事先催告</strong>当事人履行义务。催告应当以书面形式作出，并载明下列事项：（一）履行义务的期限；（二）履行义务的方式；（三）涉及金钱给付的，应当有明确的金额和给付方式；（四）<strong>当事人依法享有的陈述权和申辩权</strong>。」</p>
+</blockquote>
+<p><strong>《行政强制法》§37（强制执行决定）</strong></p>
+<blockquote>
+<p>「<strong>经催告，当事人逾期仍不履行行政决定，且无正当理由的</strong>，行政机关可以作出强制执行决定。强制执行决定应当以书面形式作出，并载明下列事项：（一）当事人的姓名或者名称、地址；（二）强制执行的理由和依据；（三）强制执行的方式和时间；（四）申请行政复议或者提起行政诉讼的途径和期限；（五）行政机关的名称、印章和日期。
+在催告期间，对有证据证明有转移或者隐匿财物迹象的，行政机关可以作出立即强制执行决定。」</p>
+</blockquote>
+<hr />
+<h2 id="_2">二、执行罚的成立要件链 —— 死亡断在哪一环</h2>
+<p>加处罚款／滞纳金的成立是一条<strong>六环链条</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>要件</th>
+<th>规范依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>存在<strong>已生效</strong>的金钱给付义务的行政决定</td>
+<td>§45 第1款前段</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>当事人逾期不履行</strong></td>
+<td>§45 第1款前段</td>
+</tr>
+<tr>
+<td>3</td>
+<td>加处罚款的标准<strong>已告知</strong>当事人</td>
+<td>§45 第1款后段</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>作出强制执行决定前，事先催告当事人</strong>（书面、含陈述申辩权）</td>
+<td><strong>§35</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>经催告</strong>仍不履行<strong>且无正当理由</strong> → 作出<strong>强制执行决定</strong></td>
+<td><strong>§37</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>申请法院强制执行（§53）或自行执行</td>
+<td>§53</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>★ 义务人死亡断在第 4 环与第 5 环</strong>：§35「催告<strong>当事人</strong>」、§37「<strong>经催告</strong>，<strong>当事人</strong>逾期仍不履行」——催告的相对人只有"当事人"，义务人死亡后催告不可能完成，故 <strong>§37 的"经催告"要件不成就 → 强制执行决定不能作出 → 加处罚款不发生</strong>。</p>
+<p><strong>与 (2022)桂0202行审108号之一 的印证</strong>：该案标的正是《<strong>加处罚款决定书</strong>》，法院逐字认定「<strong>催告程序并未实际完成</strong>」→ 依 §55(1)(3) 不予受理；并指出应「履行相应的<strong>告知、催告程序</strong>后再申请」。<strong>该案的论证结构与本链条完全一致</strong>，只是法院未把它表述为"§37 成立要件不成就"。</p>
+<p><strong>与 (2016)苏0611行审34号 的印证</strong>：加处罚款须<strong>另行作出决定</strong>方可执行——这正是第 5 环（§37 强制执行决定）的独立要求。</p>
+<hr />
+<h2 id="_3">三、★ 分层判准（此前缺失的那一块）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>罚款</strong></th>
+<th><strong>加处罚款／滞纳金</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>法律属性</td>
+<td><strong>制裁性行政行为</strong>（行政处罚）</td>
+<td><strong>行政强制执行方式</strong>（执行罚）</td>
+</tr>
+<tr>
+<td>规范依据</td>
+<td>《行政处罚法》§9（处罚种类）</td>
+<td><strong>《行政强制法》§12(一)、§45</strong></td>
+</tr>
+<tr>
+<td>前提</td>
+<td>存在独立的违法行为</td>
+<td>存在<strong>已生效的金钱给付义务</strong>且<strong>逾期不履行</strong></td>
+</tr>
+<tr>
+<td>目的</td>
+<td>惩戒<strong>既往</strong>违法</td>
+<td><strong>迫使、督促履行</strong>（向将来施压）</td>
+</tr>
+<tr>
+<td>数额</td>
+<td>依处罚法定幅度，可与本金无关</td>
+<td><strong>封顶于原义务数额</strong>（§45 第2款）</td>
+</tr>
+<tr>
+<td>程序</td>
+<td>处罚程序、听证、一事不再罚、追责时效</td>
+<td><strong>催告（§35）→ 强制执行决定（§37）→ 申请法院执行（§53）</strong></td>
+</tr>
+<tr>
+<td>能否反复</td>
+<td>一事不再罚</td>
+<td>可对同一不履行状态<strong>持续按日计算</strong>（但总额封顶）</td>
+</tr>
+<tr>
+<td><strong>人身专属性</strong></td>
+<td><strong>不具</strong>（财产性制裁；陈思融 p140 主张不具人身专属性）</td>
+<td><strong>具</strong>（施压对象为义务人本人；<strong>德国 AO §45(1) 明文排除 Zwangsgelder</strong>）</td>
+</tr>
+<tr>
+<td><strong>能否随死亡移转</strong></td>
+<td><strong>可</strong>（及于遗产）</td>
+<td><strong>不可</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>★ 这一分层与德国法形成直接对应</strong>：</p>
+<blockquote>
+<p>AO §45(1) 第二句：「<strong>Dies gilt jedoch bei der Erbfolge nicht für Zwangsgelder.</strong>」（但在继承的情形，此规定不适用于<strong>执行罚</strong>。）</p>
+</blockquote>
+<p>德国以<strong>立法明文</strong>把"执行罚"从概括承继中排除；我国虽无同款明文，但<strong>可从 §12＋§45＋§35＋§37 的要件结构推出同一结论</strong>——<strong>因此本文不必依赖比较法移植，而是"同一结论、不同路径"</strong>。这使得"分层"在大陆法上<strong>有本国依据</strong>，而非"制度空白"。</p>
+<p><strong>★ 与陈思融 2024 的呼应</strong>：陈对<strong>滞纳金</strong>主张具人身专属性（p139）、对<strong>罚款</strong>主张不具人身专属性（p140）。若滞纳金与加处罚款同质（《行政强制法》§12、§45 并列书写），则陈的 p139 立场<strong>可扩展至执行罚整体</strong>。此前"陈思融认为加处罚款不可继受"的写法是<strong>错的</strong>（"加处罚款"全文仅 2 次、未立论），但<strong>结论方向上</strong>陈与本文一致——只是他论的是滞纳金。</p>
+<hr />
+<h2 id="_4">四、两种时点下的结论（覆盖完整）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>死亡时点</th>
+<th>加处罚款</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>强制执行决定（§37）作出之前</strong></td>
+<td><strong>不发生</strong></td>
+<td>§35 催告不能完成 → §37"经催告"要件不成就 → 决定不能作出</td>
+</tr>
+<tr>
+<td><strong>强制执行决定作出之后</strong></td>
+<td><strong>已成立，但不随死亡移转</strong></td>
+<td>执行罚具人身专属性；德国 AO §45(1) 明文排除 Zwangsgelder；陈 p139 对滞纳金持同一立场</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>两条路径不同、结论一致</strong>：加处罚款<strong>不及于遗产</strong>。这比"自死亡之日停止计算"更彻底，也更有规范依据——「停止计算」只解决"死亡后不再新增"，而<strong>不能处理"死亡前已计算的加处罚款能否执行"</strong>；本文的路径把它一并解决。</p>
+<hr />
+<h2 id="_5">五、⚠️ 剩余的缺口：罚款本金凭什么及于遗产？</h2>
+<p>分层的<strong>否定侧</strong>（执行罚不发生／不继受）已有完整依据；但<strong>肯定侧</strong>（罚款本金可及于遗产）<strong>仍然缺依据</strong>：</p>
+<blockquote>
+<p>《民法典》<strong>§1161 第1款</strong>：「继承人以所得遗产实际价值为限清偿被继承人依法应当缴纳的<strong>税款和债务</strong>。超过遗产实际价值部分，继承人自愿偿还的不在此限。」</p>
+</blockquote>
+<ul>
+<li>其宾语是「<strong>税款和债务</strong>」——<strong>未提"罚款"</strong>；</li>
+<li>"债务"是否包括<strong>公法上的罚款义务</strong>，文义上可疑（该条位于《民法典》继承编，通常理解为私法债务）；</li>
+<li><strong>这正是本文"范围层"的真空</strong>：加处罚款有明确出口（不发生），罚款本金<strong>没有明确规范依据</strong>。</li>
+</ul>
+<p>这一不对称<strong>本身就是发现</strong>，应写入正文与"未尽事项"。</p>
+<hr />
+<h2 id="_6">六、需核的两点（引用前）</h2>
+<ol>
+<li><strong>税收滞纳金是否适用本金封顶存在少量裁判分歧</strong>——用户已提示；须检索具体案例核对（用于第五章节 5.6 的脚注）。</li>
+<li><strong>§73(3) 的封闭列举</strong>须写清楚：《行政处罚法》(2021) §73 第3款「当事人申请行政复议或者提起行政诉讼的，加处罚款的数额在行政复议或者行政诉讼期间<strong>不予计算</strong>」——这是<strong>特定期间的例外</strong>，<strong>不含死亡</strong>，故不能被扩张解释为"死亡后停止计算"。</li>
+</ol>
+<hr />
+<h2 id="_7">七、对本文各章的影响</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>章</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第一章</td>
+<td>无（阶段错配的论证不变）</td>
+</tr>
+<tr>
+<td>第二章</td>
+<td>2.5 范围层须改用本分层判准；桂0202 引 §1161 承接<strong>加处罚款</strong>的前提瑕疵，因本分层而<strong>更加明确</strong>（§1161 宾语不含执行罚）</td>
+</tr>
+<tr>
+<td>第三章</td>
+<td>新增一节「执行罚的成立要件与 §35／§37 的催告前提」</td>
+</tr>
+<tr>
+<td>第四章</td>
+<td><strong>4.5 的"必要的限定"须改写</strong>：三法域虽无"停止计算"明文，但<strong>德国 AO§45(1) 有"执行罚不继受"的明文</strong>——这与本文的分层判准<strong>同结论</strong>，比较法在此是<strong>支撑</strong>而非"缺位"</td>
+</tr>
+<tr>
+<td><strong>第五章</strong></td>
+<td><strong>5.6 整节重写</strong>：由"自死亡之日停止计算"改为「<strong>§35 催告前提＋§37 成立要件＋执行罚人身专属性</strong>」双层论证</td>
+</tr>
+<tr>
+<td>第六章</td>
+<td>"未尽事项"须新增：<strong>罚款本金的规范依据缺口</strong></td>
+</tr>
+</tbody>
+</table></div>
+</main>
+</body>
+</html>

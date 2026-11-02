@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 写作方案（单档·收窄版）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-先读我.html">← 返回材料包目录</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4">A4 写作方案（单档·收窄版）</a><ul>
+<li><a href="#_1">写作总则（四条，全篇遵守）</a></li>
+<li><a href="#3000">第一章 问题的提出（约 3,000 字）</a></li>
+<li><a href="#7000">第二章 规范上的双重不确定（约 7,000 字）</a></li>
+<li><a href="#7000_1">第三章 参照适用能否及于"主体消灭"（约 7,000 字）</a></li>
+<li><a href="#8000">第四章 参照过来执行什么：一身专属性的三个落点（约 8,000 字）★</a></li>
+<li><a href="#3000_1">第五章 结论（约 3,000 字）</a></li>
+<li><a href="#_2">材料最小集（写作时只开这些）</a></li>
+<li><a href="#_3">不进本文的材料（标注为"另篇：分层"）</a></li>
+<li><a href="#_4">动笔前唯一待补</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4">A4 写作方案（<strong>单档·收窄版</strong>）</h1>
+<blockquote>
+<p><strong>本文件取代</strong>原《A4 聚焦方案》的三档版本（三档版作废：它把时点全谱系、义务类型分层、德日台三路线并列为可选配置，导致选题持续外扩）。
+<strong>题目</strong>：《行政非诉执行中义务人死亡后的被执行主体——以法释〔2016〕21号第10条的参照适用为中心》
+<strong>一句话命题</strong>：义务人在行政行为<strong>生效后、申请执行前</strong>死亡时，法释〔2016〕21号 §10 能否经《行政诉讼法》§101 <strong>参照适用</strong>于非诉执行——<strong>渝0109行审83 在用、湘04执复10 否认</strong>；而法行〔2000〕16号只覆盖<strong>主体变更</strong>、不覆盖<strong>主体消灭</strong>。
+<strong>体量</strong>：正文约 3–3.5 万字。<strong>性质</strong>：解释论，<strong>不写立法建议</strong>（《行政强制法》2012-01-01 施行至今整法未修改）。</p>
+</blockquote>
+<hr />
+<h2 id="_1">写作总则（四条，全篇遵守）</h2>
+<ol>
+<li><strong>每章开头一句"本章要证明什么"，章末一句"所以"</strong>——两句话读起来必须接得上。</li>
+<li><strong>案例只作证据点，不作叙事</strong>：每个案子最多三句——<strong>事实一句／法院原话一句／对本命题的作用一句</strong>。逐字原文、案号、法宝链接进脚注。</li>
+<li><strong>不写"困境与出路"</strong>，不写"完善建议"，不设"比较法专章"（比较法只在第四章用两个锚点）。</li>
+<li><strong>凡出现"冲突／空白／没有装置"必须先自问"是不是层面不同"</strong>（实体规则 vs 程序装置；主体路径 vs 标的路径）。</li>
+</ol>
+<hr />
+<h2 id="3000">第一章　问题的提出（约 3,000 字）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>节</th>
+<th>本节要证明什么</th>
+<th>怎么写</th>
+<th>挂什么材料</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1</td>
+<td>这是一个<strong>同一阶段内相反答案</strong>的真问题</td>
+<td>两案对开：<strong>(2019)鲁02行审复1号</strong>（申请执行前经营者已死亡 → <strong>驳回</strong>，"明显缺乏法律依据"）／<strong>(2023)渝0109行审83号</strong>（生效后死亡 → <strong>变更继承人为被执行人</strong>）</td>
+<td>两案各三句；脚注放逐字与链接</td>
+</tr>
+<tr>
+<td>1.2</td>
+<td>争点不在"阶段不同"，而在<strong>能否参照适用</strong></td>
+<td>说明两案同处"生效后、申请执行前"，处理却相反，排除"阶段错置"这一解释</td>
+<td>鲁02 逐字："申请强制执行前……已经死亡"</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>本文的任务与边界</td>
+<td>只处理<strong>金钱给付义务</strong>＋<strong>生效后、申请前死亡</strong>；只做解释论</td>
+<td>—</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>术语界定</td>
+<td><strong>用白话定义一次</strong>（"送达后、生效前"／"生效后、申请执行前"／"执行实施中"），附一小表；<strong>S/T 编号不进正文</strong></td>
+<td>《A4-死亡时点核验表》（另附）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>章末一句</strong>：所以问题不是"没有规范"，而是"<strong>有一套可以借来的规范，借不借、借多少没有定论</strong>"。</p>
+<hr />
+<h2 id="7000">第二章　规范上的双重不确定（约 7,000 字）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>节</th>
+<th>本节要证明什么</th>
+<th>怎么写</th>
+<th>挂什么材料</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.1</td>
+<td><strong>实体出口敞开，但出口没人</strong></td>
+<td>§40(一) 反面推论（有遗产或有承受人 → 不终结）；「义务承受人」<strong>全法未定义</strong>；顺带一句：该法<strong>仅 1 版、施行至今未修改</strong>，故立法论不成立</td>
+<td>《行政强制法》§40(一) 逐字</td>
+</tr>
+<tr>
+<td>2.2</td>
+<td><strong>程序入口关闭</strong></td>
+<td>§155(四)「被申请人是<strong>该行政行为所确定的义务人</strong>」；§152–161 用语检索表（死亡 0／遗产 0／变更被执行人 0／追加被执行人 0；"继承人"仅 §158，属<strong>申请执行人</strong>一侧）</td>
+<td>法释〔2018〕1号 用语检索结果</td>
+</tr>
+<tr>
+<td>2.3</td>
+<td><strong>唯一的非诉执行变更依据只覆盖一半</strong></td>
+<td>法行〔2000〕16号：正文只写"法人出现<strong>分立、合并、兼并、合营</strong>"；<strong>请示事项是"法人终止"</strong> → <strong>问而未答</strong>；20 件引用裁判中<strong>自然人死亡 0／分立合并兼并合营 0</strong>；两版《人民法院办理执行案件规范》小标题<strong>相反</strong>（2017 版 §752「不直接变更被执行人」vs 第二版 §1072「变更被执行人」）</td>
+<td>16号 全文＋引用分布＋两版标题</td>
+</tr>
+<tr>
+<td>2.4</td>
+<td><strong>通道只剩 §101 转致，实务已在用</strong></td>
+<td>§101 条文；<strong>川1181行审52号</strong>（借民诉法 §257(3) 终结）；<strong>闽0205行审165号之二</strong>（借民诉法旧 §232＋民诉法意见 §475）</td>
+<td>三件案号＋逐字（各三句）</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>小结</td>
+<td>收成一张"<strong>出口—入口—通道</strong>"三段图</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>章末一句</strong>：所以本章不主张"无装置"，而是把问题<strong>精确到一个动作</strong>——<strong>§101 把民事变更规则引进来的那一刻，边界在哪里</strong>。</p>
+<hr />
+<h2 id="7000_1">第三章　参照适用能否及于"主体消灭"（约 7,000 字）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>节</th>
+<th>本节要证明什么</th>
+<th>怎么写</th>
+<th>挂什么材料</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1</td>
+<td><strong>反对说的最强版本</strong>（先立对方）</td>
+<td>(2025)湘04执复10号逐字：「即使要变更行政处罚对象，也应由<strong>行政机关</strong>进行变更，人民法院在行政非诉执行中<strong>不涉及</strong>追加其他非相关主体……《变更追加规定》适用于民事执行中变更、追加当事人问题，<strong>并不适用于执行行政决定的非诉执行</strong>」；拆出两个理由：①执行力只针对确定义务人；②变更应由机关作出</td>
+<td>湘案逐字＋链接</td>
+</tr>
+<tr>
+<td>3.2</td>
+<td><strong>支持说的最强版本</strong></td>
+<td>(2023)渝0109行审83号：<strong>直接援引法释〔2020〕21号 §10 第1款</strong>（并<strong>自己写明"2020年12月29日修正"</strong>）；再分析法释〔2016〕21号<strong>序言</strong>（"为正确处理<strong>民事执行</strong>中变更、追加当事人问题……"）——是<strong>目的条款</strong>还是<strong>射程限制</strong>？</td>
+<td>渝案逐字＋序言逐字</td>
+</tr>
+<tr>
+<td>3.3</td>
+<td><strong>对反对说两点回应</strong></td>
+<td>（a）理由②指向的是<strong>发动主体</strong>，不是"能否变更"——川1181行审42号 事实上就在审查阶段变更了（只是<strong>未载明依据</strong>）；<br>（b）理由①不成立：<strong>参照适用不创造责任，只提供程序外观</strong>——责任来自《民法典》§1161 限定继承</td>
+<td>§1161 逐字；川42 案</td>
+</tr>
+<tr>
+<td>3.4</td>
+<td><strong>本文立场</strong></td>
+<td>可以参照；但须解决<strong>发动主体</strong>：民事是"<strong>申请执行人申请</strong>"，16号 是"<strong>人民法院通知申请机关变更</strong>"，而《行政强制法》全法「<strong>申请执行人</strong>」<strong>0 次</strong> → 解释论上应由<strong>申请执行的行政机关以变更申请的方式发动</strong>（法院不宜依职权变更）</td>
+<td>"申请执行人"用语检索；16号</td>
+</tr>
+<tr>
+<td>3.5</td>
+<td>小结</td>
+<td>"范围"这一维已有答案（可以参照）；"发动主体"这一维给出本文方案</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>章末一句</strong>：所以参照适用在<strong>范围</strong>上可以成立，但<strong>必须补上"由谁发动"这一环</strong>——否则湘案的担心是有道理的。</p>
+<hr />
+<h2 id="8000">第四章　参照过来执行什么：一身专属性的三个落点（约 8,000 字）★</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>节</th>
+<th>本节要证明什么</th>
+<th>怎么写</th>
+<th>挂什么材料</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4.1</td>
+<td><strong>程序法决定不了"范围的内容"</strong></td>
+<td>§10 说的是"在<strong>遗产范围内</strong>承担责任"，而"遗产范围"由实体法（§1161 限定继承）＋<strong>义务自身的性质</strong>决定 → <strong>一身专属性在此进入</strong>（这是它的位置，不是全篇骨架）</td>
+<td>§10、§1161 逐字</td>
+</tr>
+<tr>
+<td>4.2</td>
+<td><strong>判准</strong></td>
+<td><strong>取偿</strong>（回复财产状态）vs <strong>施压／继续</strong>（迫使义务人本人履行）；说明为何不用"财产性／人身性"二分（它会把税款与怠金放在同侧）</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4.3</td>
+<td><strong>三个落点</strong>（表）</td>
+<td>①<strong>全部及于遗产</strong>：税款、社保费、没收违法所得、罚款中剥夺不法利益部分；②<strong>仅及于遗产、不及于继承人固有财产</strong>：惩戒型罚款；③<strong>不及于遗产／自死亡之日停止计算</strong>：<strong>加处罚款、滞纳金</strong>＋<strong>怠金</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td>4.4</td>
+<td><strong>两个比较法锚点</strong>（各一段，不设章）</td>
+<td>德国 <strong>AO §45(1)</strong>：概括承继但<strong>明文排除 Zwangsgelder</strong> → 证明"执行罚除外"立法上做得到；台湾 <strong>釋621／622＋廖義男</strong>：罰鍰<strong>限遺產</strong>、稅捐<strong>及於固有財產</strong>，且"<strong>必須另為立法加以明定</strong>" → 证明分层在两岸都是未完成作业</td>
+<td>AO §45(1)（德文＋中译）；釋621／622；廖義男意见书</td>
+</tr>
+<tr>
+<td>4.5</td>
+<td><strong>重点展开③</strong></td>
+<td><strong>加处罚款、滞纳金</strong>应自死亡之日停止计算（理由：继续计算以"义务人仍在迟延"为前提，主体消灭后该状态不可归责于遗产）；<strong>怠金</strong>不及于遗产（心理压迫对象消失）</td>
+<td>《行政处罚法》§72；《行政强制法》§45；《税收征管法》§32（<strong>自 2001 年未改</strong>）；德国除外条款</td>
+</tr>
+<tr>
+<td>4.6</td>
+<td>定性提示（<strong>脚注即可</strong>）</td>
+<td>桂03行终209号：「加收滞纳金属于<strong>征税行为</strong>，与行政强制执行方式的<strong>加处滞纳金</strong>是不同种类的行政行为」——提示"滞纳金"一词有两套定性</td>
+<td>桂03行终209号一句＋链接</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>章末一句</strong>：所以"以主体为媒介执行遗产"只是<strong>形式</strong>；<strong>实质</strong>是遗产里装进去多少——取决于义务目的是取偿还是施压。</p>
+<hr />
+<h2 id="3000_1">第五章　结论（约 3,000 字）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>节</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5.1 程序结论</td>
+<td>参照适用在<strong>范围</strong>上成立；<strong>发动主体</strong>由申请执行的行政机关以变更申请的方式发动；法院在审查裁定中一并处理（渝案的实际做法）</td>
+</tr>
+<tr>
+<td>5.2 实体结论</td>
+<td>三个落点（全部／仅／不及于遗产，含停止计算）</td>
+</tr>
+<tr>
+<td>5.3 制度落点</td>
+<td><strong>以遗产管理人为形式被执行主体</strong>（《民法典》§1145–§1149）＋<strong>责任财产限遗产</strong>；只用<strong>一处</strong>裁判支撑：山东高院典型案例之七（寇某某案，"遗产管理人虽然可以成为被执行人，但其<strong>并非责任承担主体</strong>……不能直接执行遗产管理人的自有财产"）或渝案同旨说理</td>
+</tr>
+<tr>
+<td>5.4 余论（一句）</td>
+<td>行为义务一侧与更细的类型分层，另文处理</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_2">材料最小集（写作时只开这些）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>争议双方</td>
+<td><code>材料包/02-…/(2019)鲁02行审复1号…</code>、<code>(2023)渝0109行审83号…</code>；<code>05-过程档案/R8</code>（含<strong>湘04执复10号</strong>逐字）</td>
+</tr>
+<tr>
+<td>关键条文</td>
+<td><code>材料包/03-规范与法条/</code>：行政强制法§40与法释2018-1-§155、法行2000-16号全文与两版照录、法释2016-21-§10-2016与2020对照、民诉法解释2022-§473</td>
+</tr>
+<tr>
+<td>实务通道</td>
+<td><code>材料包/02-…/(2017)川1181行审52号…</code>、<code>(2017)闽0205行审165号之二…</code>、<code>(2017)川1181行审42号…</code></td>
+</tr>
+<tr>
+<td>制度落点</td>
+<td><code>材料包/03c-遗产管理人执行通道/01-民事收敛例-（2021）山东高院寇某某案</code></td>
+</tr>
+<tr>
+<td>时点核对</td>
+<td><code>A4-死亡时点核验表</code></td>
+</tr>
+<tr>
+<td>比较法（仅第四章）</td>
+<td>材料包中 AO §45(1)／釋621／622／廖義男 段落</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="_3"><strong>不进本文的材料（标注为"另篇：分层"）</strong></h2>
+<p>时点全谱系与矩阵表；八类义务清单；7 部规章三种立法例（<strong>仅留一句脚注</strong>：规章层同样只设"终止调查"、不设"承受程序"）；德日台三路线（仅留第四章两锚点）；遗产管理人通道的其余民事收敛例；行政自执中死亡；税务端"死欠"体系。</p>
+<h2 id="_4">动笔前唯一待补</h2>
+<p>若要写"<strong>新旧衔接</strong>"（2021-01-01 前死亡可否适用 2016 版 §10 含被删句）：<strong>法〔2021〕94号 §13</strong> 未核到（法宝未收录），需另找来源；<strong>找不到就在第二章注明"未能核验"，不写这一节</strong>。</p>
+</main>
+</body>
+</html>

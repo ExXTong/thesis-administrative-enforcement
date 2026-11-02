@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>一、一个被忽略的窗口期</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#_1">一、一个被忽略的窗口期</a><ul>
+<li><a href="#_2">（一）时点的界定</a></li>
+<li><a href="#_3">（二）为什么现有规则在这一时点同时失效</a><ul>
+<li><a href="#1-200016">1. 法行〔2000〕16号：文本射程与请示事项的错位</a></li>
+<li><a href="#2-401">2. 《行政强制法》第40条第1项：它是执行实施阶段的条款</a></li>
+<li><a href="#3-20181152161">3. 法释〔2018〕1号第152–161条：四个"零"</a></li>
+<li><a href="#4">4. 《行政强制法》本身：施行以来未作修改</a></li>
+<li><a href="#5">5. 一个附带的程序障碍：催告对象的不存在</a></li>
+</ul>
+</li>
+<li><a href="#_4">（三）实务的对立：同一时点，相反答案</a></li>
+<li><a href="#_5">（四）本文的问题、路径与文献关系</a></li>
+<li><a href="#_6">本章注释</a></li>
+<li><a href="#_7">本章写作待办</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="_1">一、一个被忽略的窗口期</h1>
+<h2 id="_2">（一）时点的界定</h2>
+<p>行政机关依法作出行政处罚等行政行为后，当事人在法定期限内不申请行政复议也不提起行政诉讼，又不履行的，行政机关可以自期限届满之日起三个月内，依《行政强制法》第53条申请人民法院强制执行；申请前应当依同法第54条催告当事人履行义务。人民法院对符合条件的申请，应当依《最高人民法院关于适用〈中华人民共和国行政诉讼法〉的解释》（法释〔2018〕1号）第155条第3款在五日内立案受理。</p>
+<p>由此，自行政行为<strong>生效</strong>之时起，至人民法院<strong>立案受理</strong>之时止，存在一个特定的程序区间。这一区间的特征是：行政行为已经具备执行力（法释〔2018〕1号第155条第2项要求"行政行为已经生效并具有可执行内容"），但司法程序尚未开始。本文称之为"<strong>生效后、立案前</strong>"窗口期。</p>
+<p>本文的问题限于一个情形：<strong>在这一窗口期内，行政行为所确定的义务人死亡</strong>。</p>
+<p>之所以选择这一时点，是因为它同时满足两个条件。其一，<strong>实体上义务并未消灭</strong>：《行政强制法》第40条第1项规定"公民死亡，无遗产可供执行，又无义务承受人的"方终结执行，其反面推论是——只要存在遗产或义务承受人，执行即不应终结。其二，<strong>程序上没有任何一条规范告诉行政机关应当如何做</strong>：申请必须以"该行政行为所确定的义务人"为被申请人，而该义务人已经死亡。</p>
+<p>需要说明的是，义务人死亡于其他时点的情形（行政行为作成前、送达后生效前、执行实施中、执行终结后）各有其规范线索，本文不予处理；仅在必要处一句带过，以免读者误以为本文的结论可以推广至全部时点。</p>
+<h2 id="_3">（二）为什么现有规则在这一时点同时失效</h2>
+<h3 id="1-200016">1. 法行〔2000〕16号：文本射程与请示事项的错位</h3>
+<p>非诉执行中唯一涉及"变更被执行人"的规范性文件，是《最高人民法院对〈关于非诉执行案件中作为被执行人的法人终止，人民法院是否可以直接裁定变更被执行人的请示〉的答复》（法行〔2000〕16号，2000年5月29日）。该答复经北大法宝核验为<strong>现行有效</strong>，其正文为：</p>
+<blockquote>
+<p>"人民法院在办理行政机关申请人民法院强制执行其具体行政行为的案件过程中，作为被执行人的法人出现分立、合并、兼并、合营等情况，原具体行政行为仍应执行的，人民法院应当通知申请机关变更被执行人。对变更后的被执行人，人民法院应当依法进行审查。"</p>
+</blockquote>
+<p>此处有一个长期被忽略的错位：<strong>该答复所回应的问题（请示事项）是"作为被执行人的法人终止，人民法院是否可以直接裁定变更被执行人"，而其正文回答的却是"法人出现分立、合并、兼并、合营等情况"</strong>。法人终止（注销）与法人分立、合并并非同一情形：前者是主体消灭，后者是主体变更。换言之，<strong>该答复对其被请示的问题实际上未作回答</strong>。</p>
+<p>这一错位并非纸面推演。以"通知申请机关变更被执行人"为正文关键词在北大法宝案例库检索援引该答复的裁判，得20件；逐件核对后被援引案件的主体情形分布为：法人（有限责任公司、一人有限公司）注销12件，非法人组织（个体工商户、个人独资企业等）注销3件，<strong>自然人死亡0件，分立、合并、兼并、合营0件</strong>。也就是说，<strong>该答复从未按其文义被适用过</strong>；法院实际把它当作"主体消灭后可否由裁定径行变更"的一般授权，并扩张适用于法人及非法人组织的注销情形。</p>
+<p>由此可以得出两点：第一，<strong>以该答复作为自然人死亡情形的规范依据，在裁判上没有任何先例支撑</strong>；第二，该答复在"主体变更"与"主体消灭"之间的界限，连其援引者也未认真对待。一个佐证是：同一文本被收入最高人民法院执行局编纂的《人民法院办理执行案件规范》时，<strong>2017年版第752条的小标题为"不直接变更被执行人"，2022年第二版第1072条的小标题则为"变更被执行人"</strong>——同一文本，两版标题的立场相反。</p>
+<h3 id="2-401">2. 《行政强制法》第40条第1项：它是执行实施阶段的条款</h3>
+<p>《行政强制法》第40条第1项规定："公民死亡，无遗产可供执行，又无义务承受人的"，终结执行。该条位于第五章"申请人民法院强制执行"之后的执行程序规范之中，其适用前提是<strong>执行已经开始</strong>。在本文所限的窗口期内，执行程序尚未开始，第40条无从适用。</p>
+<p>更重要的是，"义务承受人"这一概念<strong>在《行政强制法》全法中没有定义</strong>。它既不同于《民法典》继承编中的"继承人"（继承人可能放弃继承，此时并非义务承受人），也不同于法行〔2000〕16号中的"分立、合并、兼并、合营"后的法人。一个未定义的范畴被用作终结执行的要件，其结果是：行政机关与法院都无法判断某一具体案件中是否存在义务承受人。第三章所引青州系列三件裁定中，法院要求行政机关"提交被执行人的遗产或者<strong>义务承受人</strong>的有关证据"，正是把这一未定义概念直接操作化为举证要求——但法院同样未说明其内涵。</p>
+<h3 id="3-20181152161">3. 法释〔2018〕1号第152–161条：四个"零"</h3>
+<p>法释〔2018〕1号第152条至第161条是行政非诉执行的全部程序规范。其中第155条第1款列举了申请执行应当具备的七项条件，第4项为"<strong>被申请人是该行政行为所确定的义务人</strong>"；第3款规定"对不符合条件的申请，应当裁定不予受理"。</p>
+<p>对该条群（第152–161条）作全文用语检索，结果为：<strong>"死亡"0次、"遗产"0次、"变更被执行人"0次、"追加被执行人"0次</strong>；"继承人"出现1次，位于第158条，其语境是<strong>申请执行人一侧</strong>（作为申请人的公民死亡后由其继承人申请执行），与被申请人一侧无关。</p>
+<p>这意味着：在这一窗口期内，行政机关若以已死亡的义务人为被申请人，则不符合第155条第4项，应裁定不予受理；若以继承人为被申请人，则继承人并非"该行政行为所确定的义务人"，同样不符合第4项。<strong>两个方向都被同一条款堵住</strong>。第三章所引（2019）鲁02行审复1号正是前一种情形的裁判结果。</p>
+<h3 id="4">4. 《行政强制法》本身：施行以来未作修改</h3>
+<p>经北大法宝法规沿革工具核验，《行政强制法》<strong>自2011年6月30日公布、2012年1月1日施行以来，版本链仅有正本一版，整法未见后继修正或修订</strong>。因此，指望通过修法在这一窗口期增设规范，在可预见的期间内不具有现实性。这也决定了本文的立场：<strong>只在现行法框架内寻求解释论出路，不提出立法建议</strong>。</p>
+<h3 id="5">5. 一个附带的程序障碍：催告对象的不存在</h3>
+<p>《行政强制法》第54条要求行政机关在申请人民法院强制执行前催告当事人履行义务。义务人死亡后，催告的对象同样不存在。（2025）渝0108行审21号即指出，行政机关"在作出《催促履行义务催告书》时，被执行人……已经注销，<strong>催告的主体已不存在</strong>"，并以此作为驳回申请的理由之一。这说明窗口期的障碍不止于"谁是被申请人"，还包括"向谁催告"——而后者在现行法上同样没有答案。</p>
+<h2 id="_4">（三）实务的对立：同一时点，相反答案</h2>
+<p>如果上述分析成立，那么在这一窗口期内，实务应当呈现出一致的困境。实际情况更为复杂：<strong>法院给出了相反的答案</strong>。</p>
+<ul>
+<li><strong>（2019）鲁02行审复1号</strong>：行政机关申请强制执行前，个体工商户的经营者已经死亡；法院认为"其民事权利能力已经消灭，复议申请人仅将经营者已死亡的个体工商户列为被执行人，明显缺乏法律依据"，<strong>驳回执行申请</strong>。</li>
+<li><strong>（2023）渝0109行审83号</strong>：被处罚人在处罚决定生效后死亡；法院援引《民法典》第1145条、第1147条与法释〔2020〕21号第10条第1款，认可行政机关将继承人列为被执行人，<strong>裁定准予强制执行，由继承人在遗产范围内承担责任</strong>。</li>
+</ul>
+<p>两案的处理相反，且<strong>都不在裁判理由中讨论对方所依据的规范</strong>：鲁02案未提及民事执行中的变更规则是否可以借用，渝0109案未提及《行政诉讼法》第101条这一转致条款。二者的分歧不是对同一规则的不同解释，而是<strong>对"是否存在可适用的规则"这一前提的不同判断</strong>。</p>
+<p>这一对立构成本文的经验起点。</p>
+<h2 id="_5">（四）本文的问题、路径与文献关系</h2>
+<p>本文不讨论"公法上的金钱给付义务能否因义务人死亡而由他人承受"这一实体问题——它已由既有研究处理，其中最重要的是陈思融〈行政义务继受理论的逻辑证成〉（《政治与法律》2024年第4期）。该文建立了义务继受的一般理论框架，主张原则上应由行政机关另作继受行政决定，例外情形下方可承认原决定执行力的扩张。</p>
+<p>本文的问题是程序性的，且限于一个时点：<strong>在行政行为生效后、人民法院立案受理前义务人死亡的，行政机关应当如何申请强制执行？以谁为被申请人？由谁发动主体变更？承担范围如何确定？</strong></p>
+<p>之所以将问题限定为程序性，是因为如第二章将展示的，比较法上三个法域面对同一问题时，争议的重心都不在"义务能否继受"，而在"程序如何接续"。也正因为如此，本文与前述研究的关系是分工而非对立：前者回答"义务是否继受"，本文回答"继受如何在非诉执行程序中实现"。本文对前述研究的两点不同意见，将在第四章第三节、第四节中提出，此处不预作评论。</p>
+<p>本文的结构如下：第二章以德国、日本与我国台湾地区的规范为参照，考察三个法域如何处理"义务人死亡"对执行程序的影响，并提炼出对本文有用的两点启示；第三章呈现我国实务在这一窗口期的四种应对方式及其缺陷；第四章在现行法框架内提出解释论方案，依次回答入口（能否参照适用民事执行中的变更规则）、发动（由谁、依什么程序、在多长期限内主张变更）与范围（责任财产限于遗产，以及继续性负担如何处理）三个问题；第五章为结论。</p>
+<hr />
+<h2 id="_6">本章注释</h2>
+<p>[^1-3]: 法行〔2000〕16号全文见 <code>/var/nfs_share/A4-法学材料包/03-规范与法条/法行2000-16号-全文与两版照录.md</code>。北大法宝标注其时效性为"现行有效"；效力位阶在法宝不同页面标注不一致（列表页为"司法解释／司法解释性质文件"，沿革页为"司法文件"），引用时宜注明。<strong>该答复的官方印刷文本尚未核验，正文所引取自北大法宝 MCP 返回文本。</strong></p>
+<p>[^1-4]: 检索式：北大法宝案例库 <code>fulltext="通知申请机关变更被执行人"</code>、<code>title="非诉"</code>，检索日2026年9月26日，得21件（本页20件）。该统计为<strong>下限口径</strong>：北大法宝未提供"被引用情况"接口，统计系以答复正文关键句作全文检索还原，可能遗漏改写引用的裁判。</p>
+<p>[^1-5]: 《人民法院办理执行案件规范》（2017）第752条，gid <code>9cd2f7eccc28f83dbdfb</code>，时效性"已被修改"；《人民法院办理执行案件规范（第二版）》第1072条，gid <code>a8d8052e27c83a40bdfb</code>，时效性"现行有效"。</p>
+<p>[^1-6]: 北大法宝法规沿革工具 <code>list_law_versions("行政强制法")</code> 返回："共 1 个版本，现行为正本（公布 2011-06-30，施行 2012-01-01）"；并明示"本法版本链仅正本一版。整法未见后继修正或修订"。检索日2026年9月26日。</p>
+<p>[^1-7]: 法释〔2018〕1号第152–161条用语检索结果，见 <code>/var/nfs_share/A4-选题深度分析.md</code> 证据二。检索方式：对条文全文逐词计数。</p>
+<hr />
+<h2 id="_7">本章写作待办</h2>
+<ol>
+<li><strong>16号 的官方印刷文本核验</strong>：现文本取自北大法宝 MCP，且法宝对其效力位阶标注不一致。动笔定稿前须以《最高人民法院公报》或纸质司法解释汇编核对一次。</li>
+<li><strong>"四个零"的检索可复核性</strong>：法释〔2018〕1号第152–161条的用语计数，应在脚注中给出计数方法（逐条全文、含标题与款项），以便读者复核。</li>
+<li><strong>鲁02案与渝0109案的对立表述</strong>：正文已避免"两案冲突"这类强表述，改用"对是否存在可适用规则的前提判断不同"。定稿前再核一次两案裁定全文，确认没有遗漏任何一方的补充说理。</li>
+<li><strong>催告障碍</strong>（本章（二）5）目前只有一件裁判支撑（渝0108，且为法人注销情形）。若要在正文保留这一段，宜补检索"催告 主体不存在 非诉执行"，或降为脚注。</li>
+</ol>
+</main>
+</body>
+</html>

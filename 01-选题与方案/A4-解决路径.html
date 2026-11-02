@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 · 解决路径（2026-09-30 定版）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4-2026-09-30">A4 · 解决路径（2026-09-30 定版）</a><ul>
+<li><a href="#_1">一、总思路（一句话）</a></li>
+<li><a href="#_2">二、五层方案</a><ul>
+<li><a href="#1">第 1 层｜要件层：机关在申请前完成"接续"</a></li>
+<li><a href="#2">第 2 层｜出口层：以程序阶段为标准统一出口</a></li>
+<li><a href="#3">第 3 层｜救济层：让两个出口的救济对称</a></li>
+<li><a href="#4">第 4 层｜可分性层：不应因一人死亡而驳回对健在义务人的申请</a></li>
+<li><a href="#5">第 5 层｜范围层：分层判准</a></li>
+</ul>
+</li>
+<li><a href="#101">三、一个附带的重要简化：§101 不再是障碍</a></li>
+<li><a href="#_3">四、方案不能解决的（必须如实写入"未尽事项"）</a></li>
+<li><a href="#21">五、方案的自检：它能否解释 21 件样本？</a></li>
+<li><a href="#_4">六、方案的一句话表述（可直接入文）</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4-2026-09-30">A4 · 解决路径（2026-09-30 定版）</h1>
+<blockquote>
+<p>本文件替换此前《写作方案》与《聚焦方案》里的第四章方案。<strong>旧方案的两项主张已删</strong>：「法院通知＋限期补正」（21 件零支撑）与「加处罚款／滞纳金自死亡之日停止计算」（无明文＋两处反证）。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、总思路（一句话）</h2>
+<blockquote>
+<p><strong>把"变更被执行主体"从司法审查阶段移回行政程序阶段：人民法院不需要"变更被执行人"；由申请执行的行政机关在提出申请之前自行完成"承受主体接续"。</strong></p>
+</blockquote>
+<p>这一移位的根据不是新造装置，而是 <strong>§155(四) 本身的要件属性</strong>：既然「被申请人是该行政行为所确定的义务人」是<strong>立案要件</strong>，那么<strong>满足它</strong>就是机关在申请前必须自己完成的事；法院在审查阶段只能<strong>判断它是否被满足</strong>，不能替机关满足。</p>
+<hr />
+<h2 id="_2">二、五层方案</h2>
+<h3 id="1">第 1 层｜要件层：机关在申请前完成"接续"</h3>
+<p><strong>内容</strong>：机关在提出非诉执行申请前，应当完成三件事——
+1. <strong>查明</strong>承受主体（继承人／遗产管理人／受遗赠人）；
+2. 将其<strong>列为被申请人</strong>；
+3. <strong>对其</strong>重新履行<strong>告知与催告</strong>（§54）。</p>
+<p><strong>依据（解释论）</strong>：由 §155(四) 的要件属性<strong>反推</strong>——不符合条件的申请，法院只能依 §155 末段裁定<strong>不予受理</strong>；故机关若不完成接续，申请必然落空。这是<strong>法定的后果</strong>，不是本文的发明。</p>
+<p><strong>与旧方案的区别</strong>：旧方案是「<strong>法院通知机关 + 限期补正</strong>」——<strong>21 件样本零支撑</strong>，且与 §155 末段"不予受理"作为<strong>终局性程序后果</strong>的文义冲突（既是终局，就不存在"通知后补正"的空间）。<strong>故删。</strong></p>
+<p><strong>比较法上的直接对应</strong>：
+- <strong>台湾地区"法务部"法律字第0999051445号函</strong>（2010-12-10）：「義務人在罰鍰處分<strong>送達後，移送執行前</strong>死亡，已無執行當事人能力。因此，<strong>移送機關移送執行時，應以義務人之繼承人為執行義務人</strong>（如有遺產管理人或遺囑執行人，則以遺產管理人或遺囑執行人為執行義務人），<strong>並註明僅對義務人之遺產執行</strong>。」
+- <strong>日本《国税徴収法》§51(1)</strong>：征收职员扣押继承人财产时，<strong>必须首先努力扣押继承财产</strong>（机关一侧的努力义务）。
+- 与<strong>青州系列</strong>（法院要求申请执行人提交"遗产或者义务承受人"证据）<strong>方向一致、时点前移</strong>：青州是<strong>法院在审查中要求补正</strong>，本方案是<strong>机关在申请前完成</strong>。</p>
+<h3 id="2">第 2 层｜出口层：以<strong>程序阶段</strong>为标准统一出口</h3>
+<p><strong>内容</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>情形</th>
+<th>应当的出口</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>立案受理前</strong>，申请不符合 §155(四)</td>
+<td><strong>不予受理</strong></td>
+<td>§155 末段</td>
+</tr>
+<tr>
+<td><strong>已立案受理后</strong>，发现不符合 §155(四)</td>
+<td><strong>不准予执行</strong></td>
+<td>§161</td>
+</tr>
+<tr>
+<td>~~驳回执行申请~~</td>
+<td><strong>应退出</strong></td>
+<td>无明文、无出典、救济缺位</td>
+</tr>
+<tr>
+<td>~~终结审查~~</td>
+<td><strong>应退出</strong></td>
+<td>出典在再审审查（民诉解释§400）与执行监督（法发〔2023〕4号§12），<strong>非诉执行没有</strong></td>
+</tr>
+<tr>
+<td>~~终结执行（§40(一)）~~</td>
+<td><strong>不适用</strong></td>
+<td>§40(一) 是<strong>执行实施阶段</strong>的终结条款；审查阶段无适用空间</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>对陕0622 的批评</strong>：该案经 §101 →《民事诉讼法》<strong>§151(二)</strong>「被申请执行人死亡的，<strong>终结诉讼</strong>」→ 裁定「终结<strong>审查</strong>」。两处不成立：
+1. <strong>§151(二) 是三项复合要件</strong>（被告死亡 <strong>＋</strong> 没有遗产 <strong>＋</strong> 也没有应当承担义务的人），陕0622 <strong>一项未认定</strong>；
+2. 「终结审查」在非诉执行<strong>无出典</strong>，且非诉执行审查中<strong>无"被告"格位</strong>（由 §101 清单措辞「不予立案／驳回<strong>起诉</strong>」与 §160「是否准予执行的裁定」双向支撑）。</p>
+<h3 id="3">第 3 层｜救济层：让两个出口的救济<strong>对称</strong></h3>
+<p><strong>内容</strong>：只保留的两个出口<strong>都已有明文复议</strong>，配置因此一致——
+- <strong>不予受理</strong>：§155 末段（15 日内向上一级人民法院申请复议）；
+- <strong>不准予执行</strong>：§161 末段。
+而"驳回执行申请""终结审查""终结执行"<strong>均无明文复议</strong>——这是"出口应退出"的<strong>第二个理由</strong>（不只是无出典，而且<strong>使当事人丧失救济</strong>）。</p>
+<h3 id="4">第 4 层｜可分性层：<strong>不应因一人死亡而驳回对健在义务人的申请</strong></h3>
+<p><strong>内容</strong>：多个自然人共同承担同一罚款义务、其中一人于申请前死亡的，<strong>应当准予对健在义务人部分的执行</strong>，不得整案驳回。</p>
+<p><strong>依据</strong>：§160 的审查对象是<strong>行政行为的合法性</strong>，而非<strong>各义务人的个别可执行性</strong>——义务人之一死亡只影响其个人部分的执行，不影响行政行为本身的合法性，也不影响其他义务人的义务。</p>
+<p><strong>实证</strong>：一对控制变量反例——
+- <strong>(2020)豫0802行审9号</strong>：三人并处罚款，一人死亡，<strong>准予罚款部分</strong>，逐字「虽然张合玉已在处罚决定作出后死亡，但申请执行人申请执行的是<strong>金钱给付义务</strong>的执行，在本案进入执行程序后，<strong>需查明</strong>张合玉的遗产及遗产继承情况，以决定是否终结<strong>对张合玉的</strong>执行」；
+- <strong>(2020)湘1302行审68号</strong>：三人并处罚款，一人申请前死亡，<strong>对全部三人驳回</strong>，逐字「该自然人作为被申请执行人的主体不适格。申请人待查明相关事宜后，可重新提交强制执行申请」。
+- 两案在<strong>义务类型、义务人数、死亡时点、机关列名状态四栏完全相同</strong>，结果相反。本方案采<strong>豫0802 的方向</strong>。</p>
+<h3 id="5">第 5 层｜范围层：<strong>分层判准</strong></h3>
+<p><strong>内容</strong>：义务人死亡后，<strong>能否及于遗产</strong>，按义务的<strong>法律属性</strong>分层：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>罚款（行政处罚）</strong></th>
+<th><strong>加处罚款／滞纳金（执行罚）</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>属性</td>
+<td>制裁性行政行为（《行政处罚法》§9）</td>
+<td>行政强制执行方式（《行政强制法》<strong>§12(一)</strong>、<strong>§45</strong>）</td>
+</tr>
+<tr>
+<td>人身专属性</td>
+<td><strong>不具</strong></td>
+<td><strong>具</strong></td>
+</tr>
+<tr>
+<td>能否及于遗产</td>
+<td><strong>可</strong></td>
+<td><strong>不可</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>加处罚款"不发生／不继受"的两条路径</strong>（按死亡时点分）：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>死亡时点</th>
+<th>结论</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>§37 强制执行决定作出之前</strong></td>
+<td><strong>不发生</strong></td>
+<td><strong>§35</strong>「作出强制执行决定前，应当事先<strong>催告当事人</strong>」→ <strong>§37</strong>「<strong>经催告</strong>，当事人逾期仍不履行，且无正当理由的，可以作出强制执行决定」。义务人死亡致<strong>催告不能完成</strong> → "经催告"要件不成就 → 决定不能作出</td>
+</tr>
+<tr>
+<td><strong>§37 强制执行决定作出之后</strong></td>
+<td><strong>已成立，但不随死亡移转</strong></td>
+<td>执行罚的施压对象为义务人本人，具<strong>人身专属性</strong>；<strong>德国 AO §45(1) 第二句明文排除 Zwangsgelder</strong>；陈思融 p139 对滞纳金持同一立场</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>两条路径结论一致：加处罚款不及于遗产。</strong> 这比"自死亡之日停止计算"更彻底——后者只解决"死亡后不再新增"，处理不了"死亡前已计算的加处罚款能否执行"。</p>
+<p><strong>实证印证</strong>：<strong>(2022)桂0202行审108号之一</strong>（标的即《加处罚款决定书》）逐字「<strong>催告程序并未实际完成</strong>」→ 依 §55(1)(3) <strong>不予受理</strong>，并要求「履行相应的<strong>告知、催告程序</strong>后再申请」——<strong>该案的论证结构与本层完全一致</strong>，只是法院未表述为"§37 要件不成就"。<strong>(2016)苏0611行审34号</strong>：加处罚款须<strong>另行作出决定</strong>——正是 §37 决定的独立要求。</p>
+<hr />
+<h2 id="101">三、一个附带的重要简化：<strong>§101 不再是障碍</strong></h2>
+<p>旧方案靠「§101 转致 → 参照法释〔2016〕21号§10 → 法院裁定变更被执行人」来解决问题，而这条路的文本依据<strong>最弱</strong>——<strong>§101 的准用清单列有「中止诉讼、终结诉讼」，却不含「变更、追加当事人」</strong>。</p>
+<p><strong>新方案把"变更"移回机关一侧之后，法院根本不需要"变更被执行人"</strong>，因此<strong>不需要 §101 完成转致</strong>。§101 的地位随之改变：</p>
+<blockquote>
+<p>从"<strong>解决方案的入口</strong>"降为"<strong>解释法院何以无权自行变更的反面依据</strong>"——正因为清单不含"变更、追加当事人"，法院才没有在审查阶段变更被执行人的权限，接续<strong>只能</strong>由机关完成。</p>
+</blockquote>
+<p><strong>这使全文最薄弱的一环（G2）由"必须攻克的论证难题"变成"不需要论证"</strong>，同时反过来<strong>加强</strong>了方案：方案所要求的"机关自行接续"，正因法院无权替代而成为<strong>唯一可行</strong>的出路。</p>
+<hr />
+<h2 id="_3">四、方案不能解决的（必须如实写入"未尽事项"）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>未解决</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>罚款本金凭什么及于遗产</strong></td>
+<td>范围层的<strong>否定侧</strong>（执行罚不发生／不继受）已有完整依据；但<strong>肯定侧</strong>缺依据——《民法典》<strong>§1161</strong> 的宾语是「<strong>税款和债务</strong>」，<strong>未提罚款</strong>；"债务"是否含<strong>公法罚款义务</strong>，文义可疑。<strong>这一不对称本身就是发现</strong></td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>接续的三个未决问题</strong></td>
+<td>①<strong>谁举证</strong>（青州＝申请机关 vs (2020)辽0214执异127号＝执行实施部门，<strong>冲突</strong>）；②<strong>期限</strong>（§156"自被执行人的法定起诉期限届满之日起三个月内"／§153"二年"——若受此限，<strong>死亡越早越不可行</strong>）；③<strong>变更后的救济</strong>（无明文）</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>正面样本为零</strong></td>
+<td>21 件样本中<strong>没有一件</strong>对"公法金钱给付义务能否由继承人承受"作实体法论证；按裁定主文口径，"变更被执行主体"这一出口为 <strong>0 件</strong>。故本文<strong>不主张</strong>"应当变更"</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>有滑向立法论的风险</strong></td>
+<td>"机关应当在申请前完成接续"是从 §155(四) <strong>反推</strong>出的义务，其<strong>违反后果</strong>（不予受理）是法定的；但<strong>"如何完成接续"的程序没有规定</strong>——这是本文<strong>指出的缺口</strong>，<strong>不是本文能补上的</strong>。行文须严守此界限</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="21">五、方案的自检：它能否解释 21 件样本？</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>实证事实</th>
+<th>方案的解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>已列承受主体的 3 件（渝0109、闽0124、粤0204）<strong>全部准予</strong></td>
+<td>✓ 机关完成了接续 → 满足 §155(四) → 应予准予</td>
+</tr>
+<tr>
+<td>未列者 20 件中 <strong>19 件</strong>走退出型出口</td>
+<td>✓ 机关未完成接续 → 不符合 §155(四) → 应予<strong>不予受理</strong>；各法院实际选择了五种出口，正是<strong>出口无标准</strong>的表现</td>
+</tr>
+<tr>
+<td>五种出口并存（不予受理1／驳回4／不准予3／终结7／撤回4）</td>
+<td>✓ 本方案将出口收敛为两种（立案前→不予受理；已立案→不准予执行）</td>
+</tr>
+<tr>
+<td>只有两种出口有明文复议</td>
+<td>✓ 本方案保留的恰是这两种 → <strong>救济配置随之对称</strong></td>
+</tr>
+<tr>
+<td>豫0802 与湘1302 四栏相同、结果相反</td>
+<td>✓ 本方案采豫0802 方向（<strong>可分性</strong>），并给出 §160 的依据</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>结论</strong>：方案对 21 件样本<strong>有完整解释力</strong>，且能同时解决"出口无标准"与"救济不对称"两个问题。</p>
+<hr />
+<h2 id="_4">六、方案的一句话表述（可直接入文）</h2>
+<blockquote>
+<p><strong>义务人死亡时，承受主体的接续应在申请执行之前由行政机关完成（查明承受主体、将其列为被申请人、并对其重新告知与催告）；接续不到位的，立案受理前裁定不予受理、已立案受理后裁定不准予执行——二者均有明文复议，救济配置因此对称。就承担范围而言，罚款作为制裁性行政行为可及于遗产，而加处罚款与滞纳金作为执行罚，或因 §35 催告不能完成而不发生，或因具人身专属性而不随死亡移转，均不及于遗产。</strong></p>
+</blockquote>
+</main>
+</body>
+</html>

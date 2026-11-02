@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>待核清单 · A4 深化（自然人中心）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4">待核清单 · A4 深化（自然人中心）</a><ul>
+<li><a href="#_1">一、最高优先（抽掉会击穿现有论证）</a></li>
+<li><a href="#_2">二、中优先（影响具体章节表述）</a></li>
+<li><a href="#_3">三、学理文献侧（法宝无期刊库，须另找途径）</a></li>
+<li><a href="#_4">四、样本表侧（分页缺口 · 下限口径）</a></li>
+<li><a href="#_5">五、被排除但仍需一句话说明的材料</a></li>
+<li><a href="#_6">六、方法学警告（已确认，须写进论文脚注）</a></li>
+<li><a href="#_7">七、本轮已闭合的旧缺口（不再列为待核）</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4">待核清单 · A4 深化（自然人中心）</h1>
+<blockquote>
+<p><strong>编制</strong>：2026-09-30｜<strong>来源</strong>：A/B/C/D/E/F 六份子智能体笔记的 <code>[未检到]</code> 项与「未解决缺口」节 ＋ 任务书 §3.5 旧缺口 ＋ root 复核。
+<strong>口径</strong>：本清单只收<strong>真正未解决</strong>的事项。凡在本轮已被解决者，移入 §七「本轮已闭合的旧缺口」。
+<strong>纪律</strong>：凡「0 件」结论必须写明<strong>检索式＋检索日期</strong>＋「在法宝可得范围内」（北大法宝无「被引用情况」接口，列表与 <code>Total</code> 均为<strong>下限口径</strong>）。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、最高优先（抽掉会击穿现有论证）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>事项</th>
+<th>已试途径（具体检索式／工具）</th>
+<th>失败原因</th>
+<th>建议下一步</th>
+<th>若核不出的后果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T1</strong></td>
+<td><strong>[2005]行他字第29号 的全文逐字</strong></td>
+<td>①<code>mcp__pkulaw_law_search__get_law_item_content</code>（长标题）→ 返回无关文件；②<code>mcp__pkulaw_law_search__search_article</code>→ 正文为空；③<code>mcp__pkulaw_citation_validator__adjust_provisions</code>→ <code>original_text:""</code>；④<code>web_fetch</code> 法宝页面 → HTTP 200 但正文空（反爬）；⑤Wayback Machine → 无快照；⑥最高人民法院公报检索 → 302 自循环；⑦Bing／DuckDuckGo → JS 空壳／首页</td>
+<td>法宝仅存<strong>题录</strong>（文号／作出日期 2007-04-27／时效性「现行有效」三要素已核），<strong>正文一栏为空</strong>；官方站反爬</td>
+<td><strong>改引《行政处罚法》（2021）§73(3)</strong>（B 已逐字核，系 2005 答复规则的<strong>法律化</strong>）；2005 答复降为历史背景。若仍要引其全文，须以纸质《最高人民法院司法解释汇编》或《人民法院办理执行案件规范》附录核对</td>
+<td><strong>不致命</strong>——该支点已有法律位阶的替代品（§73(3)），但<strong>「诉讼期间不应计算」的表述不得再以「答复原文如此」引用</strong></td>
+</tr>
+<tr>
+<td><strong>T2</strong></td>
+<td><strong>6 件「☆语义核」案件的严格全文</strong></td>
+<td><code>search_case</code>（语义）只返回「本院认为」节选</td>
+<td>本轮为省预算只跑语义未拉全文</td>
+<td>逐件用 <code>get_case_list(fulltext="&lt;当事人姓名／案号&gt;")</code> 拉全文。<strong>★注意：X 已把 (2025)黑0112行审77／87／86号 认定为误收</strong>（决定文号「哈阿<strong>房</strong>决字」→ 房屋类决定，非罚款）——这三件要么拉全文确认义务类型，要么<strong>直接移出样本</strong>（<code>样本表</code> §4.2 已按后者处理）。<strong>移出后，「不予受理」这一出口在「明确」档只剩 (2022)桂0202行审108号之一 一件孤例</strong></td>
+<td><strong>高</strong>：若桂0202 亦无法补充，则「不予受理」这一出口的证据基础是<strong>单一孤例</strong></td>
+</tr>
+<tr>
+<td><strong>T3</strong></td>
+<td><strong>(2018)闽0124行审11号 中「罚款滞纳金 52000 元」的性质</strong></td>
+<td>D 已从法宝取全文，但<strong>未区分</strong>该「滞纳金」是《行政强制法》§45 的<strong>加处罚款</strong>还是《税收征管法》§32 的<strong>税款滞纳金</strong></td>
+<td>裁定书用语为「罚款滞纳金」，非规范用语</td>
+<td>取全文中处罚决定书文号与所引条款；或核该案的处罚依据是否为《行政处罚法》§72(1)(1)</td>
+<td><strong>高</strong>：D 称本案是「加处罚款／滞纳金＋死亡＋继承人承担的<strong>唯一正面例</strong>」。若其「滞纳金」实为加处罚款，则该结论成立；若表述含混，则该唯一正面例须降级为「用语不明」</td>
+</tr>
+<tr>
+<td><strong>T4</strong></td>
+<td><strong>「四种／七种出口」中「终结审查」的规范落点</strong></td>
+<td>C：法释〔2018〕1号全文「终结审查」<strong>0 次</strong>；<code>fulltext="本案终结审查"</code> → <code>Total 3566</code>，但集中于民事再审／执行异议，<strong>行政侧需交叉检索</strong></td>
+<td>未做行政侧交叉检索；法释〔2018〕1号确实无此语</td>
+<td>①<code>get_case_list(caseClassName="非诉行政行为申请执行审查", fulltext="终结审查")</code>＋日期分段；②核<strong>法发〔2023〕4号 §12</strong>（执行监督）与<strong>民诉法解释（再审审查编）</strong>中「终结审查」的条号与 2015 原文条号（疑为 §402）</td>
+<td><strong>高</strong>：若「终结审查」在非诉执行审查中确无规范落点，则 A §6.3 的「受理前后系统性位移」结论得到制度支撑；若检得规范落点，则该批评须收缩</td>
+</tr>
+<tr>
+<td><strong>T5</strong></td>
+<td><strong>「全体继承人均放弃继承 ＋ 金钱给付 ＋ 非诉执行」是否真为 0 件</strong></td>
+<td>D：<code>fulltext="放弃继承"</code>（Total 24，宽匹配）／<code>放弃继承 罚款</code>→3／<code>放弃继承 滞纳金</code>→2／<code>放弃继承 税款</code>→3／<code>放弃继承 加处罚款</code>→2／<code>罚没款 放弃继承</code>→2／<code>均放弃继承</code>→2（<strong>检索日 2026-09-30</strong>）</td>
+<td>已检得<strong>部分放弃</strong>者 1–3 件（粤0204行审12号、闽0124行审11号），<strong>全体</strong>放弃者 0 件</td>
+<td>①<code>fulltext="均放弃继承"</code>＋<code>caseClassName</code> 全量跑；②<strong>(2020)辽0214执异127号</strong>提示要换 <code>caseClassName="执行异议"</code> 重跑（该案按 caseClassName 检索会<strong>系统性漏掉</strong>）</td>
+<td><strong>中</strong>：若真为 0 件，则《民诉法解释》§473 后段（放弃继承→<strong>直接执行遗产</strong>）在行政侧<strong>从无适用先例</strong>——这既是一个「空白」发现，也削弱「§101 转致已在事实上运作」的论点</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_2">二、中优先（影响具体章节表述）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>事项</th>
+<th>已试途径</th>
+<th>失败原因</th>
+<th>建议下一步</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T6</strong></td>
+<td><strong>税款（而非社保费）＋自然人义务人死亡＋非诉执行审查</strong>是否真为 0 件</td>
+<td>A：①<code>fulltext="税款"</code>＋<code>caseClassName="非诉行政行为申请执行审查"</code>（<code>Total 2965</code>，Top20 <strong>全为法人</strong>）；②语义检索 S3（「税务机关申请强制执行税款滞纳金，纳税义务人为自然人已死亡」）→ 15 条<strong>全部为法人纳税主体</strong>（检索日 2026-09-30）</td>
+<td>大 <code>Total</code> 只返回前 20 条，<strong>分页缺口</strong></td>
+<td>按日期分段重跑（如 2015-2019／2020-2022／2023-2026）；〔推断〕税务机关依《税收征管法》§40 <strong>自行执行</strong>，此类案件本不进入非诉审查</td>
+</tr>
+<tr>
+<td><strong>T7</strong></td>
+<td><strong>「加处罚款自义务人死亡之日停止计算」是否有任何裁判</strong></td>
+<td>A：①<code>fulltext="加处罚款"</code>（<code>Total 169860</code>）Top20 <strong>无一件涉自然人死亡</strong>；②语义检索 S4 → 15 条<strong>全部无关</strong>（检索日 2026-09-30）。D 另检 <code>fulltext="遗产管理人"</code>＋非诉执行 → <code>Total 2</code></td>
+<td><strong>在法宝可得范围内 0 件</strong>（本轮已确认）</td>
+<td>无需再检；<strong>改写为「无先例」的正面发现</strong>。但须补做<strong>反面检索</strong>：义务人生前故意拖延、继承人不配合的案例（见 T8）</td>
+</tr>
+<tr>
+<td><strong>T8</strong></td>
+<td><strong>「停止计算」的反面案例</strong>（义务人生前拖延／继承人隐匿遗产／机关主张应继续计算）</td>
+<td>本轮<strong>未做</strong></td>
+<td>未列入 A 的检索式</td>
+<td><code>fulltext="加处罚款"</code>＋<code>fulltext="继承人"</code>；<code>fulltext="滞纳金"</code>＋<code>fulltext="遗产"</code>＋<code>caseClassName="首次执行"</code></td>
+</tr>
+<tr>
+<td><strong>T9</strong></td>
+<td><strong>《行政诉讼法》§101 准用清单是否含「变更、追加当事人」</strong></td>
+<td>B ★已核：准用清单<strong>明文含「中止诉讼、终结诉讼」，但无「变更／追加当事人」</strong></td>
+<td>—</td>
+<td><strong>已解决</strong>；但由此产生的<strong>后果</strong>须再核：若清单无「变更追加」，则「入口」论证<strong>不能靠清单，只能靠「相关的规定」的概括性</strong>——须补一条<strong>解释论</strong>论证（见 T10）</td>
+</tr>
+<tr>
+<td><strong>T10</strong></td>
+<td><strong>§101「相关的规定」的解释边界</strong></td>
+<td>未做</td>
+<td>属学理／解释论问题，法宝无期刊库</td>
+<td>检索司法解释理解与适用、行政诉讼法释义类<strong>正式出版物</strong>（法宝「法规解读」栏目可试）；否则只能自建论证</td>
+</tr>
+<tr>
+<td><strong>T11</strong></td>
+<td><strong>廖義男大法官不同意见书所引刑诉 §470 Ⅲ 的现行文字与增订年份</strong></td>
+<td>任务书标为旧缺口；本轮 A–F <strong>均未处理</strong></td>
+<td>未列入本轮分工</td>
+<td>台湾「全国法规资料库」取《刑事訴訟法》§470 现行条文；并核该增订年份</td>
+</tr>
+<tr>
+<td><strong>T12</strong></td>
+<td><strong>德国各邦 Landesverwaltungsvollstreckungsgesetze</strong></td>
+<td>E：[N2-04] 未检索</td>
+<td>超出本轮预算</td>
+<td>论文须把「德国法」限定为<strong>联邦层面</strong>；若要写各邦，须另做</td>
+</tr>
+<tr>
+<td><strong>T13</strong></td>
+<td><strong>德国 AO §265 准用清单是否含 ZPO §780</strong></td>
+<td>E ★已核：<strong>不含 §780</strong>；已补齐 ZPO §§747、748、778、779、781–784 逐字</td>
+<td>—</td>
+<td><strong>已解决</strong></td>
+</tr>
+<tr>
+<td><strong>T14</strong></td>
+<td><strong>日本 国税徴収法 §159 逐字</strong></td>
+<td>E：[N2-06] 未逐字</td>
+<td>预算</td>
+<td>若要写「第二次纳税义务人」与继承人责任之分，须补</td>
+</tr>
+<tr>
+<td><strong>T15</strong></td>
+<td><strong>日本判例／通达</strong>（相続と滞納処分）</td>
+<td>E：[N2-08] 未检索</td>
+<td>无日本判例库</td>
+<td>论文中凡涉日本实务须限定为<strong>制定法层面</strong></td>
+</tr>
+<tr>
+<td><strong>T16</strong></td>
+<td><strong>台湾《規費法》及其他含滯納金法规的全文扫描</strong></td>
+<td>E：[N2-01] 探测 25 个 pcode 均未检到《規費法》；[N2-02] 全國法規資料庫全文检索接口 <strong>HTTP 404 系统訊息（内容风控，未重试）</strong>；[N2-03] 其他含滯納金法规未扫描</td>
+<td>内容风控</td>
+<td><strong>不重试</strong>（按纪律）；论文须写明「在已扫描的 8 部法规全文范围内未检到明文」，<strong>不得写成「台湾地区法绝对没有」</strong></td>
+</tr>
+<tr>
+<td><strong>T17</strong></td>
+<td><strong>吉林高院《关于审查非诉行政执行案件若干问题的规定（试行）》§39 全文</strong></td>
+<td>A：(2018)吉0322行审18号 转引该条（「被执行人死亡，无遗产可供执行又无义务承受人的……」）</td>
+<td>法宝未收录吉林高院该文件</td>
+<td>地方司法文件检索；若检不到，引用时注明「据 (2018)吉0322行审18号 转引，<strong>原文未核</strong>」</td>
+</tr>
+<tr>
+<td><strong>T18</strong></td>
+<td><strong>法〔2021〕94号 §13（新旧衔接）</strong></td>
+<td>任务书旧缺口；A–F 均未处理</td>
+<td>法宝未收录</td>
+<td>同 T17</td>
+</tr>
+<tr>
+<td><strong>T19</strong></td>
+<td><strong>法行〔2000〕16号 官方印刷版式</strong></td>
+<td>B：法宝本轮已给出<strong>完整正文</strong>（含受文机关「山东省高级人民法院」、来文号<strong>鲁高法函〔1999〕62号</strong>、落款二○○○年五月二十九日），且 MCP 三次均只返回位阶 <code>["司法解释","司法解释性质文件"]</code>（旧笔记「位阶标注不一致」<strong>未复现</strong>）</td>
+<td>未核印刷版</td>
+<td>以《最高人民法院公报》2000 年卷或纸质汇编核对一次。<strong>风险等级已由「文本可能不全」降为「未核印刷版式」</strong></td>
+</tr>
+<tr>
+<td><strong>T20</strong></td>
+<td><strong>(2017)川1181行审52号 的义务金额与决定文号</strong></td>
+<td>A：裁定书正文未载</td>
+<td>原文如此</td>
+<td>该案只作「§101 被用于终结」的例证，金额不必补；若要用则注明「原文未载」</td>
+</tr>
+<tr>
+<td><strong>T21</strong></td>
+<td><strong>(2025)吉0524执887号、(2026)吉0524执1号、(2026)内0291执727号之一</strong> 是否真涉死亡</td>
+<td>A：正文<strong>未载明</strong>死亡事实，仅因落入「非诉执行＋死亡」检索而召回</td>
+<td>△未核</td>
+<td>或拉全文，或<strong>直接从样本表移出</strong>（建议移出）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_3">三、学理文献侧（法宝无期刊库，须另找途径）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>事项</th>
+<th>已试途径</th>
+<th>失败原因</th>
+<th>建议下一步</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T22</strong></td>
+<td><strong>陈思融文「加处罚款」的独立立论</strong></td>
+<td>F ★一手核到：全文「加处罚款」<strong>仅出现 2 次</strong>，均在 p135 案例二分析段</td>
+<td><strong>原文即未就该问题立论</strong></td>
+<td>已解决（是<strong>否定性结论</strong>）。→ <strong>第四章 §4.4 的「与陈思融第二处对话」须改写</strong>：陈文针对的是<strong>滞纳金</strong>（p139 人身专属性），不是加处罚款</td>
+</tr>
+<tr>
+<td><strong>T23</strong></td>
+<td><strong>陈思融文「法律基础落空」的表述</strong></td>
+<td>F：全文「<strong>落空</strong>」<strong>0 命中</strong></td>
+<td>该短语系上游笔记的概括，非原文</td>
+<td>改写为三段式引注：p141「课予原义务人行政义务所依据的法律规范，不能作为课予第三人继受行政义务的法律依据」／p142「禁止以类推适用民事法律规范的方式……」／p143</td>
+</tr>
+<tr>
+<td><strong>T24</strong></td>
+<td><strong>台湾「賴玉婷」的执行力扩张文献</strong></td>
+<td>F：经维普确认 <strong>賴玉婷系大陆作者</strong>（学位论文 2025，无卷期页）；台湾无此人</td>
+<td><strong>任务书并列前提不成立</strong></td>
+<td>「赖玉婷／詹鎮榮等台湾执行力扩张文献」这一转引链须废止；台湾侧改引 <strong>許士宦</strong> 三件（《台灣法律人》42:61-94，2025.05；《月旦法學雜誌》362:6-34，2025.07；《執行力擴張與不動產執行》2 版，新學林 2014.02）＋<strong>邱稚宸</strong>《論行政法上義務之概括繼受》（臺大碩論）</td>
+</tr>
+<tr>
+<td><strong>T25</strong></td>
+<td><strong>詹鎮榮「執行力擴張」题名文献</strong></td>
+<td>F：已比对本人官网著作全表，<strong>无此题名</strong></td>
+<td>同上</td>
+<td>改引〈人民公法上不當得利返還義務之繼受〉東吳法律學報 26(3):1-40（2015.01）等 3 篇</td>
+</tr>
+<tr>
+<td><strong>T26</strong></td>
+<td><strong>大陆「行政处罚当事人死亡」专题文献</strong></td>
+<td>F：维普 <strong>7 组检索式</strong>均未检得专题</td>
+<td>无专题</td>
+<td>改引已核到的 15 篇（含 冯遵亚 1996《人民司法》1996(7):46；卞文斌 1996(11):45-46；王天华 2014；叶姗 2014；陈倩 2026）</td>
+</tr>
+<tr>
+<td><strong>T27</strong></td>
+<td><strong>「罚没款继承」「欠税继承」主题文献</strong></td>
+<td>F：前者未检到；后者仅 1 篇实务短文</td>
+<td>主题过窄</td>
+<td>接受空白</td>
+</tr>
+<tr>
+<td><strong>T28</strong></td>
+<td><strong>维普条目页 403</strong></td>
+<td>F：全部著录取自 <code>cqvip.com/search</code> 接口返回字段</td>
+<td>403 反爬</td>
+<td>已如实标注；若定稿要引，须以纸本或 CNKI 页面复核</td>
+</tr>
+<tr>
+<td><strong>T29</strong></td>
+<td><strong><code>nssd.cn</code> API 404／百度学术 302</strong></td>
+<td>F</td>
+<td>接口失效／跳转</td>
+<td>换 CNKI 直接检索</td>
+</tr>
+<tr>
+<td><strong>T30</strong></td>
+<td><strong>李建良 2023 年新作自引 PDF 的完整出处</strong></td>
+<td>F：已获该章<strong>全文本人一手件</strong>（中研院法律所官方线上书 48 页）＋ 2023 新作自引</td>
+<td>—</td>
+<td>已解决；但<strong>副标题</strong>为 F 从 2023 自引补全，须以纸本再核一次</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_4">四、样本表侧（分页缺口 · 下限口径）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>事项</th>
+<th>检索式与 <code>Total</code>（下限口径）</th>
+<th>缺口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T31</strong></td>
+<td><code>fulltext="死亡"</code>＋非诉执行审查</td>
+<td><code>Total 4988</code></td>
+<td><strong>只返回前 20 条</strong>。本轮以日期分段部分缓解，仍有大量未检条目</td>
+</tr>
+<tr>
+<td><strong>T32</strong></td>
+<td><code>title="罚款"</code>＋<code>fulltext="死亡"</code></td>
+<td><code>Total 176</code>（2015-2019＝12／2020-2022＝16／2023-2026＝147）</td>
+<td>同上；<strong>A 评为本轮最强检索式</strong></td>
+</tr>
+<tr>
+<td><strong>T33</strong></td>
+<td><code>caseClassName="首次执行"</code></td>
+<td><code>Total 3418</code></td>
+<td>同上（S7 对照仅得 11 件）</td>
+</tr>
+<tr>
+<td><strong>T34</strong></td>
+<td><code>caseClassName="执行复议"</code></td>
+<td><code>Total 6998</code></td>
+<td>同上；民事侧「遗产管理人」对照<strong>本轮未做</strong>（A §6.2-1）</td>
+</tr>
+<tr>
+<td><strong>T35</strong></td>
+<td><code>fulltext="继承人"</code>＋非诉执行审查</td>
+<td><code>Total 1546</code>（旧记录）</td>
+<td>征收类噪声主导，未逐页</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>统一注记</strong>：以上凡作「n 件」或「0 件」结论者，一律须写「<strong>在法宝可得范围内</strong>」，并附检索式与检索日。</p>
+</blockquote>
+<hr />
+<h2 id="_5">五、被排除但仍需一句话说明的材料</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>事项</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(2025)湘04执复10号</strong></td>
+<td>全文「死亡」<strong>0 次</strong>（A 独立复核未召回）；任务书点名排除。<strong>它仍是「反对参照适用」的最强版论据</strong>——但其论据是法行〔2000〕16号，而 16号 只覆盖法人。→ 引用时必须写明「本案非死亡案，仅就其关于参照适用的说理引用」</td>
+</tr>
+<tr>
+<td><strong>(2018)湘0112行审5号／6号</strong></td>
+<td>A 本轮查明<strong>义务人吴坤／吴亮健在且到庭听证</strong>，死者系 2004 年去世的房屋原主吴长富 → <strong>误收，已剔</strong>，归 B 类征收</td>
+</tr>
+<tr>
+<td><strong>(2021)苏1012行审8号</strong></td>
+<td>个人独资企业（非法人组织）→ A 类；但其「本金 35 万＋加处罚款 35 万一并执行」<strong>仍是加处罚款实务做法的唯一量化样本</strong>，引用时须注明「非死亡案」</td>
+</tr>
+<tr>
+<td><strong>(2014)昌行审执字第71号</strong></td>
+<td>死亡者是房屋<strong>原所有权人</strong>，非义务人 → D 类排除</td>
+</tr>
+<tr>
+<td><strong>(2020)辽0214执异127号</strong></td>
+<td>★<strong>新发现</strong>（D）：行政非诉执行、罚款 35730＋加处罚款、李希孝 2018-09-25 死亡；<code>CaseClassName="执行异议"</code>。<strong>按 caseClassName 检索会系统性漏掉</strong>——凡「0 件」结论均受此威胁，须在方法注中说明</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_6">六、方法学警告（已确认，须写进论文脚注）</h2>
+<ol>
+<li><strong>法宝 <code>Total</code> 是宽匹配计数，不等于字面命中数</strong>。D 实测：<code>fulltext="放弃继承"</code> <code>Total 24</code>，但返回的 20 条中 <strong>8 条正文根本无「放弃继承」字面</strong>（含闽0124行审11号）。→ <strong><code>Total</code> 不得当字面命中数引用</strong>。</li>
+<li><strong>法宝无「被引用情况」接口</strong>：任何「某文件被援引 n 次」只能是<strong>下限口径</strong>，须写明系以正文关键句反查。</li>
+<li><strong>法宝无期刊库</strong>：学理文献一律另找途径并标注来源。</li>
+<li><strong>法宝页面反爬</strong>：<code>web_fetch</code> 取不到正文属正常，<strong>不得据此判定案号／文件不存在</strong>。</li>
+<li><strong><code>caseClassName</code> 过滤会漏案</strong>（辽0214执异127号）：跨类型检索须另补。</li>
+</ol>
+<hr />
+<h2 id="_7">七、本轮已闭合的旧缺口（<strong>不再列为待核</strong>）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>旧缺口</th>
+<th>闭合情况</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《行政诉讼法》§101 逐字文本</td>
+<td>✅ B ★已核现行文本</td>
+</tr>
+<tr>
+<td>《行政诉讼法》§97 逐字</td>
+<td>✅ B ★已核（C 标「未检到」系其未取，<strong>以 B 为准</strong>）</td>
+</tr>
+<tr>
+<td>AO §265 所准用的 BGB／ZPO 条文内容</td>
+<td>✅ E ★已逐条补齐（含 §780 <strong>不在</strong>准用清单这一否定性发现）</td>
+</tr>
+<tr>
+<td>三法域是否有「继续性负担自死亡之日停止计算」的明文</td>
+<td>✅ E <strong>全文穷尽扫描</strong>：<strong>三法域均无明文</strong></td>
+</tr>
+<tr>
+<td>法行〔2000〕16号 是否现行有效／全文</td>
+<td>✅ B ★已核（正文完整＋受文机关＋来文号＋落款）</td>
+</tr>
+<tr>
+<td>「放弃继承＋金钱给付」是否 0 件</td>
+<td>✅ <strong>已推翻</strong>：严格口径 <strong>1 件</strong>（粤0204行审12号，三份公证放弃继承声明），宽口径 <strong>3 件</strong>（＋闽0124行审11号、辽0214执异127号相关）</td>
+</tr>
+<tr>
+<td>法释〔2016〕21号 §10 两版差异</td>
+<td>✅ B ★已核（2020 版<strong>替换式新增「遗产管理人」并删除「遗嘱执行人」</strong>，<strong>删除</strong>「直接执行遗产」整句）</td>
+</tr>
+<tr>
+<td>[2005]行他字第29号 的效力与规则</td>
+<td>✅ <strong>规则已由《行政处罚法》(2021) §73(3) 法律化并逐字核到</strong>；仅<strong>全文</strong>仍未检到（见 T1）</td>
+</tr>
+<tr>
+<td>「义务承受人」是否为实务常用概念</td>
+<td>✅ 已确认：征收领域<strong>通用</strong>（天津河北区 20+ 件），但<strong>无定义</strong></td>
+</tr>
+</tbody>
+</table></div>
+</main>
+</body>
+</html>

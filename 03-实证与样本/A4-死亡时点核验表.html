@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 · 死亡时点核验表（阶段 × 处理方式）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<h1 id="a4">A4 · 死亡时点核验表（阶段 × 处理方式）</h1>
+<blockquote>
+<p><strong>编制 2026-09-26</strong>，起因：审核发现"五条路径"被并列为同一问题，未逐案核对死亡时点。
+<strong>方法</strong>：逐案从材料包单案文件（法宝 MCP 全文）中抽取含"死亡／病故／去世"的句子，<strong>逐字引用</strong>，再判定时点。
+<strong>⚠️ 本表取代</strong>《A4-选题深度分析》证据三中原有的"阶段"列（原列实为<strong>案号阶段</strong>，非<strong>死亡时点</strong>，两者不是一回事）。</p>
+</blockquote>
+<hr />
+<h2 id="_1">一、判定口径</h2>
+<ul>
+<li><strong>S0</strong> 决定作成前死亡｜<strong>S1</strong> 作成后送达前｜<strong>S2</strong> 送达后生效前｜<strong>S3</strong> 生效后、申请非诉执行前〔<strong>原始断裂带</strong>〕｜<strong>S4</strong> 已申请、立案前｜<strong>S5</strong> 已受理、裁定前｜<strong>S6</strong> 准予执行后、执行立案前｜<strong>S7</strong> 执行立案后、实施中｜<strong>S8</strong> 终结／完毕后｜<strong>S9</strong> 主体变体</li>
+<li><strong>案号阶段</strong>（独立于死亡时点）：<strong>行审</strong>＝非诉执行审查；<strong>执／执复／执异／执恢</strong>＝执行实施／复议／异议／恢复</li>
+<li>判定等级：<strong>明确</strong>（原文点明时点）｜<strong>倾向</strong>（可由事实链推定）｜<strong>未载明</strong>（原文无死亡日期）</li>
+</ul>
+<hr />
+<h2 id="_2">二、逐案核验表</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>案号</th>
+<th>死亡时点（<strong>逐字</strong>）</th>
+<th>时点判定</th>
+<th>案号阶段</th>
+<th>处理方式</th>
+<th>核验状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>(2019)鲁02行审复1号</strong></td>
+<td>「复议申请人<strong>向法院申请强制执行前</strong>，被申请人的经营者已经死亡，其民事权利能力已经消灭」</td>
+<td><strong>S3 明确</strong></td>
+<td>审查（行审复）</td>
+<td><strong>驳回</strong>（"明显缺乏法律依据"）</td>
+<td>★ 已核</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>(2024)粤0204行审12号</strong></td>
+<td>「浈某经犁市镇政府<strong>催告后仍未履行</strong>行政处罚决定，<strong>之后</strong>该商行的经营者王某洪死亡」（死亡日 <strong>2024-03-25</strong>）</td>
+<td><strong>S3</strong></td>
+<td>审查（行审）</td>
+<td>准予执行；继承人以所得遗产实际价值为限承担</td>
+<td>★ 已核</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>(2023)渝0109行审83号</strong></td>
+<td>「执行依据确定的债务人吴长平在<strong>判决生效后死亡</strong>」（<strong>无具体日期</strong>；申请日 2023-08-14）</td>
+<td>倾向 S3／<strong>未载明</strong></td>
+<td>审查（行审）</td>
+<td><strong>变更</strong>继承人为被执行人（共同担任遗产管理人）</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>(2017)川1181行审42号</strong></td>
+<td>「被执行人冯加强<strong>已于 2017 年 10 月死亡</strong>，其继承人冯加元表示愿意继承」</td>
+<td>倾向 S3／<strong>未载明</strong>（裁定 2017-11）</td>
+<td>审查（行审）</td>
+<td>变更继承人（<strong>未载依据</strong>）</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>(2017)闽0205行审165号之二</strong></td>
+<td>「被处罚人邱瑞钦<strong>已于 2014 年 3 月 26 日</strong>因道路交通事故死亡」（决定 2012-08-27、催告 2012-12-03；<strong>申请日未载明</strong>）</td>
+<td><strong>未载明</strong>（可能 S3，也可能 S5/S6）</td>
+<td>审查（行审）</td>
+<td>对继承人准予执行</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>(2018)吉0322行审18号</strong></td>
+<td>原文未载死亡日期（检索记录仅记"义务人死亡，无遗产可供执行"）</td>
+<td><strong>未核明</strong></td>
+<td>审查（行审）</td>
+<td><strong>驳回</strong>（§40(一)）</td>
+<td>待核</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>(2024)青0122行审17号</strong></td>
+<td><strong>不是自然人死亡——是一人公司注销</strong></td>
+<td><strong>不适用</strong></td>
+<td>审查（行审）</td>
+<td>准许变更（送达违法故不准予执行）</td>
+<td>⚠️ <strong>应移出本命题</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>(2018)吉0881行审153号</strong></td>
+<td>「<strong>在复议或起诉期间</strong>因闫瑞和患脑溢血病故，<strong>被征收主体已发生变化</strong>」</td>
+<td><strong>S2（生效前）</strong></td>
+<td>审查（行审）</td>
+<td><strong>不准予执行</strong>（§58，原决定"事实不清、证据不足"）</td>
+<td>★ 已核</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>(2020)闽0205行审21号</strong></td>
+<td>「<strong>审理该案过程中</strong>，因谢建炉于 2019-12-01 死亡，于 2020-01-07 作出（2019）闽0211行初238号……」</td>
+<td><strong>S2/S5（诉讼审理中）</strong></td>
+<td>审查（行审）</td>
+<td>追加继承人为共同被执行人</td>
+<td>★ 已核</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>(2018)湘0112行审5号／6号</strong></td>
+<td>「吴长富<strong>于 2004 年去世后</strong>，……汤华珍放弃继承权」（决定 2016 年）</td>
+<td><strong>S0（决定作成前）</strong></td>
+<td>审查（行审）</td>
+<td>准予执行（对继承人）</td>
+<td>★ 已核</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>(2018)吉0282行审203号</strong></td>
+<td>「产权人为李忠义，李忠义及妻子赵同英<strong>已去世多年</strong>」</td>
+<td>倾向 <strong>S0</strong></td>
+<td>审查（行审）</td>
+<td>—</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>(2019)吉0282行审2号</strong></td>
+<td>「刘长春夫妇<strong>均已去世</strong>」（无日期）</td>
+<td>倾向 <strong>S0</strong></td>
+<td>审查（行审）</td>
+<td>—</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>(2021)湘0502行审2号</strong></td>
+<td>「马某某<strong>于 2020 年 12 月</strong>因病去世；其第一顺位继承人……<strong>均未表示放弃继承</strong>」（决定 2019 年）</td>
+<td>倾向 <strong>S3</strong></td>
+<td>审查（行审）</td>
+<td>准予执行，继承人继续履行</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>(2014)浙甬行审字第11号</strong></td>
+<td>「被拆迁房屋登记在林嘉龙（<strong>2011 年 11 月 25 日死亡</strong>）名下」</td>
+<td><strong>未核明</strong></td>
+<td>审查（行审）</td>
+<td>—</td>
+<td>待核</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>(2018)闽0124行审11号</strong></td>
+<td>「<strong>2018 年 3 月 6 日</strong>，刘景护因爆燃死亡」</td>
+<td><strong>未核明</strong></td>
+<td>审查（行审）</td>
+<td>—</td>
+<td>待核</td>
+</tr>
+<tr>
+<td>16</td>
+<td><strong>(2021)津0116行审54号</strong></td>
+<td>「胡东生<strong>生于 2018 年 1 月 26 日死亡</strong>，刘彩金于 <strong>2020 年 8 月 23 日</strong>死亡」</td>
+<td><strong>未核明</strong></td>
+<td>审查（行审）</td>
+<td>—</td>
+<td>待核</td>
+</tr>
+<tr>
+<td>17</td>
+<td><strong>(2014)昌行审执字第71号</strong></td>
+<td>「被征收房屋原所有权人为张俊书……张俊书<strong>于 2012 年 11 月 17 日死亡</strong>」（被申请执行人是生存配偶原淑兰）</td>
+<td><strong>非"义务人死亡"</strong></td>
+<td>审查（行审执字）</td>
+<td>准予执行</td>
+<td>已核（样本性质不同）</td>
+</tr>
+<tr>
+<td>18</td>
+<td><strong>(2025)湘04执复10号</strong></td>
+<td>原文未载死亡日期</td>
+<td><strong>未核明</strong>，但<strong>程序姿态＝S7</strong></td>
+<td><strong>实施／复议（执复）</strong></td>
+<td><strong>拒绝追加</strong>（否认民事规则适用于非诉执行）</td>
+<td>部分核</td>
+</tr>
+<tr>
+<td>—</td>
+<td><strong>(2025)琼0108执恢567号</strong>（民事）</td>
+<td>「原被执行人郑某<strong>已在执行过程中死亡</strong>」</td>
+<td><strong>S7</strong></td>
+<td>实施（执恢）</td>
+<td>终结；变更后可恢复</td>
+<td>★ 已核（民事）</td>
+</tr>
+<tr>
+<td>—</td>
+<td><strong>(2024)粤0606执恢2033号之一</strong>（民事）</td>
+<td>「本院查明梁某成<strong>已因病死亡</strong>」（执行过程中）</td>
+<td><strong>S7</strong></td>
+<td>实施（执恢）</td>
+<td>终结；变更后可恢复</td>
+<td>★ 已核（民事）</td>
+</tr>
+<tr>
+<td>—</td>
+<td><strong>(2023)京0106执18281号</strong>（民事）</td>
+<td>「程某<strong>在二审期间已经死亡</strong>」</td>
+<td><strong>S2/S5</strong></td>
+<td>实施（执）</td>
+<td>驳回（主体不适格）</td>
+<td>★ 已核（民事）</td>
+</tr>
+<tr>
+<td>—</td>
+<td><strong>(2016)苏1181执异98号</strong>（民事）</td>
+<td>继承人公证放弃（原被继承人死亡在决定前）</td>
+<td>S0/S7</td>
+<td>实施（执异）</td>
+<td>不得查封该遗产份额</td>
+<td>已核（民事）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>⚠️ 已排除（不属本命题）</strong>：(2026)川0302行审45号、(2026)甘0302行审19号（<strong>死亡后多领待遇的不当得利</strong>）；(2014)昌行审执字第71号（死亡者是<strong>房屋原所有权人</strong>，非义务人）。</p>
+<hr />
+<h2 id="_3">三、修正后的"阶段 × 处理方式"表（取代原"五条路径"并列）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>案号</th>
+<th>处理方式</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>S0 决定作成前</strong></td>
+<td>(2018)湘0112行审5号／6号；(2018)吉0282行审203号；(2019)吉0282行审2号（倾向）</td>
+<td>准予执行，对继承人执行</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>S2 生效前</strong></td>
+<td><strong>(2018)吉0881行审153号</strong>；<strong>(2020)闽0205行审21号</strong></td>
+<td><strong>不准予执行</strong>（"主体已发生变化…事实不清、证据不足"）／追加继承人</td>
+<td>§58</td>
+</tr>
+<tr>
+<td><strong>S3 生效后、申请前</strong>〔<strong>原始断裂带</strong>〕</td>
+<td><strong>(2019)鲁02行审复1号（明确）</strong>；<strong>(2024)粤0204行审12号</strong>；(2023)渝0109行审83号、(2017)川1181行审42号、(2021)湘0502行审2号（倾向）</td>
+<td><strong>驳回</strong>（鲁02）／<strong>准予执行·变更继承人</strong>（粤0204、渝0109、川42）／准予执行（湘0502）</td>
+<td>§40 与民事规则<strong>并用</strong>，无统一</td>
+</tr>
+<tr>
+<td><strong>S5/S6 已受理／准予后</strong></td>
+<td>(2017)闽0205行审165号之二（未载明，可能在此）</td>
+<td>对继承人准予执行</td>
+<td>民诉法（旧）§232＋民诉法意见§475</td>
+</tr>
+<tr>
+<td><strong>S7 执行实施中</strong></td>
+<td><strong>(2025)湘04执复10号</strong>（行政）；民事：(2025)琼0108执恢567号、(2024)粤0606执恢2033号之一</td>
+<td><strong>拒绝追加</strong>（行政）／<strong>终结—变更—恢复</strong>（民事）</td>
+<td>行政侧否认民事规则；民事侧闭环</td>
+</tr>
+<tr>
+<td><strong>未载明</strong></td>
+<td>(2018)吉0322行审18号、(2014)浙甬行审字第11号、(2018)闽0124行审11号、(2021)津0116行审54号</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>关键结论（三处必须修正）</strong>：</p>
+<ol>
+<li><strong>路径表必须加"阶段"列</strong>——同一路径出现在不同阶段（"变更继承人"在 S3 与 S5/S6 都出现过），"五条路径冲突"应改写为"<strong>阶段 × 方式</strong>的二维分歧"；</li>
+<li><strong>(2024)青0122行审17号 是"一人公司注销"案（法人终止），必须移出自然人死亡的样本</strong>——此前误列为"义务人死亡"裁判之一；</li>
+<li><strong>(2018)吉0881行审153号（S2）与 (2019)鲁02行审复1号（S3 明确）此前未进入阶段表</strong>——而这两个恰是<strong>最能定位断裂带</strong>的样本。</li>
+</ol>
+<hr />
+<h2 id="s3-0-1-4">四、净收益：<strong>原始断裂带 S3 从"0 件"变成"明确 1 件 ＋ 倾向 4 件"</strong></h2>
+<p>原文《深度分析》证据三的阶段表把 <strong>S3 记为 1 件，且是行政公益诉讼</strong>（(2017)云2931行初1号）——即"<strong>断裂带在行政非诉执行里 0 件</strong>"。
+修正后：</p>
+<ul>
+<li><strong>S3 明确</strong>：<strong>(2019)鲁02行审复1号</strong>（「<strong>申请强制执行前</strong>，被申请人的经营者已经死亡」→ <strong>驳回</strong>）；</li>
+<li><strong>S3 倾向</strong>：(2024)粤0204行审12号、(2023)渝0109行审83号、(2017)川1181行审42号、(2021)湘0502行审2号；</li>
+<li><strong>S2 明确</strong>：2 件（吉0881行审153号、闽0205行审21号）。</li>
+</ul>
+<p>→ <strong>原始断裂带不但有裁判，而且在同一阶段内就已出现"驳回 vs 变更"的对立</strong>（鲁02 vs 渝0109）——<strong>这比"跨阶段对立"更硬</strong>，因为它排除了"阶段不同所以做法不同"这一辩解。</p>
+<p>→ 也就是说：<strong>"阶段错置"不能解释全部分歧</strong>。在 S3 这一个阶段里，法院已经给出相反答案。这对"参照适用边界"的<strong>"阶段"维度是加强，对"范围"维度是决定性的</strong>。</p>
+</main>
+</body>
+</html>

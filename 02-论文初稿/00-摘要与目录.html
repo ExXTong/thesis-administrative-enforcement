@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>行政非诉执行中义务人死亡后的申请执行</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<h1 id="_1">行政非诉执行中义务人死亡后的申请执行</h1>
+<h2 id="_2">——以"生效后、立案前死亡"为中心的比较法研究</h2>
+<blockquote>
+<p><strong>状态</strong>：写作中（2026-09-26 起）
+<strong>方案依据</strong>：<code>/var/nfs_share/A4-写作方案.md</code>（终稿）
+<strong>材料依据</strong>：<code>/var/nfs_share/A4-法学材料包/</code>（北大法宝 MCP 逐字核验）＋ <code>juris/runs/20260926-1300-…/notes/</code>（F-比较法、E-台湾侧，官方一手核验）</p>
+</blockquote>
+<hr />
+<h2 id="_3">摘要（草稿·三句）</h2>
+<p>行政行为生效后、人民法院立案受理前，义务人死亡的，行政非诉执行程序在现行法上没有入口：法释〔2018〕1号第155条第4项要求被申请人必须是"该行政行为所确定的义务人"，法行〔2000〕16号只覆盖法人分立、合并、兼并、合营而不覆盖自然人死亡，《行政强制法》第40条第1项又是执行实施阶段的终结条款。以德国《税收通则》第45条、第265条，日本《民法》第896条、《国税徴収法》第51条、第139条与我国台湾地区"行政执行法"第15条、第24条第5款及法务部相关函释为参照，三个法域的共同选择是<strong>不以死亡作为程序的停止事由</strong>，而将"由谁承受、承受到什么范围"作为执行程序内部的技术问题处理。据此，本文主张在现行法框架内，经《行政诉讼法》第101条转致民事执行中的变更规则，由<strong>申请执行的行政机关以变更申请方式发动、人民法院限期释明</strong>，并以《民法典》第1161条限定责任财产范围、对加处罚款与滞纳金自死亡之日起停止计算，即可打通这一窗口期，无需等待立法。</p>
+<p><strong>关键词</strong>：行政非诉执行；义务人死亡；被执行人变更；参照适用；遗产执行</p>
+<hr />
+<h2 id="_4">目录与写作进度</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>章</th>
+<th>标题</th>
+<th>目标字数</th>
+<th>状态</th>
+<th>文件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一</td>
+<td>一个被忽略的窗口期</td>
+<td>3,000</td>
+<td>✅ 初稿完成（4,186字）</td>
+<td><code>01-第一章-窗口期.md</code></td>
+</tr>
+<tr>
+<td>二</td>
+<td>比较法：三个法域如何处理"死亡不阻断程序"</td>
+<td>8,000</td>
+<td>✅ 初稿完成（约8,300字，含釋621/622官方解释文）</td>
+<td><code>02-第二章-比较法.md</code></td>
+</tr>
+<tr>
+<td><strong>三</strong></td>
+<td><strong>实务的四种应对及其缺陷</strong></td>
+<td>7,000</td>
+<td>✅ <strong>初稿完成</strong></td>
+<td><code>03-第三章-实务四路径.md</code></td>
+</tr>
+<tr>
+<td>四</td>
+<td>解释论出路</td>
+<td>8,000</td>
+<td>✅ 初稿完成</td>
+<td><code>04-第四章-解释论出路.md</code></td>
+</tr>
+<tr>
+<td>五</td>
+<td>结论</td>
+<td>2,500</td>
+<td>✅ 初稿完成</td>
+<td><code>05-第五章-结论.md</code></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>与既有文献的关系（只在两处对话）</strong>：陈思融〈行政义务继受理论的逻辑证成〉，《政治与法律》2024年第4期，第133–147页。→ §4.3（法律基础落空是否只能等立法）、§4.4（滞纳金与加处罚款能否继受）。</p>
+<hr />
+<h2 id="_5">引用体例（全篇统一）</h2>
+<ul>
+<li><strong>法律／司法解释</strong>：《中华人民共和国行政强制法》第40条第1项；法释〔2018〕1号第155条第4项。</li>
+<li><strong>裁判</strong>：首次出现给全（案号＋法院＋裁判日期＋法宝链接进脚注），再次出现只给案号。</li>
+<li><strong>外国法</strong>：德国《税收通则》（Abgabenordnung, AO）第45条第1款；日本《国税徴収法》第51条第1项；台湾地区"行政执行法"第15条。原文逐字首次出现时附原文，之后用中译。</li>
+<li><strong>核验标记</strong>：正文不标；凡"未能核验"者在脚注注明（如法〔2021〕94号第13条）。</li>
+</ul>
+</main>
+</body>
+</html>

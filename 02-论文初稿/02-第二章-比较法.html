@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>二、比较法：三个法域如何处理&quot;死亡不阻断程序&quot;</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#_1">二、比较法：三个法域如何处理"死亡不阻断程序"</a><ul>
+<li><a href="#_2">（一）德国：概括承继、明文除外与执行法的转致</a><ul>
+<li><a href="#1">1. 实体层：概括承继，且死亡不在消灭事由之列</a></li>
+<li><a href="#2-ao-265-vwvg-51">2. 程序层：AO 第265条与 VwVG 第5条第1款的转致</a></li>
+<li><a href="#3">3. 小结：三层结构</a></li>
+</ul>
+</li>
+<li><a href="#_3">（二）日本：一般但书与三项程序技术</a><ul>
+<li><a href="#1_1">1. 实体层：概括承继与"一身専属"但书</a></li>
+<li><a href="#2">2. 程序层：死亡不中断执行，以及两项控制技术</a></li>
+<li><a href="#3_1">3. 小结：不设明文除外，而以程序技术控制范围</a></li>
+</ul>
+</li>
+<li><a href="#_4">（三）我国台湾地区：程序置换、解释分层与函释的操作细则</a><ul>
+<li><a href="#1_2">1. 实体授权与明文主体扩张</a></li>
+<li><a href="#2_1">2. 程序续行与特别代理人</a></li>
+<li><a href="#3_2">3. 解释上的分层：罰鍰限於遺產，稅捐得及固有財產</a></li>
+<li><a href="#4">4. 对立说：廖义男大法官的不同意见书</a></li>
+<li><a href="#5">5. 函释层面：本文窗口期的完整操作规则</a></li>
+<li><a href="#6">6. 一个否定性发现</a></li>
+</ul>
+</li>
+<li><a href="#_5">（四）三个法域的共同点与分歧</a><ul>
+<li><a href="#1_3">1. 三点共同</a></li>
+<li><a href="#2_2">2. 两点分歧</a></li>
+</ul>
+</li>
+<li><a href="#_6">（五）三点启示</a><ul>
+<li><a href="#_7">启示一：我国的问题不是"没有实体出口"，而是"程序没有明文"</a></li>
+<li><a href="#_8">启示二：德国的"明文列举转致"与我国的"概括准用"是同一结构、不同精度</a></li>
+<li><a href="#_9">启示三：两个法域在没有相互影响的情况下走向同一方案</a></li>
+<li><a href="#_10">一个必要的限定</a></li>
+</ul>
+</li>
+<li><a href="#_11">本章注释</a></li>
+<li><a href="#_12">本章写作待办</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="_1">二、比较法：三个法域如何处理"死亡不阻断程序"</h1>
+<p>第一章显示，在行政行为生效后、人民法院立案受理前义务人死亡的，我国现行法既未规定义务是否消灭，也未规定谁可以成为被申请人。这一困境并非我国独有——任何承认公法上金钱给付义务可以针对遗产或继承人实现的法域，都必须回答同样两个问题：<strong>死亡是否使程序停止？若不停止，由谁承受、承受到什么范围？</strong></p>
+<p>本章考察德国、日本与我国台湾地区对这两个问题的处理方式。选择这三个法域的理由是：它们分别代表了三种不同的技术路线——<strong>立法明文除外</strong>、<strong>一般但书加程序技术</strong>、<strong>程序置换加解释分层</strong>；而且三者都在程序法上给出了明文，这恰是我国所缺。</p>
+<p>需要先说明方法上的两点限制。第一，本章所引德国、日本条文均取自官方一手来源（德国联邦司法部 gesetze-im-internet.de、日本 e-Gov 法令检索 API），并逐字核对；其中《税收通则》第45条另经本文作者于2026年9月26日再次核验。第二，台湾地区材料取自"全国法规资料库"与"司法院宪法法庭"网站；由于两岸术语差异，本文在引注中标明原文，正文使用中译，并将"行政执行处"等机构名称照录原文以免歧义。</p>
+<h2 id="_2">（一）德国：概括承继、明文除外与执行法的转致</h2>
+<h3 id="1">1. 实体层：概括承继，且死亡不在消灭事由之列</h3>
+<p>德国《税收通则》（Abgabenordnung，以下简称 AO）第45条第1款规定：</p>
+<blockquote>
+<p>"Bei Gesamtrechtsnachfolge gehen die Forderungen und Schulden aus dem Steuerschuldverhältnis auf den Rechtsnachfolger über. <strong>Dies gilt jedoch bei der Erbfolge nicht für Zwangsgelder.</strong>"</p>
+<p>译：在概括承继的情形，税收债务关系中的债权与债务移转于权利承继人。<strong>但在继承的情形，此规定不适用于执行罚（Zwangsgelder）。</strong>[^2-1]</p>
+</blockquote>
+<p>同条第2款规定，继承人就应从遗产中缴纳的债务，依《民法典》关于继承人对遗产债务责任的规定负责；创设继承人之税法责任的法规不受影响。[^2-1]</p>
+<p>与第45条互为表里的是第47条（Erlöschen，消灭）。该条列举了税收债务关系请求权的消灭事由：清偿（§§224、224a、225）、抵销（§226）、免除（§§163、227）、时效（§§169–171、§§228–232），以及附解除条件请求权的条件成就。<strong>"死亡"（Tod／Erbfall）不在其列。</strong>[^2-2]</p>
+<p>由此，德国法的实体答案十分明确：<strong>义务人死亡既不使税收债务消灭，也不使程序失去对象；债务概括移转于继承人，唯一的例外是执行罚</strong>。这一例外不是通过解释得出的，而是<strong>立法者在同一条文中以第二句明文写出</strong>的。</p>
+<h3 id="2-ao-265-vwvg-51">2. 程序层：AO 第265条与 VwVG 第5条第1款的转致</h3>
+<p>值得注意的是，德国并未把"对继承人的执行"交给民事执行法自行处理，而是在税法与行政执行法上分别设置了转致条款。</p>
+<p>AO 第265条（Vollstreckung gegen Erben，对继承人的执行）规定：</p>
+<blockquote>
+<p>"Für die Vollstreckung gegen Erben sind die Vorschriften der §§ 1958, 1960 Absatz 3, § 1961 des Bürgerlichen Gesetzbuchs sowie der §§ 747, 748, 778, 779, 781 bis 784 der Zivilprozessordnung entsprechend anzuwenden."</p>
+<p>译：对于对继承人之执行，准用《民法典》第1958条、第1960条第3款、第1961条，以及《民事诉讼法》第747条、第748条、第778条、第779条、第781条至第784条。[^2-3]</p>
+</blockquote>
+<p>而在行政强制执行领域，《联邦行政强制执行法》（Verwaltungsvollstreckungsgesetz，以下简称 VwVG）<strong>并无"对继承人执行"的专条</strong>。它的做法是在第5条第1款中<strong>明文列举</strong>应准用的 AO 条文：</p>
+<blockquote>
+<p>"Das Verwaltungszwangsverfahren und der Vollstreckungsschutz richten sich im Falle des § 4 nach den Vorschriften der Abgabenordnung (§§ 77, 249 bis 258, 260, <strong>262 bis 267</strong>, 281 bis 317, 318 Abs. 1 bis 4, §§ 319 bis 327)."</p>
+<p>译：于第4条之情形，行政强制程序与执行保护依《税收通则》之规定（第77条、第249条至第258条、第260条、<strong>第262条至第267条</strong>、第281条至第317条、第318条第1款至第4款、第319条至第327条）。[^2-4]</p>
+</blockquote>
+<p><strong>AO 第265条正落在"第262条至第267条"这一被明文列举的区间之内。</strong>换言之，德国行政强制执行中对继承人的执行规则，是通过"VwVG §5(1) → AO §265 → BGB／ZPO"这样一条<strong>逐级明文转致</strong>的链条成立的。</p>
+<p>此外，VwVG 第2条（Vollstreckungsschuldner，执行债务人）规定了谁可以被作为执行相对人主张：其一，作为自己债务人（Selbstschuldner）负担给付之人；其二，<strong>就他人所负之给付负人的责任（persönlich haftet）之人</strong>；有义务容忍强制执行之人，在容忍义务范围内与执行债务人同等对待。[^2-5]该条本身未点名"继承人"或"遗产"，继承人被纳入执行相对人的通道仍须回到 §5(1) 与 AO §265。</p>
+<h3 id="3">3. 小结：三层结构</h3>
+<p>德国路线可以概括为三层：<strong>实体上概括承继（AO §45(1) 第一句）＋明文除外（同条第二句，执行罚不继受）＋程序上逐级明文转致（VwVG §5(1) → AO §265 → BGB／ZPO）</strong>。</p>
+<p>其中对本文最具启示意义的是第三层：<strong>德国同样面临"行政执行法自身没有对继承人执行的规则"这一问题，其解决方式正是转致——但与我国《行政诉讼法》第101条的概括准用不同，VwVG §5(1) 采取的是"明文列举条号"的方式</strong>。这一差别将在本章第（五）节展开。</p>
+<h2 id="_3">（二）日本：一般但书与三项程序技术</h2>
+<h3 id="1_1">1. 实体层：概括承继与"一身専属"但书</h3>
+<p>日本《民法》第896条规定：</p>
+<blockquote>
+<p>「相続人は、相続開始の時から、被相続人の財産に属した一切の権利義務を承継する。<strong>ただし、被相続人の一身に専属したものは、この限りでない。</strong>」</p>
+<p>译：继承人自继承开始时起，承继被继承人财产所属的一切权利义务。<strong>但专属于被继承人一身者，不在此限。</strong>[^2-6]</p>
+</blockquote>
+<p>与德国的"明文除外"相比，日本采取的是一般但书：<strong>不指明哪些义务不承继，而以"一身専属性"作为判断标准</strong>，其具体化交由学说与裁判完成。</p>
+<p>在税法领域，《国税通則法》第5条（相続による国税の納付義務の承継）作出了更为细致的规定。其第1项规定：发生继承时，继承人或《民法》第951条的法人（继承财产法人），承继被继承人应被课征或应缴纳、被征收的国税（含滞纳处分费）的缴纳义务；<strong>继承人作出限定承认时，仅以因继承所得财产为限度负缴纳责任</strong>。第2项规定，继承人有二人以上时，各继承人承继的税额按《民法》第900条至第902条所定继承份比例分摊。第3项规定，继承人中因继承所得财产价额超过其分摊税额者，<strong>以其超过的价额为限度</strong>，对其他继承人承继的国税负缴纳责任。[^2-7]</p>
+<p>这三项构成一个完整的责任分配结构：<strong>承继为原则、限定承认为限度、按份分摊、超出部分连带</strong>。</p>
+<h3 id="2">2. 程序层：死亡不中断执行，以及两项控制技术</h3>
+<p>日本《国税徴収法》第139条第1项规定：</p>
+<blockquote>
+<p>「滞納者の財産について滞納処分を執行した後、滞納者が死亡し、又は滞納者である法人が合併により消滅したときは、その財産につき滞納処分を<strong>続行することができる</strong>。」</p>
+<p>译：对滞纳人的财产执行滞纳处分后，滞纳人死亡，或作为滞纳人的法人因合并而消灭时，<strong>得就该财产继续滞纳处分</strong>。[^2-8]</p>
+</blockquote>
+<p>同条第2项进一步规定：滞纳人死亡后，就该国税对滞纳人名下财产所为的扣押，<strong>视为</strong>对有该财产的继承人所为；<strong>但征收职员知悉其死亡时，不在此限</strong>。[^2-8]</p>
+<p>这一"但书"极为关键：它意味着<strong>机关明知义务人死亡时，不得沿用对死者名下财产的扣押拟制，而必须另行依第51条处理</strong>。换言之，日本法一方面确立了"死亡不中断执行"的原则，另一方面又通过但书防止机关在知情的情况下规避程序。</p>
+<p>第51条（相続があつた場合の差押）则规定了两项技术。第1项：征收职员就被继承人的国税扣押继承人的财产时，<strong>在不妨碍滞纳处分执行的限度内，必须首先努力扣押继承财产</strong>。第2项：就被继承人的国税扣押了继承人的固有财产时，该继承人得以"另有容易变价、且未成为第三人权利标的的继承财产，且以该财产可征收该国税全额"为由，向税务署长请求<strong>换押（差押換）</strong>。第3项：税务署长认为请求适当者，<strong>必须换押</strong>；认为不适当者，必须通知该继承人。[^2-9]</p>
+<p>由此，日本法对"继承人固有财产"与"继承财产"设置了<strong>顺序＋换押</strong>的双重控制：先扣继承财产是机关的努力义务，误扣固有财产时继承人有换押请求权，且该请求一旦被认定适当，机关即负换押义务。</p>
+<p>此外，《地方税法》第9条（相続による納税義務の承継）与第9条之2（相続人からの徴収の手続）在地方税领域设有对应规定；《行政代執行法》第5条、第6条则规定代履行费用的征收程序与先取特权。[^2-10]</p>
+<h3 id="3_1">3. 小结：不设明文除外，而以程序技术控制范围</h3>
+<p>日本路线的特征是：<strong>实体上以"一身専属"一般但书作为出口，不在条文中列举何种义务不承继；程序上则通过"死亡不中断执行"（§139）、"先扣继承财产＋换押"（§51）、"限定承认限度"（国税通則法§5(1)）三项技术，把责任财产的范围控制住。</strong></p>
+<p>需要特别指出的是，<strong>日本法并未规定延滞税或滞纳处分费于义务人死亡时停止计算</strong>。《国税徴収法》第139条只解决"执行程序是否续行"，未涉及附随金钱负担的计算止点。这一点对本文第四章的论证有直接影响，将在本章第（五）节说明。</p>
+<h2 id="_4">（三）我国台湾地区：程序置换、解释分层与函释的操作细则</h2>
+<h3 id="1_2">1. 实体授权与明文主体扩张</h3>
+<p>台湾地区"行政执行法"第15条规定：</p>
+<blockquote>
+<p>「義務人死亡遺有財產者，行政執行處得<strong>逕對其遺產</strong>強制執行。」[^2-11]</p>
+</blockquote>
+<p>同法第24条就"关于义务人拘提管收及应负义务之规定"的适用对象作了列举，其中第5款为：</p>
+<blockquote>
+<p>「<strong>義務人死亡者，其繼承人、遺產管理人或遺囑執行人。</strong>」[^2-12]</p>
+</blockquote>
+<p>第24条第5款是三个法域中<strong>对"义务人死亡后由谁承接执行程序"规定得最直接的一条</strong>：它以明文列举了三种主体（继承人、遗产管理人、遗嘱执行人），而不需要借助转致或解释。</p>
+<h3 id="2_1">2. 程序续行与特别代理人</h3>
+<p>"强制执行法"第5条第3项规定：</p>
+<blockquote>
+<p>「<strong>強制執行開始後，債務人死亡者，得續行強制執行。</strong>」[^2-13]</p>
+</blockquote>
+<p>同条第4项进一步规定：债务人死亡而有下列情形之一者，执行法院得依债权人或利害关系人声请，<strong>选任特别代理人</strong>，"但有遺囑執行人或遺產管理人者，不在此限"：一、继承人有无不明者；二、继承人所在不明者；三、继承人是否承认继承不明者；四、继承人因故不能管理遗产者。[^2-13]</p>
+<p>这一条与第24条第5款构成一个完整的接续机制：<strong>原则上程序续行；在继承关系不明时，优先由遗产管理人或遗嘱执行人承接，无此等人时由法院选任特别代理人</strong>。值得注意的是，"继承人有无不明""继承人是否承认继承不明"这两种情形，正是本文所讨论的窗口期中最难处理的问题——包括继承人放弃继承的情形。</p>
+<h3 id="3_2">3. 解释上的分层：罰鍰限於遺產，稅捐得及固有財產</h3>
+<p>"司法院"释字第621号解释文（2007年）指出：</p>
+<blockquote>
+<p>「行政執行法第十五條規定：『義務人死亡遺有財產者，行政執行處得逕對其遺產強制執行』，係就負有公法上金錢給付義務之人死亡後，行政執行處應如何強制執行，所為之特別規定。<strong>罰鍰乃公法上金錢給付義務之一種，罰鍰之處分作成而具執行力後，義務人死亡並遺有財產者</strong>，依上開行政執行法第十五條規定意旨，該基於罰鍰處分所發生之公法上金錢給付義務，得為強制執行，<strong>其執行標的限於義務人之遺產</strong>。」[^2-14]</p>
+</blockquote>
+<p><strong>该号解释的问题设定与本文完全一致</strong>：它处理的正是"处分<strong>作成而具执行力后</strong>、义务人死亡"这一时点。其结论包含两层：罰鍰这一公法上金钱给付义务<strong>可以</strong>在义务人死亡后继续执行；但执行标的<strong>限于遗产</strong>。</p>
+<p>与此相对，"法务部行政执行署"93年度署声议字第621号决定（2004年12月30日）就赠与税本税指出：</p>
+<blockquote>
+<p>「行政執行法第 15 條係規定義務人死亡遺有財產者，行政執行處得逕對其遺產強制執行，<strong>並非規定義務人死亡，僅得就其遺產執行</strong>。另<strong>非具一身專屬性</strong>之公法上金錢給付義務……自得為繼承之標的，除繼承人主張限定繼承或拋棄繼承外，<strong>得就被繼承人之遺產及繼承人之固有財產為強制執行</strong>……本件贈與稅本稅……亦無一身專屬性，自得為繼承之標的。」[^2-15]</p>
+</blockquote>
+<p>两相对照可以看出，<strong>同一法域内部也存在分层</strong>：罰鍰（制裁性负担）限于遗产；税捐（非一身专属的财产性负担）除继承人主张限定继承或抛弃继承外，得及于其固有财产。分层的判准是"<strong>是否具有人身专属性</strong>"，而非义务的形式名称。</p>
+<p>释字第622号解释则从另一侧面确立了分层的边界——<strong>租税法律主义</strong>。该号解释文指出，宪法第19条所揭示的租税法律主义，指人民应依法律所定的纳税主体、税目、税率、纳税方法及纳税期间等项而负纳税义务；"最高行政法院"2003年9月18日庭长法官联席会议决议关于"被继承人死亡前所为赠与，如至继承发生日止稽征机关尚未发单课征赠与税者，应以继承人为纳税义务人"的部分，<strong>逾越了"遗产及赠与税法"第15条的规定，增加继承人法律上所未规定的租税义务</strong>，与宪法第19条及第15条规定之意旨不符，自解释公布之日起应不予援用。[^2-16]</p>
+<p><strong>释字第622号的意义在于：即使是为了实现公法债权，也不得以法院决议的方式创设法律未规定的义务主体。</strong>这与本文第一章所述"法释〔2018〕1号第155条第4项要求被申请人必须是行政行为所确定的义务人"在功能上是同一种约束。</p>
+<h3 id="4">4. 对立说：廖义男大法官的不同意见书</h3>
+<p>释字第621号解释的廖义男大法官不同意见书，是本文所见对上述结论最系统的反对意见。其"三、结论"部分共四点，其中与本论题直接相关者为：</p>
+<blockquote>
+<p>「1、罰鍰之裁處，其作用乃對違規行為人施加財產上之不利益而予以制裁，使義務人心生警惕，避免再為違規行為，以維護行政秩序。<strong>如義務人於罰鍰裁處後執行前死亡者，則處罰的對象已不存在</strong>，縱使對其遺產加以執行在技術上可行，但是處罰的警惕作用已然喪失。再者，義務人死亡後，縱令其遺有財產，該遺產依民法……規定已為繼承人之繼承財產。堅持對遺產的執行，無異於對義務人以外之第三人，亦即繼承人，施加財產上不利益而形同處罰，實已違反『無責任即無處罰』或『罰及一身』等現代法治國家所確認之原則。</p>
+<p>2、行政執行法第十五條，依其文義，<strong>尚不得解為係就『罰鍰處分後，義務人未繳納前死亡者，得就其遺產逕為強制執行』之特別規定</strong>。</p>
+<p>3、行政執行法第十五條，其適用範圍<strong>應不包括其目的具有一身專屬性質之公法上金錢給付義務，如罰鍰或怠金在內</strong>。</p>
+<p>4、立法者如欲使罰鍰於受處分人死亡後，仍得對其遺產強制執行者，<strong>必須另為立法加以明定</strong>，並且應以該罰鍰之目的與作用，係在使違規行為人不能保有其因違規行為而取得之不法利益者為限。」[^2-17]</p>
+</blockquote>
+<p>廖义男大法官另以"刑事诉讼法"第470条第3项"罚金、没收及追征，得就受刑人之遗产执行"之增订为反证，主张罚锾得否执行遗产<strong>须有法律明文</strong>，并具体拟出条文文字：「罰鍰，得就受處分人之遺產執行」。[^2-18]</p>
+<p>该意见书第一点所设定的情形——"<strong>罰鍰裁處後執行前死亡</strong>"——与本文的窗口期完全对应。其论证对本文的价值不在于结论（本文不采"罚锾不得对遗产执行"的立场），而在于它清楚地揭示了<strong>"程序上可以执行"与"实体上应当执行"是两个不同的问题</strong>：即使承认第15条提供了程序通道，仍须回答制裁性负担在义务人死亡后是否还保有实现的意义。</p>
+<h3 id="5">5. 函释层面：本文窗口期的完整操作规则</h3>
+<p>三个法域中，<strong>只有台湾地区在行政函释层面直接处理了本文所限的窗口期</strong>。"法务部"法律字第0999051445号函（2010年12月10日）"说明"栏第三点为：</p>
+<blockquote>
+<p>「義務人在罰鍰處分<strong>送達後，移送執行前</strong>死亡，已無執行當事人能力。因此，移送機關移送執行時，<strong>應以義務人之繼承人為執行義務人</strong>（如有遺產管理人或遺囑執行人，則以遺產管理人或遺囑執行人為執行義務人），<strong>並註明僅對義務人之遺產執行</strong>（即不得對繼承人之固有財產執行）。」[^2-19]</p>
+</blockquote>
+<p>同一函"要旨"栏亦载："行政执行事件义务人在罚锾处分送达后，移送执行前死亡，其已无执行当事人能力，故移送机关于办理后续移送执行等事项时，应以义务人之继承人为执行义务人，并仅对义务人之遗产执行，不得对继承人之固有财产为之。"[^2-19]</p>
+<p>这条函释包含三项内容，恰好对应本文第四章将要讨论的三个问题：<strong>谁是执行义务人</strong>（继承人；有遗产管理人或遗嘱执行人时优先）、<strong>范围如何限定</strong>（仅遗产，不及固有财产）、<strong>由谁负责在程序中说明</strong>（移送机关在移送时注明）。</p>
+<p>与之配套的是"法务部"法律字第10303503070号函（2014年3月14日）：</p>
+<blockquote>
+<p>「為使行政執行機關足以判明義務人財產狀況，便於實施查封拍賣，明定移送機關於移送行政執行時，應檢附義務人財產目錄，故<strong>義務人死亡，移送機關即應檢附義務人遺產目錄</strong>……」[^2-20]</p>
+</blockquote>
+<p><strong>即：义务人死亡的，移送机关负有检附遗产目录的义务。</strong>这是一项明确的举证责任分配规则。</p>
+<p>此外，"法务部"法律字第10503514290号函（2016年10月17日）就罰鍰与行为义务作了区分：罰鍰得对遗产执行，而"命补办拆除执照手续"等义务<strong>具有一身专属性，不得继承</strong>。[^2-21]</p>
+<h3 id="6">6. 一个否定性发现</h3>
+<p>值得记录的是，"行政执行法施行细则"全文43条中，"遺產""繼承""代繳""死亡""遺囑"五词出现次数<strong>均为零</strong>。[^2-22]也就是说，上述规则并非由施行细则承载，而是分布在"行政执行法"第15条、第24条第5款、"强制执行法"第5条第3项、第4项、大法官解释与行政函释之中。这说明：<strong>此类问题的规范载体可以是多元的，关键在于是否有一个明确的操作性规则，而不在于它出现在哪一部文件里。</strong></p>
+<h2 id="_5">（四）三个法域的共同点与分歧</h2>
+<h3 id="1_3">1. 三点共同</h3>
+<p><strong>第一，死亡不作为程序的停止事由。</strong> 德国 AO 第47条的消灭事由中不含死亡；日本《国税徴収法》第139条第1项明定"得续行"滞纳处分；台湾地区"强制执行法"第5条第3项明定"得续行强制执行"，"行政执行法"第15条允许"逕对其遗产"执行。三者在这一层面完全一致。</p>
+<p><strong>第二，"由谁承受"都有明文。</strong> 德国通过 AO 第265条准用《民法典》与《民事诉讼法》相关条文，并由 VwVG 第5条第1款明文列举准用区间；日本通过《国税通則法》第5条与《民法》第896条但书；台湾地区通过"行政执行法"第24条第5款直接列举"繼承人、遺產管理人或遺囑執行人"，并以"强制执行法"第5条第4项设置特别代理人作为兜底。<strong>没有一个法域把这一问题留给个案裁量。</strong></p>
+<p><strong>第三，分层是独立于程序的实体判断，但技术路线不同。</strong> 德国以<strong>立法明文除外</strong>（AO §45(1) 第二句：执行罚不随继承移转）；日本以<strong>一般但书</strong>（民法§896：一身専属者不承继）；台湾地区以<strong>大法官解释个案化</strong>（释621：罰鍰执行标的限于遗产）辅以<strong>执行机关函释</strong>（署声议字第621号：非一身专属的税捐得及于固有财产）。</p>
+<h3 id="2_2">2. 两点分歧</h3>
+<p><strong>其一，责任财产的范围。</strong> 台湾地区内部即存在分歧：罰鍰限于遗产（释621），税捐除限定继承或抛弃继承外得及于继承人固有财产（署声议字第621号）。日本则以"限定承认"与《国税徴収法》第51条的顺序、换押技术控制。德国通过 AO 第45条第2款整体转致《民法典》关于继承人责任的规定。</p>
+<p><strong>其二，"除外"的技术。</strong> 德国是<strong>具体列举</strong>（Zwangsgelder），日本是<strong>抽象标准</strong>（一身専属），台湾地区是<strong>个案解释</strong>。三种技术各有代价：列举明确但可能遗漏，抽象标准周延但需解释，个案解释灵活但缺乏普遍性。</p>
+<h2 id="_6">（五）三点启示</h2>
+<h3 id="_7">启示一：我国的问题不是"没有实体出口"，而是"程序没有明文"</h3>
+<p>如第一章所述，《行政强制法》第40条第1项的反面推论已经承认：义务人死亡而有遗产或有义务承受人的，执行不应终结；《民法典》第1161条亦已确立限定继承原则。换言之，<strong>实体层面的出口是存在的</strong>。三个法域的比较显示，我国所缺的是<strong>程序法上的明文</strong>——德国给了 AO 第265条与 VwVG 第5条第1款，日本给了《国税徴収法》第139条与第51条，台湾地区给了"行政执行法"第24条第5款、"强制执行法"第5条第3项与第4项，以及函释层面的操作细则。我国只有《行政诉讼法》第101条这一条概括转致，且其能否适用于非诉执行尚有争议（详见第四章）。</p>
+<h3 id="_8">启示二：德国的"明文列举转致"与我国的"概括准用"是同一结构、不同精度</h3>
+<p>VwVG 第5条第1款与《行政诉讼法》第101条在结构上完全同构：都是行政执行法自身不设规则，而将民事或税收执行程序规范引入。差别只在于<strong>精度</strong>：德国列举了具体条号（"§§262 bis 267"），我国则是概括准用（"本法没有规定的，适用《中华人民共和国民事诉讼法》的相关规定"）。</p>
+<p>这一差别解释了两个法域的不同处境：<strong>德国的转致不产生争议，因为范围由条号自明；我国的转致产生争议，因为范围需要解释</strong>。（2025）湘04执复10号之所以能够主张"《变更追加规定》并不适用于执行行政决定的非诉执行"，其可能性正来自第101条的概括性。反过来说，<strong>这也意味着我国的转致范围问题是一个可以通过解释回答的问题，而不是一个只能等待立法的问题</strong>——这为第四章的论证提供了比较法上的支撑。</p>
+<h3 id="_9">启示三：两个法域在没有相互影响的情况下走向同一方案</h3>
+<p>台湾地区"法务部"法律字第10303503070号函要求<strong>移送机关于义务人死亡时检附遗产目录</strong>；我国山东省青州市人民法院在三件裁定中要求<strong>申请执行人提交被执行人的遗产或者义务承受人的有关证据</strong>（详见第三章）。两项规则出自不同法域、不同规范层级、不同制度背景，其内容却几乎一致：<strong>由移送或申请的机关负责查明并提交遗产信息，执行机关或法院在此基础上判断是否变更被执行人</strong>。</p>
+<p>这不是巧合，而是该问题的自然解：遗产信息掌握在义务人一侧，机关与法院都无从自行查明；而机关是执行程序的发动者，由其承担举证责任符合程序经济。这一趋同可以作为第四章方案的正当性支撑。</p>
+<h3 id="_10">一个必要的限定</h3>
+<p>必须指出，<strong>"继续性金钱负担自义务人死亡之日起停止计算"这一主张，在三个法域均无明文支撑</strong>。德国 AO 第45条第1款第二句明文排除的是<strong>执行罚（Zwangsgelder）</strong>，即一种以心理强制为目的的施压性手段，而非以迟延为计算基础的附随负担；日本《国税徴収法》第139条只规定执行程序得续行，<strong>未规定延滞税或滞纳处分费于死亡时停止计算</strong>；台湾地区释字第621号解释限定的是<strong>执行标的范围</strong>（限于遗产），同样未涉及计算止点。</p>
+<p>因此，本文第四章关于加处罚款与滞纳金"停止计算"的主张，属于<strong>解释论上的建构</strong>，比较法只能提供方向性支撑——即"分层是可能的、且应当以明文或明确标准实现"——而不能作为"通行做法"引用。这一限定必须在正文中写明，否则将构成对比较法材料的误用。</p>
+<hr />
+<h2 id="_11">本章注释</h2>
+<p>[^2-1]: AO §45，官方文本：<a href="https://www.gesetze-im-internet.de/ao_1977/__45.html" target="_blank" rel="noopener">https://www.gesetze-im-internet.de/ao_1977/__45.html</a> （本文作者于2026年9月26日核验，HTTP 200，逐字）。另见 buzer.de 交叉核验：<a href="https://www.buzer.de/45_AO.htm" target="_blank" rel="noopener">https://www.buzer.de/45_AO.htm</a></p>
+<p>[^2-2]: AO §47，官方文本：<a href="https://www.gesetze-im-internet.de/ao_1977/__47.html" target="_blank" rel="noopener">https://www.gesetze-im-internet.de/ao_1977/__47.html</a> ；核验记录见 <code>juris/runs/20260926-1300-…/notes/F-比较法.md</code> [F-03]。</p>
+<p>[^2-3]: AO §265，官方文本：<a href="https://www.gesetze-im-internet.de/ao_1977/__265.html" target="_blank" rel="noopener">https://www.gesetze-im-internet.de/ao_1977/__265.html</a> ；核验记录见 F-比较法 [F-19]。<strong>⚠️ 待办：所准用的 BGB §§1958、1960(3)、1961 与 ZPO §§747、748、778、779、781–784 的具体内容，本文尚未逐条核验；正文只作功能性描述，定稿前须补核或在脚注中说明未核。</strong></p>
+<p>[^2-4]: VwVG §5，官方文本：<a href="https://www.gesetze-im-internet.de/vwvg/__5.html" target="_blank" rel="noopener">https://www.gesetze-im-internet.de/vwvg/__5.html</a> ；核验记录见 F-比较法 [F-25]。</p>
+<p>[^2-5]: VwVG §2，官方文本：<a href="https://www.gesetze-im-internet.de/vwvg/__2.html" target="_blank" rel="noopener">https://www.gesetze-im-internet.de/vwvg/__2.html</a> ；核验记录见 F-比较法 [F-23]。</p>
+<p>[^2-6]: 日本《民法》第896条，e-Gov 法令检索：<a href="https://laws.e-gov.go.jp/law/129AC0000000089" target="_blank" rel="noopener">https://laws.e-gov.go.jp/law/129AC0000000089</a> ；核验记录见 F-比较法 [F-49]（官方 API 逐字）。</p>
+<p>[^2-7]: 日本《国税通則法》第5条第1–3项，e-Gov：<a href="https://laws.e-gov.go.jp/law/337AC0000000066" target="_blank" rel="noopener">https://laws.e-gov.go.jp/law/337AC0000000066</a> ；核验记录见 F-比较法 [F-38]。</p>
+<p>[^2-8]: 日本《国税徴収法》第139条第1、2项，e-Gov：<a href="https://laws.e-gov.go.jp/law/334AC0000000147" target="_blank" rel="noopener">https://laws.e-gov.go.jp/law/334AC0000000147</a> ；核验记录见 F-比较法 [F-41]。<strong>注意：该条共4项，第3、4项为信托财产相关规定，与本文无关。</strong></p>
+<p>[^2-9]: 日本《国税徴収法》第51条第1–3项，同上；核验记录见 F-比较法 [F-40]。</p>
+<p>[^2-10]: 日本《地方税法》第9条、第9条之2，核验记录见 F-比较法 [F-43][F-44]；《行政代執行法》第5条、第6条见 [F-46][F-47]。<strong>⚠️ 待办：上述条文的逐字原文本文尚未在正文引用，若定稿时需引用，应从 F-比较法 中调取并复核。</strong></p>
+<p>[^2-11]: 台湾地区"行政执行法"第15条，"全国法规资料库"：<a href="https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030023&amp;flno=15" target="_blank" rel="noopener">https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=A0030023&amp;flno=15</a> ；核验记录见 E-台湾侧 [E-03]。</p>
+<p>[^2-12]: 同法第24条第5款，同上 flno=24；核验记录见 E-台湾侧 [E-04]。</p>
+<p>[^2-13]: 台湾地区"强制执行法"第5条第3项、第4项，"全国法规资料库"：<a href="https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0010004&amp;flno=5" target="_blank" rel="noopener">https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=B0010004&amp;flno=5</a> ；核验记录见 E-台湾侧 [E-37]。</p>
+<p>[^2-14]: "司法院"释字第621号解释文，官方来源：<a href="https://cons.judicial.gov.tw/docdata.aspx?fid=100&amp;id=310802" target="_blank" rel="noopener">https://cons.judicial.gov.tw/docdata.aspx?fid=100&amp;id=310802</a> （本文作者于2026年9月26日经代理抓取核验，逐字）。</p>
+<p>[^2-15]: "法务部行政执行署"93年度署声议字第621号决定要旨（2004年12月30日），"司法院法学资料检索系统"：<a href="https://legal.judicial.gov.tw/FEXE/data.aspx" target="_blank" rel="noopener">https://legal.judicial.gov.tw/FEXE/data.aspx</a> ；核验记录见 E-台湾侧 [E-19]。</p>
+<p>[^2-16]: "司法院"释字第622号解释文，官方来源：<a href="https://cons.judicial.gov.tw/docdata.aspx?fid=100&amp;id=310803" target="_blank" rel="noopener">https://cons.judicial.gov.tw/docdata.aspx?fid=100&amp;id=310803</a> （本文作者于2026年9月26日核验，逐字）。</p>
+<p>[^2-17]: 释字第621号解释廖义男大法官不同意见书"三、结论"第1–4点，官方 PDF：<a href="https://cons.judicial.gov.tw/download/download.aspx?id=443145" target="_blank" rel="noopener">https://cons.judicial.gov.tw/download/download.aspx?id=443145</a> （第15–16页）；核验记录见 E-台湾侧 [E-34]。</p>
+<p>[^2-18]: 同上意见书"一、（一）1、（4）末段"（第5页）；核验记录见 E-台湾侧 [E-32]。<strong>⚠️ 注意：廖义男大法官所引"刑事诉讼法"第470条第3项之现行文字为"罰金、沒收及追徵，得就受刑人之遺產執行"，其增订时间与本文所引版本须再核对一次。</strong></p>
+<p>[^2-19]: "法务部"法律字第0999051445号函（2010年12月10日）"说明"栏第三点及"要旨"栏，<a href="https://legal.judicial.gov.tw/FEXE/data.aspx?id=FE236912" target="_blank" rel="noopener">https://legal.judicial.gov.tw/FEXE/data.aspx?id=FE236912</a> ；核验记录见 E-台湾侧 [E-14][E-21]。</p>
+<p>[^2-20]: "法务部"法律字第10303503070号函（2014年3月14日）要旨，<a href="https://legal.judicial.gov.tw/FEXE/data.aspx?id=FE267138" target="_blank" rel="noopener">https://legal.judicial.gov.tw/FEXE/data.aspx?id=FE267138</a> ；核验记录见 E-台湾侧 [E-15]。</p>
+<p>[^2-21]: "法务部"法律字第10503514290号函（2016年10月17日）；核验记录见 E-台湾侧 [E-18]。</p>
+<p>[^2-22]: "行政执行法施行细则"（pcode A0030056）全文43条关键词计数，核验记录见 E-台湾侧 [E-01]。此为<strong>否定性发现</strong>（已核，计数为零），非"未能核验"。</p>
+<hr />
+<h2 id="_12">本章写作待办</h2>
+<ol>
+<li><strong>AO §265 所准用的 BGB／ZPO 条文内容</strong>尚未逐条核验——正文已只作功能性描述，定稿前须补核或在脚注注明。</li>
+<li><strong>日本《地方税法》§9、§9の2 与《行政代執行法》§5、§6</strong> 的逐字原文在 F-比较法 [F-43]–[F-47] 中，若正文需要引用应调取复核。</li>
+<li><strong>释字第621号的解释日期与"行政执行处"改制为"行政执行分署"的时间</strong>须核对，以免正文出现机构名称的年代错置（本文已照录函释原文中的"行政執行處"）。</li>
+<li><strong>廖义男意见书所引"刑事诉讼法"§470 III 的现行文字</strong>（"罰金、沒收及追徵"）与其增订年份，须再核一次。</li>
+<li>本章约 8,300 字（含注释），略超方案的 8,000 字目标；若需压缩，优先压缩（三）3 中释622 的展开——它与本文主题的关系是"侧面约束"，可缩为一段。</li>
+</ol>
+</main>
+</body>
+</html>

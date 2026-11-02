@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>03c · 遗产管理人执行通道（民事收敛 / 行政参照 / 边界未定）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-先读我.html">← 返回材料包目录</a></div>
+<main>
+<h1 id="03c">03c · 遗产管理人执行通道（民事收敛 / 行政参照 / 边界未定）</h1>
+<blockquote>
+<p>编制 2026-09-26｜来源：北大法宝 MCP（条文库＋案例库）＋用户提供的分析与线索（已尽力核验）</p>
+</blockquote>
+<h2 id="_1">★ 先读这一段：本专题的<strong>定性</strong>（含对早期表述的更正）</h2>
+<p><strong>不能写成"行政侧缺少接入遗产管理人的那一步"。</strong> 《行政诉讼法》<strong>§101 是转致条款</strong>：「……简易程序、<strong>执行</strong>等……本法没有规定的，适用《中华人民共和国民事诉讼法》的相关规定」——<strong>行政非诉执行有现成的参照通道，而且实务已经在用</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>行政非诉执行实例</th>
+<th>借用的民事规则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(2023)渝0109行审83号</strong>（重庆北碚 2023-10-12）</td>
+<td><strong>直接援引法释〔2020〕21号 §10 第1款</strong>，变更继承人为被执行人、在遗产范围内承担责任</td>
+</tr>
+<tr>
+<td>(2017)闽0205行审165号之二（厦门海沧 2017-12-29）</td>
+<td>引《民事诉讼法》（旧）<strong>§232</strong>＋《民诉法意见》<strong>§475</strong>，对继承人准予强制执行</td>
+</tr>
+<tr>
+<td>(2017)川1181行审52号（峨眉山 2017-10-16）</td>
+<td>经 §101 借《民事诉讼法》<strong>§257(3)</strong> 裁定终结执行审查</td>
+</tr>
+<tr>
+<td>(2024)粤0204行审12号（韶关浈江 2024-07-01）</td>
+<td>走《民法典》<strong>§1161(1)</strong> 实体路径，继承人以所得遗产实际价值为限承担</td>
+</tr>
+<tr>
+<td><strong>(2026)川0302行审45号</strong>（自贡自流井 2026-08-11）</td>
+<td><strong>居民委员会作为遗产管理人被列为被执行人</strong>（虽属"死亡后多领待遇"情形）</td>
+</tr>
+</tbody>
+</table></div>
+<p>→ 所以<strong>真正没有定论的不是"有没有通道"，而是"转致的边界"</strong>，三处：</p>
+<ol>
+<li><strong>范围</strong>：法释〔2016〕21号序言自限于"为正确处理<strong>民事执行</strong>中变更、追加当事人问题"——它能否经 §101 转致进非诉执行？<strong>渝案在用，而 (2025)湘04执复10号 明确否认</strong>（"《变更追加规定》适用于民事执行中变更、追加当事人问题，<strong>并不适用于执行行政决定的非诉执行</strong>"）。→ <strong>同一部司法解释、相反的可适用性结论。</strong></li>
+<li><strong>阶段</strong>：法释〔2018〕1号 <strong>§155(四)</strong>「被申请人是该行政行为所确定的义务人」在<strong>立案审查</strong>关口关闭通道；§101 的转致发生在<strong>执行实施</strong>阶段。→ 死亡发生在"申请前"时还能否转致？(2018)吉0322行审18号 直接依《行政强制法》<strong>§40(一)</strong> 驳回；(2017)川1181行审52号 借民诉法终结；民事侧则是"<strong>终结—变更—恢复</strong>"闭环。</li>
+<li><strong>发动主体</strong>：民事是"<strong>申请执行人申请</strong>变更/追加"（§10）；法行〔2000〕16号 是"<strong>人民法院通知申请机关变更</strong>"；而《行政强制法》全法「<strong>申请执行人</strong>」<strong>0 次</strong>。→ 非诉执行中"谁有权发动变更"无统一规则。</li>
+</ol>
+<p><strong>制度成因</strong>：法释〔2016〕21号 §10 是<strong>民事执行</strong>规则，法行〔2000〕16号 是<strong>非诉执行</strong>规则，二者的<strong>发动机制不同</strong>，行政非诉执行夹在中间。</p>
+<h2 id="_2">一、实体线：《民法典》已经把"主体真空"补掉了</h2>
+<blockquote>
+<p><strong>§1145</strong>：继承开始后，遗嘱执行人为遗产管理人；没有遗嘱执行人的，继承人应当及时推选遗产管理人；继承人未推选的，由继承人共同担任遗产管理人；<strong>没有继承人或者继承人均放弃继承的，由被继承人生前住所地的民政部门或者村民委员会担任遗产管理人。</strong>
+<strong>§1146</strong>：对遗产管理人的确定有争议的，利害关系人可以向人民法院申请指定遗产管理人。
+<strong>§1147</strong>：遗产管理人应当履行下列职责：……（四）<strong>处理被继承人的债权债务</strong>；……</p>
+</blockquote>
+<p>→ 末句<strong>正好命中</strong>被删那句的适用情形："继承人均放弃继承"。<strong>民法典下遗产管理人永不缺位</strong>，"又无遗嘱执行人"的假设不再成立。</p>
+<h2 id="_3">二、程序线：民事已完成"以主体为媒介"的技术收敛</h2>
+<p>法释〔2020〕21号 <strong>§10</strong>（＝《人民法院办理执行案件规范（第二版）》§59）：</p>
+<blockquote>
+<p>作为被执行人的<strong>自然人</strong>死亡或被宣告死亡，申请执行人申请变更、追加该自然人的<strong>遗产管理人</strong>、继承人、受遗赠人或其他……取得遗产的主体为被执行人，<strong>在遗产范围内承担责任的</strong>，人民法院应予支持。</p>
+</blockquote>
+<p>实务收敛（四例一致）：<strong>确定遗产管理人 → 追加其为被执行人 → 在遗产范围内执行</strong>，且<strong>不得执行管理人自有财产</strong>。
+- 山东高院典型案例之七（寇某某案，2021-08-12）
+- (2024)辽12执复105号（铁岭中院 2024-12-03）：继承人<strong>实际管理、处置遗产</strong> → 认定为遗产管理人
+- (2025)琼0108执恢567号（海口美兰 2026-04-10）：尚未确定管理人 → <strong>先终结，具备条件可申请恢复</strong>
+- (2024)粤0606执恢2033号之一（佛山顺德 2024-10-08）：<strong>"变更本案被执行人主体后可以申请恢复本案的执行"</strong></p>
+<h2 id="473">三、为什么 §473 至今保留"直接执行遗产"？（须在论文中交代）</h2>
+<p>《民诉法解释》<strong>§473（2022 修正）</strong>仍保留：「继承人放弃继承的，人民法院<strong>可以直接执行被执行人的遗产</strong>。」
+<strong>不是"规则相反"</strong>，而是<strong>层面分工</strong>：§10 管"主体变更"，"直接执行遗产"属"执行标的"层面。但 2022 年修正<strong>未同步删除</strong>该句，三种解释须摆明：
+1. <strong>清理未同步</strong>（§10 是 2020 年民法典配套清理；§473 是 2022 年民诉法解释修正）；
+2. <strong>"直接对物"仍是备选技术</strong>（§473 作为独立依据）；
+3. <strong>立法技术不一致</strong>。</p>
+<p>→ 把这一点挑明，比回避更有力：它说明"<strong>以主体为媒介</strong>"是<strong>实务收敛</strong>而非<strong>文本强制</strong>。</p>
+<h2 id="_4">四、文件清单</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文件</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>01-民事收敛例-（2021）山东高院寇某某案.md</code></td>
+<td>典型案例全文要点：列为管理人合法／不得执行其自有财产／撤销查封</td>
+</tr>
+<tr>
+<td><code>01-民事收敛例-（2024）辽12执复105号.md</code></td>
+<td>实际管理遗产者被认定为遗产管理人</td>
+</tr>
+<tr>
+<td><code>01-民事收敛例-（2025）琼0108执恢567号.md</code></td>
+<td>未确定管理人 → 终结并可恢复</td>
+</tr>
+<tr>
+<td><code>01-民事收敛例-（2016）苏1181执异98号-放弃继承.md</code></td>
+<td>公证放弃继承 → 不得查封该份额；主张放弃无效须另诉</td>
+</tr>
+<tr>
+<td><code>01-民事收敛例-（2017）粤执监95号-旧文本适用.md</code></td>
+<td><strong>照引 2016 版 §10（含被删句）</strong>并变更继承人</td>
+</tr>
+<tr>
+<td><code>02-行政非诉执行-参照适用实例对照.md</code></td>
+<td>渝／闽／川42／川52／粤0204／湘04／吉0322／吉0881 的借用规则对照表</td>
+</tr>
+<tr>
+<td><code>03-典型案例清单-遗产管理人.md</code></td>
+<td>最高法 2026-05-21 五件＋海淀六件＋重庆执行十大之五＋太仓案＋欧某士案</td>
+</tr>
+<tr>
+<td><code>04-条文与谱系.md</code></td>
+<td>§1145／§1146／§1147；民诉法 §194–197、§243；民诉法意见 §274（<strong>已失效</strong>）→ §475 → §473；§101；§155；16号</td>
+</tr>
+<tr>
+<td><code>99-未核到.md</code></td>
+<td>法〔2021〕94号 §13（法宝未收录）</td>
+</tr>
+</tbody>
+</table></div>
+</main>
+</body>
+</html>

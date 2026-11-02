@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A4 · 现在的论证逻辑（2026-09-30 定版）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-先读我.html">← 返回</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#a4-2026-09-30">A4 · 现在的论证逻辑（2026-09-30 定版）</a><ul>
+<li><a href="#_1">总链条（七步）</a><ul>
+<li><a href="#1">第 1 步｜规范定位：把问题钉在一个要件上</a></li>
+<li><a href="#2">第 2 步｜实证验证：一个强预测变量</a></li>
+<li><a href="#3">第 3 步｜分歧定位：控制变量反例</a></li>
+<li><a href="#4">第 4 步｜涵摄分析：两个方向都堵住</a></li>
+<li><a href="#5">第 5 步｜对"终结"类出口的批评</a></li>
+<li><a href="#6">第 6 步｜比较法：不是移植，是同构对照</a></li>
+<li><a href="#7">第 7 步｜范围层：分层判准（本轮新增）</a></li>
+</ul>
+</li>
+<li><a href="#_2">支点分级（按"抽掉它击穿什么"）</a><ul>
+<li><a href="#a">A 组｜单点支撑，抽掉即塌</a></li>
+<li><a href="#b">B 组｜两支互备，抽掉一支仍可支撑</a></li>
+</ul>
+</li>
+<li><a href="#_3">缺口（精确定位到推理步骤）</a></li>
+<li><a href="#_4">结论（一句话）</a><ul>
+<li><a href="#_5">本文主张（严格限定版）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="a4-2026-09-30">A4 · 现在的论证逻辑（2026-09-30 定版）</h1>
+<blockquote>
+<p>本文件是<strong>写作时的逻辑底稿</strong>：每一步标出「前提 → 推论」，并标注<strong>支点强度</strong>与<strong>缺口位置</strong>。
+依据：<code>juris/runs/20260930-0023-A4-深化-自然人中心/</code>＋条文逐字核验。</p>
+</blockquote>
+<hr />
+<h2 id="_1">总链条（七步）</h2>
+<h3 id="1">第 1 步｜规范定位：把问题钉在<strong>一个要件</strong>上</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P1</strong></td>
+<td>法释〔2018〕1号 <strong>§155(一)第4项</strong>「被申请人是该行政行为所确定的义务人」是<strong>立案要件</strong>；§155 末段：「对不符合条件的申请，应当裁定<strong>不予受理</strong>」</td>
+</tr>
+<tr>
+<td><strong>P2</strong></td>
+<td>处理义务人死亡的<strong>全部</strong>承接规则都在<strong>立案之后</strong>：《行政强制法》<strong>§40(一)</strong>（执行实施阶段的终结条款）、法释〔2016〕21号<strong>§10</strong>（执行程序中的变更）、<strong>《民诉法解释》§473</strong>（执行中）</td>
+</tr>
+<tr>
+<td><strong>P3</strong></td>
+<td>《行政诉讼法》<strong>§101</strong> 的准用清单明文列有「中止诉讼、<strong>终结诉讼</strong>」，<strong>不含「变更、追加当事人」</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C1</strong></td>
+<td><strong>要件与承接规则分处程序两端；且准用清单有缺口。</strong>这是全案问题的规范内核</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>这一步是全文的地基</strong>：抽掉 §155(四) 的"立案要件"属性，或抽掉 §101 清单缺口，整个命题坍塌。</p>
+</blockquote>
+<h3 id="2">第 2 步｜实证验证：<strong>一个强预测变量</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P4</strong></td>
+<td>21 件样本中，「机关在申请时<strong>是否已列承受主体</strong>」预测 <strong>19 件</strong>：已列 3 件（渝0109、闽0124、粤0204）<strong>全部准予</strong>；未列者 20 件中 19 件走<strong>退出型</strong>出口</td>
+</tr>
+<tr>
+<td><strong>⇒ C2</strong></td>
+<td>法院实际<strong>不处理</strong>"谁是被执行人"，只处理"<strong>接不接受这个申请</strong>"</td>
+</tr>
+<tr>
+<td><strong>P5</strong></td>
+<td>出口分布：不予受理 <strong>1</strong>／驳回执行申请 <strong>4</strong>／不准予执行 <strong>3</strong>／终结审查或终结执行 <strong>7</strong>／准许撤回 <strong>4</strong>（＝19）</td>
+</tr>
+<tr>
+<td><strong>P6</strong></td>
+<td>其中只有<strong>不予受理</strong>（§155 末段）与<strong>不准予执行</strong>（§161 末段）有<strong>明文复议</strong>；驳回执行申请、终结审查、终结执行<strong>均无</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C3</strong></td>
+<td><strong>救济配置不对称</strong>——这是"出口选择"有真实法律后果的根据</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="3">第 3 步｜分歧定位：<strong>控制变量反例</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P7</strong></td>
+<td><strong>(2020)豫0802行审9号</strong> vs <strong>(2020)湘1302行审68号</strong>：义务类型（罚款）／义务人数（<strong>三人并处</strong>）／死亡时点（申请前）／机关列名状态（<strong>均未列</strong>）<strong>四栏完全相同，结果相反</strong>（准予罚款部分 vs 对全部三人驳回）</td>
+</tr>
+<tr>
+<td><strong>⇒ C4</strong></td>
+<td>分歧是<strong>真的</strong>，且<strong>不能</strong>由事实差异解释——"分歧只是个案事实不同"这一强反驳<strong>不成立</strong></td>
+</tr>
+<tr>
+<td><strong>P8</strong></td>
+<td>豫0802 把问题<strong>推给执行阶段</strong>并<strong>分割</strong>（「需查明张合玉的遗产……以决定是否终结<strong>对张合玉的</strong>执行」）；湘1302 把问题<strong>退回机关</strong>并<strong>拒绝分割</strong>（「主体不适格……可重新提交」——连两名健在义务人一并驳回）</td>
+</tr>
+<tr>
+<td><strong>⇒ C5</strong></td>
+<td><strong>分歧的落点是「审查范围与诉的可分性」，不是"谁是被执行人"</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>这一步是<strong>全文最有价值的新发现</strong>，也是旧命题必须改写的原因。</p>
+</blockquote>
+<h3 id="4">第 4 步｜涵摄分析：<strong>两个方向都堵住</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P9</strong></td>
+<td>以<strong>死者</strong>为被申请人 → 死者<strong>无权利能力</strong>；以<strong>继承人</strong>为被申请人 → 继承人<strong>不是"该行政行为所确定的义务人"</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C6</strong></td>
+<td>§155(四) 在义务人死亡时<strong>两个方向都无法满足</strong></td>
+</tr>
+<tr>
+<td><strong>P10</strong></td>
+<td>§40(一)「<strong>义务承受人</strong>」是<strong>否定性要件</strong>（其规范指向是"<strong>没有</strong>承受人时"的出口；"有承受人"时<strong>不</strong>终结，但法条<strong>不说明</strong>后续怎么办）、<strong>全法无定义</strong>、"承受"全法<strong>仅 2 次且均在 §40</strong>、<strong>且它是立案后规则</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C7</strong></td>
+<td>无法用它<strong>正面</strong>判断"谁是适格被申请人"</td>
+</tr>
+<tr>
+<td><strong>P11</strong></td>
+<td><strong>§54 催告</strong>的相对人只有「<strong>当事人</strong>」，继承人／遗产管理人<strong>均未出现</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C8</strong></td>
+<td>机关即便想接续，<strong>催告也没有对象</strong>（此项须限定为"<strong>在被申请人仍为死者时</strong>"；桂0202 是<strong>孤例</strong>）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="5">第 5 步｜对"终结"类出口的批评</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P12</strong></td>
+<td>陕0622 经 <strong>§101 → 《民事诉讼法》§151(二)</strong>「被申请执行人死亡的，<strong>终结诉讼</strong>」→ 裁定「本案<strong>终结审查</strong>」</td>
+</tr>
+<tr>
+<td><strong>P13</strong></td>
+<td>但 §151(二) 是<strong>三项复合要件</strong>：「被告死亡<strong>＋没有遗产＋也没有应当承担义务的人</strong>」——陕0622 <strong>一项未认定</strong></td>
+</tr>
+<tr>
+<td><strong>P14</strong></td>
+<td>「<strong>终结审查</strong>」在行政非诉执行中<strong>无出典</strong>（出典分别在再审审查〔民诉解释§400〕与执行监督〔法发〔2023〕4号§12〕）；且非诉执行审查中<strong>无"被告"格位</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C9</strong></td>
+<td>该出口<strong>要件不成就、依据不成立</strong>——这是全文最硬的一处规范批评（黑帽三次攻击未倒）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="6">第 6 步｜比较法：<strong>不是移植，是同构对照</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P15</strong></td>
+<td><strong>德国</strong>：VwVG <strong>§5(1) 明文列举</strong>准用 AO「§§262–267」→ <strong>AO §265</strong> → BGB／ZPO（<strong>ZPO §778</strong>：承认继承前<strong>仅得对遗产</strong>执行；<strong>ZPO §779</strong>：已开始的执行在遗产中<strong>续行</strong>，继承人未承认或不明时法院选任<strong>临时特别代理人</strong>）</td>
+</tr>
+<tr>
+<td><strong>P16</strong></td>
+<td><strong>日本</strong>：国税徴収法 <strong>§139(1)</strong> 死亡不中断执行＋<strong>§139(2)</strong> 拟制（<strong>但书</strong>：机关明知死亡时不适用）；<strong>§51</strong> 先扣继承财产＋<strong>换押</strong>。<strong>对继承人用"督促状"（通則法§37），"納付催告書"只对第二次纳税义务人／保证人</strong></td>
+</tr>
+<tr>
+<td><strong>P17</strong></td>
+<td><strong>台湾地区</strong>：《行政執行法》<strong>§24Ⅴ 直接列举</strong>「繼承人、遺產管理人或遺囑執行人」；§26 準用強執；<strong>強執§5Ⅲ/Ⅳ</strong>（执行开始后死亡得续行；继承关系不明时<strong>选任特别代理人</strong>）；<strong>法務部 99 年函专门处理"送達後、移送執行前"死亡</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C10</strong></td>
+<td>共同点：①死亡<strong>不停止程序</strong>；②承接主体<strong>都有明文</strong>；③<strong>分层独立于程序</strong></td>
+</tr>
+<tr>
+<td><strong>P18</strong></td>
+<td><strong>VwVG §5(1) 与 §101 同构而精度不同</strong>——德国清单<strong>列了</strong>对继承人执行的条号（§265），我国清单<strong>没列</strong>"变更、追加当事人"</td>
+</tr>
+<tr>
+<td><strong>⇒ C11</strong></td>
+<td><strong>这解释了为何德国无争议而我国有争议</strong>，并表明这是<strong>可解释的问题</strong>，不是只能等立法</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="7">第 7 步｜范围层：<strong>分层判准</strong>（本轮新增）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>P19</strong></td>
+<td>《行政强制法》<strong>§12(一)</strong> 把「<strong>加处罚款或者滞纳金</strong>」列为<strong>行政强制执行的方式</strong>；<strong>§45</strong> 规定其前提（金钱给付义务＋逾期不履行）与<strong>封顶</strong>（不得超出原义务数额）</td>
+</tr>
+<tr>
+<td><strong>P20</strong></td>
+<td><strong>§35</strong> 要求"作出强制执行决定<strong>前</strong>应当事先<strong>催告当事人</strong>"；<strong>§37</strong>「<strong>经催告</strong>，当事人逾期仍不履行，且无正当理由的，<strong>可以作出强制执行决定</strong>」</td>
+</tr>
+<tr>
+<td><strong>⇒ C12</strong></td>
+<td>加处罚款是<strong>执行罚</strong>，其成立以"<strong>对当事人催告</strong>"为前提</td>
+</tr>
+<tr>
+<td><strong>⇒ C13</strong></td>
+<td>死亡在 <strong>§37 决定之前</strong> → 催告不能完成 → <strong>§37 要件不成就 → 不发生</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C14</strong></td>
+<td>死亡在 <strong>§37 决定之后</strong> → 已成立但<strong>不随继承移转</strong>（执行罚具<strong>人身专属性</strong>；<strong>德国 AO §45(1) 明文排除 Zwangsgelder</strong>；陈思融 p139 对滞纳金持同一立场）</td>
+</tr>
+<tr>
+<td><strong>⇒ C15</strong></td>
+<td><strong>两条路径不同、结论一致：加处罚款不及于遗产</strong></td>
+</tr>
+<tr>
+<td><strong>P21</strong></td>
+<td><strong>罚款</strong>是<strong>制裁性行政行为</strong>（《行政处罚法》§9），针对<strong>既往</strong>违法行为，<strong>不具</strong>人身专属性（陈思融 p140）→ <strong>可及于遗产</strong></td>
+</tr>
+<tr>
+<td><strong>⇒ C16</strong></td>
+<td><strong>分层判准成立</strong>：<strong>处罚（可继受）／执行罚（不可继受）</strong>——这正是大陆法此前缺失的那一块</td>
+</tr>
+<tr>
+<td><strong>P22</strong></td>
+<td>但《民法典》<strong>§1161</strong> 的宾语是「<strong>税款和债务</strong>」，<strong>未提罚款</strong>；"债务"是否含<strong>公法罚款义务</strong>，文义可疑</td>
+</tr>
+<tr>
+<td><strong>⇒ C17</strong></td>
+<td><strong>罚款本金的规范依据仍是缺口</strong>（否定侧有依据、<strong>肯定侧没有</strong>）——这一<strong>不对称本身就是发现</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_2">支点分级（按"抽掉它击穿什么"）</h2>
+<h3 id="a">A 组｜单点支撑，抽掉即塌</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>支点</th>
+<th>核验</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td>§155(四) ＋ §155 末段（不予受理）</td>
+<td>法宝＋官方双源</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>§101 准用清单<strong>不含</strong>「变更、追加当事人」</td>
+<td>现行文本</td>
+</tr>
+<tr>
+<td>A3</td>
+<td>§151(二)<strong>三项复合要件</strong> ＋ 陕0622 逐字</td>
+<td>双源核</td>
+</tr>
+<tr>
+<td>A4</td>
+<td><strong>豫0802 vs 湘1302</strong> 控制变量反例对</td>
+<td>双核</td>
+</tr>
+<tr>
+<td>A5</td>
+<td>§1161 宾语「<strong>税款和债务</strong>」</td>
+<td>三源核</td>
+</tr>
+<tr>
+<td>A6</td>
+<td>三法域<strong>全文穷尽扫描</strong>：均无"自死亡之日停止计算"明文</td>
+<td>E 自设射程</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="b">B 组｜两支互备，抽掉一支仍可支撑</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>支点一</th>
+<th>支点二</th>
+<th>共同支撑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B1</td>
+<td>§40(一) 无定义、"承受"全法仅 2 次</td>
+<td>§152–161 用语检索：死亡 0／遗产 0／变更被执行人 0／追加被执行人 0</td>
+<td>"两概念不对接"</td>
+</tr>
+<tr>
+<td>B2</td>
+<td>桂0202「<strong>催告程序并未实际完成</strong>」</td>
+<td>§54 相对人只有「当事人」</td>
+<td>"催告障碍"</td>
+</tr>
+<tr>
+<td>B3</td>
+<td>渝0109「管理人<strong>并非责任承担主体</strong>」</td>
+<td>§1147(四) 动词是「<strong>处理</strong>」而非「清偿」</td>
+<td>"责任财产限定"</td>
+</tr>
+<tr>
+<td>B4</td>
+<td>《行政处罚法》<strong>§73(3) 封闭列举</strong>（仅"复议／诉讼期间"不计算）</td>
+<td>闽0124 判项<strong>顶格判罚滞纳金＝罚款本数</strong></td>
+<td>共同<strong>反对</strong>"停止计算"</td>
+</tr>
+<tr>
+<td>B5</td>
+<td>§35（催告为前提）＋ §37（经催告方可决定）</td>
+<td>苏0611行审34号（加处罚款须<strong>另行作出决定</strong>）</td>
+<td>执行罚的<strong>成立要件链</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_3">缺口（精确定位到推理步骤）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>缺口</th>
+<th>位于哪一步</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>G1</strong></td>
+<td><strong>罚款本金的规范依据</strong>——§1161 宾语不含罚款，"债务"是否含公法罚款义务存疑</td>
+<td>第 7 步 C17</td>
+<td><strong>范围层肯定侧无依据</strong>；须写入"未尽事项"</td>
+</tr>
+<tr>
+<td><strong>G2</strong></td>
+<td><strong>§101 转致的解释论论证</strong>——<strong>不能靠清单列举</strong>（清单无"变更追加"），只能靠"<strong>相关的规定</strong>"的概括性与体系解释</td>
+<td>第 1 步 P3 → 第 6 步 C11</td>
+<td>第四章"入口"必须重写，这是最难的一环</td>
+</tr>
+<tr>
+<td><strong>G3</strong></td>
+<td><strong>接续的三个未决问题</strong>：①谁举证（青州＝申请机关 vs 辽0214执异127号＝执行实施部门，<strong>冲突</strong>）；②期限（§156"三个月"／§153"二年"——若受此限，死亡越早越不可行）；③变更后救济（无明文）</td>
+<td>第 4 步</td>
+<td>第五章的增量所在</td>
+</tr>
+<tr>
+<td><strong>G4</strong></td>
+<td><strong>[2005]行他字第29号正文</strong>——法宝仅存题录</td>
+<td>第 7 步</td>
+<td><strong>不致命</strong>：其规则已被 §73(3) 法律化；但<strong>不得写"答复原文如此"</strong></td>
+</tr>
+<tr>
+<td><strong>G5</strong></td>
+<td><strong>(2025)湘04执复10号全文</strong></td>
+<td>第四章程</td>
+<td>取不回则<strong>不得引用其逐字</strong></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_4">结论（一句话）</h2>
+<blockquote>
+<p><strong>不是"谁是被执行人应当如何确定"，而是「§155(四) 这一立案要件在义务人死亡时如何涵摄、法院在要件不成就时应当选哪个出口、以及各出口的救济配置是否对称」——而这三问的答案，中国大陆现行法只给了半个。</strong></p>
+</blockquote>
+<h3 id="_5">本文主张（严格限定版）</h3>
+<blockquote>
+<p><strong>接续（查明承受主体 → 列为被申请人 → 对其重新告知与催告）应在申请前由机关完成；法院在接续不到位时应当统一出口（立案前→不予受理；已立案→不准予执行）并明确救济。</strong></p>
+<p><strong>本文不主张"应当变更被执行主体"</strong>——按裁定主文口径，21 件中"变更"这一出口为 <strong>0 件</strong>；21 件中<strong>没有一件</strong>对"公法金钱给付义务能否由继承人承受"作实体法论证。</p>
+</blockquote>
+</main>
+</body>
+</html>

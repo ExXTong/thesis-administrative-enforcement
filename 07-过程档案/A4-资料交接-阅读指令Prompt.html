@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>资料交接与阅读指令 · Prompt（配合《选题审核 · 交接Prompt》一起发出）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#prompt-prompt">资料交接与阅读指令 · Prompt（配合《选题审核 · 交接Prompt》一起发出）</a><ul>
+<li><a href="#4">附：若审核方上下文有限，可只发这 4 份</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="prompt-prompt">资料交接与阅读指令 · Prompt（配合《选题审核 · 交接Prompt》一起发出）</h1>
+<pre><code class="language-text"># 资料交接与阅读指令
+
+你不只要看任务书，还要看材料。本指令只解决&quot;**读什么、怎么读、读完先交什么**&quot;，不重复《选题审核 · 交接Prompt》里的 12 个审核问题。
+**执行顺序固定为：读最小必需集 → 交&quot;材料核验状态表&quot;＋四个前置问题 → 再回答 12 问。**
+
+---
+
+## 1. 材料位置（按你的能力二选一）
+
+### 情况 A：你能读取同一环境的文件路径
+- **主材料包**：`/var/nfs_share/A4-法学材料包/`（134 个文件；**每份 `.md` 都有同名 `.html`**，浏览器可直接打开）
+- **分析与方案**：`/var/nfs_share/A4-选题深度分析.md`、`A4-写作总纲.md`、`A4-聚焦方案.md`、`A4-选题审核-交接Prompt.md`（均有 `.html`）
+- **资料索引**：`/var/nfs_share/A4-资料索引-给审核方.md`（全清单与阅读顺序）
+
+### 情况 B：你只能接收我上传或粘贴的内容
+请**按第 2 节的&quot;最小必需集&quot;逐份向我索取**；不要让我一次性给全部 134 份（会淹没重点）。
+索取时请注明：需要 `.md` 还是 `.html`、是否需要逐字原文。
+
+---
+
+## 2. 最小必需集（**7 份**；缺任何一份都无法完成审核）
+
+| 序 | 文件 | 你读它是为了 |
+|---|---|---|
+| 1 | `…/A4-法学材料包/00-先读我` | 材料包总览：目录、核验状态标记、目前核心事实（五条路径） |
+| 2 | `…/A4-选题深度分析` | 主报告（附录 A–J）。**附录 J＝两轮自我更正**，必读 |
+| 3 | `…/A4-写作总纲` | 写什么／问题是什么／现状如何／怎么写；含与陈思融 2024 的切割与商榷点 |
+| 4 | `…/A4-聚焦方案` | 三档选题方案（改轴版）＋&quot;红绿灯&quot;（可写／不可写）＋待补三项 |
+| 5 | `…/A4-法学材料包/03c-遗产管理人执行通道/00-总览` | **本选题最新、最核心的一批材料**：§101 参照适用的边界三处未定＋民事收敛四例 |
+| 6 | `…/A4-法学材料包/03-规范与法条/法行2000-16号-全文与两版照录` | **最关键的文本证据**：正文、请示错位、20 件引用裁判分布、两版标题相反 |
+| 7 | `…/A4-法学材料包/03-规范与法条/法释2016-21-§10-2016与2020对照` | 另一关键文本证据：§10 新旧逐字＋三处改动 |
+
+---
+
+## 3. 支撑集（读完必需集后按需取用）
+
+| 文件 | 用途 |
+|---|---|
+| `…/03c-遗产管理人执行通道/02-行政非诉执行-参照适用实例对照` | **渝案在用 vs 湘案否认**的对照表（命题核心分歧） |
+| `…/03-规范与法条/民诉法解释2022-§473` | 与我方&quot;分工说&quot;直接相关（§473 未同步删除的那半句） |
+| `…/03-规范与法条/行政强制法§40与法释2018-1-§155` | 概念空隙的两端条文 |
+| `…/05-过程档案/R8-北大法宝批次一核验结果` | 16号、§470/§473、6 件行政裁判的核验过程 |
+| `…/05-过程档案/R9-MCP直查补充结果` | 执行规范条号闭合、新案、规范新增与更正 |
+| `…/05-过程档案/R11-语义检索三题与三部法沿革` | 三题检索结果＋三部法沿革（含桂03行终209号的滞纳金定性） |
+
+---
+
+## 4. 逐字一手集（**核验时按需调取，不必通读**）
+
+- `…/A4-法学材料包/01-核心裁判/`（含 (2017)川1181行审42号 **PDF 原件**）
+- `…/A4-法学材料包/02-放弃继承与非诉执行-24件/`（**20 份单案逐字文件**＋汇总表）
+- `…/A4-法学材料包/03-规范与法条/`（其余 13 份逐字条文与版本卡）
+- `…/A4-法学材料包/03b-对照裁判/`（4 份：桂03行终209号、粤0606执恢2033号之一、京0106执18281号、琼96行审复1号）
+- `…/A4-法学材料包/05-过程档案/陈思融2024-…-CNKI原件.pdf`（学理对照的原文）
+- `…/juris-20260926-1300-A4-全流程材料收集-续跑-来源清单.md`（全部出处）
+
+---
+
+## 5. 术语与编号对照（**读材料前必看**，否则看不懂正文速记）
+
+| 编号／前缀 | 含义 |
+|---|---|
+| **S0–S9** | **死亡时点十阶段**：S0 决定作成前死亡｜S1 作成后、送达前｜S2 送达后、生效前｜S3 生效后、申请非诉执行前〔**断裂带**〕｜S4 已申请、立案前｜S5 已受理、裁定前｜S6 准予执行后、执行立案前｜S7 执行立案后、实施中｜S8 执行终结／完毕后｜S9 主体变体 |
+| **T1–T8** | **义务类型**：T1 罚款｜T2 没收违法所得、非法财物｜T3 税款｜T4 税款滞纳金｜T5 加处罚款｜T6 执行罚（怠金；**大陆无此制度**）｜T7 代履行费用｜T8 行政收费、社保费等 |
+| **A–E** | 行政非诉执行的**五条路径**（见《审核Prompt》B 表：A 终结／驳回｜B 转致民诉法｜C 变更主体｜D 否认变更权｜E 原决定失效） |
+| **「民」前缀** | **民事执行**参照材料——**不得当作公法金钱给付义务的执行依据** |
+| **「台」「德」「日」前缀** | 比较法材料 |
+| **U-xx** | 上游已核验**锚点**编号（见 run `notes/R0-上游已核验材料锚定表.md`） |
+| **R2–R11** | **本项目核验记录**编号（在 `05-过程档案/`） |
+| **C-xx／D-xx／E-xx／F-xx／G-xx** | 子智能体报告条目编号（《材料汇编》与《矩阵表》引用） |
+
+---
+
+## 6. 阅读纪律（**5 条，违反其一结论即不可用**）
+
+1. **材料来源**：全部法律文本取自**北大法宝 MCP 返回**，**不是网页抓取**（法宝网页端有反爬，`web_fetch` 返回 HTTP 200 但正文为空）。**未核印刷版式**——关键条文（法行〔2000〕16号、《行政强制法》§40、法释〔2018〕1号 §155）请自行终局核验。
+2. **法宝 MCP 的能力边界**：**无期刊库**（撞题文献须另找通道）；**无&quot;被引用情况&quot;接口**——16号 的&quot;20 件引用裁判&quot;是**下限口径**，不是全量。
+3. **注意&quot;⚠️ 性质与适用性限定&quot;**：`(2026)川0302行审45号`、`(2026)甘0302行审19号` 属&quot;**死亡后多领待遇的不当得利**&quot;，**不计入本命题**。**凡文件顶部有此限定，先读限定再引用。**
+4. **已作废表述黑名单（不要继承，发现残留请指出）**：
+   - ~~&quot;行政侧没有通道／缺少接入遗产管理人的一步／行政执行不能变更被执行主体&quot;~~ → **§101 转致通道现成且实务已在用**（渝0109行审83）；
+   - ~~&quot;两部现行有效司法解释规则相反／内部冲突&quot;~~ → **是分工**（§10 主体路径／§473 标的路径）；
+   - ~~&quot;大陆存在制度空白&quot;~~ → 至少有《行政强制法》§40(一)、《民法典》§1145–§1149、法释〔2016〕21号 §10 **三套装置**。
+5. **历史件与已被推翻的统计**：上游 juris 产出中的 `…-矩阵表-阶段×义务类型`、`…-材料汇编-死亡全流程`、`…-待核与未检到清单` 及 `北大法宝查询清单/Prompt` 均为**历史件**；其中&quot;**行政裁判未检到／0 件**&quot;&quot;**T8 未检到**&quot;等统计**已被 R8／R9／材料包 `03c` 推翻**。**凡与材料包 `01`／`03`／`03b`／`03c` 冲突的，以材料包为准**（材料包为逐字一手核验）。
+   - 历史件**可以读**（了解选题由来与当时判断），但**不得作为论据引用**。
+
+---
+
+## 7. 读完后，**先交一张&quot;材料核验状态表&quot;，再进入 12 问**
+
+### 7.1 状态表（逐份填写，不要合并）
+
+| 材料 | 你是否实际读到 | 你核到的要点 | 你是否同意其标注 | 你发现的矛盾／疑点 |
+|---|---|---|---|---|
+
+### 7.2 四个前置问题（**必须先答**）
+
+- **P1**：材料包与历史件（《矩阵表》《材料汇编》）之间的**冲突**，你发现了几处？请列明位置。
+- **P2**：有无&quot;**同一结论在两份文件中表述不同**&quot;的情况？请举出。
+- **P3**：有无&quot;**标注为已核验、但引用链不完整**&quot;（例如：只给案号未给正文、只给条文号未给逐字）的条目？
+- **P4**：你在材料中发现的**最有力的一条证据**与**最脆弱的一条证据**分别是哪一条？为什么？
+
+---
+
+## 8. 输出格式（严格按此顺序）
+
+1. **材料核验状态表**（7.1）；
+2. **四个前置问题**（P1–P4，逐条用「**答 P1：**」标号）；
+3. **《选题审核 · 交接Prompt》第 12 问**（逐条用「**答 n：**」标号）；
+4. **一句话结论**：这个选题能不能写、该怎么写；
+5. 全程**不臆造条号／案号／页码／文号**；检不到即写&quot;**未检到**＋检索式&quot;；严格区分「原文如此」与「你的推断」。
+</code></pre>
+<h2 id="4">附：若审核方上下文有限，可只发这 4 份</h2>
+<p><code>00-先读我</code> ＋ <code>A4-写作总纲</code> ＋ <code>03c-遗产管理人执行通道/00-总览</code> ＋ <code>03/法行2000-16号-全文与两版照录</code>——这 4 份足够判断"命题是否成立、材料是否够、16号 这条证据是否站得住"；但<strong>必须同时告知它"这只覆盖了约六成材料"</strong>，否则它对材料充分性的判断会偏低。</p>
+</main>
+</body>
+</html>

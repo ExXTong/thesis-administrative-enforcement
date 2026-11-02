@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>样本表 · 自然人 ＋ 金钱给付义务 ＋ 义务人死亡</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="../00-给评估方AI-交接文档.html">← 返回交接文档</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#_1">样本表 · 自然人 ＋ 金钱给付义务 ＋ 义务人死亡</a><ul>
+<li><a href="#_2">〇、纳入与排除口径</a></li>
+<li><a href="#total-2026-09-30">一、检索式与 Total（下限口径 · 检索日 2026-09-30）</a><ul>
+<li><a href="#11-caseclassname-fulltext">1.1 主检索（caseClassName="非诉行政行为申请执行审查" ＋ fulltext）</a></li>
+<li><a href="#12">1.2 ★ 本轮最强检索式（建议列为后续固定式）</a></li>
+<li><a href="#13-search_case6">1.3 语义检索（search_case，6 次，预算用尽）</a></li>
+<li><a href="#14-caseclassname">1.4 其他 caseClassName 对照</a></li>
+</ul>
+</li>
+<li><a href="#_3">二、干净样本表</a><ul>
+<li><a href="#21-a-s3s4-12">2.1 ★ 核心样本 A 组：S3／S4（生效后 — 立案受理前死亡）12 件</a></li>
+<li><a href="#22-b-s5-9">2.2 ★ 核心样本 B 组：S5（已受理 — 裁定前死亡）9 件</a></li>
+<li><a href="#23">2.3 边界样本（时点在窗口外或无独立人格，是否计入须作口径说明）</a></li>
+<li><a href="#24-s0">2.4 对照：S0 决定作成前死亡（非本命题窗口）</a></li>
+<li><a href="#25-s7-caseclassname11">2.5 对照：S7 立案后／执行实施中死亡（caseClassName="首次执行"）11 件，一律「终结执行」，无一件「变更」</a></li>
+<li><a href="#26">2.6 对照：行为义务类（腾退／拆除／恢复原状，不能继承）</a></li>
+</ul>
+</li>
+<li><a href="#_4">三、剔除记录表</a><ul>
+<li><a href="#a">A 类 · 法人／非法人组织注销（不得混入自然人样本）</a></li>
+<li><a href="#b">B 类 · 征收补偿／拆迁裁决（机关自始即以继承人／权利义务承受人为被申请人，不产生「变更」问题）</a></li>
+<li><a href="#c">C 类 · 死亡后多领待遇／不当得利（义务人是活着的遗属）</a></li>
+<li><a href="#d">D 类 · 主体认定错误／与本题无关</a></li>
+<li><a href="#_5">★ 被误收的样本点名（汇总）</a></li>
+</ul>
+</li>
+<li><a href="#_6">四、计数</a><ul>
+<li><a href="#41-21">4.1 「明确」档 — 21 件</a></li>
+<li><a href="#42-x-2-5">4.2 「倾向」档 —— 经 X 复核降级后为 2 件（原表 5 件）</a></li>
+<li><a href="#43">4.3 放宽至「一切时点」的自然人金钱给付死亡案</a></li>
+<li><a href="#44-21">4.4 ★ 处理方式分布（仅「明确」档 21 件）</a></li>
+<li><a href="#45">4.5 三点实质性发现（推断，非裁判原文）</a></li>
+</ul>
+</li>
+<li><a href="#0">五、确认为「法宝可得范围内 0 件」的检索（附检索式与检索日）</a></li>
+<li><a href="#_7">六、法宝链接（逐案）</a></li>
+<li><a href="#_8">七、未解决缺口</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="_1">样本表 · 自然人 ＋ 金钱给付义务 ＋ 义务人死亡</h1>
+<blockquote>
+<p><strong>命题</strong>：行政机关作出<strong>金钱给付义务</strong>的行政行为（罚款、加处罚款、税款/滞纳金）<strong>生效后、人民法院立案受理前</strong>，作为义务人的<strong>自然人</strong>死亡的，行政<strong>非诉执行审查</strong>程序中「被执行主体」应如何确定。
+<strong>检索工具</strong>：北大法宝 MCP｜<strong>检索日</strong>：2026-09-30｜<strong>检索式</strong>：见 §一（28 个关键词式 ＋ 6 个语义式）
+<strong>编制</strong>：A 子智能体（主检索）＋ root（对 §3.1 关键裁判的独立复核）＋ X 子智能体（独立抽查复核，见 <code>反驳报告.md</code> §零）
+<strong>口径声明</strong>：北大法宝<strong>无「被引用情况」接口</strong>，其 <code>Total</code> 与列表均为<strong>下限口径</strong>；且 <code>Total</code> 系<strong>宽匹配计数，不等于字面命中数</strong>（D 实测：<code>fulltext="放弃继承"</code> <code>Total 24</code>，实际返回 20 条中 <strong>8 条正文无「放弃继承」字面</strong>）。凡「n 件／0 件」一律限缩为「<strong>在法宝可得范围内</strong>」。</p>
+</blockquote>
+<hr />
+<h2 id="_2">〇、纳入与排除口径</h2>
+<p><strong>纳入</strong>：①义务类型为<strong>金钱给付</strong>（罚款／加处罚款／滞纳金／税款／社会保险费／社会抚养费／其他行政征收之金钱给付）；②行政行为所确定的义务人为<strong>自然人本人</strong>（<strong>含个体工商户经营者、个人独资企业投资人等无独立法律人格主体</strong>，但<strong>必须逐案注明「个体工商户经营者」</strong>）；③该自然人在「<strong>决定生效后 — 法院立案受理前</strong>」死亡（S3 生效后申请前／S4 已申请立案前／S5 已受理裁定前）。</p>
+<p><strong>时点编码</strong>：S0 决定作成前｜S1 送达前｜S2 生效前（含起诉期限内）｜<strong>S3 生效后、申请前</strong>｜<strong>S4 已申请、立案前</strong>｜<strong>S5 已受理、裁定前</strong>｜S6 准予后执行立案前｜S7 执行实施中｜未载明。</p>
+<p><strong>排除</strong>（<strong>硬约束</strong>，见 §三剔除记录）：
+- <strong>A 类</strong> 法人／非法人组织注销（与「自然人死亡」无关）
+- <strong>B 类</strong> 征收补偿／拆迁裁决（机关<strong>一开始即以继承人／权利义务承受人为被申请人</strong>，<strong>不产生「变更」问题</strong>）
+- <strong>C 类</strong> 死亡后多领待遇／不当得利（<strong>义务人是活着的遗属</strong>，死者只是计算基准）
+- <strong>D 类</strong> 主体认定错误／与本题无关</p>
+<hr />
+<h2 id="total-2026-09-30">一、检索式与 Total（下限口径 · 检索日 2026-09-30）</h2>
+<h3 id="11-caseclassname-fulltext">1.1 主检索（<code>caseClassName="非诉行政行为申请执行审查"</code> ＋ <code>fulltext</code>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>检索式</th>
+<th><code>Total</code></th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>fulltext="死亡"</code></td>
+<td>4988</td>
+<td>大 Total，<strong>只返回前 20 条</strong>；已按日期分段部分缓解</td>
+</tr>
+<tr>
+<td><code>fulltext="被执行人死亡"</code></td>
+<td>—</td>
+<td>旧记录 7</td>
+</tr>
+<tr>
+<td><code>fulltext="被处罚人死亡"</code></td>
+<td>—</td>
+<td>自然人语汇锚点</td>
+</tr>
+<tr>
+<td><code>fulltext="义务人死亡"</code></td>
+<td><strong>0</strong></td>
+<td>法宝返回「未找到数据」</td>
+</tr>
+<tr>
+<td><code>fulltext="当事人死亡"</code></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>fulltext="继承人"</code></td>
+<td>1546</td>
+<td>征收类噪声主导</td>
+</tr>
+<tr>
+<td><code>fulltext="遗产管理人"</code></td>
+<td><strong>2</strong></td>
+<td>渝0109行审83号、川0302行审45号（后者属 C 类）</td>
+</tr>
+<tr>
+<td><code>fulltext="遗产"</code></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>fulltext="催告"</code> ＋ <code>title="死亡"</code></td>
+<td><strong>0</strong></td>
+<td>★ 桂0202 的「催告程序未实际完成」<strong>无第二件同类裁判</strong></td>
+</tr>
+<tr>
+<td><code>fulltext="加处罚款"</code></td>
+<td>169860</td>
+<td>Top20 <strong>无一件涉自然人死亡</strong></td>
+</tr>
+<tr>
+<td><code>fulltext="滞纳金"</code></td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>fulltext="税款"</code></td>
+<td>2965</td>
+<td>Top20 <strong>全为法人</strong></td>
+</tr>
+<tr>
+<td><code>fulltext="病故"</code> / <code>"去世"</code></td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="12">1.2 ★ 本轮最强检索式（建议列为后续固定式）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>检索式</th>
+<th><code>Total</code></th>
+<th>分段</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>title="罚款"</code> ＋ <code>fulltext="死亡"</code></strong></td>
+<td><strong>176</strong></td>
+<td>2015-2019＝12／2020-2022＝16／2023-2026＝147</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>方法学意义</strong>：以「放弃继承」为锚点的旧检索式<strong>系统性遗漏自然人语汇</strong>；改以 <code>title="罚款"＋fulltext="死亡"</code> 后命中量级提升一个数量级。</p>
+</blockquote>
+<h3 id="13-search_case6">1.3 语义检索（<code>search_case</code>，6 次，预算用尽）</h3>
+<p>S1 自然人在催告后、申请前死亡如何处理继承人 ／ S2 罚款义务人死亡可否重新作决定 ／ S3 税务机关申请强制执行税款滞纳金，纳税义务人为自然人已死亡 ／ S4 加处罚款自义务人死亡之日停止计算 ／ S5 社会抚养费义务人死亡如何确定被执行主体 ／ S6 申请执行前被执行人注销死亡主体不适格。</p>
+<h3 id="14-caseclassname">1.4 其他 <code>caseClassName</code> 对照</h3>
+<p><code>首次执行</code>（<code>Total 3418</code>，仅得 11 件有效）／<code>执行复议</code>（<code>Total 6998</code>）／<strong><code>执行异议</code></strong>（★ D 发现 <strong>(2020)辽0214执异127号</strong> 只能从此类型检出——<strong>按 <code>caseClassName</code> 检索会系统性漏案，凡「0 件」结论均受此威胁</strong>）。</p>
+<hr />
+<h2 id="_3">二、干净样本表</h2>
+<h3 id="21-a-s3s4-12">2.1 ★ 核心样本 A 组：S3／S4（生效后 — 立案受理前死亡）<strong>12 件</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>案号</th>
+<th>法院</th>
+<th>裁判日期</th>
+<th>义务类型</th>
+<th>死亡时点</th>
+<th>法院处理</th>
+<th>法院自陈依据（逐字条号）</th>
+<th>逐字关键句</th>
+<th>核验</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>(2022)桂0202行审108号之一</strong></td>
+<td>广西柳州市城中区人民法院</td>
+<td>2022.11.24</td>
+<td><strong>加处罚款</strong>（柳烟罚加处字〔2021〕第2号《加处罚款决定书》）</td>
+<td>S3（<strong>2022-03-20 死亡，催告过程中</strong>；2022-08-16 申请）</td>
+<td><strong>不予受理</strong>（并撤销原 (2022)桂0202行审108号裁定）</td>
+<td>《行政强制法》第五十五条第一款第(三)项；《民法典》第一千一百六十一条；法释〔2018〕1号第一百五十五条；《行政强制法》第五十六条第二款</td>
+<td>「申请执行人在对陈某鹅进行催告的过程中，陈某鹅已经死亡，<strong>申请执行人的催告程序并未实际完成</strong>……陈某鹅死亡后，其所负担的金钱债务，根据《中华人民共和国民法典》第一千一百六十一条的规定，<strong>应由其继承人在继承陈某鹅遗产的范围内负担</strong>。故<strong>申请执行人应当在查明陈某鹅的继承人后，依法履行相应的告知、催告程序后，再向法院申请执行</strong>。另外，申请执行人以已死亡的陈某鹅作为被执行人向本院申请执行，<strong>被执行人主体不适格</strong>」</td>
+<td><strong>★root 亲核</strong>：<code>fulltext="桂0202行审108号"</code> 全文逐字一致</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>(2020)湘1302行审68号</strong></td>
+<td>湖南娄底市娄星区人民法院</td>
+<td>2020.06.22</td>
+<td><strong>罚款</strong>（环保处罚，20 万＋5.4 万）</td>
+<td>S3（「申请强制执行前，被申请人之一的颜有彪已经死亡」）</td>
+<td><strong>驳回</strong></td>
+<td>《行政强制法》第五十五条；法释〔2018〕1号第一百零一条、第一百五十五条</td>
+<td>「本案申请执行前，其中一名被申请人已经死亡，<strong>该自然人作为被申请执行人的主体不适格</strong>。<strong>申请人待查明相关事宜后，可重新提交强制执行申请</strong>」</td>
+<td>☆语义核（<strong>待补全文</strong>）</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>(2025)黑0112行审77号</strong></td>
+<td>黑龙江哈尔滨市阿城区人民法院</td>
+<td>2025.12.24</td>
+<td><strong>〔X 复核：非罚款〕</strong> 决定文号「<strong>哈阿房决字</strong>〔2024〕第004号」、申请执行人「阿城区某」</td>
+<td>S3</td>
+<td><strong>不予受理</strong></td>
+<td>《行政诉讼法》第九十七条；《行政强制法》第五十六条第二款、第五十八条</td>
+<td>「申请法院准许强制执行的被执行人应具有<strong>行政、民事法律主体资格</strong>。现……<strong>闫某已经去世，不具法律主体资格</strong>，故本院对此案<strong>不予受理</strong>」</td>
+<td>☆语义核。<strong>★X 独立复核：A 推断「罚款类」无据</strong>——文号「哈阿<strong>房</strong>决字」指向<strong>房屋</strong>类决定（可能属征收补偿／责令交出土地／拆除）→ <strong>应降级为 B 类或行为义务对照件</strong>，不入自然人金钱给付样本</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>(2025)黑0112行审87号</strong></td>
+<td>同上</td>
+<td>2025.12.24</td>
+<td>同上（<strong>哈阿房决字〔2024〕第069号</strong>）</td>
+<td>S3</td>
+<td>不予受理</td>
+<td>同上</td>
+<td>同 #3 句式（徐某）</td>
+<td>☆语义核。<strong>★同上，应降级</strong></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>(2025)黑0112行审86号</strong></td>
+<td>同上</td>
+<td>2025.12.24</td>
+<td>同上（<strong>哈阿房决字〔2024〕第067号</strong>）</td>
+<td>S3</td>
+<td>不予受理</td>
+<td>同上</td>
+<td>同 #3 句式（王某）</td>
+<td>☆语义核。<strong>★同上，应降级</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>(2020)鲁0781行审365号</strong></td>
+<td>山东青州市人民法院</td>
+<td>2020.07.20</td>
+<td><strong>罚款</strong>（青综执罚字〔2018〕第251023号）</td>
+<td>S3（2018-05-08 因死亡注销户口）</td>
+<td><strong>不准予强制执行</strong></td>
+<td>《行政强制法》第五十八条；法释〔2018〕1号第一百六十一条</td>
+<td>「本院经调查，<strong>被执行人王法祖于2018年5月8日因死亡被公安机关注销户口</strong>，查明上述情况后，<strong>本院要求申请执行人提交被执行人的遗产或者义务承受人的有关证据，以确定是否变更被执行人</strong>，申请执行人至今未提交相关证据证实」／「<strong>被处罚人死亡后，申请执行人要求死者承担责任的法律依据明显不足</strong>」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>(2020)鲁0781行审366号</strong></td>
+<td>同上</td>
+<td>2020.07.20</td>
+<td><strong>罚款</strong>（…第261043号）</td>
+<td>S3（2019-03-13 注销户口）</td>
+<td>不准予强制执行</td>
+<td>同上</td>
+<td>同 #6 句式（杨学圣）</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>(2020)鲁0781行审378号</strong></td>
+<td>同上</td>
+<td>2020.07.20</td>
+<td><strong>罚款</strong>（…第271015号）</td>
+<td>S3（2020-01-22 注销户口）</td>
+<td>不准予强制执行</td>
+<td>同上</td>
+<td>同 #6 句式（史来利）</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>(2015)馆行审字第27号</strong></td>
+<td>河北馆陶县人民法院</td>
+<td>2015.02.03</td>
+<td><strong>罚款</strong>＋退还土地（馆国土资行罚字（2014）22号）</td>
+<td>S3（<strong>2015-01-05 死亡；2015-01-12 申请</strong>）</td>
+<td><strong>驳回</strong></td>
+<td>《行政诉讼法》第六十六条；《行政强制法》第五十八条</td>
+<td>「<strong>2015年1月5日，被执行人周某因病亡故。</strong>」／「现被执行人周某已病故，申请执行人……向本院提出的<strong>强制执行申请的被执行主体已不存在</strong>。不符合法律规定」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>(2019)鲁02行审复1号</strong></td>
+<td>山东青岛市中级人民法院</td>
+<td>2019.09.10</td>
+<td>社会保险费催缴（义务人为<strong>个体工商户</strong>青岛市市南区圣瓦伦丁数码婚纱摄影馆<strong>经营者胡顺兴</strong>）</td>
+<td>S3（「向法院申请强制执行前，被申请人的经营者已经死亡」）</td>
+<td><strong>驳回复议申请，维持原裁定</strong></td>
+<td>法释〔2018〕1号第十五条第二款、第一百六十一条；《继承法》第二条、第三条、第二十五条、第三十三条</td>
+<td>「复议申请人向法院申请强制执行前，<strong>被申请人的经营者已经死亡，其民事权利能力已经消灭</strong>，复议申请人仅将经营者已死亡的个体工商户列为被执行人，<strong>明显缺乏法律依据</strong>」</td>
+<td>○落盘核；★root 检索「胡顺兴」未召回该案（该案标题不含人名，须以案号检索）</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>(2018)吉0322行审18号</strong></td>
+<td>吉林梨树县人民法院</td>
+<td>2018.05.24</td>
+<td><strong>罚款 97484.35 元</strong>（耕地开垦费 1 倍罚款）＋责令恢复土地原貌</td>
+<td>S3（<strong>2017-09-25 死亡；2018-03-06 申请</strong>）</td>
+<td><strong>驳回申请</strong></td>
+<td><strong>《行政强制法》第四十条第(一)项</strong>；参照吉林省高院《关于审查非诉行政执行案件若干问题的规定（试行）》第三十九条第(三)项</td>
+<td>「在法定期限内向被执行人送达……时<strong>发现被执行人于和已于2017年9月25日死亡</strong>」／「该案行政行为所确定的<strong>义务人已死亡，义务人不能履行义务，也没有证据证明义务人有遗产可供执行</strong>。经法院建议，梨树县国土资源局核实于和<strong>没有遗产可供执行也没有继承人或义务承受人愿意承担</strong>……故应驳回申请人的申请」</td>
+<td>★已核（<strong>唯一直接适用 §40(一) 者</strong>）</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>(2016)冀0803行审28号</strong></td>
+<td>河北承德市双滦区人民法院</td>
+<td>2016.03.29</td>
+<td><strong>没收违法所得 15140 元＋罚款 7570 元＝22710 元</strong></td>
+<td>S3（2016-01-08 死亡；2016-03-17 申请）</td>
+<td><strong>终结本案的执行</strong></td>
+<td>参照《民事诉讼法》第二百五十七条第一款第（三）项</td>
+<td>「<strong>被执行人冯绍杰因患淋巴癌于2016年1月8日死亡，其无遗产可供执行，又无义务承担人。</strong>」</td>
+<td>★已核</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>另有 <strong>(2016)晋0622行审23号</strong>（山西应县，2016.08.08，终结执行）、<strong>(2017)川1181行审52号</strong>（四川峨眉山，2017.10.16，终结本案执行审查）、<strong>(2020)豫0802行审9号</strong>（河南焦作解放区，2020.08.24，<strong>准予执行罚款部分、不准予执行恢复原状部分</strong>）三件，A 计入 S3 段；其性质见 §2.4 与 §四讨论。</p>
+</blockquote>
+<h3 id="22-b-s5-9">2.2 ★ 核心样本 B 组：S5（已受理 — 裁定前死亡）<strong>9 件</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>案号</th>
+<th>法院</th>
+<th>裁判日期</th>
+<th>义务类型</th>
+<th>死亡时点</th>
+<th>法院处理</th>
+<th>法院自陈依据</th>
+<th>逐字关键句</th>
+<th>核验</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>13</td>
+<td><strong>(2020)陕0622行审24号</strong></td>
+<td>陕西延川县人民法院</td>
+<td>2020.06.23</td>
+<td>罚款类（延川县自然资源局）〔推断〕</td>
+<td>S5</td>
+<td><strong>本案终结审查</strong></td>
+<td>《行政诉讼法》第一百零一条；<strong>《民事诉讼法》第一百五十一条第（二）项</strong>；法释〔2018〕1号第一百零一条第一款第（四）项</td>
+<td>「根据……<strong>被申请执行人死亡的，终结诉讼</strong>。本案中，<strong>被申请执行人贺世强已经死亡，应终结对本案的审查</strong>」</td>
+<td><strong>★root 亲核</strong>：<code>fulltext="贺世强 终结审查"</code> 全文逐字一致</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>(2020)陕0621行审第3号</strong></td>
+<td>陕西延长县人民法院</td>
+<td>2020.06.23</td>
+<td><strong>罚款</strong>（环境管理罚款处罚）</td>
+<td>S5</td>
+<td><strong>本案终结执行</strong></td>
+<td>《民事诉讼法》第一百五十一条第（二）项；法释〔2018〕1号第一百零一条</td>
+<td>「在审查期间，本院查明<strong>被执行人董某某去世</strong>」／「本案在执行审查过程中，<strong>被执行人董某某死亡，申请执行人……未提供应当承担义务的人</strong>」</td>
+<td>★已核（<strong>与 #13 系同日、同市相邻两县姊妹案</strong>）</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>(2019)鄂1126行审65号</strong></td>
+<td>湖北蕲春县人民法院</td>
+<td>2019.04.08</td>
+<td>行政处罚（罚款类，国土资源局）〔推断〕</td>
+<td>S5</td>
+<td><strong>本案终结执行</strong></td>
+<td>《民事诉讼法》第一百五十一条第（二）项；法释〔2018〕1号第九十三条</td>
+<td>「本案在<strong>执行审查过程中，被执行人张水生死亡，申请执行人……未提供应当承担义务的人</strong>」</td>
+<td>☆语义核（<strong>待补全文</strong>）</td>
+</tr>
+<tr>
+<td>16</td>
+<td><strong>(2025)渝0112行审290号</strong></td>
+<td>重庆市渝北区人民法院</td>
+<td>2025.04.07</td>
+<td><strong>罚款</strong>（渝交执罚[2024]6820299号）</td>
+<td>S5</td>
+<td><strong>终结执行</strong>（准许机关结案申请）</td>
+<td>《行政诉讼法》第一百零一条；《民事诉讼法》(2023修正)第二百六十八条第(六)项、第二百六十九条</td>
+<td>「在审查过程中，申请执行人于2025年4月7日向本院提交结案申请书，<strong>以被执行人郭某某已死亡为由，申请终结该执行申请</strong>」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>17</td>
+<td><strong>(2023)渝0109行审83号</strong></td>
+<td>重庆市北碚区人民法院</td>
+<td>2023.10.12</td>
+<td><strong>罚款</strong>（（碚）应急罚〔2022〕14-2号）</td>
+<td><strong>时点无据</strong>（裁定<strong>只载</strong>「执行依据确定的债务人吴长平<strong>在判决生效后死亡</strong>」，<strong>无日期、未说死亡发生在立案受理之后</strong>）</td>
+<td><strong>★主文＝准予强制执行，由继承人在遗产范围内承担责任</strong>（<strong>「变更」只出现在「本院认为」</strong>：「北碚应急局<strong>变更本案被执行人为陶真琼、吴文杰并无不当</strong>」）</td>
+<td>《民法典》第一千一百四十五条、第一千一百四十七条；<strong>法释〔2020〕21号第十条第一款</strong>；《行政诉讼法》第九十七条；法释〔2018〕1号第一百零一条第一款第十四项、第一百六十条</td>
+<td>「……<strong>由继承人共同担任遗产管理人，在执行程序中，可以变更、追加遗产管理人为被执行人，在遗产范围内承担责任</strong>」／「<strong>但不能直接执行遗产管理人的自有财产，亦不能对遗产管理人采取限制消费措施</strong>」</td>
+<td>★已核。<strong>★X 独立复核纠正 A 的口径</strong>：A 把它单列为「变更 1 件」，是以<strong>理由中的措辞</strong>与<strong>其他案件主文中的出口名称</strong>并列计数。统一以<strong>裁定主文</strong>为分类单位后，本案与闽0124、粤0204 同属「<strong>准予执行＋遗产范围内责任</strong>」</td>
+</tr>
+<tr>
+<td>18</td>
+<td><strong>(2021)鲁1122行审6号</strong></td>
+<td>山东莒县人民法院</td>
+<td>2021.01.08</td>
+<td><strong>罚款</strong>（莒综土执罚字[2020]第15028号）</td>
+<td>S5</td>
+<td><strong>准许撤回</strong></td>
+<td>《行政诉讼法》第九十七条；《行政强制法》第五十三条</td>
+<td>「申请人县执法局<strong>以被申请人张乃春病故导致处罚主体不存在为由撤回强制执行申请</strong>，理由正当」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>19</td>
+<td><strong>(2024)黑1222行审20号</strong></td>
+<td>黑龙江兰西县人民法院</td>
+<td>2024.08.03</td>
+<td><strong>罚款</strong>（交通行政处罚）</td>
+<td>S5</td>
+<td><strong>准许撤回</strong></td>
+<td>法释〔2018〕1号第一百零一条第一款第(十)项</td>
+<td>「申请执行人……<strong>以被执行人死亡为由向本院申请撤回强制执行申请</strong>」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>20</td>
+<td><strong>(2019)粤7101行审2668号</strong></td>
+<td>广州铁路运输第一法院</td>
+<td>2019.04.15</td>
+<td><strong>社会抚养费</strong>（行政征收，<strong>非罚款</strong>；番征决字[2018]第01018号）</td>
+<td>S5</td>
+<td><strong>准许撤回</strong></td>
+<td>法释（旧）第一百零一条第一款第（十五）项</td>
+<td>「2019年3月29日，申请执行人<strong>以被执行人死亡为由，向本院提出撤回强制执行申请</strong>」</td>
+<td>★已核</td>
+</tr>
+<tr>
+<td>21</td>
+<td><strong>(2017)辽0727行审168号</strong></td>
+<td>辽宁义县人民法院</td>
+<td>2017.08.11</td>
+<td><strong>罚款</strong>＋退还土地</td>
+<td>S5</td>
+<td><strong>准许撤回</strong></td>
+<td>《行政诉讼法》第六十二条</td>
+<td>「申请执行人<strong>以被执行人死亡、未确定继承人为由申请撤回强制执行申请</strong>」</td>
+<td>★已核</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="23">2.3 边界样本（时点在窗口外或无独立人格，<strong>是否计入须作口径说明</strong>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>案号</th>
+<th>法院</th>
+<th>裁判日期</th>
+<th>义务类型</th>
+<th>死亡时点</th>
+<th>法院处理</th>
+<th>依据</th>
+<th>逐字关键句</th>
+<th>核验</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>22</td>
+<td><strong>(2018)闽0124行审11号</strong></td>
+<td>福建闽清县人民法院</td>
+<td>2018.11.26</td>
+<td><strong>罚款 52000 元＋「罚款滞纳金」52000 元</strong>（并没收违法所得 3.6 元）</td>
+<td><strong>S2</strong>（决定 2018-03-02 送达；<strong>刘景护 2018-03-06 因爆燃死亡</strong>，即起诉期限内；催告 2018-11-09 送达「刘景护遗产继承人」）</td>
+<td><strong>准予强制执行；继承人在继承遗产范围内缴纳</strong></td>
+<td>《行政诉讼法》第九十四条；《行政强制法》第四十五条、第五十三条、第五十五条；《继承法》第十条、第三十三条</td>
+<td>「2018年3月6日，<strong>刘景护因爆燃死亡</strong>。……2018年11月9日，申请执行人依法向<strong>刘景护遗产继承人</strong>刘景干、刘景红、刘景书、刘景生、刘金钗送达……催告书」／主文二：「<strong>刘景护遗产继承人……在继承刘景护遗产范围内履行上述缴纳罚没款的义务</strong>」</td>
+<td>★已核。<strong>★D 评为「加处罚款／滞纳金＋死亡＋继承人承担」的唯一正面例；但「罚款滞纳金」系非规范用语</strong>（其究属 §45 加处罚款抑或 §32 税款滞纳金，见 <code>待核清单.md</code> T3）。<strong>★★X 独立复核发现：本案是「纸面胜利」——后续 (2019)闽0124执159号（2019.04.04）逐字「申请执行人无法提供证据证明刘景干……继承了刘景护的遗产，本院也未能查到……因此被执行人名下无适宜执行的财产」→「终结本次执行程序」</strong>。且本案与 <strong>(2019)粤0607行审391／392号</strong> 就「起诉期限内死亡→决定是否生效」<strong>结论相反</strong>（本案：「已发生法律效力」；粤0607：「仍未生效」）——这是本项目掌握的<strong>唯一一处不依赖口径假设的实体分歧</strong>，惟落在 <strong>S2（生效前）</strong>，在本命题窗口之外</td>
+</tr>
+<tr>
+<td>23</td>
+<td><strong>(2024)粤0204行审12号</strong></td>
+<td>广东韶关市浈江区人民法院</td>
+<td>2024.07.01</td>
+<td><strong>罚款 5000 元＋没收违法所得 17.5 元</strong>（<strong>个体工商户</strong>「浈某」，登记经营者<strong>王某洪</strong>）</td>
+<td>S3（<strong>2024-03-25 死亡</strong>，在 2023-12-28 首次催告<strong>之后</strong>）</td>
+<td><strong>准予强制执行；王某睿以所得遗产实际价值为限承担清偿责任</strong></td>
+<td>法发〔2018〕9号第3条；<strong>《民法典》第一千一百六十一条第一款</strong>；《行政强制法》第五十三条、第五十四条；《行政诉讼法》第九十七条；法释〔2018〕1号第一百零一条第一款第十四项</td>
+<td>「浈某经犁市镇政府催告后仍未履行行政处罚决定，<strong>之后该商行的经营者王某洪死亡</strong>，王某洪的儿子王某睿继承了王某洪的遗产……<strong>王某睿以所得王某洪遗产实际价值为限对罚没款5017.5元承担清偿责任</strong>」；机关 2024-05-27 <strong>再次催告</strong>，且催告书载明「<strong>根据《最高人民法院关于民事执行中变更、追加当事人若干问题的规定》第十条规定，变更被执行人为浈某经营者王某睿</strong>」</td>
+<td><strong>★root 亲核</strong>：<code>fulltext="粤0204行审12号 继承人 遗产"</code> 全文逐字一致。★<strong>本案事实含三份公证《放弃继承权声明书》（蒲小敏、谭某娣、王庭）＋一份赠与公证，法院对放弃继承的效力零评价</strong></td>
+</tr>
+<tr>
+<td>24</td>
+<td><strong>(2019)粤0607行审392号</strong></td>
+<td>广东佛山市三水区人民法院</td>
+<td>2019.06.25</td>
+<td><strong>罚款</strong>（三管案（中）〔2018〕371号）</td>
+<td><strong>S2</strong>（收到决定书后 6 个月起诉期限内死亡）</td>
+<td><strong>驳回执行申请</strong></td>
+<td>《行政强制法》第五十三条；法释〔2018〕1号第一百五十五条第一款、第一百零一条第一款第（十五）项</td>
+<td>「<strong>被处罚人蔡国伟在收到《决定书》后的6个月起诉期限内死亡</strong>，在被处罚人死亡后，<strong>其起诉权利主体以及权利行使状态未予明确前，对《决定书》的起诉期限未届满</strong>，因此……<strong>涉案《决定书》仍未生效</strong>」</td>
+<td>★已核（<strong>原创命题：「起诉期限计算主体不明→决定未生效」</strong>）</td>
+</tr>
+<tr>
+<td>25</td>
+<td><strong>(2019)粤0607行审391号</strong></td>
+<td>同上</td>
+<td>2019.06.25</td>
+<td><strong>罚款</strong>（三管案（中）〔2018〕345号）</td>
+<td>S2</td>
+<td>驳回执行申请</td>
+<td>同上</td>
+<td>同上（逐字相同）</td>
+<td>★已核</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="24-s0">2.4 对照：S0 决定作成前死亡（<strong>非本命题窗口</strong>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>法院／日期</th>
+<th>处理</th>
+<th>逐字关键句</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(2018)吉0204行审17号</td>
+<td>吉林船营 2018.06.27</td>
+<td>不准予</td>
+<td>「<strong>被执行人冯士斌在行政处罚决定书作出之前已经死亡</strong>，而……在其死亡后一个月才做出行政处罚决定书，且<strong>伪造冯士斌本人签收送达证</strong>，该行为属<strong>程序严重违法</strong>」</td>
+</tr>
+<tr>
+<td>(2024)粤1622行审13号</td>
+<td>广东龙川 2024.06.17</td>
+<td>不准予</td>
+<td>「被申请执行人苏某<strong>已于2016年1月15日因疾病死亡</strong>……申请执行人……<strong>于2023年8月1日</strong>……作出《行政处罚决定书》，<strong>对已经死亡的被申请执行人苏某进行行政处罚，属于基本事实认定不清，处理程序违法</strong>」</td>
+</tr>
+<tr>
+<td><strong>(2024)粤1622行审14号</strong></td>
+<td>同上 2024.06.17</td>
+<td>不准予</td>
+<td>同 #13 句式（姊妹案，<strong>本轮新发现</strong>）☆语义核</td>
+</tr>
+<tr>
+<td><strong>(2016)内0625行审字1号</strong></td>
+<td>内蒙杭锦旗 2016.08.20</td>
+<td>不准予执行</td>
+<td>「<strong>被执行人张学工于2015年10月23日因病去世</strong>。而……行政处罚决定书于2015年11月7日作出」／「<strong>行政处罚的对象已经死亡</strong>……<strong>被处罚对象主体不适格</strong>」（<strong>本轮新发现</strong>）</td>
+</tr>
+<tr>
+<td><strong>(2020)渝0101行审69号</strong></td>
+<td>重庆万州 2020.05.27</td>
+<td>不准予执行</td>
+<td>「<strong>发现被执行人丁祥芬在申请执行人行政处罚前已去世</strong>」／「<strong>行政相对人丁祥芬已去世，该行政处罚决定书被处罚主体错误</strong>」（<strong>本轮新发现</strong>；行为义务，仅作对照）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="25-s7-caseclassname11">2.5 对照：S7 立案后／执行实施中死亡（<code>caseClassName="首次执行"</code>）<strong>11 件，一律「终结执行」，无一件「变更」</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>义务类型</th>
+<th>逐字关键句</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(2021)闽0982执1594号之一</td>
+<td>行政非诉执行</td>
+<td>「在执行过程中，<strong>被执行人已死亡，无财产可供执行</strong>」</td>
+</tr>
+<tr>
+<td>(2022)粤0112执11055号</td>
+<td>罚款类（规划资源）</td>
+<td>「鉴于<strong>作为被执行人的公民已死亡，无遗产可供执行，亦未发现义务承担人</strong>，故本案依法应予终结执行」</td>
+</tr>
+<tr>
+<td>(2020)粤0304执29491号之四</td>
+<td><strong>罚款 20000 元</strong>（交通）</td>
+<td>「本案<strong>被执行人已经死亡，无遗产可供执行，又无义务承担人</strong>」</td>
+</tr>
+<tr>
+<td>(2020)粤1971执11899号／11889号</td>
+<td><strong>罚款 407700 元</strong>（生态环境，两案）</td>
+<td>依《民事诉讼法》第二百五十七条终结</td>
+</tr>
+<tr>
+<td>(2023)闽0722执274号之一</td>
+<td>行政非诉执行（交通运输局）</td>
+<td>依《民事诉讼法》第二百六十四条终结</td>
+</tr>
+<tr>
+<td>(2021)粤0604执2525号／2508号</td>
+<td>住房公积金催缴（两案）</td>
+<td>「<strong>被执行人已死亡</strong>，按照《住房公积金管理条例》第二十四条规定，<strong>其继承人可以提取住房公积金账户内的存储余额</strong>」</td>
+</tr>
+<tr>
+<td>(2021)粤0117执317号</td>
+<td><strong>罚款 20076.43 元</strong>（<strong>个体工商户</strong>经营者李流基）</td>
+<td>「……<strong>其债务应由经营者李流基承担，但李流基已死亡且其名下并无遗产可供执行</strong>」</td>
+</tr>
+<tr>
+<td>(2025)吉0524执887号</td>
+<td>行政非诉执行</td>
+<td>依《民事诉讼法》第二百六十八条——<strong>△正文未载明死亡，建议移出</strong></td>
+</tr>
+<tr>
+<td>(2026)吉0524执1号</td>
+<td>同上</td>
+<td>依第二百六十八条第(六)项——<strong>△同上</strong></td>
+</tr>
+<tr>
+<td>(2026)内0291执727号之一</td>
+<td>同上</td>
+<td>———<strong>△未核，建议移出</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="26">2.6 对照：行为义务类（腾退／拆除／恢复原状，<strong>不能继承</strong>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>法院／日期</th>
+<th>处理</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(2019)云0622行审7号</strong></td>
+<td>云南巧家 2019.11.21</td>
+<td><strong>准予执行（对继承人）</strong></td>
+<td>「因肖明义2019年9月27日病故，<strong>申请人以实际使用执行标的的肖明义的继承人为被执行人申请执行符合法律规定</strong>」（<strong>本轮新发现</strong>）</td>
+</tr>
+<tr>
+<td><strong>(2023)云2622行审13号</strong></td>
+<td>云南砚山 2023.08.07</td>
+<td>准予执行</td>
+<td>〔注〕机关<strong>撤销原处罚后重新对继承人作新决定</strong>，非「变更被执行人」路径（<strong>本轮新发现</strong>）</td>
+</tr>
+<tr>
+<td>(2020)辽0302行审113号</td>
+<td>辽宁鞍山铁东 2020.09.30</td>
+<td>不准予</td>
+<td>「<strong>被执行人王宝柱已于2017年10月1日病故。故该申请被执行人属于主体不适格</strong>」</td>
+</tr>
+<tr>
+<td>(2021)桂0224行审11号</td>
+<td>广西融安 2021.03.29</td>
+<td>不准予</td>
+<td>「后<strong>黄炳忠病故</strong>」</td>
+</tr>
+<tr>
+<td>(2017)闽0205行审165号之二</td>
+<td>厦门海沧 2017.12.29</td>
+<td>准予（对继承人）</td>
+<td>「<strong>鉴于被处罚人邱瑞钦死亡，其继承人康雪娥、邱朝根、邱惠芳、邱朝阳应在继承遗产的范围内履行义务</strong>」，依《民事诉讼法》第二百三十二条＋《民诉法意见》第四百七十五条</td>
+</tr>
+<tr>
+<td>(2021)湘0502行审2号</td>
+<td>湖南邵阳双清 2021.05.19</td>
+<td>准予</td>
+<td>「<strong>马某某于2020年12月因病去世，其第一顺位继承人……均未表示放弃继承</strong>，应当继续履行」</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_4">三、剔除记录表</h2>
+<h3 id="a">A 类 · 法人／非法人组织注销（<strong>不得混入自然人样本</strong>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>理由</th>
+<th>本轮状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(2016)鲁1002行审6号、(2017)鲁1002行审9号、(2017)鲁1002行审18号</td>
+<td>法人注销</td>
+<td>否</td>
+</tr>
+<tr>
+<td>(2020)新2301行审103/104号、(2021)新2301行审25/26号</td>
+<td>公司注销</td>
+<td>否</td>
+</tr>
+<tr>
+<td>(2025)陕0202行审4/5号</td>
+<td>公司注销</td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>(2021)苏1012行审8号</strong></td>
+<td><strong>个人独资企业</strong>注销</td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>(2024)青0122行审17号</strong></td>
+<td><strong>一人公司</strong>注销</td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>(2025)湘04执复10号</strong></td>
+<td>公司＋追加三名股东；<strong>全文「死亡」0 次</strong></td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>(2026)沪0117行审36号</strong></td>
+<td>被执行人注销登记 → 不予受理</td>
+<td>✔ 本轮 S6 语义召回，<strong>已剔</strong></td>
+</tr>
+<tr>
+<td><strong>(2023)辽0323行审76号</strong></td>
+<td>个人独资企业（投资人死亡，企业无财产）</td>
+<td>✔「遗产」召回，<strong>已剔</strong></td>
+</tr>
+<tr>
+<td>(2018)湘3123执165号</td>
+<td>企业法人（吊销未清算）；死亡的是其<strong>法定代表人</strong></td>
+<td>✔「首次执行」召回，<strong>已剔</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>★<strong>风险提示</strong>：(2025)湘04执复10号 全文「死亡」0 次，若仅按案号或标题批量入库<strong>极易误收</strong>；本命题样本中<strong>未见</strong>该案。</p>
+</blockquote>
+<h3 id="b">B 类 · 征收补偿／拆迁裁决（机关自始即以继承人／权利义务承受人为被申请人，<strong>不产生「变更」问题</strong>）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号（本轮召回者）</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>天津河北区系列「佟守信（已故）的权利义务承受人」<strong>20 余件</strong></td>
+<td>机关自始以承受人为相对人并对其公告送达决定书与催告书</td>
+</tr>
+<tr>
+<td>(2014)甬北行审字第63号</td>
+<td>裁定书直接写「施云德遗产继承人」</td>
+</tr>
+<tr>
+<td>(2012)玄非诉行审字第25号</td>
+<td>裁决自始「以唐某甲等彭某甲之房产继承人为被申请人」</td>
+</tr>
+<tr>
+<td>(2014)浙甬行审字第11号</td>
+<td>被拆迁房屋登记在林嘉龙（2011-11-25 死亡）名下</td>
+</tr>
+<tr>
+<td><strong>(2018)湘0112行审5号／6号</strong></td>
+<td>★<strong>误收点名</strong>：本轮查明<strong>义务人吴坤／吴亮健在且到庭听证</strong>，死者系 2004 年去世的<strong>房屋原主吴长富</strong> → <strong>已剔</strong></td>
+</tr>
+<tr>
+<td><strong>(2018)吉0282行审203号／(2019)吉0282行审2号</strong></td>
+<td>产权人「已去世多年」，机关直接对继承人 → <strong>已剔</strong></td>
+</tr>
+<tr>
+<td><strong>(2021)津0116行审54号</strong></td>
+<td>胡东生（2018-01-26）、刘彩金（2020-08-23）死亡，机关直接对继承人 → <strong>已剔</strong></td>
+</tr>
+<tr>
+<td><strong>(2018)鄂0105行审465号、(2016)苏1181行审262号、(2020)浙04行审17号</strong></td>
+<td>★本轮核验：三件<strong>全文无「死亡／去世／病故」记载</strong>，与本题无关 → <strong>已剔</strong></td>
+</tr>
+<tr>
+<td>洮南市系列 (2017)吉0881行审75/76/88号、(2018)吉0881行审140/147号</td>
+<td>征收补偿；产权人死亡 →「被征收主体已发生变化」</td>
+</tr>
+<tr>
+<td>其余 20 余件见 A 笔记 §三-B</td>
+<td>征收补偿／拆迁裁决类</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="c">C 类 · 死亡后多领待遇／不当得利（<strong>义务人是活着的遗属</strong>）</h3>
+<p>(2026)川0302行审45号、(2026)甘0302行审19号、(2019)渝0114行审101／102号、(2025)粤0704行审304号、(2025)赣1030行审54／55号、(2024)苏0583行审38／86号、(2024)陕0423行审17／18／19号、(2026)新4201行审3号、(2019)冀0984行审62号、(2025)辽1321行审26号、(2018)鄂2828行审5号、(2016)黔0323行审35号、(2020)吉0322行审36号、(2019)吉0322行审79号、(2017)辽0281行审463号。</p>
+<h3 id="d">D 类 · 主体认定错误／与本题无关</h3>
+<p><strong>(2014)昌行审执字第71号</strong>（死亡者是房屋<strong>原所有权人</strong>，被申请执行人是健在的配偶原淑兰）｜(2014)杭淳行审字第6号｜(2015)南非诉行审字第00123号（「过失致人死亡罪」）｜(2020)甘0602行审8号（公司名含「文化遗产」）｜(2020)豫1325行审68号（处罚对象错误）｜(2018)吉0302行审7号（重新对健在配偶作决定）｜(2020)桂1422行审1号｜(2016)桂0127行审3号（<strong>申请执行人</strong>一方死亡）｜(2024)吉0112行审49号（死亡者为<strong>梅花鹿</strong>）｜(2018)晋0802行审162号、(2019)湘1221行审5号、(2020)鲁0724行审383号、(2020)晋0921行审4号（正文无「义务人死亡」要件，△未逐字核）。</p>
+<h3 id="_5">★ 被误收的样本点名（汇总）</h3>
+<ol>
+<li><strong>(2018)湘0112行审5号／6号</strong> —— 义务人<strong>健在</strong>，死者是 2004 年去世的房屋原主 → <strong>移出，归 B 类</strong>。</li>
+<li><strong>(2018)吉0282行审203号、(2019)吉0282行审2号、(2021)津0116行审54号、(2014)浙甬行审字第11号</strong> —— 「产权人早已死亡、机关直接对继承人」，<strong>不产生「变更」问题</strong> → 归 B 类。</li>
+<li><strong>(2018)鄂0105行审465号、(2016)苏1181行审262号、(2020)浙04行审17号</strong> —— <strong>全文无死亡记载</strong> → 剔除。</li>
+<li><strong>(2025)吉0524执887号、(2026)吉0524执1号、(2026)内0291执727号之一</strong> —— 正文<strong>未载明</strong>死亡事实 → <strong>建议移出</strong>（△未核）。</li>
+<li><strong>口径风险（务必注明）</strong>：<strong>(2019)鲁02行审复1号 / (2024)粤0204行审12号 / (2021)粤0117执317号</strong> 的义务人是<strong>个体工商户</strong>（无独立法律人格）。可按「自然人本人」处理，但<strong>必须逐案注明「个体工商户经营者」</strong>，否则与 (2021)苏1012行审8号（<strong>个人独资企业</strong>，已列 A 类排除）口径冲突。</li>
+</ol>
+<hr />
+<h2 id="_6">四、计数</h2>
+<h3 id="41-21">4.1 「明确」档 — <strong>21 件</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>时点</th>
+<th>件数</th>
+<th>案号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>S3／S4</strong></td>
+<td><strong>12</strong></td>
+<td>桂0202行审108号之一、湘1302行审68号、鲁0781行审365／366／378号、馆行审字第27号、鲁02行审复1号、吉0322行审18号、冀0803行审28号、川1181行审52号、晋0622行审23号、豫0802行审9号</td>
+</tr>
+<tr>
+<td><strong>S5</strong></td>
+<td><strong>9</strong></td>
+<td>陕0622行审24号、陕0621行审第3号、鄂1126行审65号、渝0112行审290号、渝0109行审83号、鲁1122行审6号、黑1222行审20号、粤7101行审2668号、辽0727行审168号</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="42-x-2-5">4.2 「倾向」档 —— <strong>经 X 复核降级后为 2 件</strong>（原表 5 件）</h3>
+<p><strong>(2025)黑0112行审77／87／86号 —— ★X 独立复核认定为误收</strong>：决定文号「哈阿<strong>房</strong>决字〔2024〕第004／067／069号」、申请执行人「阿城区某」，指向<strong>房屋</strong>类决定，<strong>非罚款</strong>；A 的「罚款类」系推断且无据 → <strong>应降级为 B 类征收／行为义务对照件，不入自然人金钱给付样本</strong>。
+剩余 2 件：<strong>(2018)闽0124行审11号</strong>（时点在 S2／S3 边界，且<strong>后续终本</strong>）｜<strong>(2024)粤0204行审12号</strong>（义务人系个体工商户，需口径说明）。</p>
+<p>→ <strong>累计「明确」21 件 ＋ 「倾向」2 件 ＝ 23 件</strong>（A 原表 26 件须改为 <strong>23 件</strong>）。</p>
+<h3 id="43">4.3 放宽至「一切时点」的自然人金钱给付死亡案</h3>
+<p>再加 S0 与 S2 共 <strong>8 件</strong> → <strong>合计约 34 件</strong>（口径重叠部分已扣减）。</p>
+<h3 id="44-21">4.4 ★ 处理方式分布（仅「明确」档 21 件）</h3>
+<p><strong>⚠️ 分类单位说明</strong>：下表<strong>左栏按「法院自陈的出口名称」</strong>（A 原表口径）；<strong>右栏按「裁定主文」</strong>（X 复核口径）。<strong>两栏不可混用</strong>——混用会把理由中的措辞（渝0109 的「变更」）与主文中的出口名称并列计数。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>出口</th>
+<th>A 口径（原表）</th>
+<th><strong>X 口径（按主文，建议采用）</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>不予受理</td>
+<td>1 ｜ 桂0202行审108号之一</td>
+<td><strong>1</strong> ｜ 桂0202行审108号之一</td>
+</tr>
+<tr>
+<td>驳回（含驳回复议维持）</td>
+<td>4 ｜ 湘1302行审68号、馆行审字第27号、鲁02行审复1号、吉0322行审18号</td>
+<td><strong>4</strong> ｜ 同左</td>
+</tr>
+<tr>
+<td>不准予强制执行</td>
+<td>3 ｜ 鲁0781行审365／366／378号</td>
+<td><strong>3</strong> ｜ 同左</td>
+</tr>
+<tr>
+<td>终结审查／终结执行</td>
+<td>7 ｜ 冀0803行审28号、川1181行审52号、晋0622行审23号、陕0622行审24号、陕0621行审第3号、鄂1126行审65号、渝0112行审290号</td>
+<td><strong>7</strong> ｜ 同左</td>
+</tr>
+<tr>
+<td><strong>准予（＋遗产范围内责任）</strong></td>
+<td>1 ｜ 豫0802行审9号</td>
+<td><strong>★ 2</strong> ｜ 豫0802行审9号、<strong>渝0109行审83号</strong></td>
+</tr>
+<tr>
+<td><strong>变更（追加被执行人为继承人／遗产管理人）</strong></td>
+<td>1 ｜ 渝0109行审83号</td>
+<td><strong>★ 0 —— 无</strong></td>
+</tr>
+<tr>
+<td>准许撤回</td>
+<td>4 ｜ 鲁1122行审6号、黑1222行审20号、粤7101行审2668号、辽0727行审168号</td>
+<td><strong>4</strong> ｜ 同左</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td>21</td>
+<td><strong>21</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>★★ 要点（X 复核的核心一击）</strong>：按<strong>裁定主文</strong>口径，<strong>「变更被执行主体」这一出口在 21 件「明确」档中为 0 件</strong>。渝0109 的主文逐字是「对重庆市北碚区应急管理局作出的(碚)应急罚〔2022〕14-2号《行政处罚决定书》<strong>准予强制执行，由继承人在遗产范围内承担责任</strong>」——「变更」<strong>只出现在「本院认为」</strong>。据此重算：<strong>「准予」2 件、「退出型」19 件、「变更」0 件</strong>。
+<strong>⇒ 任何主张「应当变更被执行主体」的论文，其正面样本为零。</strong> 这不是「少」，是「没有」。
+<strong>本表格已与 <code>深化报告.md</code> §五·5.2 条件 4 与 <code>反驳报告.md</code> §0.2-1 保持一致。</strong></p>
+</blockquote>
+<h3 id="45">4.5 三点实质性发现（<strong>推断，非裁判原文</strong>）</h3>
+<ol>
+<li><strong>S3／S4 与 S5 的处理分布系统性不同</strong>：S3／S4（12 件）以「不予受理／驳回／不准予」为主（<strong>8 件</strong>）；S5（9 件）以「终结＋准许撤回」为主（<strong>6 件</strong>）。〔推断〕法院在<strong>受理前后</strong>对同一情形的处理发生位移：受理前审查「是否符合受理条件」（《行政强制法》§55、§56），受理后转向「程序如何终结」（经《行政诉讼法》§101 转致《民事诉讼法》）。</li>
+<li><strong>实施阶段（S7）公式化</strong>：11 件「首次执行」<strong>一律</strong>援引「作为被执行人的公民死亡，无遗产可供执行，又无义务承担人 → 终结执行」，<strong>无一件变更</strong>。→ <strong>本命题的真正分歧只存在于审查阶段</strong>，不在执行实施阶段。</li>
+<li><strong>★ 实质结论由「申请人是否完成主体接续」预测，而非由法院的法律见解决定</strong>（<strong>root 假设 H，X 已逐案检验：19/21 命中，但被一对反例推翻</strong>，见 <code>反驳报告.md</code> §三）：
+   - <strong>机关已把承受主体列为被申请人（或已对其催告）→ 法院准予</strong>（3 件）：<strong>渝0109行审83号</strong>（机关自行变更被执行人为陶真琼、吴文杰）／<strong>粤0204行审12号</strong>（列王某睿；催告书载明「变更被执行人为浈某经营者王某睿」）／<strong>闽0124行审11号</strong>（2018-11-09 向「刘景护<strong>遗产继承人</strong>」送达催告书）；
+   - <strong>机关未列承受主体、亦未提交证据 → 法院一律拒绝</strong>（18 件），但<strong>拒绝所用的「出口」各不相同</strong>：桂0202（不予受理）／湘1302、鲁02、馆行审27、吉0322（驳回）／青州三件（不准予）／川1181行审52、陕0622、陕0621、鄂1126、冀0803、晋0622（终结）／鲁1122、黑1222、粤7101、辽0727（准许撤回）。
+   - <strong>★ H 的反例（X 的控制变量对比）</strong>：<strong>(2020)豫0802行审9号</strong> 与 <strong>(2020)湘1302行审68号</strong> 在<strong>义务类型（罚款）、义务人数（三人并处）、死亡时点（申请前）、机关列名状态（均未列）四栏完全相同</strong>，结果<strong>相反</strong>——前者<strong>准予罚款部分</strong>（逐字：「虽然张合玉已在处罚决定作出后死亡，但申请执行人申请执行的是<strong>金钱给付义务</strong>的执行，在本案进入执行程序后，<strong>需查明</strong>张合玉的遗产及遗产继承情况，以决定是否终结<strong>对张合玉的</strong>执行」），后者<strong>对全部三人驳回</strong>（逐字：「该自然人作为被申请执行人的主体不适格。<strong>申请人待查明相关事宜后，可重新提交强制执行申请</strong>」）。
+   - ⇒ <strong>分歧是真的</strong>（「分歧是事实差异的自然结果」不成立），<strong>但分歧的落点被移位</strong>：两案法院<strong>都不讨论继承／承受</strong>，一个把问题<strong>推给执行实施阶段并分割</strong>，一个把问题<strong>退回机关并拒绝分割</strong> → 法律实质是「<strong>审查范围与诉的可分性</strong>」，<strong>不是</strong>「被执行主体如何确定」。</li>
+</ol>
+<hr />
+<h2 id="0">五、确认为「法宝可得范围内 0 件」的检索（附检索式与检索日）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>命题</th>
+<th>检索式</th>
+<th>检索日</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>税款＋自然人义务人死亡＋非诉执行审查</strong></td>
+<td>①<code>fulltext="税款"</code>＋<code>caseClassName="非诉行政行为申请执行审查"</code>（<code>Total 2965</code>，Top20 <strong>全为法人</strong>）；②语义 S3 → 15 条<strong>全部为法人纳税主体</strong></td>
+<td>2026-09-30</td>
+<td><strong>在法宝可得范围内 0 件</strong>。〔推断〕税务机关依《税收征管法》§40 <strong>自行执行</strong>，此类案件本不进入非诉审查</td>
+</tr>
+<tr>
+<td><strong>「加处罚款自死亡之日停止计算」</strong></td>
+<td>①<code>fulltext="加处罚款"</code>（<code>Total 169860</code>）Top20 <strong>无一件涉自然人死亡</strong>；②语义 S4 → 15 条<strong>全部无关</strong></td>
+<td>2026-09-30</td>
+<td><strong>在法宝可得范围内 0 件</strong>——<strong>无任何裁判直接论述该主张</strong></td>
+</tr>
+<tr>
+<td><strong><code>催告</code>＋<code>title="死亡"</code></strong></td>
+<td><code>fulltext="催告"</code>＋<code>title="死亡"</code></td>
+<td>2026-09-30</td>
+<td><strong><code>Total 0</code></strong>。桂0202 的「催告程序未实际完成」<strong>无第二件</strong>同类裁判</td>
+</tr>
+<tr>
+<td><strong><code>义务人死亡</code>（作为正文短语）</strong></td>
+<td><code>caseClassName="非诉行政行为申请执行审查"</code>＋<code>fulltext="义务人死亡"</code></td>
+<td>2026-09-30</td>
+<td><strong><code>Total 0</code></strong>（法宝返回「未找到数据」）</td>
+</tr>
+<tr>
+<td><strong>社会抚养费＋义务人死亡</strong></td>
+<td>①<code>fulltext="义务人死亡"</code>→<code>Total 0</code>；②语义 S5 → 15 条<strong>全部无死亡</strong>；③全部关键词检索中社会抚养费涉死亡<strong>仅 1 件</strong></td>
+<td>2026-09-30</td>
+<td><strong>明确 1 件</strong>（粤7101行审2668号，准许撤回，<strong>无实体说理</strong>）</td>
+</tr>
+<tr>
+<td><strong>全体继承人均放弃继承＋金钱给付＋非诉执行</strong></td>
+<td>D：<code>放弃继承</code>→24（宽匹配）／<code>放弃继承 罚款</code>→3／<code>…滞纳金</code>→2／<code>…税款</code>→3／<code>…加处罚款</code>→2／<code>罚没款 放弃继承</code>→2／<code>均放弃继承</code>→2</td>
+<td>2026-09-30</td>
+<td><strong>0 件</strong>（<strong>部分</strong>放弃者有 1–3 件：粤0204行审12号、闽0124行审11号）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>方法学警告</strong>：<code>Total</code> 系<strong>宽匹配</strong>；D 实测 <code>fulltext="放弃继承"</code> <code>Total 24</code> 中，返回的 20 条里 <strong>8 条正文无「放弃继承」字面</strong>。<strong><code>Total</code> 不得当字面命中数引用。</strong></p>
+</blockquote>
+<hr />
+<h2 id="_7">六、法宝链接（逐案）</h2>
+<p>见 <code>notes/A-自然人样本表.md</code> §五（逐案 <code>Url</code> 字段，<code>?way=mcp</code>）。关键四件的直链：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>法宝链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(2022)桂0202行审108号之一</td>
+<td><a href="https://www.pkulaw.com/pfnl/08df102e7c10f206b5b30bba727648cdf335fdfaee0c412bbdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/08df102e7c10f206b5b30bba727648cdf335fdfaee0c412bbdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2023)渝0109行审83号</td>
+<td><a href="https://www.pkulaw.com/pfnl/08df102e7c10f2066f017972edc5e48764cb80ad14195c8fbdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/08df102e7c10f2066f017972edc5e48764cb80ad14195c8fbdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2024)粤0204行审12号</td>
+<td><a href="https://www.pkulaw.com/pfnl/08df102e7c10f20667e492f13257461880f468a328b07bdcbdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/08df102e7c10f20667e492f13257461880f468a328b07bdcbdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2020)陕0622行审24号</td>
+<td><a href="https://www.pkulaw.com/pfnl/a6bdb3332ec0adc429383d001ef89db1a6978ece7be6f83dbdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/a6bdb3332ec0adc429383d001ef89db1a6978ece7be6f83dbdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2020)鲁0781行审365号</td>
+<td><a href="https://www.pkulaw.com/pfnl/a6bdb3332ec0adc450e9b1c37f14620d4802f7522f37bb19bdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/a6bdb3332ec0adc450e9b1c37f14620d4802f7522f37bb19bdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2018)闽0124行审11号</td>
+<td><a href="https://www.pkulaw.com/pfnl/a6bdb3332ec0adc468390e764ef4f1d24032ec627df9715ebdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/a6bdb3332ec0adc468390e764ef4f1d24032ec627df9715ebdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2020)豫0802行审9号</td>
+<td><a href="https://www.pkulaw.com/pfnl/a6bdb3332ec0adc4ccf64002304a6cfd5c7121b0c02deb90bdfb.html?way=mcp" target="_blank" rel="noopener">https://www.pkulaw.com/pfnl/a6bdb3332ec0adc4ccf64002304a6cfd5c7121b0c02deb90bdfb.html?way=mcp</a></td>
+</tr>
+<tr>
+<td>(2020)辽0214执异127号</td>
+<td>见 <code>notes/D-实体法理.md</code>（<code>caseClassName="执行异议"</code>，<strong>按类型过滤会漏</strong>）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_8">七、未解决缺口</h2>
+<p>见 <code>待核清单.md</code> §一–§四。要点：(2025)黑0112 三件等 6 件<strong>仅语义核</strong>待补全文；<code>fulltext="死亡"</code>（4988）、<code>title="罚款"＋fulltext="死亡"</code>（176）、<code>首次执行</code>（3418）、<code>执行复议</code>（6998）<strong>均只返回前 20 条</strong>，仍有大量未检条目。</p>
+</main>
+</body>
+</html>
