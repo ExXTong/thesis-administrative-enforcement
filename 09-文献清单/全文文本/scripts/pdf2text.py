@@ -276,13 +276,16 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
     return body, info
 
 
-def front_matter(path: Path, info: dict, today: str) -> str:
+def front_matter(path: Path, info: dict, today: str, stand_in: Path | None = None) -> str:
     rel = path.relative_to(ROOT).as_posix()
     lines = [
         f"# {path.stem}",
         "",
         f"- 原件：`{rel}`",
     ]
+    if stand_in is not None:
+        lines.append("- 原件状态：该文件已损坏（缺少 xref/trailer，PDF 页数为 0），不能就地转换")
+        lines.append(f"- 实际转换所用副本：`{stand_in.relative_to(ROOT).as_posix()}`")
     if info["pages"] is not None:
         lines.append(f"- 页数：{info['pages']}")
     lines.append(f"- 字数：{info['chars']}")
@@ -314,7 +317,7 @@ def main() -> int:
             suffix = path.suffix.lower()
             if suffix not in (".pdf", ".html", ".htm"):
                 continue
-            source_path = path
+            stand_in = None
             used_stand_in = False
             error = None
             body = info = None
@@ -326,11 +329,11 @@ def main() -> int:
             except Exception as exc:
                 error = f"{type(exc).__name__}: {exc}"
                 # 原件损坏时，允许用 _来源补件/ 下的同名可用副本代替
-                stand_in = stand_in_dir / path.name
-                if stand_in.is_file():
+                candidate = stand_in_dir / path.name
+                if candidate.is_file():
                     try:
-                        body, info = pdf_to_markdown(stand_in)
-                        source_path = stand_in
+                        body, info = pdf_to_markdown(candidate)
+                        stand_in = candidate
                         used_stand_in = True
                         error = None
                     except Exception as exc2:
@@ -352,14 +355,7 @@ def main() -> int:
                 continue
 
             out_path = out_dir / f"{path.stem}.md"
-            head = front_matter(path, info, today)
-            if used_stand_in:
-                rel = source_path.relative_to(ROOT).as_posix()
-                head = head.replace(
-                    "---\n\n",
-                    f"- 原件不可用：该文件已损坏（无 xref/页数），不能就地转换\n"
-                    f"- 实际转换所用副本：`{rel}`（同名，自 gesetze-im-internet.de 重新下载）\n\n---\n\n",
-                )
+            head = front_matter(path, info, today, stand_in if used_stand_in else None)
             out_path.write_text(head + body + "\n", encoding="utf-8")
             note = ""
             if info["ocr_pages"]:

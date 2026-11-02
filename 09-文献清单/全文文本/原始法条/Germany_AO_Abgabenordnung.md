@@ -1,6 +1,8 @@
 # Germany_AO_Abgabenordnung
 
 - 原件：`09-文献清单/外文文献PDF/primary-sources/Germany_AO_Abgabenordnung.pdf`
+- 原件状态：该文件已损坏（缺少 xref/trailer，PDF 页数为 0），不能就地转换
+- 实际转换所用副本：`09-文献清单/全文文本/_来源补件/Germany_AO_Abgabenordnung.pdf`
 - 页数：210
 - 字数：829165
 - 文字来源：内嵌文本层
