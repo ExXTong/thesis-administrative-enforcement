@@ -4,7 +4,7 @@ import sys
 
 
 def count_words(text: str):
-    words = text.split(",")          # 缺陷1：用逗号切词，应按空白切
+    words = text.split()             # 按空白切词
     return len(words)
 
 
@@ -16,7 +16,7 @@ def main(argv):
     if len(argv) < 2:
         print("usage: wordcount.py <file>")
         return 1
-    with open(argv[1], "r") as fh:   # 缺陷3：未显式指定 encoding
+    with open(argv[1], "r", encoding="utf-8") as fh:
         text = fh.read()
     print(f"words: {count_words(text)}")
     print(f"lines: {count_lines(text)}")
