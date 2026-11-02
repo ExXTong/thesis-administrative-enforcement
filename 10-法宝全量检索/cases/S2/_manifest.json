@@ -1,0 +1,491 @@
+{
+ "agent": "S2",
+ "task": "继承法精确短语组（13 词）",
+ "keywords": [
+  "法定继承人",
+  "放弃继承",
+  "死亡赔偿",
+  "第一顺序继承人",
+  "遗产范围内",
+  "继承纠纷",
+  "在遗产范围内承担",
+  "继承人在遗产",
+  "遗产管理人",
+  "遗嘱执行人",
+  "受遗赠人",
+  "第一千一百六十一条",
+  "义务主体消灭"
+ ],
+ "calls_used": 40,
+ "call_cap": 40,
+ "status": "达调用上限停止（40/40）",
+ "year_range": "2008–2026",
+ "slice_dimension": "审结日期（整段→年月二分），未使用 --court 层级（协议更正一）",
+ "files_written": 40,
+ "raw_case_records": 493,
+ "unique_cases": 163,
+ "per_keyword": {
+  "义务主体消灭": {
+   "raw": 1,
+   "files": 1,
+   "unique": 1
+  },
+  "受遗赠人": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  },
+  "在遗产范围内承担": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  },
+  "放弃继承": {
+   "raw": 84,
+   "files": 6,
+   "unique": 24
+  },
+  "死亡赔偿": {
+   "raw": 112,
+   "files": 8,
+   "unique": 30
+  },
+  "法定继承人": {
+   "raw": 257,
+   "files": 16,
+   "unique": 89
+  },
+  "第一千一百六十一条": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  },
+  "第一顺序继承人": {
+   "raw": 9,
+   "files": 1,
+   "unique": 9
+  },
+  "继承人在遗产": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  },
+  "继承纠纷": {
+   "raw": 7,
+   "files": 1,
+   "unique": 7
+  },
+  "遗产管理人": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  },
+  "遗产范围内": {
+   "raw": 11,
+   "files": 1,
+   "unique": 11
+  },
+  "遗嘱执行人": {
+   "raw": 2,
+   "files": 1,
+   "unique": 2
+  }
+ },
+ "batches": [],
+ "slices": [
+  {
+   "kw": "义务主体消灭",
+   "start": "",
+   "end": "",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S2/义务主体消灭__all__all__all.json"
+  },
+  {
+   "kw": "遗产范围内",
+   "start": "",
+   "end": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/S2/遗产范围内__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "在遗产范围内承担",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/在遗产范围内承担__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "继承人在遗产",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/继承人在遗产__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "遗产管理人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/遗产管理人__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "遗嘱执行人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/遗嘱执行人__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "受遗赠人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/受遗赠人__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "第一千一百六十一条",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S2/第一千一百六十一条__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "继承纠纷",
+   "start": "",
+   "end": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S2/继承纠纷__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "第一顺序继承人",
+   "start": "",
+   "end": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/S2/第一顺序继承人__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "",
+   "end": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/S2/放弃继承__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "total": 24,
+   "count": 20,
+   "file": "cases/S2/放弃继承__2008-2026__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S2/放弃继承__2008M01-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 21,
+   "count": 20,
+   "file": "cases/S2/放弃继承__2017M07-2026M12__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 17,
+   "count": 17,
+   "file": "cases/S2/放弃继承__2017M07-2022M03__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2022.4.1",
+   "end": "2026.12.31",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S2/放弃继承__2022M04-2026M12__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "",
+   "end": "",
+   "total": 32,
+   "count": 20,
+   "file": "cases/S2/死亡赔偿__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "total": 32,
+   "count": 20,
+   "file": "cases/S2/死亡赔偿__2008-2026__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S2/死亡赔偿__2008M01-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 29,
+   "count": 20,
+   "file": "cases/S2/死亡赔偿__2017M07-2026M12__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 22,
+   "count": 20,
+   "file": "cases/S2/死亡赔偿__2017M07-2022M03__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2019.11.30",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S2/死亡赔偿__2017M07-2019M11__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2019.12.1",
+   "end": "2022.3.31",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S2/死亡赔偿__2019M12-2022M03__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2022.4.1",
+   "end": "2026.12.31",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S2/死亡赔偿__2022M04-2026M12__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "",
+   "end": "",
+   "total": 125,
+   "count": 20,
+   "file": "cases/S2/法定继承人__all__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 28,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2008M01-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2008.1.1",
+   "end": "2012.9.30",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S2/法定继承人__2008M01-2012M09__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2012.10.1",
+   "end": "2017.6.30",
+   "total": 28,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2012M10-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2012.10.1",
+   "end": "2015.2.28",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S2/法定继承人__2012M10-2015M02__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2015.3.1",
+   "end": "2017.6.30",
+   "total": 24,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2015M03-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2015.3.1",
+   "end": "2016.4.30",
+   "total": 11,
+   "count": 11,
+   "file": "cases/S2/法定继承人__2015M03-2016M04__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2016.5.1",
+   "end": "2017.6.30",
+   "total": 13,
+   "count": 13,
+   "file": "cases/S2/法定继承人__2016M05-2017M06__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 96,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2017M07-2026M12__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 84,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2017M07-2022M03__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2019.11.30",
+   "total": 57,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2017M07-2019M11__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2018.9.30",
+   "total": 16,
+   "count": 16,
+   "file": "cases/S2/法定继承人__2017M07-2018M09__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2018.10.1",
+   "end": "2019.11.30",
+   "total": 41,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2018M10-2019M11__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2018.10.1",
+   "end": "2019.4.30",
+   "total": 13,
+   "count": 13,
+   "file": "cases/S2/法定继承人__2018M10-2019M04__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.11.30",
+   "total": 28,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2019M05-2019M11__all__all.json",
+   "court": ""
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.8.31",
+   "total": 23,
+   "count": 20,
+   "file": "cases/S2/法定继承人__2019M05-2019M08__all__all.json",
+   "court": ""
+  }
+ ],
+ "not_fully_retrieved": [
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.8.31",
+   "court": "",
+   "total": 23,
+   "note": "该片 23 条，仅取回 20 条，缺 3 条。已达调用上限(40)，无法再切至单月收全。"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.9.1",
+   "end": "2019.11.30",
+   "court": "",
+   "total": 5,
+   "note": "达调用上限(40)，该切片未执行。total=5 系由上片差额推算(57-16-13-23)。"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.12.1",
+   "end": "2022.3.31",
+   "court": "",
+   "total": 27,
+   "note": "达调用上限(40)，该切片未执行。total=27 系由上片差额推算(84-57)。"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2022.4.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 12,
+   "note": "达调用上限(40)，该切片未执行。total=12 系由上片差额推算(96-84)。"
+  }
+ ]
+}

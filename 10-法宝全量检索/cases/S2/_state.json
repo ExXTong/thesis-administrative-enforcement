@@ -1,0 +1,185 @@
+{
+ "agent": "S2",
+ "calls_used": 40,
+ "call_cap": 40,
+ "slices": [
+  {
+   "kw": "法定继承人",
+   "start": "",
+   "end": "",
+   "total": 125,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__all__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 28,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2008M01-2017M06__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2008.1.1",
+   "end": "2012.9.30",
+   "total": 0,
+   "count": 0,
+   "error": null,
+   "file": "cases/S2/法定继承人__2008M01-2012M09__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2012.10.1",
+   "end": "2017.6.30",
+   "total": 28,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2012M10-2017M06__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2012.10.1",
+   "end": "2015.2.28",
+   "total": 4,
+   "count": 4,
+   "error": null,
+   "file": "cases/S2/法定继承人__2012M10-2015M02__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2015.3.1",
+   "end": "2017.6.30",
+   "total": 24,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2015M03-2017M06__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2015.3.1",
+   "end": "2016.4.30",
+   "total": 11,
+   "count": 11,
+   "error": null,
+   "file": "cases/S2/法定继承人__2015M03-2016M04__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2016.5.1",
+   "end": "2017.6.30",
+   "total": 13,
+   "count": 13,
+   "error": null,
+   "file": "cases/S2/法定继承人__2016M05-2017M06__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 96,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2017M07-2026M12__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 84,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2017M07-2022M03__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2019.11.30",
+   "total": 57,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2017M07-2019M11__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2017.7.1",
+   "end": "2018.9.30",
+   "total": 16,
+   "count": 16,
+   "error": null,
+   "file": "cases/S2/法定继承人__2017M07-2018M09__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2018.10.1",
+   "end": "2019.11.30",
+   "total": 41,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2018M10-2019M11__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2018.10.1",
+   "end": "2019.4.30",
+   "total": 13,
+   "count": 13,
+   "error": null,
+   "file": "cases/S2/法定继承人__2018M10-2019M04__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.11.30",
+   "total": 28,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2019M05-2019M11__all__all.json"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.8.31",
+   "total": 23,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2019M05-2019M08__all__all.json"
+  }
+ ],
+ "not_full": [
+  {
+   "kw": "法定继承人",
+   "start": "2019.5.1",
+   "end": "2019.8.31",
+   "total": 23,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/法定继承人__2019M05-2019M08__all__all.json",
+   "note": "达调用上限，未继续细分"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "",
+   "end": "",
+   "total": null,
+   "note": "达调用上限，该切片未执行"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "",
+   "end": "",
+   "total": null,
+   "note": "达调用上限，该切片未执行"
+  },
+  {
+   "kw": "法定继承人",
+   "start": "",
+   "end": "",
+   "total": null,
+   "note": "达调用上限，该切片未执行"
+  }
+ ],
+ "batches": []
+}

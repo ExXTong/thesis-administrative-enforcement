@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>★ 最终报告：符合研究范围的案例（逐条读全文后核定）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="/var/nfs_share/index.html">← 返回共享目录</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#_1">★ 最终报告：符合研究范围的案例（逐条读全文后核定）</a><ul>
+<li><a href="#_2">一、结论</a><ul>
+<li><a href="#a">★★ A 档（唯一）</a></li>
+</ul>
+</li>
+<li><a href="#a-1">二、★ 为什么 A 档只有 1 条——三个要件的"实践性分离"</a><ul>
+<li><a href="#_3">★★ 由此得出的核心发现</a></li>
+</ul>
+</li>
+<li><a href="#b">三、B 档分类（按"缺哪个要件"）</a></li>
+<li><a href="#_4">四、★ 时点完美但因义务类型不符而排除的案例（高价值对照）</a></li>
+<li><a href="#c-180">五、C 档排除理由分类（约 180 条）</a></li>
+<li><a href="#_5">六、★ 两组"同一事实、相反处理"的对照裁判（论文核心素材）</a><ul>
+<li><a href="#vs">对照组一：推给执行程序 vs 不予受理</a></li>
+<li><a href="#_6">对照组二：法院自陈"应不予受理"但已受理</a></li>
+</ul>
+</li>
+<li><a href="#_7">七、⚠️ 使用限制</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="_1">★ 最终报告：符合研究范围的案例（逐条读全文后核定）</h1>
+<blockquote>
+<p><strong>研究范围</strong>：行政非诉执行审查中，<strong>义务人死亡</strong>，且 ①义务人是<strong>自然人</strong> ②义务是<strong>金钱给付</strong> ③死亡时点在<strong>行政行为生效后、法院立案受理前</strong>。</p>
+<p><strong>方法</strong>：法宝全量检索（4,267 条唯一案件）→ 关键词过滤（204 条）→ 阶段判定／现象检索（180 条候选）→ <strong>逐条读全文核定</strong>（5 个子智能体，全部读 <code>查明</code>＋<code>本院认为</code> 原文）</p>
+<p><strong>日期</strong>：2026-10-04　<strong>预算</strong>：19,025 / 20,000 积分</p>
+</blockquote>
+<hr />
+<h2 id="_2">一、结论</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>档</th>
+<th>条数</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A 确定符合</strong></td>
+<td><strong>1</strong></td>
+<td>三要件齐备且<strong>时间线四要素完整可证</strong></td>
+</tr>
+<tr>
+<td><strong>B 存疑</strong></td>
+<td><strong>约 47</strong></td>
+<td>自然人＋金钱给付多已具备，<strong>卡在"死亡日期"或"决定生效日期"未载明</strong></td>
+</tr>
+<tr>
+<td><strong>C 排除</strong></td>
+<td><strong>约 180</strong></td>
+<td>有正面证据不符（详见第五节）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="a">★★ A 档（唯一）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>法院</th>
+<th>裁定日</th>
+<th>主文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(2020)黔2326行审1号</strong></td>
+<td>贵州省望谟县人民法院</td>
+<td>2020-02-03</td>
+<td><strong>驳回执行申请</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>完整时间线</strong>（四要素齐备，本次唯一）：</p>
+<pre><code>决定 2019-04-18 作出并同日送达
+  → 未复议、未起诉、未履行
+  → 起诉期限届满 2019-10-18
+  → 催告书 2019-12-19 送达
+  → ★死亡 2019-12-22（因病去世）
+  → 申请执行 2020-01-09
+  → 裁定 2020-02-03
+</code></pre>
+<p><strong>案情</strong>：被申请人<strong>王周忠</strong>（自然人）未经批准，于 2017-08-25 签订土地转让合同，将承包田非法转让给他人建住宅。望谟县自然资源局依《土地管理法》§73 作出望自然处字〔2019〕2号《土地行政处罚决定书》，<strong>没收违法所得 33,800 元</strong>。</p>
+<p><strong>法院认定（逐字）</strong>：</p>
+<blockquote>
+<p>「本案中，申请人在申请法院审查之前，被申请人王周忠已于2019年12月22日已生病去世，且其<strong>并无遗产可供执行，其也不有义务继受人</strong>。因此，申请人在<strong>执行主体已经死亡</strong>，且也未提供被申请人是否有遗产可供执行时，现向本院<strong>申请执行的主体尚不明确</strong>，其申请执行的法律文书<strong>不具有强制执行力</strong>，应当裁定驳回申请。」</p>
+</blockquote>
+<p><strong>援引</strong>：「只有<strong>执行主体和执行内容明确</strong>，且义务人在法律确定的期限内未履行义务的生效法律文书，才具有强制执行力。」</p>
+<p><strong>★ 价值</strong>：这是唯一一条<strong>法院把"义务人死亡"作为独立理由、并以"执行主体不明确"否定执行力的裁判</strong>，且死亡时点精确落在催告后、申请前。</p>
+<hr />
+<h2 id="a-1">二、★ 为什么 A 档只有 1 条——三个要件的"实践性分离"</h2>
+<p>逐条读全文后显示：<strong>三个要件在裁判文书中极少同时满足</strong>，而且<strong>失败的原因高度集中</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>失败模式</th>
+<th>条数（估）</th>
+<th>例证</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>①"生效后"无法确认</strong>——决定日期与死亡日期未并列记载</td>
+<td>最多</td>
+<td>(2020)鲁0781行审365号：死亡日明确（2018-05-08），<strong>决定日期未载明</strong>（同为2018年，先后不可判）<br>(2022)桂0202行审108号之一：催告中死亡，<strong>原决定与加处罚款决定的作出、生效日期全部未载明</strong></td>
+</tr>
+<tr>
+<td><strong>②义务内容未载明</strong>——无法判断是否金钱给付</td>
+<td>多</td>
+<td>(2015)馆行审字第27号：<strong>时间线完美 S3/S4</strong>，唯义务内容未载明<br>(2018)皖1721行审340号：法院原文即「决定<strong>送达后</strong>、催告<strong>送达前</strong>死亡」，但义务内容未载明</td>
+</tr>
+<tr>
+<td><strong>③死亡日期未载明</strong></td>
+<td>多</td>
+<td>(2019)渝0114行审98号：自然人＋金钱给付（33,590元）齐备，<strong>死亡日期未载明</strong><br>(2023)京74行审22号：裁定主文写「韩某坤（<strong>已死亡</strong>）」，<strong>死亡日期未载明</strong></td>
+</tr>
+<tr>
+<td><strong>④时点符合但义务类型不符</strong></td>
+<td>若干</td>
+<td>(2019)云0622行审7号：<strong>时点链条完全可证</strong>（复议送达2019-08-20→起诉期限届满09-04→病故09-27→立案前），但义务为「退还土地4,473.68㎡＋自行拆除」</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="_3">★★ 由此得出的核心发现</h3>
+<blockquote>
+<p><strong>"义务人死亡"的两个要件（生效后／金钱给付）在实践中呈现"分离"状态：时点可证的，义务类型不符；义务类型符合的，时点不可证。</strong></p>
+<p><strong>根本原因是：法院普遍不把"死亡时点"当作需要查明并记载的事实。</strong></p>
+</blockquote>
+<p><strong>例证（法院对死亡时点的记载缺失）</strong>：
+- <strong>完全不记载死亡日期</strong>：(2023)京74行审22号只在主文写"（已死亡）"，无日期、无说理
+- <strong>只写"在执行审查过程中死亡"</strong>：(2020)陕0621行审第3号——<strong>未区分立案前后的死亡时点</strong>
+- <strong>时间倒错未被追问</strong>：(2018)辽1021行审77号——催告书回证日期 2018-07-05，当事人 <strong>2018-07-03 已死亡</strong>，法院仅认定"催告未依法送达"，<strong>未追问死亡时点</strong></p>
+<hr />
+<h2 id="b">三、B 档分类（按"缺哪个要件"）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>缺什么</th>
+<th>代表案例</th>
+<th>补足方式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>B1</strong></td>
+<td>决定<strong>生效日期</strong>未载明</td>
+<td>(2020)鲁0781行审365/366/378号、(2022)桂0202行审108号之一</td>
+<td>调取送达回证</td>
+</tr>
+<tr>
+<td><strong>B2</strong></td>
+<td><strong>义务内容</strong>未载明（是否金钱给付）</td>
+<td>(2015)馆行审字第27号、(2018)皖1721行审340号</td>
+<td>调取处罚决定书原文</td>
+</tr>
+<tr>
+<td><strong>B3</strong></td>
+<td><strong>死亡日期</strong>未载明</td>
+<td>(2019)渝0114行审98号、(2023)京74行审22号</td>
+<td>调取户籍注销／死亡证明</td>
+</tr>
+<tr>
+<td><strong>B4</strong></td>
+<td>正文整体缺失</td>
+<td>(2018)闽0802行审7号、(2018)鲁0281行审394号、(2020)皖0121行审14号、(2021)鲁1122行审6号 等</td>
+<td>回法宝正文页取全文</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>★ B 档不是"无法判断"的废料——它就是论文的数据：</strong></p>
+<blockquote>
+<p><strong>B1＋B2＋B3 三类合计 40 余条，全部是"法院本应查明而未查明"的情形。</strong>
+<strong>这一"记载缺失"的规模本身，证明了 §155 要件审查在"义务人死亡"问题上的失效。</strong></p>
+</blockquote>
+<hr />
+<h2 id="_4">四、★ 时点完美但因义务类型不符而排除的案例（高价值对照）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>案号</th>
+<th>时点链条（可证）</th>
+<th>义务</th>
+<th>排除理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>(2019)云0622行审7号</strong></td>
+<td>复议决定送达 2019-08-20 → 15日起诉期限届满 2019-09-04 → <strong>病故 2019-09-27</strong> → 立案前</td>
+<td>退还土地 4,473.68㎡ ＋ 自行拆除</td>
+<td><strong>行为义务</strong></td>
+</tr>
+<tr>
+<td><strong>(2017)浙0521行审144号</strong></td>
+<td>法院原文：「<strong>行政处罚决定生效后</strong>被处罚人沈某因病死亡」</td>
+<td>退还土地＋没收建筑物＋<strong>罚款4,136元（已缴）</strong></td>
+<td>罚款已缴，剩行为义务</td>
+</tr>
+<tr>
+<td><strong>(2018)吉0503行审74号</strong></td>
+<td>决定 2017-11-30 → 催告 → <strong>死亡 2018-03-06</strong></td>
+<td>退还土地595㎡＋拆除；<strong>罚款4,760元已缴</strong></td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>(2016)冀0803行审28号</strong></td>
+<td>决定 2015-09-07 → <strong>死亡 2016-01-08</strong></td>
+<td>没收违法所得15,140＋罚款7,570元</td>
+<td><strong>死亡在6个月起诉期限内→决定未生效（S2）</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>⇒ 这四条在"时点要件"上全部合格（其中三条有法院逐字确认），却因义务类型或生效要件被排除。</strong>
+<strong>⇒ 论文用法：证明两个要件在实践中难以同时满足。</strong></p>
+<hr />
+<h2 id="c-180">五、C 档排除理由分类（约 180 条）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>理由</th>
+<th>条数（估）</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>① 征收补偿类</strong></td>
+<td><strong>约 96</strong></td>
+<td>机关自始以"权利义务承受人"为相对人；义务为腾空交付房屋（行为义务）；死亡多在决定作成前（S0）。<strong>其中天津河北区法院 76 条为同一系列</strong></td>
+</tr>
+<tr>
+<td><strong>② 死亡者非义务人本人</strong></td>
+<td><strong>约 40</strong></td>
+<td>事故受害人（工人／患者／交通事故受害人／爆破受害人）、义务人之亲属、承租人、法定代表人。★极端例：(2016)湘0626行审21号死者是「被执行人<strong>购进的一条黄牛</strong>」</td>
+</tr>
+<tr>
+<td><strong>③ 义务人为法人／其他组织</strong></td>
+<td>约 20</td>
+<td>公司注销、个体工商户字号</td>
+</tr>
+<tr>
+<td><strong>④ 死亡在决定作成前（S0）</strong></td>
+<td>约 15</td>
+<td>行政行为本身主体错误</td>
+</tr>
+<tr>
+<td><strong>⑤ 死亡在起诉期限内（S2·对照）</strong></td>
+<td>约 10</td>
+<td>(2019)粤0607行审391/392号等</td>
+</tr>
+<tr>
+<td><strong>⑥ 死亡在立案后（S5+）</strong></td>
+<td>约 5</td>
+<td>(2020)陕0621行审第3号</td>
+</tr>
+<tr>
+<td><strong>⑦ 死亡后多领待遇（义务人为活人）</strong></td>
+<td>约 10</td>
+<td>樟树市人社局同批 6 件</td>
+</tr>
+<tr>
+<td><strong>⑧ 法条列举抄录（非法事实）</strong></td>
+<td>8</td>
+<td>法院引用民诉法§232/§257 的法定情形列举，本案实际无死亡</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_5">六、★ 两组"同一事实、相反处理"的对照裁判（论文核心素材）</h2>
+<h3 id="vs">对照组一：<strong>推给执行程序</strong> vs <strong>不予受理</strong></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th><strong>(2020)豫0802行审9号</strong>（焦作解放区）</th>
+<th><strong>(2022)桂0202行审108号之一</strong>（柳州城中区）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>「虽然张合玉已在处罚决定作出后死亡，但申请执行人申请执行的是<strong>金钱给付义务</strong>的执行，<strong>在本案进入执行程序后，需查明</strong>张合玉的遗产及遗产继承情况，以决定是否终结对张合玉的执行」</td>
+<td>「申请执行人在<strong>对陈某鹅进行催告的过程中，陈某鹅已经死亡</strong>，申请执行人的<strong>催告程序并未实际完成</strong>……<strong>本院应不予受理</strong>」</td>
+</tr>
+<tr>
+<td><strong>准予执行</strong>（部分）</td>
+<td><strong>不予受理</strong> ＋ <strong>撤销原准予执行裁定</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>(2023)渝0109行审83号</strong>（北碚区）与豫0802同组：</p>
+<blockquote>
+<p>「准予强制执行……<strong>由继承人在遗产范围内承担责任</strong>」</p>
+</blockquote>
+<h3 id="_6">对照组二：<strong>法院自陈"应不予受理"但已受理</strong></h3>
+<p><strong>(2019)粤0607行审391/392号</strong>：</p>
+<blockquote>
+<p>「……<strong>依法应不予受理，鉴于本案已受理，应驳回执行申请</strong>。」</p>
+</blockquote>
+<p><strong>⇒ 法院自己承认正确的出口是"不予受理"，但因已立案而只能"驳回执行申请"。这是"出口错配"的司法自陈。</strong></p>
+<hr />
+<h2 id="_7">七、⚠️ 使用限制</h2>
+<ol>
+<li><strong>A 档仅 1 条</strong>——这是<strong>严格口径</strong>的结果（要求时间线四要素均可从文本证实）。<strong>不应据此认为"实践中没有此类案件"</strong>，而应表述为：<strong>在法宝可得范围内、且裁判文书载明时间线的案件中，仅 1 条完全可证。</strong></li>
+<li><strong>B 档 40 余条</strong>需回原始卷宗（送达回证、处罚决定书、户籍注销证明）才能定档——<strong>本文未做，也不应推定</strong>。</li>
+<li><strong>各批分析中，部分案件的 <code>查明</code> 或 <code>本院认为</code> 段法宝未返回</strong>（已逐条标注），引用前须回法宝正文页复核。</li>
+<li><strong>全部"X 件"结论须同时说明</strong>：检索式、检索日、筛选层级、"在法宝可得范围内"。</li>
+</ol>
+</main>
+</body>
+</html>

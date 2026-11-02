@@ -1,0 +1,1762 @@
+{
+ "agent": "A6",
+ "keywords": [
+  "死亡"
+ ],
+ "year_range": "2008-2017",
+ "calls_used": 159,
+ "call_cap": 160,
+ "note": "court 层级切片实测无效（\"最高人民法院/高级人民法院/中级人民法院/基层人民法院\"是真实法院名子串匹配，四档合计 2 件 vs 2013 年 total 25），已弃用；doc 亦非穷尽（2014 年 裁定书 103 / total 156）。最终只用【审结日期】做 k 路等比切分（k=ceil(total/15)），是唯一可保证不漏的分区维度。",
+ "slices": [
+  {
+   "kw": "死亡",
+   "start": "2008.1.1",
+   "end": "2008.12.31",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A6/死亡__2008__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2009.1.1",
+   "end": "2009.12.31",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/A6/死亡__2009__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2010.1.1",
+   "end": "2010.12.31",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2010__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2011.1.1",
+   "end": "2011.12.31",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/A6/死亡__2011__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2012.1.1",
+   "end": "2012.12.31",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A6/死亡__2012__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2013.1.1",
+   "end": "2013.12.31",
+   "court": "",
+   "total": 25,
+   "count": 20,
+   "file": "cases/A6/死亡__2013__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2013.7.2",
+   "end": "2013.12.31",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/A6/死亡__2013__all__D0702-1231.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2013.1.1",
+   "end": "2013.7.1",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/A6/死亡__2013__all__D0101-0701.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.1.1",
+   "end": "2014.12.31",
+   "court": "",
+   "total": 156,
+   "count": 20,
+   "file": "cases/A6/死亡__2014__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.11.28",
+   "end": "2014.12.31",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2014__all__D1128-1231.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.10.26",
+   "end": "2014.11.27",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/A6/死亡__2014__all__D1026-1127.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.11.11",
+   "end": "2014.11.27",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A6/死亡__2014__all__D1111-1127.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.10.26",
+   "end": "2014.11.10",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2014__all__D1026-1110.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.9.23",
+   "end": "2014.10.25",
+   "court": "",
+   "total": 23,
+   "count": 20,
+   "file": "cases/A6/死亡__2014__all__D0923-1025.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.10.9",
+   "end": "2014.10.25",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A6/死亡__2014__all__D1009-1025.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.9.23",
+   "end": "2014.10.8",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A6/死亡__2014__all__D0923-1008.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.8.21",
+   "end": "2014.9.22",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2014__all__D0821-0922.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.7.19",
+   "end": "2014.8.20",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/A6/死亡__2014__all__D0719-0820.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.6.15",
+   "end": "2014.7.18",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2014__all__D0615-0718.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.5.13",
+   "end": "2014.6.14",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2014__all__D0513-0614.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.4.10",
+   "end": "2014.5.12",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A6/死亡__2014__all__D0410-0512.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.3.8",
+   "end": "2014.4.9",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2014__all__D0308-0409.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.2.3",
+   "end": "2014.3.7",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2014__all__D0203-0307.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2014.1.1",
+   "end": "2014.2.2",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2014__all__D0101-0202.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.1",
+   "end": "2015.12.31",
+   "court": "",
+   "total": 150,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.11.25",
+   "end": "2015.12.31",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2015__all__D1125-1231.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.10.20",
+   "end": "2015.11.24",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2015__all__D1020-1124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.9.13",
+   "end": "2015.10.19",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2015__all__D0913-1019.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.8.8",
+   "end": "2015.9.12",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/A6/死亡__2015__all__D0808-0912.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.7.2",
+   "end": "2015.8.7",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2015__all__D0702-0807.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.5.27",
+   "end": "2015.7.1",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0527-0701.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.6.14",
+   "end": "2015.7.1",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0614-0701.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.6.23",
+   "end": "2015.7.1",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A6/死亡__2015__all__D0623-0701.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.6.14",
+   "end": "2015.6.22",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/A6/死亡__2015__all__D0614-0622.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.5.27",
+   "end": "2015.6.13",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/A6/死亡__2015__all__D0527-0613.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.4.20",
+   "end": "2015.5.26",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0420-0526.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.5.8",
+   "end": "2015.5.26",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2015__all__D0508-0526.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.4.20",
+   "end": "2015.5.7",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A6/死亡__2015__all__D0420-0507.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.3.15",
+   "end": "2015.4.19",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0315-0419.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.4.2",
+   "end": "2015.4.19",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2015__all__D0402-0419.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.3.15",
+   "end": "2015.4.1",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2015__all__D0315-0401.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.2.6",
+   "end": "2015.3.14",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2015__all__D0206-0314.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.1",
+   "end": "2015.2.5",
+   "court": "",
+   "total": 32,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0101-0205.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.25",
+   "end": "2015.2.5",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2015__all__D0125-0205.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.13",
+   "end": "2015.1.24",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0113-0124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.19",
+   "end": "2015.1.24",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2015__all__D0119-0124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.22",
+   "end": "2015.1.24",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/A6/死亡__2015__all__D0122-0124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.19",
+   "end": "2015.1.21",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A6/死亡__2015__all__D0119-0121.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.13",
+   "end": "2015.1.18",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2015__all__D0113-0118.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2015.1.1",
+   "end": "2015.1.12",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/A6/死亡__2015__all__D0101-0112.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 668,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.12.23",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/A6/死亡__2016__all__D1223-1231.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.12.15",
+   "end": "2016.12.22",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2016__all__D1215-1222.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.12.7",
+   "end": "2016.12.14",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1207-1214.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.12.11",
+   "end": "2016.12.14",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D1211-1214.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.12.7",
+   "end": "2016.12.10",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2016__all__D1207-1210.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.29",
+   "end": "2016.12.6",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1129-1206.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.21",
+   "end": "2016.11.28",
+   "court": "",
+   "total": 25,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1121-1128.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.25",
+   "end": "2016.11.28",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2016__all__D1125-1128.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.21",
+   "end": "2016.11.24",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D1121-1124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.13",
+   "end": "2016.11.20",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D1113-1120.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.11.5",
+   "end": "2016.11.12",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D1105-1112.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.27",
+   "end": "2016.11.4",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D1027-1104.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.19",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 57,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1019-1026.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.25",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 36,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1025-1026.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.26",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/A6/死亡__2016__all__D1026-1026.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.25",
+   "end": "2016.10.25",
+   "court": "",
+   "total": 31,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D1025-1025.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.23",
+   "end": "2016.10.24",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2016__all__D1023-1024.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.21",
+   "end": "2016.10.22",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/A6/死亡__2016__all__D1021-1022.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.19",
+   "end": "2016.10.20",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2016__all__D1019-1020.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.11",
+   "end": "2016.10.18",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2016__all__D1011-1018.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.10.3",
+   "end": "2016.10.10",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2016__all__D1003-1010.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.25",
+   "end": "2016.10.2",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/A6/死亡__2016__all__D0925-1002.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.17",
+   "end": "2016.9.24",
+   "court": "",
+   "total": 38,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0917-0924.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.22",
+   "end": "2016.9.24",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0922-0924.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.23",
+   "end": "2016.9.24",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/A6/死亡__2016__all__D0923-0924.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.22",
+   "end": "2016.9.22",
+   "court": "",
+   "total": 25,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0922-0922.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.19",
+   "end": "2016.9.21",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A6/死亡__2016__all__D0919-0921.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.17",
+   "end": "2016.9.18",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/A6/死亡__2016__all__D0917-0918.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.9",
+   "end": "2016.9.16",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2016__all__D0909-0916.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.1",
+   "end": "2016.9.8",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0901-0908.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.5",
+   "end": "2016.9.8",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/A6/死亡__2016__all__D0905-0908.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.9.1",
+   "end": "2016.9.4",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/A6/死亡__2016__all__D0901-0904.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.8.23",
+   "end": "2016.8.31",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0823-0831.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.8.27",
+   "end": "2016.8.31",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/A6/死亡__2016__all__D0827-0831.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.8.23",
+   "end": "2016.8.26",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2016__all__D0823-0826.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.8.15",
+   "end": "2016.8.22",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A6/死亡__2016__all__D0815-0822.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.8.7",
+   "end": "2016.8.14",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D0807-0814.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.30",
+   "end": "2016.8.6",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D0730-0806.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.22",
+   "end": "2016.7.29",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D0722-0729.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.14",
+   "end": "2016.7.21",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2016__all__D0714-0721.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.6",
+   "end": "2016.7.13",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0706-0713.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.10",
+   "end": "2016.7.13",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D0710-0713.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.7.6",
+   "end": "2016.7.9",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A6/死亡__2016__all__D0706-0709.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.6.27",
+   "end": "2016.7.5",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0627-0705.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.6.19",
+   "end": "2016.6.26",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D0619-0626.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.6.11",
+   "end": "2016.6.18",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2016__all__D0611-0618.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.6.3",
+   "end": "2016.6.10",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D0603-0610.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.26",
+   "end": "2016.6.2",
+   "court": "",
+   "total": 42,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0526-0602.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.31",
+   "end": "2016.6.2",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2016__all__D0531-0602.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.28",
+   "end": "2016.5.30",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A6/死亡__2016__all__D0528-0530.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.26",
+   "end": "2016.5.27",
+   "court": "",
+   "total": 38,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0526-0527.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.27",
+   "end": "2016.5.27",
+   "court": "",
+   "total": 36,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0527-0527.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.26",
+   "end": "2016.5.26",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/A6/死亡__2016__all__D0526-0526.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.18",
+   "end": "2016.5.25",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D0518-0525.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.10",
+   "end": "2016.5.17",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D0510-0517.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.5.2",
+   "end": "2016.5.9",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D0502-0509.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.4.23",
+   "end": "2016.5.1",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/A6/死亡__2016__all__D0423-0501.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.4.15",
+   "end": "2016.4.22",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/A6/死亡__2016__all__D0415-0422.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.4.7",
+   "end": "2016.4.14",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0407-0414.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.30",
+   "end": "2016.4.6",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D0330-0406.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.22",
+   "end": "2016.3.29",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0322-0329.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.14",
+   "end": "2016.3.21",
+   "court": "",
+   "total": 23,
+   "count": 20,
+   "file": "cases/A6/死亡__2016__all__D0314-0321.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.18",
+   "end": "2016.3.21",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2016__all__D0318-0321.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.14",
+   "end": "2016.3.17",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2016__all__D0314-0317.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.3.6",
+   "end": "2016.3.13",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A6/死亡__2016__all__D0306-0313.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.2.26",
+   "end": "2016.3.5",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A6/死亡__2016__all__D0226-0305.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.2.18",
+   "end": "2016.2.25",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/A6/死亡__2016__all__D0218-0225.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.2.10",
+   "end": "2016.2.17",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2016__all__D0210-0217.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.2.2",
+   "end": "2016.2.9",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A6/死亡__2016__all__D0202-0209.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.1.25",
+   "end": "2016.2.1",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2016__all__D0125-0201.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.1.17",
+   "end": "2016.1.24",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A6/死亡__2016__all__D0117-0124.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.1.9",
+   "end": "2016.1.16",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/A6/死亡__2016__all__D0109-0116.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2016.1.1",
+   "end": "2016.1.8",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A6/死亡__2016__all__D0101-0108.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.1",
+   "end": "2017.12.31",
+   "court": "",
+   "total": 800,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__all.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.6.25",
+   "end": "2017.7.1",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A6/死亡__2017__all__D0625-0701.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.6.18",
+   "end": "2017.6.24",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/A6/死亡__2017__all__D0618-0624.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.6.12",
+   "end": "2017.6.17",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/A6/死亡__2017__all__D0612-0617.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.6.5",
+   "end": "2017.6.11",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0605-0611.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.5.29",
+   "end": "2017.6.4",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A6/死亡__2017__all__D0529-0604.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.5.22",
+   "end": "2017.5.28",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0522-0528.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.5.16",
+   "end": "2017.5.21",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0516-0521.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.5.9",
+   "end": "2017.5.15",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0509-0515.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.5.2",
+   "end": "2017.5.8",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0502-0508.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.4.25",
+   "end": "2017.5.1",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0425-0501.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.4.19",
+   "end": "2017.4.24",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0419-0424.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.4.12",
+   "end": "2017.4.18",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0412-0418.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.4.5",
+   "end": "2017.4.11",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0405-0411.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.3.29",
+   "end": "2017.4.4",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/A6/死亡__2017__all__D0329-0404.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.3.23",
+   "end": "2017.3.28",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/A6/死亡__2017__all__D0323-0328.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.3.16",
+   "end": "2017.3.22",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0316-0322.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.3.9",
+   "end": "2017.3.15",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/A6/死亡__2017__all__D0309-0315.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.3.2",
+   "end": "2017.3.8",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/A6/死亡__2017__all__D0302-0308.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.2.24",
+   "end": "2017.3.1",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/A6/死亡__2017__all__D0224-0301.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.2.17",
+   "end": "2017.2.23",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0217-0223.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.2.10",
+   "end": "2017.2.16",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2017__all__D0210-0216.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.2.3",
+   "end": "2017.2.9",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0203-0209.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.28",
+   "end": "2017.2.2",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A6/死亡__2017__all__D0128-0202.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.21",
+   "end": "2017.1.27",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/A6/死亡__2017__all__D0121-0127.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.14",
+   "end": "2017.1.20",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A6/死亡__2017__all__D0114-0120.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.7",
+   "end": "2017.1.13",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A6/死亡__2017__all__D0107-0113.json"
+  },
+  {
+   "kw": "死亡",
+   "start": "2017.1.1",
+   "end": "2017.1.6",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A6/死亡__2017__all__D0101-0106.json"
+  }
+ ],
+ "not_fully_retrieved": [
+  {
+   "start": "2016.10.25",
+   "end": "2016.10.25",
+   "total": 31,
+   "note": "单日片 total=31>20，法宝单次硬上限 20，无法再按日期细分（疑同院同日批量同源）",
+   "year": 2016
+  },
+  {
+   "start": "2016.9.22",
+   "end": "2016.9.22",
+   "total": 25,
+   "note": "单日片 total=25>20，法宝单次硬上限 20，无法再按日期细分（疑同院同日批量同源）",
+   "year": 2016
+  },
+  {
+   "start": "2016.5.27",
+   "end": "2016.5.27",
+   "total": 36,
+   "note": "单日片 total=36>20，法宝单次硬上限 20，无法再按日期细分（疑同院同日批量同源）",
+   "year": 2016
+  },
+  {
+   "start": "2017.12.25",
+   "end": "2017.12.31",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.12.18",
+   "end": "2017.12.24",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.12.11",
+   "end": "2017.12.17",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.12.4",
+   "end": "2017.12.10",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.11.28",
+   "end": "2017.12.3",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.11.21",
+   "end": "2017.11.27",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.11.14",
+   "end": "2017.11.20",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.11.7",
+   "end": "2017.11.13",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.11.1",
+   "end": "2017.11.6",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.10.25",
+   "end": "2017.10.31",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.10.18",
+   "end": "2017.10.24",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.10.11",
+   "end": "2017.10.17",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.10.5",
+   "end": "2017.10.10",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.9.28",
+   "end": "2017.10.4",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.9.21",
+   "end": "2017.9.27",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.9.14",
+   "end": "2017.9.20",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.9.8",
+   "end": "2017.9.13",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.9.1",
+   "end": "2017.9.7",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.8.25",
+   "end": "2017.8.31",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.8.18",
+   "end": "2017.8.24",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.8.12",
+   "end": "2017.8.17",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.8.5",
+   "end": "2017.8.11",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.7.29",
+   "end": "2017.8.4",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.7.22",
+   "end": "2017.7.28",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.7.16",
+   "end": "2017.7.21",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.7.9",
+   "end": "2017.7.15",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.7.2",
+   "end": "2017.7.8",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.5.25",
+   "end": "2017.5.28",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.5.22",
+   "end": "2017.5.24",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.5.5",
+   "end": "2017.5.8",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.5.2",
+   "end": "2017.5.4",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.4.15",
+   "end": "2017.4.18",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.4.12",
+   "end": "2017.4.14",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.4.8",
+   "end": "2017.4.11",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.4.5",
+   "end": "2017.4.7",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.3.19",
+   "end": "2017.3.22",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.3.16",
+   "end": "2017.3.18",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.2.6",
+   "end": "2017.2.9",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.2.3",
+   "end": "2017.2.5",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.1.17",
+   "end": "2017.1.20",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  },
+  {
+   "start": "2017.1.14",
+   "end": "2017.1.16",
+   "total": null,
+   "note": "该日期片未检索（预算耗尽）",
+   "year": 2017
+  }
+ ],
+ "per_year": {
+  "2008": {
+   "total": 0,
+   "retrieved": 0,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2009": {
+   "total": 1,
+   "retrieved": 1,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2010": {
+   "total": 3,
+   "retrieved": 3,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2011": {
+   "total": 2,
+   "retrieved": 2,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2012": {
+   "total": 11,
+   "retrieved": 11,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2013": {
+   "total": 25,
+   "retrieved": 25,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2014": {
+   "total": 156,
+   "retrieved": 156,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2015": {
+   "total": 150,
+   "retrieved": 150,
+   "complete": true,
+   "gap_slices": 0,
+   "gap_cases": 0
+  },
+  "2016": {
+   "total": 668,
+   "retrieved": 576,
+   "complete": false,
+   "gap_slices": 3,
+   "gap_cases": 92
+  },
+  "2017": {
+   "total": 800,
+   "retrieved": 266,
+   "complete": false,
+   "gap_slices": 41,
+   "gap_cases": 0
+  }
+ }
+}

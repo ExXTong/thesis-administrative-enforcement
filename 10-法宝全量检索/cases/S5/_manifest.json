@@ -1,0 +1,1741 @@
+{
+ "agent": "S5",
+ "keywords": [
+  "去世"
+ ],
+ "task": "补齐 去世 覆盖缺口：A3 只做了年份级前 20 条的年份（2016-2021、2024、2025）",
+ "method": "年 → 按该年 total 自适应等分日期区间（目标每片≈15条）→ 仍>20 递归细分 → 单日仍>20 再按 区/县/市人民法院 三分",
+ "calls_used": 90,
+ "call_cap": 90,
+ "cap_reached": true,
+ "files_written": 90,
+ "rows_written": 926,
+ "unique_caseflags_S5": 685,
+ "unique_caseflags_A3": 209,
+ "unique_caseflags_A3_plus_S5": 742,
+ "library_total": 895,
+ "coverage_by_year": {
+  "2016": {
+   "year_total_known": 36,
+   "s5_downloaded_rows_with_overlap": 36,
+   "covered_total_sum_of_leaf_totals": 36,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 3,
+   "unique_caseflags_S5_this_year": 36,
+   "unique_caseflags_A3_plus_S5_this_year": 36,
+   "leaf_slices": [
+    {
+     "start": "2016.1.1",
+     "end": "2016.5.1",
+     "court": "",
+     "total": 14,
+     "count": 14,
+     "file": "cases/S5/去世__2016__all__20160101-20160501.json"
+    },
+    {
+     "start": "2016.5.2",
+     "end": "2016.8.31",
+     "court": "",
+     "total": 15,
+     "count": 15,
+     "file": "cases/S5/去世__2016__all__20160502-20160831.json"
+    },
+    {
+     "start": "2016.9.1",
+     "end": "2016.12.31",
+     "court": "",
+     "total": 7,
+     "count": 7,
+     "file": "cases/S5/去世__2016__all__20160901-20161231.json"
+    }
+   ]
+  },
+  "2017": {
+   "year_total_known": 100,
+   "s5_downloaded_rows_with_overlap": 100,
+   "covered_total_sum_of_leaf_totals": 100,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 7,
+   "unique_caseflags_S5_this_year": 81,
+   "unique_caseflags_A3_plus_S5_this_year": 81,
+   "leaf_slices": [
+    {
+     "start": "2017.1.1",
+     "end": "2017.2.21",
+     "court": "",
+     "total": 6,
+     "count": 6,
+     "file": "cases/S5/去世__2017__all__20170101-20170221.json"
+    },
+    {
+     "start": "2017.2.22",
+     "end": "2017.4.14",
+     "court": "",
+     "total": 14,
+     "count": 14,
+     "file": "cases/S5/去世__2017__all__20170222-20170414.json"
+    },
+    {
+     "start": "2017.4.15",
+     "end": "2017.6.5",
+     "court": "",
+     "total": 18,
+     "count": 18,
+     "file": "cases/S5/去世__2017__all__20170415-20170605.json"
+    },
+    {
+     "start": "2017.6.6",
+     "end": "2017.7.27",
+     "court": "",
+     "total": 19,
+     "count": 19,
+     "file": "cases/S5/去世__2017__all__20170606-20170727.json"
+    },
+    {
+     "start": "2017.7.28",
+     "end": "2017.9.17",
+     "court": "",
+     "total": 16,
+     "count": 16,
+     "file": "cases/S5/去世__2017__all__20170728-20170917.json"
+    },
+    {
+     "start": "2017.9.18",
+     "end": "2017.11.8",
+     "court": "",
+     "total": 14,
+     "count": 14,
+     "file": "cases/S5/去世__2017__all__20170918-20171108.json"
+    },
+    {
+     "start": "2017.11.9",
+     "end": "2017.12.31",
+     "court": "",
+     "total": 13,
+     "count": 13,
+     "file": "cases/S5/去世__2017__all__20171109-20171231.json"
+    }
+   ]
+  },
+  "2018": {
+   "year_total_known": 332,
+   "s5_downloaded_rows_with_overlap": 290,
+   "covered_total_sum_of_leaf_totals": 150,
+   "complete": false,
+   "uncovered_ranges": [
+    "2018-09-04~2018-09-07",
+    "2018-09-11~2018-09-14",
+    "2018-11-14~2018-12-31"
+   ],
+   "leaf_count": 29,
+   "unique_caseflags_S5_this_year": 211,
+   "unique_caseflags_A3_plus_S5_this_year": 211,
+   "leaf_slices": [
+    {
+     "start": "2018.1.1",
+     "end": "2018.1.15",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2018__all__20180101-20180115.json"
+    },
+    {
+     "start": "2018.1.16",
+     "end": "2018.1.31",
+     "court": "",
+     "total": 9,
+     "count": 9,
+     "file": "cases/S5/去世__2018__all__20180116-20180131.json"
+    },
+    {
+     "start": "2018.2.1",
+     "end": "2018.2.16",
+     "court": "",
+     "total": 5,
+     "count": 5,
+     "file": "cases/S5/去世__2018__all__20180201-20180216.json"
+    },
+    {
+     "start": "2018.2.17",
+     "end": "2018.3.4",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180217-20180304.json"
+    },
+    {
+     "start": "2018.3.5",
+     "end": "2018.3.20",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2018__all__20180305-20180320.json"
+    },
+    {
+     "start": "2018.3.21",
+     "end": "2018.4.5",
+     "court": "",
+     "total": 5,
+     "count": 5,
+     "file": "cases/S5/去世__2018__all__20180321-20180405.json"
+    },
+    {
+     "start": "2018.4.6",
+     "end": "2018.4.21",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180406-20180421.json"
+    },
+    {
+     "start": "2018.4.22",
+     "end": "2018.5.6",
+     "court": "",
+     "total": 8,
+     "count": 8,
+     "file": "cases/S5/去世__2018__all__20180422-20180506.json"
+    },
+    {
+     "start": "2018.5.7",
+     "end": "2018.5.22",
+     "court": "",
+     "total": 10,
+     "count": 10,
+     "file": "cases/S5/去世__2018__all__20180507-20180522.json"
+    },
+    {
+     "start": "2018.5.23",
+     "end": "2018.6.7",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180523-20180607.json"
+    },
+    {
+     "start": "2018.6.8",
+     "end": "2018.6.23",
+     "court": "",
+     "total": 4,
+     "count": 4,
+     "file": "cases/S5/去世__2018__all__20180608-20180623.json"
+    },
+    {
+     "start": "2018.6.24",
+     "end": "2018.7.9",
+     "court": "",
+     "total": 9,
+     "count": 9,
+     "file": "cases/S5/去世__2018__all__20180624-20180709.json"
+    },
+    {
+     "start": "2018.7.10",
+     "end": "2018.7.25",
+     "court": "",
+     "total": 12,
+     "count": 12,
+     "file": "cases/S5/去世__2018__all__20180710-20180725.json"
+    },
+    {
+     "start": "2018.7.26",
+     "end": "2018.8.10",
+     "court": "",
+     "total": 8,
+     "count": 8,
+     "file": "cases/S5/去世__2018__all__20180726-20180810.json"
+    },
+    {
+     "start": "2018.8.11",
+     "end": "2018.8.26",
+     "court": "",
+     "total": 9,
+     "count": 9,
+     "file": "cases/S5/去世__2018__all__20180811-20180826.json"
+    },
+    {
+     "start": "2018.8.27",
+     "end": "2018.8.27",
+     "court": "",
+     "total": 14,
+     "count": 14,
+     "file": "cases/S5/去世__2018__all__20180827-20180827.json"
+    },
+    {
+     "start": "2018.8.28",
+     "end": "2018.8.28",
+     "court": "",
+     "total": 0,
+     "count": 0,
+     "file": "cases/S5/去世__2018__all__20180828-20180828.json"
+    },
+    {
+     "start": "2018.8.29",
+     "end": "2018.8.30",
+     "court": "",
+     "total": 11,
+     "count": 11,
+     "file": "cases/S5/去世__2018__all__20180829-20180830.json"
+    },
+    {
+     "start": "2018.8.31",
+     "end": "2018.8.31",
+     "court": "",
+     "total": 0,
+     "count": 0,
+     "file": "cases/S5/去世__2018__all__20180831-20180831.json"
+    },
+    {
+     "start": "2018.9.1",
+     "end": "2018.9.1",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180901-20180901.json"
+    },
+    {
+     "start": "2018.9.2",
+     "end": "2018.9.3",
+     "court": "",
+     "total": 6,
+     "count": 6,
+     "file": "cases/S5/去世__2018__all__20180902-20180903.json"
+    },
+    {
+     "start": "2018.9.8",
+     "end": "2018.9.8",
+     "court": "",
+     "total": 0,
+     "count": 0,
+     "file": "cases/S5/去世__2018__all__20180908-20180908.json"
+    },
+    {
+     "start": "2018.9.9",
+     "end": "2018.9.10",
+     "court": "",
+     "total": 10,
+     "count": 10,
+     "file": "cases/S5/去世__2018__all__20180909-20180910.json"
+    },
+    {
+     "start": "2018.9.15",
+     "end": "2018.9.18",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2018__all__20180915-20180918.json"
+    },
+    {
+     "start": "2018.9.19",
+     "end": "2018.9.22",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180919-20180922.json"
+    },
+    {
+     "start": "2018.9.23",
+     "end": "2018.9.26",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2018__all__20180923-20180926.json"
+    },
+    {
+     "start": "2018.9.27",
+     "end": "2018.10.12",
+     "court": "",
+     "total": 3,
+     "count": 3,
+     "file": "cases/S5/去世__2018__all__20180927-20181012.json"
+    },
+    {
+     "start": "2018.10.13",
+     "end": "2018.10.28",
+     "court": "",
+     "total": 7,
+     "count": 7,
+     "file": "cases/S5/去世__2018__all__20181013-20181028.json"
+    },
+    {
+     "start": "2018.10.29",
+     "end": "2018.11.13",
+     "court": "",
+     "total": 8,
+     "count": 8,
+     "file": "cases/S5/去世__2018__all__20181029-20181113.json"
+    }
+   ]
+  },
+  "2019": {
+   "year_total_known": 177,
+   "s5_downloaded_rows_with_overlap": 293,
+   "covered_total_sum_of_leaf_totals": 153,
+   "complete": false,
+   "uncovered_ranges": [
+    "2019-01-24~2019-01-26"
+   ],
+   "leaf_count": 20,
+   "unique_caseflags_S5_this_year": 170,
+   "unique_caseflags_A3_plus_S5_this_year": 170,
+   "leaf_slices": [
+    {
+     "start": "2019.1.1",
+     "end": "2019.1.10",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2019__all__20190101-20190110.json"
+    },
+    {
+     "start": "2019.1.11",
+     "end": "2019.1.20",
+     "court": "",
+     "total": 0,
+     "count": 0,
+     "file": "cases/S5/去世__2019__all__20190111-20190120.json"
+    },
+    {
+     "start": "2019.1.21",
+     "end": "2019.1.23",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2019__all__20190121-20190123.json"
+    },
+    {
+     "start": "2019.1.27",
+     "end": "2019.1.30",
+     "court": "",
+     "total": 6,
+     "count": 6,
+     "file": "cases/S5/去世__2019__all__20190127-20190130.json"
+    },
+    {
+     "start": "2019.1.31",
+     "end": "2019.3.1",
+     "court": "",
+     "total": 1,
+     "count": 1,
+     "file": "cases/S5/去世__2019__all__20190131-20190301.json"
+    },
+    {
+     "start": "2019.3.2",
+     "end": "2019.3.16",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2019__all__20190302-20190316.json"
+    },
+    {
+     "start": "2019.3.17",
+     "end": "2019.4.1",
+     "court": "",
+     "total": 19,
+     "count": 19,
+     "file": "cases/S5/去世__2019__all__20190317-20190401.json"
+    },
+    {
+     "start": "2019.4.2",
+     "end": "2019.4.11",
+     "court": "",
+     "total": 13,
+     "count": 13,
+     "file": "cases/S5/去世__2019__all__20190402-20190411.json"
+    },
+    {
+     "start": "2019.4.12",
+     "end": "2019.4.21",
+     "court": "",
+     "total": 16,
+     "count": 16,
+     "file": "cases/S5/去世__2019__all__20190412-20190421.json"
+    },
+    {
+     "start": "2019.4.22",
+     "end": "2019.5.1",
+     "court": "",
+     "total": 2,
+     "count": 2,
+     "file": "cases/S5/去世__2019__all__20190422-20190501.json"
+    },
+    {
+     "start": "2019.5.2",
+     "end": "2019.5.16",
+     "court": "",
+     "total": 16,
+     "count": 16,
+     "file": "cases/S5/去世__2019__all__20190502-20190516.json"
+    },
+    {
+     "start": "2019.5.17",
+     "end": "2019.6.1",
+     "court": "",
+     "total": 6,
+     "count": 6,
+     "file": "cases/S5/去世__2019__all__20190517-20190601.json"
+    },
+    {
+     "start": "2019.6.2",
+     "end": "2019.6.16",
+     "court": "",
+     "total": 7,
+     "count": 7,
+     "file": "cases/S5/去世__2019__all__20190602-20190616.json"
+    },
+    {
+     "start": "2019.6.17",
+     "end": "2019.7.1",
+     "court": "",
+     "total": 17,
+     "count": 17,
+     "file": "cases/S5/去世__2019__all__20190617-20190701.json"
+    },
+    {
+     "start": "2019.7.2",
+     "end": "2019.7.31",
+     "court": "",
+     "total": 7,
+     "count": 7,
+     "file": "cases/S5/去世__2019__all__20190702-20190731.json"
+    },
+    {
+     "start": "2019.8.1",
+     "end": "2019.8.31",
+     "court": "",
+     "total": 12,
+     "count": 12,
+     "file": "cases/S5/去世__2019__all__20190801-20190831.json"
+    },
+    {
+     "start": "2019.9.1",
+     "end": "2019.9.30",
+     "court": "",
+     "total": 8,
+     "count": 8,
+     "file": "cases/S5/去世__2019__all__20190901-20190930.json"
+    },
+    {
+     "start": "2019.10.1",
+     "end": "2019.10.31",
+     "court": "",
+     "total": 6,
+     "count": 6,
+     "file": "cases/S5/去世__2019__all__20191001-20191031.json"
+    },
+    {
+     "start": "2019.11.1",
+     "end": "2019.11.30",
+     "court": "",
+     "total": 8,
+     "count": 8,
+     "file": "cases/S5/去世__2019__all__20191101-20191130.json"
+    },
+    {
+     "start": "2019.12.1",
+     "end": "2019.12.31",
+     "court": "",
+     "total": 4,
+     "count": 4,
+     "file": "cases/S5/去世__2019__all__20191201-20191231.json"
+    }
+   ]
+  },
+  "2020": {
+   "year_total_known": 96,
+   "s5_downloaded_rows_with_overlap": 96,
+   "covered_total_sum_of_leaf_totals": 96,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 7,
+   "unique_caseflags_S5_this_year": 96,
+   "unique_caseflags_A3_plus_S5_this_year": 96,
+   "leaf_slices": [
+    {
+     "start": "2020.1.1",
+     "end": "2020.2.21",
+     "court": "",
+     "total": 3,
+     "count": 3,
+     "file": "cases/S5/去世__2020__all__20200101-20200221.json"
+    },
+    {
+     "start": "2020.2.22",
+     "end": "2020.4.13",
+     "court": "",
+     "total": 19,
+     "count": 19,
+     "file": "cases/S5/去世__2020__all__20200222-20200413.json"
+    },
+    {
+     "start": "2020.4.14",
+     "end": "2020.6.4",
+     "court": "",
+     "total": 18,
+     "count": 18,
+     "file": "cases/S5/去世__2020__all__20200414-20200604.json"
+    },
+    {
+     "start": "2020.6.5",
+     "end": "2020.7.27",
+     "court": "",
+     "total": 10,
+     "count": 10,
+     "file": "cases/S5/去世__2020__all__20200605-20200727.json"
+    },
+    {
+     "start": "2020.7.28",
+     "end": "2020.9.17",
+     "court": "",
+     "total": 19,
+     "count": 19,
+     "file": "cases/S5/去世__2020__all__20200728-20200917.json"
+    },
+    {
+     "start": "2020.9.18",
+     "end": "2020.11.8",
+     "court": "",
+     "total": 10,
+     "count": 10,
+     "file": "cases/S5/去世__2020__all__20200918-20201108.json"
+    },
+    {
+     "start": "2020.11.9",
+     "end": "2020.12.31",
+     "court": "",
+     "total": 17,
+     "count": 17,
+     "file": "cases/S5/去世__2020__all__20201109-20201231.json"
+    }
+   ]
+  },
+  "2021": {
+   "year_total_known": 28,
+   "s5_downloaded_rows_with_overlap": 48,
+   "covered_total_sum_of_leaf_totals": 28,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 4,
+   "unique_caseflags_S5_this_year": 28,
+   "unique_caseflags_A3_plus_S5_this_year": 28,
+   "leaf_slices": [
+    {
+     "start": "2021.1.1",
+     "end": "2021.3.1",
+     "court": "",
+     "total": 9,
+     "count": 9,
+     "file": "cases/S5/去世__2021__all__20210101-20210301.json"
+    },
+    {
+     "start": "2021.3.2",
+     "end": "2021.5.1",
+     "court": "",
+     "total": 12,
+     "count": 12,
+     "file": "cases/S5/去世__2021__all__20210302-20210501.json"
+    },
+    {
+     "start": "2021.5.2",
+     "end": "2021.7.1",
+     "court": "",
+     "total": 7,
+     "count": 7,
+     "file": "cases/S5/去世__2021__all__20210502-20210701.json"
+    },
+    {
+     "start": "2021.7.2",
+     "end": "2021.12.31",
+     "court": "",
+     "total": 0,
+     "count": 0,
+     "file": "cases/S5/去世__2021__all__20210702-20211231.json"
+    }
+   ]
+  },
+  "2024": {
+   "year_total_known": 35,
+   "s5_downloaded_rows_with_overlap": 35,
+   "covered_total_sum_of_leaf_totals": 35,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 3,
+   "unique_caseflags_S5_this_year": 35,
+   "unique_caseflags_A3_plus_S5_this_year": 35,
+   "leaf_slices": [
+    {
+     "start": "2024.1.1",
+     "end": "2024.5.1",
+     "court": "",
+     "total": 5,
+     "count": 5,
+     "file": "cases/S5/去世__2024__all__20240101-20240501.json"
+    },
+    {
+     "start": "2024.5.2",
+     "end": "2024.8.31",
+     "court": "",
+     "total": 12,
+     "count": 12,
+     "file": "cases/S5/去世__2024__all__20240502-20240831.json"
+    },
+    {
+     "start": "2024.9.1",
+     "end": "2024.12.31",
+     "court": "",
+     "total": 18,
+     "count": 18,
+     "file": "cases/S5/去世__2024__all__20240901-20241231.json"
+    }
+   ]
+  },
+  "2025": {
+   "year_total_known": 28,
+   "s5_downloaded_rows_with_overlap": 28,
+   "covered_total_sum_of_leaf_totals": 28,
+   "complete": true,
+   "uncovered_ranges": [],
+   "leaf_count": 2,
+   "unique_caseflags_S5_this_year": 28,
+   "unique_caseflags_A3_plus_S5_this_year": 28,
+   "leaf_slices": [
+    {
+     "start": "2025.1.1",
+     "end": "2025.7.1",
+     "court": "",
+     "total": 13,
+     "count": 13,
+     "file": "cases/S5/去世__2025__all__20250101-20250701.json"
+    },
+    {
+     "start": "2025.7.2",
+     "end": "2025.12.31",
+     "court": "",
+     "total": 15,
+     "count": 15,
+     "file": "cases/S5/去世__2025__all__20250702-20251231.json"
+    }
+   ]
+  }
+ },
+ "years_completed_this_round": [
+  2016,
+  2017,
+  2020,
+  2021,
+  2024,
+  2025
+ ],
+ "years_partial_this_round": [
+  2018,
+  2019
+ ],
+ "years_not_attempted_already_full_in_A3": [
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015,
+  2022,
+  2023,
+  2026
+ ],
+ "batch_same_source_not_expanded": [
+  {
+   "year": 2019,
+   "court": "",
+   "start": "2019.1.24",
+   "end": "2019.1.26",
+   "total": 24,
+   "note": "批量同源（20条同院同日），按协议不钻取"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.4",
+   "end": "2018.9.4",
+   "total": 22,
+   "note": "批量同源（20条同院同日），按协议不钻取"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.5",
+   "end": "2018.9.5",
+   "total": 30,
+   "note": "批量同源（20条同院同日），按协议不钻取"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.6",
+   "end": "2018.9.7",
+   "total": 30,
+   "note": "批量同源（20条同院同日），按协议不钻取"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.11",
+   "end": "2018.9.14",
+   "total": 38,
+   "note": "批量同源（20条同院同日），按协议不钻取"
+  }
+ ],
+ "not_fully_retrieved": [
+  {
+   "year": 2019,
+   "court": "",
+   "start": "2019.1.24",
+   "end": "2019.1.26",
+   "total": 24,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.4",
+   "end": "2018.9.4",
+   "total": 22,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.5",
+   "end": "2018.9.5",
+   "total": 30,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.6",
+   "end": "2018.9.7",
+   "total": 30,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.9.11",
+   "end": "2018.9.14",
+   "total": 38,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  },
+  {
+   "year": 2018,
+   "court": "",
+   "start": "2018.11.14",
+   "end": "2018.12.31",
+   "total": 62,
+   "note": "调用额度用尽，该片未再细分，只取到前 20 条"
+  }
+ ],
+ "errors": [],
+ "slices": [
+  {
+   "kw": "去世",
+   "year": 2016,
+   "start": "2016.1.1",
+   "end": "2016.5.1",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S5/去世__2016__all__20160101-20160501.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2016,
+   "start": "2016.5.2",
+   "end": "2016.8.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/S5/去世__2016__all__20160502-20160831.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2016,
+   "start": "2016.9.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S5/去世__2016__all__20160901-20161231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2021,
+   "start": "2021.1.1",
+   "end": "2021.7.1",
+   "court": "",
+   "total": 28,
+   "count": 20,
+   "file": "cases/S5/去世__2021__all__20210101-20210701.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2021,
+   "start": "2021.1.1",
+   "end": "2021.3.1",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/S5/去世__2021__all__20210101-20210301.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2021,
+   "start": "2021.3.2",
+   "end": "2021.5.1",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/S5/去世__2021__all__20210302-20210501.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2021,
+   "start": "2021.5.2",
+   "end": "2021.7.1",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S5/去世__2021__all__20210502-20210701.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2021,
+   "start": "2021.7.2",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S5/去世__2021__all__20210702-20211231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.1.1",
+   "end": "2017.2.21",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S5/去世__2017__all__20170101-20170221.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.2.22",
+   "end": "2017.4.14",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S5/去世__2017__all__20170222-20170414.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.4.15",
+   "end": "2017.6.5",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S5/去世__2017__all__20170415-20170605.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.6.6",
+   "end": "2017.7.27",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/S5/去世__2017__all__20170606-20170727.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.7.28",
+   "end": "2017.9.17",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/S5/去世__2017__all__20170728-20170917.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.9.18",
+   "end": "2017.11.8",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S5/去世__2017__all__20170918-20171108.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2017,
+   "start": "2017.11.9",
+   "end": "2017.12.31",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/S5/去世__2017__all__20171109-20171231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.1.1",
+   "end": "2020.2.21",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S5/去世__2020__all__20200101-20200221.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.2.22",
+   "end": "2020.4.13",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/S5/去世__2020__all__20200222-20200413.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.4.14",
+   "end": "2020.6.4",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S5/去世__2020__all__20200414-20200604.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.6.5",
+   "end": "2020.7.27",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S5/去世__2020__all__20200605-20200727.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.7.28",
+   "end": "2020.9.17",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/S5/去世__2020__all__20200728-20200917.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.9.18",
+   "end": "2020.11.8",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S5/去世__2020__all__20200918-20201108.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2020,
+   "start": "2020.11.9",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/S5/去世__2020__all__20201109-20201231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.1",
+   "end": "2019.1.30",
+   "court": "",
+   "total": 33,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190101-20190130.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.1",
+   "end": "2019.1.10",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2019__all__20190101-20190110.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.11",
+   "end": "2019.1.20",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S5/去世__2019__all__20190111-20190120.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.21",
+   "end": "2019.1.30",
+   "court": "",
+   "total": 32,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190121-20190130.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.21",
+   "end": "2019.1.23",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2019__all__20190121-20190123.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.24",
+   "end": "2019.1.26",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190124-20190126.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.27",
+   "end": "2019.1.30",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S5/去世__2019__all__20190127-20190130.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.1.31",
+   "end": "2019.3.1",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2019__all__20190131-20190301.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.3.2",
+   "end": "2019.4.1",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190302-20190401.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.3.2",
+   "end": "2019.3.16",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2019__all__20190302-20190316.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.3.17",
+   "end": "2019.4.1",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/S5/去世__2019__all__20190317-20190401.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.4.2",
+   "end": "2019.5.1",
+   "court": "",
+   "total": 31,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190402-20190501.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.4.2",
+   "end": "2019.4.11",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/S5/去世__2019__all__20190402-20190411.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.4.12",
+   "end": "2019.4.21",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/S5/去世__2019__all__20190412-20190421.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.4.22",
+   "end": "2019.5.1",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2019__all__20190422-20190501.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.5.2",
+   "end": "2019.6.1",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190502-20190601.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.5.2",
+   "end": "2019.5.16",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/S5/去世__2019__all__20190502-20190516.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.5.17",
+   "end": "2019.6.1",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S5/去世__2019__all__20190517-20190601.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.6.2",
+   "end": "2019.7.1",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/S5/去世__2019__all__20190602-20190701.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.6.2",
+   "end": "2019.6.16",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S5/去世__2019__all__20190602-20190616.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.6.17",
+   "end": "2019.7.1",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/S5/去世__2019__all__20190617-20190701.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.7.2",
+   "end": "2019.7.31",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S5/去世__2019__all__20190702-20190731.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.8.1",
+   "end": "2019.8.31",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/S5/去世__2019__all__20190801-20190831.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.9.1",
+   "end": "2019.9.30",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S5/去世__2019__all__20190901-20190930.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.10.1",
+   "end": "2019.10.31",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S5/去世__2019__all__20191001-20191031.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.11.1",
+   "end": "2019.11.30",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S5/去世__2019__all__20191101-20191130.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2019,
+   "start": "2019.12.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S5/去世__2019__all__20191201-20191231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.1.1",
+   "end": "2018.1.15",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2018__all__20180101-20180115.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.1.16",
+   "end": "2018.1.31",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/S5/去世__2018__all__20180116-20180131.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.2.1",
+   "end": "2018.2.16",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/S5/去世__2018__all__20180201-20180216.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.2.17",
+   "end": "2018.3.4",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180217-20180304.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.3.5",
+   "end": "2018.3.20",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2018__all__20180305-20180320.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.3.21",
+   "end": "2018.4.5",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/S5/去世__2018__all__20180321-20180405.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.4.6",
+   "end": "2018.4.21",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180406-20180421.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.4.22",
+   "end": "2018.5.6",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S5/去世__2018__all__20180422-20180506.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.5.7",
+   "end": "2018.5.22",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S5/去世__2018__all__20180507-20180522.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.5.23",
+   "end": "2018.6.7",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180523-20180607.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.6.8",
+   "end": "2018.6.23",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S5/去世__2018__all__20180608-20180623.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.6.24",
+   "end": "2018.7.9",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/S5/去世__2018__all__20180624-20180709.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.7.10",
+   "end": "2018.7.25",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/S5/去世__2018__all__20180710-20180725.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.7.26",
+   "end": "2018.8.10",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S5/去世__2018__all__20180726-20180810.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.11",
+   "end": "2018.8.26",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/S5/去世__2018__all__20180811-20180826.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.27",
+   "end": "2018.9.10",
+   "court": "",
+   "total": 124,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180827-20180910.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.27",
+   "end": "2018.8.27",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S5/去世__2018__all__20180827-20180827.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.28",
+   "end": "2018.8.28",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S5/去世__2018__all__20180828-20180828.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.29",
+   "end": "2018.8.30",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/S5/去世__2018__all__20180829-20180830.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.8.31",
+   "end": "2018.8.31",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S5/去世__2018__all__20180831-20180831.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.1",
+   "end": "2018.9.1",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180901-20180901.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.2",
+   "end": "2018.9.3",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S5/去世__2018__all__20180902-20180903.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.4",
+   "end": "2018.9.4",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180904-20180904.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.5",
+   "end": "2018.9.5",
+   "court": "",
+   "total": 30,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180905-20180905.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.6",
+   "end": "2018.9.7",
+   "court": "",
+   "total": 30,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180906-20180907.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.8",
+   "end": "2018.9.8",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "file": "cases/S5/去世__2018__all__20180908-20180908.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.9",
+   "end": "2018.9.10",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S5/去世__2018__all__20180909-20180910.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.11",
+   "end": "2018.9.26",
+   "court": "",
+   "total": 42,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180911-20180926.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.11",
+   "end": "2018.9.14",
+   "court": "",
+   "total": 38,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20180911-20180914.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.15",
+   "end": "2018.9.18",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/S5/去世__2018__all__20180915-20180918.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.19",
+   "end": "2018.9.22",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180919-20180922.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.23",
+   "end": "2018.9.26",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S5/去世__2018__all__20180923-20180926.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.9.27",
+   "end": "2018.10.12",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S5/去世__2018__all__20180927-20181012.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.10.13",
+   "end": "2018.10.28",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/S5/去世__2018__all__20181013-20181028.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.10.29",
+   "end": "2018.11.13",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/S5/去世__2018__all__20181029-20181113.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2024,
+   "start": "2024.1.1",
+   "end": "2024.5.1",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/S5/去世__2024__all__20240101-20240501.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2024,
+   "start": "2024.5.2",
+   "end": "2024.8.31",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/S5/去世__2024__all__20240502-20240831.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2024,
+   "start": "2024.9.1",
+   "end": "2024.12.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S5/去世__2024__all__20240901-20241231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2025,
+   "start": "2025.1.1",
+   "end": "2025.7.1",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/S5/去世__2025__all__20250101-20250701.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2025,
+   "start": "2025.7.2",
+   "end": "2025.12.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/S5/去世__2025__all__20250702-20251231.json"
+  },
+  {
+   "kw": "去世",
+   "year": 2018,
+   "start": "2018.11.14",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 62,
+   "count": 20,
+   "file": "cases/S5/去世__2018__all__20181114-20181231.json"
+  }
+ ]
+}

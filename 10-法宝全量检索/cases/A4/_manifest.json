@@ -1,0 +1,1087 @@
+{
+ "agent": "A4",
+ "keywords": [
+  "已故",
+  "遗产"
+ ],
+ "case_class": "非诉行政行为申请执行审查",
+ "date_range": "2008.1.1-2026.12.31",
+ "call_cap": 95,
+ "calls_used": 95,
+ "files_written": 94,
+ "cases_sum_count_predupe": 1114,
+ "fully_covered_records": {
+  "遗产": 405,
+  "已故": 9
+ },
+ "global_total": {
+  "已故": 772,
+  "遗产": 650
+ },
+ "unique_cases_by_url": {
+  "遗产": 545,
+  "已故": 69
+ },
+ "unique_cases_total": 614,
+ "slices": [
+  {
+   "kw": "已故",
+   "start": "2008.1.1",
+   "end": "2014.12.31",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "status": "OK",
+   "file": "cases/A4/已故__2008-2014__all__all.json"
+  },
+  {
+   "kw": "已故",
+   "start": "2015.1.1",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 435,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/已故__2015-2018__all__all.json"
+  },
+  {
+   "kw": "已故",
+   "start": "2019.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 279,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/已故__2019-2021__all__all.json"
+  },
+  {
+   "kw": "已故",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 41,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/已故__2022-2026__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2008.1.1",
+   "end": "2014.12.31",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "status": "OK",
+   "file": "cases/A4/遗产__2008-2014__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 646,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2008-2026__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.1.1",
+   "end": "2015.3.14",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015__all__0101-0314.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.1.1",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 366,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015-2018__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.3.15",
+   "end": "2015.5.26",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015__all__0315-0526.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.5.27",
+   "end": "2015.8.7",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015__all__0527-0807.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.8.8",
+   "end": "2015.10.19",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015__all__0808-1019.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2015.10.20",
+   "end": "2015.12.31",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2015__all__1020-1231.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.1.1",
+   "end": "2016.3.13",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0101-0313.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.3.14",
+   "end": "2016.5.25",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0314-0525.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.5.26",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0526.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.5.27",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0527.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.5.28",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0528.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.5.31",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0531.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.6",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0606.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.18",
+   "court": "",
+   "total": 37,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.18",
+   "court": "基层人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.18",
+   "court": "中级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.18",
+   "court": "最高人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.6.18",
+   "court": "高级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.26",
+   "end": "2016.8.6",
+   "court": "",
+   "total": 45,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0526-0806.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.27",
+   "end": "2016.5.27",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0527-0527.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.28",
+   "end": "2016.5.28",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0528-0528.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.5.29",
+   "end": "2016.5.31",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0529-0531.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.6.1",
+   "end": "2016.6.6",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0601-0606.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.6.7",
+   "end": "2016.6.18",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0607-0618.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.6.19",
+   "end": "2016.7.12",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0619-0712.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.7.13",
+   "end": "2016.8.6",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0713-0806.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.8.7",
+   "end": "2016.9.11",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0807-0911.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.8.7",
+   "end": "2016.10.18",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0807-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.9.29",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0912-0929.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.10.18",
+   "court": "",
+   "total": 23,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__最高人民法院__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.10.18",
+   "court": "中级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__最高人民法院__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.10.18",
+   "court": "高级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__最高人民法院__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.10.18",
+   "court": "最高人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__最高人民法院__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.12",
+   "end": "2016.10.18",
+   "court": "基层人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__最高人民法院__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.9.30",
+   "end": "2016.10.18",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__0930-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.10.22",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1019-1022.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 38,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1019-1026.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.11.11",
+   "court": "",
+   "total": 39,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__高级人民法院__1019-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.11.11",
+   "court": "基层人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__高级人民法院__1019-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.11.11",
+   "court": "中级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__高级人民法院__1019-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.11.11",
+   "court": "最高人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__高级人民法院__1019-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.11.11",
+   "court": "高级人民法院",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__高级人民法院__1019-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.19",
+   "end": "2016.12.30",
+   "court": "",
+   "total": 54,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1019-1230.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.23",
+   "end": "2016.10.24",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1023-1024.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.23",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 34,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1023-1026.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.25",
+   "end": "2016.10.25",
+   "court": "",
+   "total": 30,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1025-1025.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.25",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 32,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1025-1026.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.26",
+   "end": "2016.10.26",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1026-1026.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.27",
+   "end": "2016.11.3",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1027-1103.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.11.4",
+   "end": "2016.11.11",
+   "court": "",
+   "total": 0,
+   "count": 0,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1104-1111.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.11.12",
+   "end": "2016.12.5",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1112-1205.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.12.6",
+   "end": "2016.12.30",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016__all__1206-1230.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.12.31",
+   "end": "2017.3.13",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2016-2017__all__1231-0313.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.3.14",
+   "end": "2017.4.18",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0314-0418.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.3.14",
+   "end": "2017.5.25",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0314-0525.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.4.19",
+   "end": "2017.5.25",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0419-0525.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.5.26",
+   "end": "2017.8.6",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0526-0806.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.8.7",
+   "end": "2017.9.11",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0807-0911.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.8.7",
+   "end": "2017.10.18",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0807-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.9.12",
+   "end": "2017.10.18",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__0912-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.10.19",
+   "end": "2017.11.23",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__1019-1123.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.10.19",
+   "end": "2017.12.30",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__1019-1230.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.11.24",
+   "end": "2017.12.30",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017__all__1124-1230.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.12.31",
+   "end": "2018.2.4",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017-2018__all__1231-0204.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2017.12.31",
+   "end": "2018.3.13",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2017-2018__all__1231-0313.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2018.2.5",
+   "end": "2018.3.13",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "status": "OK",
+   "file": "cases/A4/遗产__2018__all__0205-0313.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2018.3.14",
+   "end": "2018.5.25",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "status": "OK",
+   "file": "cases/A4/遗产__2018__all__0314-0525.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2018.5.26",
+   "end": "2018.8.6",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2018__all__0526-0806.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2018.8.7",
+   "end": "2018.10.18",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "status": "OK",
+   "file": "cases/A4/遗产__2018__all__0807-1018.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2018.10.19",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "status": "OK",
+   "file": "cases/A4/遗产__2018__all__1019-1231.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.1.1",
+   "end": "2019.3.2",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0101-0302.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.1.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 114,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 211,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019-2021__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.3.3",
+   "end": "2019.5.2",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0303-0502.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.5.3",
+   "end": "2019.7.1",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0503-0701.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.7.2",
+   "end": "2019.7.31",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0702-0731.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.7.2",
+   "end": "2019.8.31",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0702-0831.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.8.1",
+   "end": "2019.8.31",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0801-0831.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.9.1",
+   "end": "2019.10.31",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__0901-1031.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.11.1",
+   "end": "2019.11.30",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__1101-1130.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.11.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 31,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__1101-1231.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.12.1",
+   "end": "2019.12.16",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__1201-1216.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.12.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 28,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__1201-1231.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.12.17",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2019__all__1217-1231.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2020.1.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 72,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2020__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2021.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 25,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2021__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2022.1.1",
+   "end": "2023.12.31",
+   "court": "",
+   "total": 35,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2022-2023__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 56,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2022-2026__all__all.json"
+  },
+  {
+   "kw": "遗产",
+   "start": "2024.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "status": "OK",
+   "file": "cases/A4/遗产__2024-2026__all__all.json"
+  }
+ ],
+ "invalid_court_calls": 12,
+ "not_fully_retrieved": [
+  {
+   "kw": "遗产",
+   "start": "2016.5.27",
+   "end": "2016.5.27",
+   "total": 34,
+   "count": 20,
+   "missing": 14,
+   "file": "cases/A4/遗产__2016__all__0527-0527.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2016.10.25",
+   "end": "2016.10.25",
+   "total": 30,
+   "count": 20,
+   "missing": 10,
+   "file": "cases/A4/遗产__2016__all__1025-1025.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2019.12.17",
+   "end": "2019.12.31",
+   "total": 24,
+   "count": 20,
+   "missing": 4,
+   "file": "cases/A4/遗产__2019__all__1217-1231.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2020.1.1",
+   "end": "2020.12.31",
+   "total": 72,
+   "count": 20,
+   "missing": 52,
+   "file": "cases/A4/遗产__2020__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2021.1.1",
+   "end": "2021.12.31",
+   "total": 25,
+   "count": 20,
+   "missing": 5,
+   "file": "cases/A4/遗产__2021__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2022.1.1",
+   "end": "2023.12.31",
+   "total": 35,
+   "count": 20,
+   "missing": 15,
+   "file": "cases/A4/遗产__2022-2023__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "遗产",
+   "start": "2024.1.1",
+   "end": "2026.12.31",
+   "total": 21,
+   "count": 20,
+   "missing": 1,
+   "file": "cases/A4/遗产__2024-2026__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "已故",
+   "start": "2015.1.1",
+   "end": "2018.12.31",
+   "total": 435,
+   "count": 20,
+   "missing": 415,
+   "file": "cases/A4/已故__2015-2018__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "已故",
+   "start": "2019.1.1",
+   "end": "2021.12.31",
+   "total": 279,
+   "count": 20,
+   "missing": 259,
+   "file": "cases/A4/已故__2019-2021__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  },
+  {
+   "kw": "已故",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "total": 41,
+   "count": 20,
+   "missing": 21,
+   "file": "cases/A4/已故__2022-2026__all__all.json",
+   "note": "法宝单次上限 20 条、无翻页；该区间已切到「单日/无更细维度」仍 >20，且 --court 维度在本案由下恒返回 0（已实测），故只能取到前 20 条"
+  }
+ ],
+ "notes": [
+  "--court (法院层级) 维度在本案由下恒返回 total=0：已实测四档×3区间共12次全部为0，协议第二节的「法院层级」层是死维度，全部改用日期维度细分。",
+  "案件在日期上高度聚集：如 2016.5.27 单日 34 条、2016.10.25 单日 30 条、2019 全年 114 条。日期细分到单日后仍 >20 的区间无法再切（无翻页、无更细维度）。",
+  "95 次上限不足以覆盖 1422 条：累计调用 95 次封顶，遗产/已故均存在缺口，详见 _未拿全清单.md。",
+  "另：12 次带 --court 的调用全部返回 total=0，属失效维度，已在覆盖度统计中剔除（仅作证据保留在 slices 里）。"
+ ]
+}

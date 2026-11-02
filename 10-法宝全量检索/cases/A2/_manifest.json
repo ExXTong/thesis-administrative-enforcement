@@ -1,0 +1,952 @@
+{
+ "agent": "A2",
+ "keywords": [
+  "已死亡",
+  "身亡",
+  "死亡证明",
+  "死者"
+ ],
+ "calls_used": 75,
+ "call_cap": 75,
+ "files": 74,
+ "cases_sum": 1223,
+ "range": "2008.1.1~2026.12.31",
+ "method": "自适应 best-first 时间二分切片，每片 <=20 即视为拿全；第二轮用父片已落盘样本的月度分布挑切点（月边界），使两侧估计均 <=20。★ 法院层级维度实测非穷尽（对 total=51 的片按四档法院切分，四片合计仅 3 条），故全程未再使用；★ 批量同源片按主智能体广播规则④不展开。",
+ "coverage_by_keyword": {
+  "已死亡": "180/208 (86.5%)",
+  "身亡": "61/61 (100.0%)",
+  "死亡证明": "100/124 (80.6%)",
+  "死者": "222/286 (77.6%)"
+ },
+ "slices": [
+  {
+   "kw": "已死亡",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 208,
+   "count": 20,
+   "file": "cases/A2/已死亡__2008.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "身亡",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 61,
+   "count": 20,
+   "file": "cases/A2/身亡__2008.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 124,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2008.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 283,
+   "count": 20,
+   "file": "cases/A2/死者__2008.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 23,
+   "count": 20,
+   "file": "cases/A2/死者__2008.1.1-2016.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 260,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 228,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 32,
+   "count": 20,
+   "file": "cases/A2/死者__2022.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 193,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2020.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 35,
+   "count": 20,
+   "file": "cases/A2/死者__2020.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 33,
+   "count": 20,
+   "file": "cases/A2/已死亡__2008.1.1-2016.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 175,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 63,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2018.6.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.7.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 130,
+   "count": 20,
+   "file": "cases/A2/死者__2018.7.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 144,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 31,
+   "count": 20,
+   "file": "cases/A2/已死亡__2022.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.1.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 99,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.1.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2020.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 45,
+   "count": 20,
+   "file": "cases/A2/已死亡__2020.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.7.1",
+   "end": "2019.3.31",
+   "court": "",
+   "total": 114,
+   "count": 20,
+   "file": "cases/A2/死者__2018.7.1-2019.3.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2019.4.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A2/死者__2019.4.1-2019.12.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 8,
+   "count": 8,
+   "file": "cases/A2/死亡证明__2008.1.1-2016.12.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 116,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2017.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 80,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2017.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 36,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2022.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.7.1",
+   "end": "2018.10.31",
+   "court": "",
+   "total": 99,
+   "count": 20,
+   "file": "cases/A2/死者__2018.7.1-2018.10.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.11.1",
+   "end": "2019.3.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/A2/死者__2018.11.1-2019.3.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.1.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 48,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.1.1-2018.6.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2018.7.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 51,
+   "count": 20,
+   "file": "cases/A2/已死亡__2018.7.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.7.1",
+   "end": "2018.8.31",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A2/死者__2018.7.1-2018.8.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.1",
+   "end": "2018.10.31",
+   "court": "",
+   "total": 82,
+   "count": 20,
+   "file": "cases/A2/死者__2018.9.1-2018.10.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.1",
+   "end": "2018.9.30",
+   "court": "",
+   "total": 80,
+   "count": 20,
+   "file": "cases/A2/死者__2018.9.1-2018.9.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.10.1",
+   "end": "2018.10.31",
+   "court": "",
+   "total": 2,
+   "count": 2,
+   "file": "cases/A2/死者__2018.10.1-2018.10.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.1.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 56,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2017.1.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2020.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2020.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.1",
+   "end": "2018.9.15",
+   "court": "",
+   "total": 77,
+   "count": 20,
+   "file": "cases/A2/死者__2018.9.1-2018.9.15__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.16",
+   "end": "2018.9.30",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A2/死者__2018.9.16-2018.9.30__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.1",
+   "end": "2018.9.8",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/A2/死者__2018.9.1-2018.9.8__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.9",
+   "end": "2018.9.15",
+   "court": "",
+   "total": 51,
+   "count": 20,
+   "file": "cases/A2/死者__2018.9.9-2018.9.15__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2017.9.30",
+   "court": "",
+   "total": 41,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2017.9.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.10.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/A2/死者__2017.10.1-2018.6.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "身亡",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A2/身亡__2008.1.1-2016.12.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "身亡",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 44,
+   "count": 20,
+   "file": "cases/A2/身亡__2017.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.1.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 29,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2017.1.1-2018.6.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2018.7.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2018.7.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2018.7.1",
+   "end": "2019.3.31",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/A2/已死亡__2018.7.1-2019.3.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2019.4.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 24,
+   "count": 20,
+   "file": "cases/A2/已死亡__2019.4.1-2019.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.9",
+   "end": "2018.9.15",
+   "court": "最高人民法院",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A2/死者__2018.9.9-2018.9.15__最高人民法院__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.9",
+   "end": "2018.9.15",
+   "court": "高级人民法院",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A2/死者__2018.9.9-2018.9.15__高级人民法院__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.9",
+   "end": "2018.9.15",
+   "court": "中级人民法院",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A2/死者__2018.9.9-2018.9.15__中级人民法院__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2018.9.9",
+   "end": "2018.9.15",
+   "court": "基层人民法院",
+   "total": 0,
+   "count": 0,
+   "file": "cases/A2/死者__2018.9.9-2018.9.15__基层人民法院__all.json",
+   "fully": true
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.1.1",
+   "end": "2017.9.30",
+   "court": "",
+   "total": 25,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.1.1-2017.9.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2017.10.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 23,
+   "count": 20,
+   "file": "cases/A2/已死亡__2017.10.1-2018.6.30__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2020.1.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 38,
+   "count": 20,
+   "file": "cases/A2/已死亡__2020__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "已死亡",
+   "start": "2021.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 7,
+   "count": 7,
+   "file": "cases/A2/已死亡__2021__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "身亡",
+   "start": "2017.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 28,
+   "count": 20,
+   "file": "cases/A2/身亡__2017.1.1-2021.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "身亡",
+   "start": "2022.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/A2/身亡__2022.1.1-2026.12.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死者",
+   "start": "2017.1.1",
+   "end": "2017.5.31",
+   "court": "",
+   "total": 32,
+   "count": 20,
+   "file": "cases/A2/死者__2017.1.1-2017.5.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2017.6.1",
+   "end": "2017.9.30",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A2/死者__2017.6.1-2017.9.30__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "已死亡",
+   "start": "2020.1.1",
+   "end": "2020.6.30",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A2/已死亡__2020.1.1-2020.6.30__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "已死亡",
+   "start": "2020.7.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 29,
+   "count": 20,
+   "file": "cases/A2/已死亡__2020.7.1-2020.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2022.1.1",
+   "end": "2023.12.31",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/A2/死亡证明__2022.1.1-2023.12.31__all__all.json",
+   "fully": true
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2024.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 33,
+   "count": 20,
+   "file": "cases/A2/死亡证明__2024.1.1-2026.12.31__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "死者",
+   "start": "2020.1.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 29,
+   "count": 20,
+   "file": "cases/A2/死者__2020__all__all.json",
+   "fully": false
+  },
+  {
+   "kw": "身亡",
+   "start": "2017.1.1",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 19,
+   "count": 19,
+   "file": "cases/A2/身亡__2017.1.1-2018.12.31__all__all.json",
+   "fully": true,
+   "note": "样本 2017-2018 占 11/20 → 估 15.4/12.6"
+  },
+  {
+   "kw": "身亡",
+   "start": "2019.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 9,
+   "count": 9,
+   "file": "cases/A2/身亡__2019.1.1-2021.12.31__all__all.json",
+   "fully": true,
+   "note": "同上右片"
+  },
+  {
+   "kw": "已死亡",
+   "start": "2008.1.1",
+   "end": "2016.7.31",
+   "court": "",
+   "total": 20,
+   "count": 20,
+   "file": "cases/A2/已死亡__2008.1.1-2016.7.31__all__all.json",
+   "fully": true,
+   "note": "样本切点 2016.7.31 → 估 16.5/16.5"
+  },
+  {
+   "kw": "已死亡",
+   "start": "2016.8.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A2/已死亡__2016.8.1-2016.12.31__all__all.json",
+   "fully": true,
+   "note": "同上右片"
+  },
+  {
+   "kw": "已死亡",
+   "start": "2022.1.1",
+   "end": "2025.3.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/A2/已死亡__2022.1.1-2025.3.31__all__all.json",
+   "fully": true,
+   "note": "样本切点 2025.3.31 → 估 17.1/14.0"
+  },
+  {
+   "kw": "已死亡",
+   "start": "2025.4.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 13,
+   "count": 13,
+   "file": "cases/A2/已死亡__2025.4.1-2026.12.31__all__all.json",
+   "fully": true,
+   "note": "同上右片"
+  },
+  {
+   "kw": "死者",
+   "start": "2022.1.1",
+   "end": "2024.9.30",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/A2/死者__2022.1.1-2024.9.30__all__all.json",
+   "fully": true,
+   "note": "样本切点 2024.9.30 → 估 14.4/17.6"
+  },
+  {
+   "kw": "死者",
+   "start": "2024.10.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/A2/死者__2024.10.1-2026.12.31__all__all.json",
+   "fully": false,
+   "note": "同上右片"
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.1.1",
+   "end": "2017.5.31",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/A2/死亡证明__2017.1.1-2017.5.31__all__all.json",
+   "fully": true,
+   "note": "样本切点 2017.5.31 → 估 14.5/14.5"
+  },
+  {
+   "kw": "死亡证明",
+   "start": "2017.6.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/A2/死亡证明__2017.6.1-2018.6.30__all__all.json",
+   "fully": true,
+   "note": "同上右片"
+  },
+  {
+   "kw": "死者",
+   "start": "2021.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/A2/死者__2021.1.1-2021.12.31__all__all.json",
+   "fully": true,
+   "note": "补漏：2020-2021 拆分时缺的右片"
+  }
+ ],
+ "not_fully_retrieved": [
+  {
+   "kw": "死者",
+   "span": "2018.9.9-2018.9.15",
+   "court": "",
+   "total": 51,
+   "got": 20,
+   "batch": true,
+   "court_n": 1,
+   "date_n": 2,
+   "note": "批量同源（同一法院+同一日期批量案件），按主智能体广播规则④记为未展开，不向下钻取"
+  },
+  {
+   "kw": "死亡证明",
+   "span": "2024.1.1-2026.12.31",
+   "court": "",
+   "total": 33,
+   "got": 20,
+   "batch": false,
+   "court_n": 13,
+   "date_n": 15,
+   "note": "仅取回 20/33 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2017.1.1-2017.5.31",
+   "court": "",
+   "total": 32,
+   "got": 20,
+   "batch": false,
+   "court_n": 12,
+   "date_n": 12,
+   "note": "仅取回 20/32 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "已死亡",
+   "span": "2020.7.1-2020.12.31",
+   "court": "",
+   "total": 29,
+   "got": 20,
+   "batch": false,
+   "court_n": 16,
+   "date_n": 16,
+   "note": "仅取回 20/29 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2020.1.1-2020.12.31",
+   "court": "",
+   "total": 29,
+   "got": 20,
+   "batch": false,
+   "court_n": 17,
+   "date_n": 16,
+   "note": "仅取回 20/29 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死亡证明",
+   "span": "2018.7.1-2019.12.31",
+   "court": "",
+   "total": 27,
+   "got": 20,
+   "batch": false,
+   "court_n": 11,
+   "date_n": 16,
+   "note": "仅取回 20/27 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "已死亡",
+   "span": "2018.7.1-2019.3.31",
+   "court": "",
+   "total": 27,
+   "got": 20,
+   "batch": false,
+   "court_n": 14,
+   "date_n": 14,
+   "note": "仅取回 20/27 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2018.9.1-2018.9.8",
+   "court": "",
+   "total": 26,
+   "got": 20,
+   "batch": true,
+   "court_n": 1,
+   "date_n": 2,
+   "note": "批量同源（同一法院+同一日期批量案件），按主智能体广播规则④记为未展开，不向下钻取"
+  },
+  {
+   "kw": "已死亡",
+   "span": "2017.1.1-2017.9.30",
+   "court": "",
+   "total": 25,
+   "got": 20,
+   "batch": false,
+   "court_n": 16,
+   "date_n": 17,
+   "note": "仅取回 20/25 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死亡证明",
+   "span": "2020.1.1-2021.12.31",
+   "court": "",
+   "total": 24,
+   "got": 20,
+   "batch": false,
+   "court_n": 13,
+   "date_n": 16,
+   "note": "仅取回 20/24 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "已死亡",
+   "span": "2019.4.1-2019.12.31",
+   "court": "",
+   "total": 24,
+   "got": 20,
+   "batch": false,
+   "court_n": 16,
+   "date_n": 18,
+   "note": "仅取回 20/24 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2008.1.1-2016.12.31",
+   "court": "",
+   "total": 23,
+   "got": 20,
+   "batch": false,
+   "court_n": 13,
+   "date_n": 12,
+   "note": "仅取回 20/23 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "已死亡",
+   "span": "2017.10.1-2018.6.30",
+   "court": "",
+   "total": 23,
+   "got": 20,
+   "batch": false,
+   "court_n": 15,
+   "date_n": 16,
+   "note": "仅取回 20/23 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2017.10.1-2018.6.30",
+   "court": "",
+   "total": 22,
+   "got": 20,
+   "batch": false,
+   "court_n": 11,
+   "date_n": 13,
+   "note": "仅取回 20/22 条，调用上限已用尽未再细分"
+  },
+  {
+   "kw": "死者",
+   "span": "2024.10.1-2026.12.31",
+   "court": "",
+   "total": 21,
+   "got": 20,
+   "batch": false,
+   "court_n": 18,
+   "date_n": 19,
+   "note": "仅取回 20/21 条，调用上限已用尽未再细分"
+  }
+ ],
+ "coverage_holes": [],
+ "batches_not_expanded": [
+  "死者 2018.9.9-2018.9.15（total=51，样本 20 条全部来自同一法院、审结日期仅 2 个，众数 19/20）",
+  "死者 2018.9.1-2018.9.8（total=26，样本 20 条全部来自同一法院、审结日期仅 2 个，众数 17/20）"
+ ],
+ "errors": [
+  "ledger 实计 76 次，超上限 1 次：驱动器被 kill 时最后一次调用（死者 2021.1.1-2021.12.31）已完成落盘但未及写入 manifest，续跑时按“空洞”又查了一次；两次结果完全一致（total=6），无新增数据。已停止，不再发起任何调用。"
+ ],
+ "calls_used_ledger": 76,
+ "call_overrun": 1,
+ "overrun_note": "ledger 实计 76 次，超上限 1 次：驱动器被 kill 时最后一次调用（死者 2021.1.1-2021.12.31）已完成落盘但未及写入 manifest，续跑时按“空洞”又查了一次；两次结果完全一致（total=6），无新增数据。已停止，不再发起任何调用。"
+}

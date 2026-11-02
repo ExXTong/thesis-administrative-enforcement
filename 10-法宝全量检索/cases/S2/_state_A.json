@@ -1,0 +1,216 @@
+{
+ "agent": "S2",
+ "calls_used": 23,
+ "call_cap": 40,
+ "slices": [
+  {
+   "kw": "遗产范围内",
+   "start": "",
+   "end": "",
+   "total": 11,
+   "count": 11,
+   "error": null,
+   "file": "cases/S2/遗产范围内__all__all__all.json"
+  },
+  {
+   "kw": "在遗产范围内承担",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/在遗产范围内承担__all__all__all.json"
+  },
+  {
+   "kw": "继承人在遗产",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/继承人在遗产__all__all__all.json"
+  },
+  {
+   "kw": "遗产管理人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/遗产管理人__all__all__all.json"
+  },
+  {
+   "kw": "遗嘱执行人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/遗嘱执行人__all__all__all.json"
+  },
+  {
+   "kw": "受遗赠人",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/受遗赠人__all__all__all.json"
+  },
+  {
+   "kw": "第一千一百六十一条",
+   "start": "",
+   "end": "",
+   "total": 2,
+   "count": 2,
+   "error": null,
+   "file": "cases/S2/第一千一百六十一条__all__all__all.json"
+  },
+  {
+   "kw": "继承纠纷",
+   "start": "",
+   "end": "",
+   "total": 7,
+   "count": 7,
+   "error": null,
+   "file": "cases/S2/继承纠纷__all__all__all.json"
+  },
+  {
+   "kw": "第一顺序继承人",
+   "start": "",
+   "end": "",
+   "total": 9,
+   "count": 9,
+   "error": null,
+   "file": "cases/S2/第一顺序继承人__all__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "",
+   "end": "",
+   "total": 24,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/放弃继承__all__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "total": 24,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/放弃继承__2008-2026__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 3,
+   "count": 3,
+   "error": null,
+   "file": "cases/S2/放弃继承__2008M01-2017M06__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 21,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/放弃继承__2017M07-2026M12__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 17,
+   "count": 17,
+   "error": null,
+   "file": "cases/S2/放弃继承__2017M07-2022M03__all__all.json"
+  },
+  {
+   "kw": "放弃继承",
+   "start": "2022.4.1",
+   "end": "2026.12.31",
+   "total": 4,
+   "count": 4,
+   "error": null,
+   "file": "cases/S2/放弃继承__2022M04-2026M12__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "",
+   "end": "",
+   "total": 32,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__all__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "total": 32,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2008-2026__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2008.1.1",
+   "end": "2017.6.30",
+   "total": 3,
+   "count": 3,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2008M01-2017M06__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2026.12.31",
+   "total": 29,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2017M07-2026M12__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2022.3.31",
+   "total": 22,
+   "count": 20,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2017M07-2022M03__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2017.7.1",
+   "end": "2019.11.30",
+   "total": 14,
+   "count": 14,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2017M07-2019M11__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2019.12.1",
+   "end": "2022.3.31",
+   "total": 8,
+   "count": 8,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2019M12-2022M03__all__all.json"
+  },
+  {
+   "kw": "死亡赔偿",
+   "start": "2022.4.1",
+   "end": "2026.12.31",
+   "total": 7,
+   "count": 7,
+   "error": null,
+   "file": "cases/S2/死亡赔偿__2022M04-2026M12__all__all.json"
+  }
+ ],
+ "not_full": [],
+ "batches": []
+}

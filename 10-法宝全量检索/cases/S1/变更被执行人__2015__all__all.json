@@ -1,0 +1,14 @@
+{
+ "query": {
+  "title": "",
+  "fulltext": "变更被执行人",
+  "caseClassName": "非诉行政行为申请执行审查",
+  "startLastInstanceDate": "2015.1.1",
+  "endLastInstanceDate": "2015.12.31"
+ },
+ "ts": "2026-10-07 13:07:01",
+ "error": null,
+ "total": 0,
+ "count": 0,
+ "cases": []
+}

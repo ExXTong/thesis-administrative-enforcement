@@ -1,0 +1,597 @@
+{
+ "agent": "S3",
+ "group": "户籍注销与无遗产组",
+ "keywords": [
+  "无遗产",
+  "无义务承受人",
+  "注销户口",
+  "死亡注销",
+  "已死亡的"
+ ],
+ "year_range": "2008-2026",
+ "classname": "非诉行政行为申请执行审查",
+ "calls_used": 45,
+ "call_cap": 45,
+ "stopped_reason": "已达调用上限",
+ "files_written": 39,
+ "raw_case_sum": 540,
+ "slicing_method": "关键词×日期区间自适应二分（年→半年→季→月）；未使用 --court（协议更正一：法院层级为字面子串匹配，恒 0）",
+ "keyword_status": {
+  "已死亡的": {
+   "global_total": 11,
+   "retrieved": 11,
+   "status": "COMPLETE"
+  },
+  "无义务承受人": {
+   "global_total": 29,
+   "retrieved": 29,
+   "status": "COMPLETE",
+   "note": "API total=29，主智能体普查值 30，差 1"
+  },
+  "死亡注销": {
+   "global_total": 21,
+   "retrieved": 21,
+   "status": "COMPLETE"
+  },
+  "注销户口": {
+   "global_total": 26,
+   "retrieved": 26,
+   "status": "COMPLETE"
+  },
+  "无遗产": {
+   "global_total": 434,
+   "retrieved_est": 303,
+   "status": "PARTIAL",
+   "note": "434 为各年份 total 之和（2008-2014:6,2015:5,2016:146,2017:86,2018:59,2019:47,2020:34,2021:18,2022:1,2023:29,2024-2026:3）"
+  }
+ },
+ "year_coverage_无遗产": {
+  "2008-2014": {
+   "total": 6,
+   "count": 6,
+   "status": "COMPLETE"
+  },
+  "2015": {
+   "total": 5,
+   "count": 5,
+   "status": "COMPLETE"
+  },
+  "2016": {
+   "total": 146,
+   "count": 40,
+   "status": "PARTIAL",
+   "gap": 106
+  },
+  "2017": {
+   "total": 86,
+   "count": 77,
+   "status": "PARTIAL",
+   "gap": 9
+  },
+  "2018": {
+   "total": 59,
+   "count": 59,
+   "status": "COMPLETE"
+  },
+  "2019": {
+   "total": 47,
+   "count": 40,
+   "status": "PARTIAL",
+   "gap": 7
+  },
+  "2020": {
+   "total": 34,
+   "count": 34,
+   "status": "COMPLETE"
+  },
+  "2021": {
+   "total": 18,
+   "count": 18,
+   "status": "COMPLETE"
+  },
+  "2022": {
+   "total": 1,
+   "count": 1,
+   "status": "COMPLETE"
+  },
+  "2023": {
+   "total": 29,
+   "count": 20,
+   "status": "PARTIAL",
+   "gap": 9
+  },
+  "2024-2026": {
+   "total": 3,
+   "count": 3,
+   "status": "COMPLETE"
+  }
+ },
+ "slices": [
+  {
+   "kw": "已死亡的",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/S3/已死亡的__all__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无义务承受人",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 11,
+   "count": 11,
+   "file": "cases/S3/无义务承受人__2008-2016__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无义务承受人",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S3/无义务承受人__2017-2026__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无义务承受人",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 29,
+   "count": 20,
+   "file": "cases/S3/无义务承受人__all__all__all.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "无遗产",
+   "start": "2008.1.1",
+   "end": "2014.12.31",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S3/无遗产__2008-2014__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2015.1.1",
+   "end": "2015.12.31",
+   "court": "",
+   "total": 5,
+   "count": 5,
+   "file": "cases/S3/无遗产__2015__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2016.1.1",
+   "end": "2016.6.30",
+   "court": "",
+   "total": 55,
+   "count": 20,
+   "file": "cases/S3/无遗产__2016__all__H1.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "无遗产",
+   "start": "2016.7.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 91,
+   "count": 20,
+   "file": "cases/S3/无遗产__2016__all__H2.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2016.1.1",
+   "end": "2016.3.31",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S3/无遗产__2016__all__Q1.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.1.1",
+   "end": "2017.3.31",
+   "court": "",
+   "total": 17,
+   "count": 17,
+   "file": "cases/S3/无遗产__2017__all__Q1.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.4.1",
+   "end": "2017.6.30",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/S3/无遗产__2017__all__Q2.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.7.1",
+   "end": "2017.9.30",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/S3/无遗产__2017__all__Q3.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.10.1",
+   "end": "2017.12.31",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/S3/无遗产__2017__all__Q4.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2018.1.1",
+   "end": "2018.3.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S3/无遗产__2018__all__Q1.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2018.4.1",
+   "end": "2018.6.30",
+   "court": "",
+   "total": 14,
+   "count": 14,
+   "file": "cases/S3/无遗产__2018__all__Q2.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2018.7.1",
+   "end": "2018.9.30",
+   "court": "",
+   "total": 12,
+   "count": 12,
+   "file": "cases/S3/无遗产__2018__all__Q3.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2018.10.1",
+   "end": "2018.12.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/S3/无遗产__2018__all__Q4.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.1.1",
+   "end": "2019.3.31",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S3/无遗产__2019__all__Q1.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.4.1",
+   "end": "2019.6.30",
+   "court": "",
+   "total": 10,
+   "count": 10,
+   "file": "cases/S3/无遗产__2019__all__Q2.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.7.1",
+   "end": "2019.9.30",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S3/无遗产__2019__all__Q3.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.10.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 30,
+   "count": 20,
+   "file": "cases/S3/无遗产__2019__all__Q4.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.10.1",
+   "end": "2019.10.31",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S3/无遗产__2019__all__Q4a.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.11.1",
+   "end": "2019.12.31",
+   "court": "",
+   "total": 27,
+   "count": 20,
+   "file": "cases/S3/无遗产__2019__all__Q4b.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2020.1.1",
+   "end": "2020.6.30",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S3/无遗产__2020__all__H1.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2020.7.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 16,
+   "count": 16,
+   "file": "cases/S3/无遗产__2020__all__H2.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2021.1.1",
+   "end": "2023.12.31",
+   "court": "",
+   "total": 48,
+   "count": 20,
+   "file": "cases/S3/无遗产__2021-2023__all__all.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "无遗产",
+   "start": "2021.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 51,
+   "count": 20,
+   "file": "cases/S3/无遗产__2021-2026__all__all.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "无遗产",
+   "start": "2021.1.1",
+   "end": "2021.12.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S3/无遗产__2021__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2022.1.1",
+   "end": "2022.12.31",
+   "court": "",
+   "total": 1,
+   "count": 1,
+   "file": "cases/S3/无遗产__2022__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2023.1.1",
+   "end": "2023.12.31",
+   "court": "",
+   "total": 29,
+   "count": 20,
+   "file": "cases/S3/无遗产__2023__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "无遗产",
+   "start": "2024.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 3,
+   "count": 3,
+   "file": "cases/S3/无遗产__2024-2026__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "死亡注销",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 6,
+   "count": 6,
+   "file": "cases/S3/死亡注销__2008-2016__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "死亡注销",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 15,
+   "count": 15,
+   "file": "cases/S3/死亡注销__2017-2026__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "死亡注销",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 21,
+   "count": 20,
+   "file": "cases/S3/死亡注销__all__all__all.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "注销户口",
+   "start": "2008.1.1",
+   "end": "2016.12.31",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S3/注销户口__2008-2016__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "注销户口",
+   "start": "2017.1.1",
+   "end": "2020.12.31",
+   "court": "",
+   "total": 18,
+   "count": 18,
+   "file": "cases/S3/注销户口__2017-2020__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "注销户口",
+   "start": "2017.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 22,
+   "count": 20,
+   "file": "cases/S3/注销户口__2017-2026__all__all.json",
+   "error": null,
+   "superseded": true
+  },
+  {
+   "kw": "注销户口",
+   "start": "2021.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 4,
+   "count": 4,
+   "file": "cases/S3/注销户口__2021-2026__all__all.json",
+   "error": null,
+   "superseded": false
+  },
+  {
+   "kw": "注销户口",
+   "start": "2008.1.1",
+   "end": "2026.12.31",
+   "court": "",
+   "total": 26,
+   "count": 20,
+   "file": "cases/S3/注销户口__all__all__all.json",
+   "error": null,
+   "superseded": true
+  }
+ ],
+ "not_fully_retrieved": [
+  {
+   "kw": "无遗产",
+   "start": "2016.1.1",
+   "end": "2016.12.31",
+   "total": 146,
+   "note": "全年146（H1=55,H2=91）；仅取 H1 20 + H2 20 + Q1 10，缺约106条。达调用上限未继续按月切分"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.4.1",
+   "end": "2017.6.30",
+   "total": 26,
+   "note": "取20，缺6"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.7.1",
+   "end": "2017.9.30",
+   "total": 22,
+   "note": "取20，缺2"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2017.10.1",
+   "end": "2017.12.31",
+   "total": 21,
+   "note": "取20，缺1"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2019.11.1",
+   "end": "2019.12.31",
+   "total": 27,
+   "note": "取20，缺7"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2023.1.1",
+   "end": "2023.12.31",
+   "total": 29,
+   "note": "取20，缺9"
+  },
+  {
+   "kw": "无遗产",
+   "start": "2016.1.1",
+   "end": "2016.6.30",
+   "total": 55,
+   "note": "H1 仅取20（另有 Q1 10 条，部分重叠）"
+  }
+ ],
+ "anomalies": [
+  "第5-10次调用因 shell 变量未加花括号（$y__all 被解析为变量名），6 个年份切片写入同一文件并被覆盖，仅保留 total（2015:5,2016:146,2017:86,2018:59,2019:47,2020:34），该6次调用的案例数据未落盘",
+  "无义务承受人 API total=29 与普查值 30 差 1",
+  "全部 45 次调用 error 均为 null，无接口报错",
+  "未发现「20条全同院同日」的批量同源切片"
+ ]
+}

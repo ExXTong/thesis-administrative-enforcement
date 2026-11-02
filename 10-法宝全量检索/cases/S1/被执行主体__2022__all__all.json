@@ -1,0 +1,14 @@
+{
+ "query": {
+  "title": "",
+  "fulltext": "被执行主体",
+  "caseClassName": "非诉行政行为申请执行审查",
+  "startLastInstanceDate": "2022.1.1",
+  "endLastInstanceDate": "2022.12.31"
+ },
+ "ts": "2026-10-07 13:08:15",
+ "error": null,
+ "total": 0,
+ "count": 0,
+ "cases": []
+}

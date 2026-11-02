@@ -1,0 +1,15 @@
+{
+ "query": {
+  "title": "",
+  "fulltext": "继承人",
+  "caseClassName": "非诉行政行为申请执行审查",
+  "startLastInstanceDate": "2019.1.1",
+  "endLastInstanceDate": "2019.12.31",
+  "court": "基层人民法院"
+ },
+ "ts": "2026-10-04 01:13:08",
+ "error": null,
+ "total": 0,
+ "count": 0,
+ "cases": []
+}

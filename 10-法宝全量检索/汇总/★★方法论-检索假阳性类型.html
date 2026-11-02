@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>法宝检索&quot;义务人死亡&quot;假阳性类型学（方法论）</title>
+<style>
+:root{--fg:#1f2328;--muted:#57606a;--border:#d0d7de;--accent:#0969da;--code:#f6f8fa;--bg:#f6f7f9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.85;-webkit-text-size-adjust:100%}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:1rem;align-items:center;
+  padding:.6rem 1rem;background:rgba(255,255,255,.93);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--border);font-size:.92rem}
+.topbar a{color:var(--accent);text-decoration:none;font-weight:600}
+.topbar .meta{color:var(--muted);font-weight:400}
+main{max-width:1000px;margin:0 auto;padding:2rem 1.25rem 5rem;background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,.07);min-height:100vh}
+h1{font-size:1.85rem;line-height:1.45;margin:.2em 0 .9em;padding-bottom:.35em;border-bottom:2px solid var(--border)}
+h2{font-size:1.42rem;margin:1.9em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--border)}
+h3{font-size:1.18rem;margin:1.5em 0 .5em}
+h4{font-size:1.04rem;margin:1.2em 0 .4em}
+h5,h6{font-size:1rem;margin:1em 0 .4em;color:var(--muted)}
+p,li{font-size:1rem}
+ul,ol{padding-left:1.6em}
+li{margin:.25em 0}
+blockquote{margin:1em 0;padding:.7em 1.1em;border-left:4px solid var(--border);
+  background:var(--code);color:var(--muted);border-radius:0 6px 6px 0}
+blockquote p{margin:.35em 0}
+.table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.93rem;line-height:1.65}
+th,td{border:1px solid var(--border);padding:.5em .75em;vertical-align:top;text-align:left}
+th{background:var(--code);white-space:nowrap;font-weight:700}
+tbody tr:nth-child(even){background:#fbfcfd}
+code{background:var(--code);padding:.15em .35em;border-radius:4px;font-size:.9em;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+pre{background:var(--code);padding:1em;border-radius:8px;overflow-x:auto;border:1px solid var(--border)}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px solid var(--border);margin:2.2em 0}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+.toc{background:var(--code);border:1px solid var(--border);border-radius:8px;
+  padding:.8em 1.1em;margin:1.5em 0;font-size:.95rem}
+.toc>ul{margin:.3em 0}
+.toc ul{list-style:none;padding-left:1em}
+.toc a{text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin:1.5em 0}
+.card{border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;background:#fff;
+  text-decoration:none;color:var(--fg);display:block;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(9,105,218,.12)}
+.card .t{font-weight:700;color:var(--accent);margin-bottom:.35em}
+.card .d{font-size:.9rem;color:var(--muted);line-height:1.6}
+.sec{margin-top:2.2em}
+.sec h2{margin-top:.6em}
+@media (max-width:640px){
+  main{padding:1.2rem .8rem 3rem}
+  h1{font-size:1.5rem} h2{font-size:1.25rem}
+  table{font-size:.86rem}
+}
+@media print{.topbar{display:none}main{box-shadow:none;max-width:none}}
+</style>
+</head>
+<body>
+<div class="topbar"><a href="/var/nfs_share/index.html">← 返回共享目录</a></div>
+<main>
+<nav class="toc"><strong>本页目录</strong><div class="toc">
+<ul>
+<li><a href="#_1">法宝检索"义务人死亡"假阳性类型学（方法论）</a><ul>
+<li><a href="#_2">一、核心教训</a></li>
+<li><a href="#_3">二、五类假阳性（附实例）</a><ul>
+<li><a href="#122">类型 1：死亡主体错位（最严重，22 条）</a></li>
+<li><a href="#28">类型 2：法条列举的"死亡"被当作事实（8 条）</a></li>
+<li><a href="#38">类型 3：死亡后多领待遇（义务人是活人，8 条）</a></li>
+<li><a href="#4-3">类型 4："死亡"是义务人的亲属（非类型 3）</a></li>
+<li><a href="#5">类型 5：义务人是法人／个体工商户</a></li>
+</ul>
+</li>
+<li><a href="#_4">三、上游判据的技术缺陷（自查）</a></li>
+<li><a href="#_5">四、五类真样本的正面特征（用于精筛）</a></li>
+<li><a href="#_6">五、对样本量的诚实说明</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<h1 id="_1">法宝检索"义务人死亡"假阳性类型学（方法论）</h1>
+<blockquote>
+<p>来源：对 103 条初筛案例的逐条语义复核（2026-10-04）
+<strong>用途</strong>：论文"数据与方法"一节，说明为何不能仅凭关键词检索确定样本</p>
+</blockquote>
+<hr />
+<h2 id="_2">一、核心教训</h2>
+<p><strong>用"死亡"等语词检索行政非诉执行案件，假阳性率极高。</strong>
+103 条初筛"符合研究范围"的案例中，<strong>逐条读正文后仅 5 条确定为符合</strong>（后经口径调整）。
+<strong>⇒ 结论：样本必须逐条读正文核定，检索只用于"生成候选池"。</strong></p>
+<hr />
+<h2 id="_3">二、五类假阳性（附实例）</h2>
+<h3 id="122">类型 1：<strong>死亡主体错位</strong>（最严重，22 条）</h3>
+<p>正文中的"死亡"是<strong>义务人以外的第三人</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>死者身份</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>生产安全事故受害人</strong>（工人）</td>
+<td>高处坠落、机械伤害、物体打击致死</td>
+</tr>
+<tr>
+<td><strong>患者</strong></td>
+<td>医疗损害案中患者死亡</td>
+</tr>
+<tr>
+<td><strong>交通事故受害人</strong></td>
+<td>交通事故致死</td>
+</tr>
+<tr>
+<td><strong>爆破受害人</strong></td>
+<td>爆破作业致死</td>
+</tr>
+<tr>
+<td>★<strong>动物</strong></td>
+<td><strong>(2016)湘0626行审21号</strong>：正文中的"死亡"指的是一条<strong>购进的黄牛</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>⇒ 识别方法</strong>：要求"死者必须是行政行为所确定的义务人本人"，须有 <code>被执行人/被处罚人/义务人 + [姓名] + 死亡</code> 的直接表述，且<strong>不得夹带亲属或第三人称谓</strong>。</p>
+<hr />
+<h3 id="28">类型 2：<strong>法条列举的"死亡"被当作事实</strong>（8 条）</h3>
+<p>法院在说理中<strong>引用</strong>《民事诉讼法》§232／§257 的<strong>法定情形列举</strong>：</p>
+<blockquote>
+<p>「有下列情形之一的，人民法院裁定终结执行：……（三）<strong>作为被执行人的公民死亡，无遗产可供执行，又无义务承担人的</strong>……」</p>
+</blockquote>
+<p><strong>⇒ 这是法条文本，不是本案事实。</strong> 实际终结依据可能是"申请人撤回申请"（§257(一)）等完全不同的情形。</p>
+<p><strong>⇒ 识别方法</strong>：必须区分"引用法条中的死亡"与"查明事实中的死亡"。前者通常出现在<strong>主文附列的法定情形清单</strong>或<strong>说理段的法条引述</strong>中。</p>
+<hr />
+<h3 id="38">类型 3：<strong>死亡后多领待遇</strong>（义务人是活人，8 条）</h3>
+<blockquote>
+<p>「<strong>被执行人之夫邹志元死亡后</strong>，被执行人未及时至申请执行人处办理死亡申报手续，导致<strong>多领（冒领）邹志元的退休金</strong>15,055.5元。」</p>
+</blockquote>
+<p><strong>⇒ 义务人是活着的配偶（冒领者），死者不是义务人。</strong>
+<strong>典型系列</strong>：江西省樟树市人民法院 2020–2021 年 6 件（人社局追缴多领退休金）。</p>
+<hr />
+<h3 id="4-3">类型 4：<strong>"死亡"是义务人的亲属</strong>（非类型 3）</h3>
+<blockquote>
+<p>「限被执行人于2018年8月23日前将其<strong>父死亡后多领取的</strong>民办教师生活困难补助4380元退缴」</p>
+</blockquote>
+<p><strong>⇒ 义务人是活着的子女。</strong></p>
+<hr />
+<h3 id="5">类型 5：<strong>义务人是法人／个体工商户</strong></h3>
+<blockquote>
+<p>「××公司于2019年12月24日<strong>注销</strong>，被执行主体已不存在」
+「经营者胡顺兴于2018年7月23日因死亡注销户口」（个体工商户）</p>
+</blockquote>
+<p><strong>⇒ 法人终止与自然人死亡是两套制度。</strong></p>
+<hr />
+<h2 id="_4">三、上游判据的技术缺陷（自查）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>缺陷</th>
+<th>表现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>"金钱给付"正则误判</strong></td>
+<td>把「<strong>申请执行费50.00元</strong>」「审查费500元」当成金钱义务 → 52 条标"是"中 <strong>11 条正文并无金钱义务关键词</strong></td>
+</tr>
+<tr>
+<td><strong>"死者即义务人"正则过宽</strong></td>
+<td><code>(被执行人|被处罚人)[^。；]{0,40}死亡</code> 会跨越句子匹配到第三人死亡</td>
+</tr>
+<tr>
+<td><strong>亲属词表不全</strong></td>
+<td>初版漏「父母」「之夫」「前妻」等 → 补全后目标案件从 218 降至 195</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="_5">四、五类<strong>真样本</strong>的正面特征（用于精筛）</h2>
+<p>必须<strong>同时</strong>具备：</p>
+<ol>
+<li><strong>死者身份明确</strong>：正文有「被执行人／被处罚人／义务人 + 姓名 + 死亡」的直接表述</li>
+<li><strong>义务为金钱</strong>：正文出现罚款金额、加处罚款、税款、社保费等，<strong>且非"申请执行费"</strong></li>
+<li><strong>时间线可定位</strong>：正文载明决定作出／送达／催告／死亡／申请执行的时间关系</li>
+</ol>
+<p><strong>★ 最优的表述形态</strong>（遇此即为高质量样本）：</p>
+<blockquote>
+<p>「义务人即本案被执行人在<strong>催告前</strong>已死亡，申请执行人没有完成催告程序」——(2018)冀0822行审109号
+「<strong>行政处罚决定生效后</strong>被处罚人沈某因病死亡」——(2017)浙0521行审144号
+「被执行人刘长成于2017年10月20日因病死亡，而……<strong>2018年2月26日向其送达催告书</strong>」——(2018)豫1324行审104号</p>
+</blockquote>
+<hr />
+<h2 id="_6">五、对样本量的诚实说明</h2>
+<ul>
+<li>法宝「非诉行政行为申请执行审查」全量检索（20 词 × 时间切片）→ <strong>4,267 条唯一案件</strong></li>
+<li>关键词过滤"义务人死亡"→ <strong>204 条</strong></li>
+<li>现象表述检索（"以死者为被执行人""主体不适格""没有义务人"等 13 类）→ <strong>128 条</strong></li>
+<li>取并集并逐条读正文 → <strong>本报告最终核定的样本量（见各分册）</strong></li>
+</ul>
+<p><strong>⚠️ 凡引用"X 件"的结论，必须同时说明：检索式、检索日、筛选层级，以及"在法宝可得范围内"。</strong></p>
+</main>
+</body>
+</html>
