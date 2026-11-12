@@ -49,6 +49,9 @@ SOURCES = [
     (LIT / "中文文献PDF", OUT / "中文文献", "中文文献"),
     (LIT / "外文文献PDF", OUT / "外文文献", "外文文献"),
     (LIT / "外文文献PDF" / "primary-sources", OUT / "原始法条", "原始法条"),
+    # 2026-11-12 核实 Gemini 资料库时取得的官方法源（德/美/法/日），单独成批
+    (LIT / "外文文献PDF" / "primary-sources" / "gemini-dossier-20261112",
+     OUT / "原始法条" / "gemini-dossier-20261112", "原始法条"),
 ]
 
 MIN_TEXT_CHARS = 60        # 文字层几乎为空的阈值
@@ -241,7 +244,42 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
     soup = BeautifulSoup(raw, "html.parser")
     for tag in soup(["script", "style", "nav", "footer", "header", "form"]):
         tag.decompose()
+    # gesetze-im-internet.de（德国联邦法律官方汇编）的条文页：正文在 div.jnhtml，
+    # 条号与标题在 div.jnentitel。通用 article/main 抽取只会拿到页脚导航，须特判。
+    jnhtml = soup.find("div", class_="jnhtml")
+    if jnhtml is not None:
+        titel = soup.find("div", class_="jnentitel")
+        head = titel.get_text(" ", strip=True) if titel else ""
+        body = normalize(jnhtml.get_text("\n", strip=True))
+        if head:
+            body = normalize(f"{head}\n\n{body}")
+        title = head or (soup.title.get_text(strip=True) if soup.title else path.stem)
+        return body, {
+            "pages": None,
+            "chars": len(body),
+            "ocr_pages": [],
+            "blank_pages": [],
+            "pdf_title": title,
+            "method": "网页正文（官方条文 div.jnhtml）",
+        }
     article = soup.find("article") or soup.find("main") or soup.body or soup
+
+    # 判例汇编站（如 HallApproved）把判决正文直接放在 div.opinion-text 里，
+    # 正文多为裸文本节点而非 <p> 叶子块，通用抽取会漏掉，须特判整块取文。
+    opinion = soup.find("div", class_="opinion-text")
+    if opinion is not None:
+        for tag in opinion(["script", "style"]):
+            tag.decompose()
+        body = normalize(opinion.get_text("\n", strip=True))
+        title = soup.title.get_text(strip=True) if soup.title else path.stem
+        return body, {
+            "pages": None,
+            "chars": len(body),
+            "ocr_pages": [],
+            "blank_pages": [],
+            "pdf_title": title,
+            "method": "网页正文（判决 div.opinion-text）",
+        }
 
     blocks: list[str] = []
     for el in article.find_all(["h1", "h2", "h3", "h4", "p", "li", "blockquote"]):
@@ -272,6 +310,71 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
         "blank_pages": [],
         "pdf_title": title,
         "method": "网页正文（article）",
+    }
+    return body, info
+
+
+def xml_to_markdown(path: Path) -> tuple[str, dict]:
+    """日本 e-Gov 法令 API 的 XML（LawFullText）转 Markdown。
+
+    只机械抽取：法令名与本則（MainProvision）各条的条号、条标题、各款文字；
+    附則（SupplProvision）各条同样抽出并单列，避免与本則条号混淆。不翻译、不改写。
+    """
+    import xml.etree.ElementTree as ET
+
+    root = ET.parse(path).getroot()
+    law = root.find(".//Law")
+    title_el = law.find("LawTitle") if law is not None else None
+    law_title = "".join(title_el.itertext()).strip() if title_el is not None else path.stem
+    law_id_el = root.find(".//LawId")
+    law_id = law_id_el.text.strip() if law_id_el is not None and law_id_el.text else ""
+
+    def clean(s: str) -> str:
+        return re.sub(r"\s+", " ", s).strip()
+
+    def dump_articles(node, lines):
+        for child in node:
+            if child.tag in ("Part", "Chapter", "Section", "Division"):
+                t = child.find("Title")
+                label = clean("".join(t.itertext())) if t is not None else ""
+                if label:
+                    lines.append(f"<!-- {label} -->")
+                dump_articles(child, lines)
+            elif child.tag == "Article":
+                num = child.get("Num", "")
+                cap = child.find("ArticleCaption")
+                capt = clean("".join(cap.itertext())) if cap is not None else ""
+                lines.append(f"## 第{num}条 {capt}".rstrip())
+                lines.append("")
+                for par in child.findall("Paragraph"):
+                    lines.append(clean("".join(par.itertext())))
+                    lines.append("")
+            else:
+                dump_articles(child, lines)
+
+    lines = [f"# {law_title}", ""]
+    if law_id:
+        lines.append(f"- 法令ID：{law_id}")
+    lines.append("- 来源：e-Gov 法令 API（官方 XML），机械抽取，未翻译、未改写")
+    lines.append("")
+    main = root.find(".//MainProvision")
+    if main is not None:
+        lines.append("# 本則")
+        lines.append("")
+        dump_articles(main, lines)
+    for i, suppl in enumerate(root.findall(".//SupplProvision"), 1):
+        lines.append(f"# 附則（第{i}组）")
+        lines.append("")
+        dump_articles(suppl, lines)
+
+    body = normalize("\n".join(lines))
+    info = {
+        "pages": None,
+        "chars": len(body),
+        "ocr_pages": [],
+        "blank_pages": [],
+        "pdf_title": law_title,
+        "method": "官方 XML 条文抽取",
     }
     return body, info
 
@@ -315,7 +418,7 @@ def main() -> int:
         out_dir.mkdir(parents=True, exist_ok=True)
         for path in sorted(src_dir.iterdir()):
             suffix = path.suffix.lower()
-            if suffix not in (".pdf", ".html", ".htm"):
+            if suffix not in (".pdf", ".html", ".htm", ".xml"):
                 continue
             stand_in = None
             used_stand_in = False
@@ -324,6 +427,8 @@ def main() -> int:
             try:
                 if suffix == ".pdf":
                     body, info = pdf_to_markdown(path)
+                elif suffix == ".xml":
+                    body, info = xml_to_markdown(path)
                 else:
                     body, info = html_to_markdown(path)
             except Exception as exc:
