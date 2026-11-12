@@ -1,0 +1,2920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/"><version>1.1</version><numberOfRecords>12</numberOfRecords><records><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">1340504502</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20250227105012.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">240829s2025    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">25,A09</subfield>
+      <subfield code="z">24,N36</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">1340504502</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406809293</subfield>
+      <subfield code="c">Gewebe : EUR 95.00 (DE)</subfield>
+      <subfield code="9">978-3-406-80929-3</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406809294</subfield>
+      <subfield code="9">3-406-80929-4</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406809293</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB1340504502</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)1483017111</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">9999</subfield>
+      <subfield code="e">rda</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">6\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">7\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">6\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">6\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Begründer eines Werkes</subfield>
+      <subfield code="4">fon</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar : unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">begründet von Dr. Hanns Engelhardt (Richter am Bundesgerichtshof a.D.) ; herausgegeben von Arne Schlatmann (Ministerialdirigent im Bundesministerium des Innern und für Heimat, Berlin) ; im Einzelnen bearbeitet von: Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2=" ">
+      <subfield code="i">Abweichender Titel auf dem Umschlag</subfield>
+      <subfield code="a">VwVG, VwZG</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">13., neubearbeitete Auflage</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">C.H. Beck</subfield>
+      <subfield code="c">2025</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXIX, 650 Seiten</subfield>
+      <subfield code="c">20 cm, 783 g</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform)Hardback</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform (spezifisch))Cloth</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Geldforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Verwaltungszwang</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">VwVG</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">VwZG</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Zustellungsreformgesetz</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Zustellungsrecht</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckungskosten</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktrabattgruppe)24: W-RSW_Rabatt</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Herausgeber</subfield>
+      <subfield code="4">edt</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="0">(DE-588)1145479243</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1145479243</subfield>
+      <subfield code="0">(DE-101)1145479243</subfield>
+      <subfield code="a">Mosbacher, Wolfgang</subfield>
+      <subfield code="d">1937-</subfield>
+      <subfield code="e">Mitwirkender</subfield>
+      <subfield code="4">ctb</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="8">4\p</subfield>
+      <subfield code="0">(DE-588)103660537X</subfield>
+      <subfield code="0">https://d-nb.info/gnd/103660537X</subfield>
+      <subfield code="0">(DE-101)103660537X</subfield>
+      <subfield code="a">Troidl, Thomas</subfield>
+      <subfield code="e">Mitwirkender</subfield>
+      <subfield code="4">ctb</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="710" ind1="2" ind2=" ">
+      <subfield code="8">5\p</subfield>
+      <subfield code="0">(DE-588)1023902869</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1023902869</subfield>
+      <subfield code="0">(DE-101)1023902869</subfield>
+      <subfield code="a">Verlag C.H. Beck</subfield>
+      <subfield code="e">Verlag</subfield>
+      <subfield code="4">pbl</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="780" ind1="0" ind2="0">
+      <subfield code="i">Vorangegangen ist</subfield>
+      <subfield code="z">9783406763281</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/1340504502/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/1340504502/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20250205</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20250205</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="883" ind1=" " ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="a">cgwrk</subfield>
+      <subfield code="d">20240920</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#cgwrk</subfield>
+    </datafield>
+    <datafield tag="883" ind1=" " ind2=" ">
+      <subfield code="8">4\p</subfield>
+      <subfield code="a">cgwrk</subfield>
+      <subfield code="d">20240920</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#cgwrk</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">5\p</subfield>
+      <subfield code="a">adb</subfield>
+      <subfield code="d">20240829</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#adb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">7\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20250205</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+    <datafield tag="926" ind1="1" ind2=" ">
+      <subfield code="a">LN</subfield>
+      <subfield code="o">93</subfield>
+      <subfield code="q">Publisher</subfield>
+      <subfield code="v">1.6</subfield>
+      <subfield code="x">Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete</subfield>
+    </datafield>
+  </record></recordData><recordPosition>1</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">1222367270</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20260825144801.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">201128s2021    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">21,A29</subfield>
+      <subfield code="z">20,N49</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">1222367270</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406763281</subfield>
+      <subfield code="c">Gewebe : EUR 85.00 (DE)</subfield>
+      <subfield code="9">978-3-406-76328-1</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406763286</subfield>
+      <subfield code="9">3-406-76328-6</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406763281</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB1222367270</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)1247900605</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)1225087561</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">1140</subfield>
+      <subfield code="e">rda</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">4\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">5\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">4\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">4\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Begründer eines Werkes</subfield>
+      <subfield code="4">fon</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirektor beim Deutschen Bundestag ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2=" ">
+      <subfield code="i">Abweichender Titel auf dem Umschlag</subfield>
+      <subfield code="a">VwVG/VwZG</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">12., neubearbeitete Auflage</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">C.H. Beck</subfield>
+      <subfield code="c">2021</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVIII, 631 Seiten</subfield>
+      <subfield code="c">20 cm, 790 g</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform)Hardback</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform (spezifisch))Cloth</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Zustellungsreformgesetz</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Zustellungsrecht</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Geldforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Verwaltungszwang</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckungskosten</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktrabattgruppe)24: W-RSW_Rabatt</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Herausgeber</subfield>
+      <subfield code="4">edt</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="710" ind1="2" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="0">(DE-588)1023902869</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1023902869</subfield>
+      <subfield code="0">(DE-101)1023902869</subfield>
+      <subfield code="a">Verlag C.H. Beck</subfield>
+      <subfield code="e">Verlag</subfield>
+      <subfield code="4">pbl</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="780" ind1="0" ind2="0">
+      <subfield code="i">Vorangegangen ist</subfield>
+      <subfield code="z">9783406710551</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/1222367270/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/1222367270/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20260825</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20210628</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="a">adb</subfield>
+      <subfield code="d">20201128</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#adb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">5\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20210628</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+    <datafield tag="926" ind1="1" ind2=" ">
+      <subfield code="a">LN</subfield>
+      <subfield code="o">93</subfield>
+      <subfield code="q">Publisher</subfield>
+      <subfield code="v">1.4</subfield>
+      <subfield code="x">Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete</subfield>
+    </datafield>
+  </record></recordData><recordPosition>2</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">1128662299</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20260826180548.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">170328s2017    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">17,A28</subfield>
+      <subfield code="z">17,N14</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">1128662299</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406710551</subfield>
+      <subfield code="c">Gewebe : EUR 79.00</subfield>
+      <subfield code="9">978-3-406-71055-1</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406710557</subfield>
+      <subfield code="9">3-406-71055-7</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406710551</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB1128662299</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)981915499</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">1140</subfield>
+      <subfield code="e">rda</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">3\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">4\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">3\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">3\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Begründer eines Werkes</subfield>
+      <subfield code="4">fon</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirigent im Bundesministerium des Innern a.D. ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Bernd Stammberger, Dr. Thomas Troidl</subfield>
+    </datafield>
+    <datafield tag="246" ind1="1" ind2=" ">
+      <subfield code="i">Abweichender Titel</subfield>
+      <subfield code="a">VwVG/VwZG</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">11. neubearbeitete Auflage</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">C.H. Beck</subfield>
+      <subfield code="c">2017</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVIII, 586 Seiten</subfield>
+      <subfield code="c">20 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform)Hardback</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform (spezifisch))Cloth</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckung Geldforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Verwaltungszwang</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Vollstreckungskosten</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Dienste</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">Steuerforderungen</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktrabattgruppe)24: W-RSW_Rabatt</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="e">Herausgeber</subfield>
+      <subfield code="4">edt</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="710" ind1="2" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="0">(DE-588)1023902869</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1023902869</subfield>
+      <subfield code="0">(DE-101)1023902869</subfield>
+      <subfield code="a">Verlag C.H. Beck</subfield>
+      <subfield code="e">Verlag</subfield>
+      <subfield code="4">pbl</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="780" ind1="0" ind2="0">
+      <subfield code="i">Vorangegangen ist</subfield>
+      <subfield code="z">9783406647949</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/1128662299/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/1128662299/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20260826</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">adb</subfield>
+      <subfield code="d">20211002</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#adb</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">4\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+    <datafield tag="926" ind1="1" ind2=" ">
+      <subfield code="a">LN</subfield>
+      <subfield code="o">93</subfield>
+      <subfield code="q">Publisher</subfield>
+      <subfield code="v">1.2</subfield>
+      <subfield code="x">Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete</subfield>
+    </datafield>
+  </record></recordData><recordPosition>3</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">1032919574</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20220910030559.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">130326s2014    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">14,A43</subfield>
+      <subfield code="z">13,N14</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">1032919574</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406647949</subfield>
+      <subfield code="c">Gewebe : EUR 75.00</subfield>
+      <subfield code="9">978-3-406-64794-9</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406647944</subfield>
+      <subfield code="9">3-406-64794-4</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406647949</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB1032919574</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)864647159</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">9999</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">2\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">23sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">2\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">2\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">begr. von Hanns Engelhardt. Hrsg. von Arne Schlatmann</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">10., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2014</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVII, 590 S.</subfield>
+      <subfield code="c">20 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Literaturangaben</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform)Hardback</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(Produktform (spezifisch))Cloth</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Herausgeber</subfield>
+      <subfield code="4">edt</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="0">(DE-588)1145479243</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1145479243</subfield>
+      <subfield code="0">(DE-101)1145479243</subfield>
+      <subfield code="a">Mosbacher, Wolfgang</subfield>
+      <subfield code="d">1937-</subfield>
+      <subfield code="e">Mitwirkender</subfield>
+      <subfield code="4">ctb</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="780" ind1="0" ind2="0">
+      <subfield code="i">Fortsetzung von</subfield>
+      <subfield code="n">Vorgänger</subfield>
+      <subfield code="z">9783406609862</subfield>
+    </datafield>
+    <datafield tag="780" ind1="0" ind2="0">
+      <subfield code="i">Bis 9. Aufl. u.d.T.:</subfield>
+      <subfield code="a">Engelhardt, Hanns, 1934-</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="d">München : Beck, 2011</subfield>
+      <subfield code="h">XXVII, 589 S.</subfield>
+      <subfield code="w">(DE-101)1004795947</subfield>
+      <subfield code="b">9., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/1032919574/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/1032919574/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1=" " ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">cgwrk</subfield>
+      <subfield code="d">20220812</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#cgwrk</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>4</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">1004795947</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20180205183612.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">100720s2011    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">11,A33</subfield>
+      <subfield code="z">10,N30</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">1004795947</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406609862</subfield>
+      <subfield code="c">Gewebe : EUR 68.00</subfield>
+      <subfield code="9">978-3-406-60986-2</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406609862</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB1004795947</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)745364587</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)748697749</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">1250</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">1\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">1\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">1\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">von Hanns Engelhardt, Michael App und Arne Schlatmann</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">9., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2011</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVII, 589 S.</subfield>
+      <subfield code="c">19 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-PF)BB: Gebunden</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="785" ind1="0" ind2="0">
+      <subfield code="i">10. Aufl. u.d.T.:</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="d">München : Beck, 2014</subfield>
+      <subfield code="h">XXVII, 590 S.</subfield>
+      <subfield code="w">(DE-101)1032919574</subfield>
+      <subfield code="b">10., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/1004795947/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/1004795947/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>5</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">988284928</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20180205183545.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">080415s2008    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">08,A35,0377</subfield>
+      <subfield code="z">08,N18,0412</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">988284928</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406573149</subfield>
+      <subfield code="c">Gewebe : EUR 64.00</subfield>
+      <subfield code="9">978-3-406-57314-9</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406573149</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB988284928</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)244290483</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">1250</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="0" ind2="4">
+      <subfield code="8">1\u</subfield>
+      <subfield code="a">342.4306</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22/ger</subfield>
+    </datafield>
+    <datafield tag="083" ind1="7" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22sdnb</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">1\u</subfield>
+      <subfield code="b">342.06</subfield>
+    </datafield>
+    <datafield tag="085" ind1=" " ind2=" ">
+      <subfield code="8">1\u</subfield>
+      <subfield code="z">2</subfield>
+      <subfield code="s">43</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">von Hanns Engelhardt, Michael App und Arne Schlatmann</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">8., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2008</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVI, 556 S.</subfield>
+      <subfield code="c">19 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-PF)BB: Gebunden</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-WN)1773: HC/Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/988284928/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/988284928/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>6</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">979539285</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20180205183532.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">060502s2006    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">06,A32,0513</subfield>
+      <subfield code="z">06,N21,0580</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">979539285</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406549960</subfield>
+      <subfield code="c">Gewebe : EUR 62.00</subfield>
+      <subfield code="9">978-3-406-54996-0</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406549969</subfield>
+      <subfield code="c">Gewebe : EUR 62.00</subfield>
+      <subfield code="9">3-406-54996-9</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406549960</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB979539285</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)181564871</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">1250</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="7" ind2="4">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22sdnb</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">von Hanns Engelhardt, Michael App und Arne Schlatmann</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">7., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2006</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVI, 551 S.</subfield>
+      <subfield code="c">19 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-PF)BB: Gebunden</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)1133571298</subfield>
+      <subfield code="0">https://d-nb.info/gnd/1133571298</subfield>
+      <subfield code="0">(DE-101)1133571298</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">2005</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)115837493</subfield>
+      <subfield code="0">https://d-nb.info/gnd/115837493</subfield>
+      <subfield code="0">(DE-101)115837493</subfield>
+      <subfield code="a">Schlatmann, Arne</subfield>
+      <subfield code="d">1964-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/979539285/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">V:DE-603</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/979539285/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>7</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">970921535</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20171203160720.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">040421s2004    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">04,A27,0266</subfield>
+      <subfield code="z">04,N20,0366</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">970921535</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406520747</subfield>
+      <subfield code="c">Gewebe : EUR 58.00, sfr 94.00</subfield>
+      <subfield code="9">978-3-406-52074-7</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">340652074X</subfield>
+      <subfield code="c">Gewebe : EUR 58.00, sfr 94.00</subfield>
+      <subfield code="9">3-406-52074-X</subfield>
+    </datafield>
+    <datafield tag="024" ind1="3" ind2=" ">
+      <subfield code="a">9783406520747</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB970921535</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)249881395</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1245</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">9999</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE-BY</subfield>
+    </datafield>
+    <datafield tag="082" ind1="7" ind2="4">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">22sdnb</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung,  des EG-Beitreibungsgesetzes und des europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland</subfield>
+      <subfield code="c">von Hanns Engelhardt und Michael App</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">6., neubearb. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2004</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXV, 527 S.</subfield>
+      <subfield code="c">19 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="653" ind1=" " ind2=" ">
+      <subfield code="a">(VLB-PF)BB: Gebunden</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/970921535/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">V:DE-576</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/970921535/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="2" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">dnb</subfield>
+      <subfield code="d">20160229</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#dnb</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>8</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">960870156</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20240603125701.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">010213s2001    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">01,A19,0625</subfield>
+      <subfield code="z">01,N11,0232</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">960870156</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406474736</subfield>
+      <subfield code="c">Gewebe : DM 98.00</subfield>
+      <subfield code="9">978-3-406-47473-6</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">340647473X</subfield>
+      <subfield code="c">Gewebe : DM 98.00</subfield>
+      <subfield code="9">3-406-47473-X</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB960870156</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)47321920</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1240</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">0292</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="043" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">19</subfield>
+      <subfield code="a">20</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="a">360</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sdnb</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sswd</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung</subfield>
+      <subfield code="c">von Hanns Engelhardt und Michael App</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">5., neubearb. und erg. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">2001</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXIX, 497 S.</subfield>
+      <subfield code="c">17 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Literaturverz. S. XXV - XXIX</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/960870156/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/960870156/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>9</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">946252823</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20240425182739.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">951201s1996    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">96,A12,0551</subfield>
+      <subfield code="z">96,N01,0258</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">946252823</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406403453</subfield>
+      <subfield code="c">Gewebe : DM 78.00, sfr 75.00</subfield>
+      <subfield code="9">978-3-406-40345-3</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">340640345X</subfield>
+      <subfield code="c">Gewebe : DM 78.00, sfr 75.00</subfield>
+      <subfield code="9">3-406-40345-X</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="z">340640345</subfield>
+      <subfield code="c">Gewebe : DM 78.00, sfr 75.00</subfield>
+      <subfield code="9">3-406-40345</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB946252823</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)722430982</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1240</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">0292</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="043" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">19</subfield>
+      <subfield code="a">20</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="a">360</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sdnb</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sswd</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung</subfield>
+      <subfield code="c">von Hanns Engelhardt und Michael App</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">4., neubearb. und erg. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">1996</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVIII, 478 S.</subfield>
+      <subfield code="c">17 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Literaturverz. S. XXV - XXIX</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)112019927</subfield>
+      <subfield code="0">https://d-nb.info/gnd/112019927</subfield>
+      <subfield code="0">(DE-101)112019927</subfield>
+      <subfield code="a">App, Michael</subfield>
+      <subfield code="d">1951-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/946252823/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/946252823/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>10</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">920644791</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20241128193328.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">920427s1992    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">92,A35,0518</subfield>
+      <subfield code="z">92,N20,0153</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">920644791</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406360060</subfield>
+      <subfield code="c">Pp. : DM 68.00</subfield>
+      <subfield code="9">978-3-406-36006-0</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406360068</subfield>
+      <subfield code="c">Pp. : DM 68.00</subfield>
+      <subfield code="9">3-406-36006-8</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB920644791</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)263185361</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1200</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">9999</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">19</subfield>
+      <subfield code="a">20</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="a">360</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sdnb</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sswd</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+      <subfield code="a">b</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen</subfield>
+      <subfield code="c">von Hanns Engelhardt. Unter Mitarb. von Michael App</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">3., neubearb. und erg. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">1992</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXVII, 432 S.</subfield>
+      <subfield code="c">17 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="366" ind1=" " ind2=" ">
+      <subfield code="c">IP 20241128</subfield>
+      <subfield code="2">onixas</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Literaturverz. S. XXIV - XXVIII</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/920644791/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/920644791/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="925" ind1="r" ind2=" ">
+      <subfield code="a">ra</subfield>
+    </datafield>
+  </record></recordData><recordPosition>11</recordPosition></record><record><recordSchema>MARC21-xml</recordSchema><recordPacking>xml</recordPacking><recordData><record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
+    <leader>00000pam a2200000 c 4500</leader>
+    <controlfield tag="001">880303433</controlfield>
+    <controlfield tag="003">DE-101</controlfield>
+    <controlfield tag="005">20240830062540.0</controlfield>
+    <controlfield tag="007">tu</controlfield>
+    <controlfield tag="008">880209s1988    gw ||||| |||| 00||||ger  </controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+      <subfield code="a">88,A20,0417</subfield>
+      <subfield code="z">88,N09,0199</subfield>
+      <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+      <subfield code="2">DE-101</subfield>
+      <subfield code="a">880303433</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9783406331077</subfield>
+      <subfield code="c">Gewebe : DM 48.00</subfield>
+      <subfield code="9">978-3-406-33107-7</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">3406331076</subfield>
+      <subfield code="c">Gewebe : DM 48.00</subfield>
+      <subfield code="9">3-406-33107-6</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(DE-599)DNB880303433</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+      <subfield code="a">(OCoLC)632835749</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="a">1200</subfield>
+      <subfield code="b">ger</subfield>
+      <subfield code="c">DE-101</subfield>
+      <subfield code="d">9999</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">ger</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="c">XA-DE</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">19</subfield>
+      <subfield code="a">20</subfield>
+      <subfield code="a">340</subfield>
+      <subfield code="a">360</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sdnb</subfield>
+    </datafield>
+    <datafield tag="084" ind1=" " ind2=" ">
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="a">7.4</subfield>
+      <subfield code="a">7.8a</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="2">sswd</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+      <subfield code="0">(DE-588)131816500</subfield>
+      <subfield code="0">https://d-nb.info/gnd/131816500</subfield>
+      <subfield code="0">(DE-101)131816500</subfield>
+      <subfield code="a">Engelhardt, Hanns</subfield>
+      <subfield code="d">1934-</subfield>
+      <subfield code="e">Verfasser</subfield>
+      <subfield code="4">aut</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz</subfield>
+      <subfield code="b">Kommentar unter bes. Berücks. d. landesrechtl. Bestimmungen</subfield>
+      <subfield code="c">von Hanns Engelhardt</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">2., neubearb. u. erg. Aufl.</subfield>
+    </datafield>
+    <datafield tag="264" ind1=" " ind2="1">
+      <subfield code="a">München</subfield>
+      <subfield code="b">Beck</subfield>
+      <subfield code="c">1988</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">XXI, 329 S.</subfield>
+      <subfield code="c">17 cm</subfield>
+    </datafield>
+    <datafield tag="336" ind1=" " ind2=" ">
+      <subfield code="a">Text</subfield>
+      <subfield code="b">txt</subfield>
+      <subfield code="2">rdacontent</subfield>
+    </datafield>
+    <datafield tag="337" ind1=" " ind2=" ">
+      <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+      <subfield code="b">n</subfield>
+      <subfield code="2">rdamedia</subfield>
+    </datafield>
+    <datafield tag="338" ind1=" " ind2=" ">
+      <subfield code="a">Band</subfield>
+      <subfield code="b">nc</subfield>
+      <subfield code="2">rdacarrier</subfield>
+    </datafield>
+    <datafield tag="366" ind1=" " ind2=" ">
+      <subfield code="c">IP 20221008</subfield>
+      <subfield code="2">onixas</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="610" ind1="1" ind2="7">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Zustellung</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Verwaltungsvollstreckung</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="a">Verwaltungszustellung</subfield>
+      <subfield code="2">local</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="8">1\p</subfield>
+      <subfield code="0">(DE-588)4191177-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4191177-5</subfield>
+      <subfield code="0">(DE-101)041911776</subfield>
+      <subfield code="a">Zustellung</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="8">2\p</subfield>
+      <subfield code="0">(DE-588)4063363-9</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4063363-9</subfield>
+      <subfield code="0">(DE-101)040633632</subfield>
+      <subfield code="a">Verwaltungsvollstreckung</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+      <subfield code="8">3\p</subfield>
+      <subfield code="0">(DE-588)4188152-7</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188152-7</subfield>
+      <subfield code="0">(DE-101)041881524</subfield>
+      <subfield code="a">Verwaltungszwang</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="0">(DE-588)4136710-8</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4136710-8</subfield>
+      <subfield code="0">(DE-101)041367103</subfield>
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="2">gnd-content</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+      <subfield code="a">Kommentar</subfield>
+      <subfield code="9">rswk-swf</subfield>
+      <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="0">
+      <subfield code="0">(DE-588)4188147-3</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188147-3</subfield>
+      <subfield code="0">(DE-101)041881478</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungs-Vollstreckungsgesetz</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="0" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="0">
+      <subfield code="0">(DE-588)4188151-5</subfield>
+      <subfield code="0">https://d-nb.info/gnd/4188151-5</subfield>
+      <subfield code="0">(DE-101)041881516</subfield>
+      <subfield code="D">b</subfield>
+      <subfield code="a">Deutschland</subfield>
+      <subfield code="t">Verwaltungszustellungsgesetz</subfield>
+      <subfield code="f">1952</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2="1">
+      <subfield code="A">f</subfield>
+      <subfield code="a">Kommentar</subfield>
+    </datafield>
+    <datafield tag="689" ind1="1" ind2=" ">
+      <subfield code="5">DE-101</subfield>
+      <subfield code="5">DE-101</subfield>
+    </datafield>
+    <datafield tag="850" ind1=" " ind2=" ">
+      <subfield code="a">DE-101a</subfield>
+      <subfield code="a">DE-101b</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">X:MVB</subfield>
+      <subfield code="q">text/html</subfield>
+      <subfield code="u">https://services.dnb.de/plus/idn/880303433/blurb/</subfield>
+      <subfield code="3">Inhaltstext</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2="2">
+      <subfield code="m">B:DE-101</subfield>
+      <subfield code="q">application/pdf</subfield>
+      <subfield code="u">https://d-nb.info/880303433/04</subfield>
+      <subfield code="3">Inhaltsverzeichnis</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">1\p</subfield>
+      <subfield code="a">kasw</subfield>
+      <subfield code="c">1,000</subfield>
+      <subfield code="d">20230820</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#kasw</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">2\p</subfield>
+      <subfield code="a">kasw</subfield>
+      <subfield code="c">1,000</subfield>
+      <subfield code="d">20230820</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#kasw</subfield>
+    </datafield>
+    <datafield tag="883" ind1="1" ind2=" ">
+      <subfield code="8">3\p</subfield>
+      <subfield code="a">kasw</subfield>
+      <subfield code="c">1,000</subfield>
+      <subfield code="d">20230820</subfield>
+      <subfield code="q">DE-101</subfield>
+      <subfield code="u">https://d-nb.info/provenance/plan#kasw</subfield>
+    </datafield>
+  </record></recordData><recordPosition>12</recordPosition></record></records><echoedSearchRetrieveRequest><version>1.1</version><query>WOE=VwVG AND WOE=VwZG AND PER=Engelhardt</query><xQuery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/><maximumRecords>20</maximumRecords><recordSchema>MARC21-xml</recordSchema></echoedSearchRetrieveRequest></searchRetrieveResponse>
