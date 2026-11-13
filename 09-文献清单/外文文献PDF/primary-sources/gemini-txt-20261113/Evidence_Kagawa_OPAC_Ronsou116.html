@@ -1,0 +1,681 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<HTML lang="ja">
+<HEAD>
+<meta charset="UTF-8">
+
+<META name="ROBOTS" content="NONE" />
+<meta name="robots" content="noindex"/>
+<TITLE>資料詳細：香川県立図書館</TITLE>
+<!--[if gt IE 7]><!-->
+
+
+
+<link rel="stylesheet" href="/winj/css/pc/basic.css" media="screen">
+
+
+<link rel="stylesheet" href="/winj/css/pc/jquery.autocomplete.css" media="screen" >
+<!--<![endif]-->
+<script src="/winj/script/pc/jquery.js"></script>
+<script src="/winj/script/pc/run.js"></script>
+</HEAD>
+
+<BODY onload="init();">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="header" role="banner">
+<div class="inner">
+<h1 id="hdg-site">香川県立図書館</h1>
+<div id="nav-global" role="navigation">
+
+
+
+
+<ul class="col-6">
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="https://www.library.pref.kagawa.lg.jp/">図書館ホーム</a></li>
+<li><a href="/winj/opac/top.do" class="">標準蔵書検索</a></li>
+
+<li><a href="/winj/opac/search-detail.do" class="">詳細蔵書検索</a></li>
+<li><a href="/winj/opac/newly.do" class="">資料紹介</a></li>
+
+
+
+
+<li><a href="/winj/opac/calendar.do?dspph=1" class="">図書館カレンダー</a></li>
+
+
+<li><a href="/winj/opac/login.do?dispatch=/opac/mylibrary.do&amp;every=1" class="">Myライブラリ</a></li>
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/winj/script/pc/jquery.autocomplete.js" ></script>
+
+<SCRIPT type="text/javascript">
+<!--
+
+jQuery.noConflict();
+jQuery(document).ready(
+	function($){
+		jQuery(function() {
+
+			jQuery("*[name=txt_word]:text").autocomplete('/winj/opac/suggest.do?target=fulltext',{minChars:2});
+
+		})
+	}
+);
+
+var execFlag = 0;
+function execSubSearch(){
+	if(execFlag == 1){
+		return false;
+	}
+	execFlag = 1;
+	return true;
+}
+// -->
+</SCRIPT>
+<hr>
+<ul id="nav-guide">
+<li>
+
+
+</li>
+
+
+
+
+
+</ul>
+<noscript>本サイトにはJavaScriptの利用を前提とした機能がございます。<br>お客様の環境では一部の機能がご利用いただけない可能性がございますので、ご了承ください。</noscript>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<SCRIPT type="text/javascript">
+<!--
+
+function execPrint(connect) {
+	var args = new Array();
+	args[0] = window;
+	args[1] = "/winj/JnlpServlet?jnlpname=print.jnlp&connecturl=" + connect;
+
+
+	args[2] = "/winj/" + connect;
+
+
+
+	var subWin = showModalDialog("/winj/opac/printdialog.do",args,"dialogHeight:100px;dialogWidth:300px");
+
+}
+function dispEbook() {
+
+	var bibid = document.BlankForm.bibid.value;
+
+
+	var url = "/winj/opac/ebook.do?bibid=" + bibid;
+
+	win = window.open(url,"ebook","");
+}
+function execReserveBasket(){
+	document.BlankForm.submit_btn_reserve_basket.click();
+}
+function execVot(idx,vottp){
+	document.BlankForm.idx.value=idx;
+	document.BlankForm.hid_vottp.value=vottp;
+	document.BlankForm.submit_btn_evaluate.click();
+}
+function execReview(){
+	document.BlankForm.submit_btn_review_regist.click();
+}
+function execRevReport(idx){
+	document.BlankForm.idx.value=idx;
+	document.BlankForm.submit_btn_review_report.click();
+}
+function execReviewList(){
+	document.BlankForm.submit_btn_review_list.click();
+}
+function execTagReport(){
+	document.BlankForm.submit_btn_tag_report.click();
+}
+function execTag(){
+	document.BlankForm.submit_btn_tag.click();
+}
+function execShelf(){
+	document.BlankForm.submit_btn_shelf.click();
+}
+
+
+
+// -->
+</SCRIPT>
+
+
+<div id="contents" class="lyt-02">
+
+<div id="main" role="main" class="detail">
+<div class="hdg-lyt">
+<h1 class="hdg-l1 icon-search-detail">資料詳細</h1>
+<ul class="link-list-linear text">
+<li><a href="/winj/opac/search-detail.do">詳細蔵書検索</a></li>
+
+
+
+
+
+
+
+
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form name="BlankForm" method="post" action="/winj/opac/book-detail.do">
+<input type="hidden" name="hid_session" value="E5123BDD473DDC41F8DA61C747289375">
+<input type="hidden" name="bibid" value="1130690813">
+<input type="hidden" name="idx" value="">
+<input type="hidden" name="hid_vottp" value="0">
+<div style="display:none;">
+
+
+<input type="submit" name="submit_btn_reserve_basket" value="予約かご">
+
+
+
+
+
+
+
+
+<input type="submit" name="submit_btn_shelf" value="本棚">
+
+</div>
+
+<ul class="link-back-list-linear">
+<li>
+
+</li>
+<li>
+
+
+
+
+
+
+
+
+</li>
+</ul>
+<div class="nav-area">
+<ul class="pager-02 top">
+
+<li class="center">1 件中、 1 件目</li>
+</ul>
+</div>
+<div class="lyt-indent">
+
+<ul class="list-linear icon">
+
+
+</ul>
+
+<div class="lyt-image report state hook-tag">
+<p class="link-image">
+<span class="image">
+
+
+<span class="image-edge"><img src="/winj/BookCover?bibid=1130690813" alt="" oncontextmenu="return false;" ondragstart="return false;"></span>
+
+<span class="title">
+税務大学校論叢
+１１６
+</span>
+</span>
+
+</p>
+<div class="column info">
+<p>
+ --
+税務大学校 --
+２０２５．６ --
+345
+
+
+
+</p>
+
+
+
+
+
+</div>
+</div>
+</div>
+<div class="box">
+<ul class="list-linear handle">
+<li class="group"><ul class="list-linear">
+
+
+
+<li><a href="/winj/opac/login.do?dispatch=/opac/mail-service.do&amp;every=1" class="btn-02">新着図書お知らせメール</a></li>
+
+
+
+
+
+<li><a href="javascript:execReserveBasket()" class="btn-02 icon-reserve">予約かごへ</a></li>
+
+
+
+</ul></li>
+<li class="group-02">
+<ul class="list-linear">
+
+<li><a href="javascript:execShelf()" class="btn-02 icon-bookshelf">本棚へ</a></li>
+
+
+
+</ul>
+</li>
+</ul>
+</div>
+
+<h2 class="hdg-l2-03">所蔵</h2>
+<p>
+所蔵は
+<em class="em-02">1</em>
+件です。現在の予約件数は
+<em class="em-02">0</em>
+件です。
+</p>
+
+<table class="tbl-03 center vertical-middle">
+<thead>
+<tr>
+
+
+
+<td>所蔵場所</td>
+<td>請求記号</td>
+<td>資料番号</td>
+<td>資料区分</td>
+<td>帯出区分</td>
+<td>状態</td>
+
+<td></td>
+
+</tr>
+</thead>
+<tbody>
+
+
+<tr>
+
+
+
+<td>
+一般資料
+
+</td>
+
+
+<td>34500/Z4/1-116</td>
+
+<td>1111273973</td>
+<td>一般</td>
+<td>貸出可</td>
+<td>
+
+
+	
+	
+	在庫
+
+
+</td>
+
+
+<td><a href="../../iLisvirtual/?keycode=1&key=01&holcd=1111273973&count=7&type=2" target="_blank" class="btn-search"><IMG src="/winj/img/pc/icons/iLisvirtual6.png" width="50em" height="40em" alt="iLisvirtual" title="iLisvirtual"</a>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<p class="nav-top"><a href="#top">ページの先頭へ</a></p>
+
+
+
+<h2 class="hdg-l2-03">資料詳細</h2>
+<table class="tbl-04">
+<tbody>
+
+
+<tr>
+<th class="w-25">種別</th>
+<td>図書</td>
+</tr>
+
+<tr>
+<th class="w-25">タイトルコード</th>
+<td>1130690813</td>
+</tr>
+
+
+<tr>
+<th class="w-25">タイトル</th>
+<td>
+税務大学校論叢&nbsp;
+１１６
+</td>
+</tr>
+
+
+
+<tr>
+<th>タイトルカナ</th>
+<td>ゼイム　ダイガッコウ　ロンソウ</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<th>出版地</th>
+<td>東京</td>
+</tr>
+
+
+
+<tr>
+<th>出版者</th>
+<td>税務大学校</td>
+</tr>
+
+
+
+<tr>
+<th>出版年</th>
+<td>２０２５．６</td>
+</tr>
+
+
+
+
+<tr>
+<th>ページ数</th>
+<td>４５２ｐ</td>
+</tr>
+
+
+
+<tr>
+<th>大きさ</th>
+<td>２１ｃｍ</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<th>NDC分類(8版)</th>
+<td>345</td>
+</tr>
+
+
+
+<tr>
+<th>NDC分類(10版)</th>
+<td>345</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+</tbody>
+</table>
+<p class="nav-top"><a href="#top">ページの先頭へ</a></p>
+
+
+
+<h2 class="hdg-l2-03">内容一覧</h2>
+<table class="tbl-03">
+<thead>
+<tr>
+<td>タイトル</td>
+<td>著者名</td>
+<td>ページ</td>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>租税債権の保全制度に関する歴史的及び比較法的考察</td>
+<td>井上文／著</td>
+<td></td>
+</tr>
+
+<tr>
+<td>国外からの納付手段についての考察</td>
+<td>二宮 誠／著</td>
+<td></td>
+</tr>
+
+<tr>
+<td>納税証明制度に関する一考察</td>
+<td>池場征吾／著</td>
+<td></td>
+</tr>
+
+<tr>
+<td>諸外国における租税徴収制度と租税債権の位置付け</td>
+<td>西岡太一／著</td>
+<td></td>
+</tr>
+
+</tbody>
+</table>
+
+<p class="nav-top"><a href="#top">ページの先頭へ</a></p>
+
+
+
+
+
+
+</form>
+
+
+</div>
+
+<hr>
+
+<div id="sub">
+
+
+
+
+</div>
+
+<hr>
+</div>
+
+
+
+<div id="footer">
+<div class="inner">
+
+
+
+<p id="copyright" role="contentinfo">香川県立図書館-Kagawa Prefectural Library- </p>
+
+
+</div>
+</div>
+
+</BODY>
+</HTML>
