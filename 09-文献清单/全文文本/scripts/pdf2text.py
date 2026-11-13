@@ -52,6 +52,9 @@ SOURCES = [
     # 2026-11-12 核实 Gemini 资料库时取得的官方法源（德/美/法/日），单独成批
     (LIT / "外文文献PDF" / "primary-sources" / "gemini-dossier-20261112",
      OUT / "原始法条" / "gemini-dossier-20261112", "原始法条"),
+    # 2026-11-13 核实新上传 ai_studio_code.txt（B3 扩展资料库）时取得的官方法源/判例/书目证据，单独成批
+    (LIT / "外文文献PDF" / "primary-sources" / "gemini-txt-20261113",
+     OUT / "原始法条" / "gemini-txt-20261113", "原始法条"),
 ]
 
 MIN_TEXT_CHARS = 60        # 文字层几乎为空的阈值
