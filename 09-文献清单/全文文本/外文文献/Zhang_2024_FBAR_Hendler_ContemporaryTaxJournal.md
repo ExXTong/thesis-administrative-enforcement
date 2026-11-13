@@ -5,7 +5,7 @@
 - 字数：11309
 - 文字来源：内嵌文本层
 - 原件元数据标题：FBAR Penalty is not Extinguished at Death: Hendler, No. 23 Civ. 3280 (DEH) (SD NY, 2024)
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 --- 第 1 页 ---

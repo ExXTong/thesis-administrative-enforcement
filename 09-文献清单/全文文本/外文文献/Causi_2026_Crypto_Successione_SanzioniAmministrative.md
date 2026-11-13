@@ -4,7 +4,7 @@
 - 字数：20373
 - 文字来源：网页正文（article）
 - 原件元数据标题：Criptovalute e successione ereditaria: questioni aperte tra ordinamento italiano e disciplina europea
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-02
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 Sommario : 1. Il patrimonio digitale in generale. 2. Inquadramento giuridico e architettura tecnica delle criptovalute nel contesto europeo e nazionale. 2.1. La classificazione dei token nel Regolamento MiCA. 2.2. Qualificazione giuridica: beni immateriali e applicabilità dell'art. 1153 c.c. 2.3. Modelli di custodia: Hardware, Software e Web Wallet e le implicazioni sulla titolarità. 3. Accesso e rintracciabilità dei wallet: le criticità materiali della successione digitale. 4. La disciplina contrattuale degli Exchange e i profili di diritto internazionale privato. 4.1. Il Regolamento (UE) 650/2012 e l'esercizio dei poteri dell'esecutore testamentario. 5. Strumenti civilistici per la disposizione mortis causa dei crypto-assets . 5.1. I limiti della scheda testamentaria e le esigenze di segretezza. 5.2. Il legato atipico di password e la tecnica della relatio formale. 5.3. L'istituzione dell'esecutore testamentario per la gestione materiale delle credenziali. 5.4. Il mandato post mortem exequendum e il confine con il divieto dei patti successori. 6. Profili fiscali: determinazione della base imponibile e obblighi di monitoraggio.

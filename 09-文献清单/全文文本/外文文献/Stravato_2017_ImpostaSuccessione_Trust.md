@@ -4,7 +4,7 @@
 - 字数：97806
 - 文字来源：网页正文（article）
 - 原件元数据标题：Imposta di successione e passaggio generazionale: brevi considerazioni sul trust
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-02
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 Sommario : Introduzione; 1. L’imposta di successione ieri ed oggi; 2. Caratteristiche principali: ambito di applicazione; 3. Soggetti tenuti al pagamento dell’imposta; 4. La composizione dell’asse ereditario; 5. Territorialità dell’imposta; 6. La base imponibile; 7. Criteri per l’applicazione dell’imposta: aliquote e franchigie; 8. L’imposta sulla costituzione dei vincoli di destinazione, l’ipotesi del Trust; 9. Conclusioni.

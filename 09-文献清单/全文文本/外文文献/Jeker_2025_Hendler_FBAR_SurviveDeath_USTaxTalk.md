@@ -4,7 +4,7 @@
 - 字数：8363
 - 文字来源：网页正文（article）
 - 原件元数据标题：The Hendler Case: FBAR Penalties Survive Beyond Death – Virginia – US TAX TALK
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 A recent decision reminds taxpayers and the tax compliance community of the importance of filing the Report of Foreign Bank and Financial Accounts. The U.S. District Court for the Southern District of New York in United States v. Hendler, 23 Civ. 3280 (Sept. 17, 2024) has clarified the enduring nature of penalties tied to FBAR. The court held that FBAR penalties “accrue” on the date the form is due (but fails to be filed) and not when the IRS assesses the penalties which might be years later and after the taxpayer has died.
