@@ -4,7 +4,7 @@
 - 字数：466
 - 文字来源：网页正文（官方条文 div.jnhtml）
 - 原件元数据标题：§ 45 AO - Einzelnorm
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 (1) Bei Gesamtrechtsnachfolge gehen die Forderungen und Schulden aus dem Steuerschuldverhältnis auf den Rechtsnachfolger über. Dies gilt jedoch bei der Erbfolge nicht für Zwangsgelder.

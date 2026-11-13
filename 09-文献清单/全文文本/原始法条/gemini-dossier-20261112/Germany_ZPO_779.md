@@ -4,7 +4,7 @@
 - 字数：620
 - 文字来源：网页正文（官方条文 div.jnhtml）
 - 原件元数据标题：§ 779 ZPO - Einzelnorm
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 (1) Eine Zwangsvollstreckung, die zur Zeit des Todes des Schuldners gegen ihn bereits begonnen hatte, wird in seinen Nachlass fortgesetzt.

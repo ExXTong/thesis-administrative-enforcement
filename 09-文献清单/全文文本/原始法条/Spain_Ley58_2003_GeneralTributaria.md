@@ -5,7 +5,7 @@
 - 字数：719818
 - 文字来源：内嵌文本层
 - 原件元数据标题：Ley 58/2003, de 17 de diciembre, General Tributaria.
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-02
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 --- 第 1 页 ---
