@@ -1,0 +1,1396 @@
+# Evidence_DU_Page_1966_landing
+
+- 原件：`09-文献清单/外文文献PDF/primary-sources/gemini-dossier-v2-20261112/Evidence_DU_Page_1966_landing.html`
+- 字数：18657
+- 文字来源：网页正文（容器整块取文）
+- 原件元数据标题："State Law and the Damages Remedy under the Civil Rights Act: Some Prob" by Joseph A. Page
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+
+---
+Skip to main content
+Home
+About
+FAQ
+My Account
+Home
+>
+Sturm College of Law
+>
+Denver Law Review
+>
+DLR
+>
+Vol. 43 (1966)
+>
+Iss. 4 (1966)
+State Law and the Damages Remedy under the Civil Rights Act: Some Problems in Federalism
+Authors
+Joseph A. Page
+First Page No.
+480
+Download
+DOWNLOADS
+Since April 09, 2021
+Share
+COinS
+Journal Home
+About This Journal
+Most Popular Papers
+Receive Email Notices or RSS
+Select an issue:
+All Issues
+Vol. 103,
+											Iss. 1
+Vol. 102,
+											Iss. 4
+Vol. 102,
+											Iss. 3
+Vol. 102,
+											Iss. 2
+Vol. 102,
+											Iss. 1
+Vol. 101,
+											Iss. 4
+Vol. 101,
+											Iss. 3
+Vol. 101,
+											Iss. 2
+Vol. 101,
+											Iss. 1
+Vol. 100,
+											Iss. 4
+Vol. 100,
+											Iss. 3
+Vol. 100,
+											Iss. 2
+Vol. 100,
+											Iss. 1
+Vol. 99,
+											Iss. 4
+Vol. 99,
+											Iss. 3
+Vol. 99,
+											Iss. 2
+Vol. 99,
+											Iss. 1
+Vol. 98,
+											Iss. 4
+Vol. 98,
+											Iss. 3
+Vol. 98,
+											Iss. 2
+Vol. 98,
+											Iss. 1
+Vol. 97,
+											Iss. 2
+Vol. 97,
+											Iss. 1
+Vol. 96,
+											Iss. 4
+Vol. 96,
+											Iss. 3
+Vol. 96,
+											Iss. 2
+Vol. 96,
+											Iss. 1
+Vol. 95,
+											Iss. 4
+Vol. 95,
+											Iss. 3
+Vol. 95,
+											Iss. 2
+Vol. 95,
+											Iss. 1
+Vol. 94,
+											Iss. 4
+Vol. 94,
+											Iss. 3
+Vol. 94,
+											Iss. 2
+Vol. 94,
+											Iss. 1
+Vol. 93,
+											Iss. 4
+Vol. 93,
+											Iss. 3
+Vol. 93,
+											Iss. 2
+Vol. 93,
+											Iss. 1
+Vol. 92,
+											Iss. 4
+Vol. 92,
+											Iss. 3
+Vol. 92,
+											Iss. 2
+Vol. 92,
+											Iss. 1
+Vol. 91,
+											Iss. 5
+Vol. 91,
+											Iss. 4
+Vol. 91,
+											Iss. 3
+Vol. 91,
+											Iss. 2
+Vol. 91,
+											Iss. 1
+Vol. 90,
+											Iss. 5
+Vol. 90,
+											Iss. 4
+Vol. 90,
+											Iss. 3
+Vol. 90,
+											Iss. 2
+Vol. 90,
+											Iss. 1
+Vol. 89,
+											Iss. 4
+Vol. 89,
+											Iss. 3
+Vol. 89,
+											Iss. 2
+Vol. 89,
+											Iss. 1
+Vol. 88,
+											Iss. 4
+Vol. 88,
+											Iss. 3
+Vol. 88,
+											Iss. 2
+Vol. 88,
+											Iss. 1
+Vol. 87,
+											Iss. 4
+Vol. 87,
+											Iss. 3
+Vol. 87,
+											Iss. 2
+Vol. 87,
+											Iss. 1
+Vol. 86,
+											Iss. 5
+Vol. 86,
+											Iss. 4
+Vol. 86,
+											Iss. 3
+Vol. 86,
+											Iss. 2
+Vol. 86,
+											Iss. 1
+Vol. 85,
+											Iss. 4
+Vol. 85,
+											Iss. 3
+Vol. 85,
+											Iss. 2
+Vol. 85,
+											Iss. 1
+Vol. 84,
+											Iss. 4
+Vol. 84,
+											Iss. 3
+Vol. 84,
+											Iss. 2
+Vol. 84,
+											Iss. 1
+Vol. 83,
+											Iss. 4
+Vol. 83,
+											Iss. 3
+Vol. 83,
+											Iss. 2
+Vol. 83,
+											Iss. 1
+Vol. 82,
+											Iss. 4
+Vol. 82,
+											Iss. 3
+Vol. 82,
+											Iss. 2
+Vol. 82,
+											Iss. 1
+Vol. 81,
+											Iss. 4
+Vol. 81,
+											Iss. 3
+Vol. 81,
+											Iss. 2
+Vol. 81,
+											Iss. 1
+Vol. 80,
+											Iss. 4
+Vol. 80,
+											Iss. 3
+Vol. 80,
+											Iss. 2
+Vol. 80,
+											Iss. 1
+Vol. 79,
+											Iss. 4
+Vol. 79,
+											Iss. 3
+Vol. 79,
+											Iss. 2
+Vol. 79,
+											Iss. 1
+Vol. 78,
+											Iss. 4
+Vol. 78,
+											Iss. 3
+Vol. 78,
+											Iss. 2
+Vol. 78,
+											Iss. 1
+Vol. 77,
+											Iss. 4
+Vol. 77,
+											Iss. 3
+Vol. 77,
+											Iss. 2
+Vol. 77,
+											Iss. 1
+Vol. 76,
+											Iss. 4
+Vol. 76,
+											Iss. 3
+Vol. 76,
+											Iss. 2
+Vol. 76,
+											Iss. 1
+Vol. 75,
+											Iss. 4
+Vol. 75,
+											Iss. 3
+Vol. 75,
+											Iss. 2
+Vol. 75,
+											Iss. 1
+Vol. 74,
+											Iss. 4
+Vol. 74,
+											Iss. 3
+Vol. 74,
+											Iss. 2
+Vol. 74,
+											Iss. 1
+Vol. 73,
+											Iss. 4
+Vol. 73,
+											Iss. 3
+Vol. 73,
+											Iss. 2
+Vol. 73,
+											Iss. 1
+Vol. 72,
+											Iss. 4
+Vol. 72,
+											Iss. 3
+Vol. 72,
+											Iss. 2
+Vol. 72,
+											Iss. 1
+Vol. 71,
+											Iss. 4
+Vol. 71,
+											Iss. 3
+Vol. 71,
+											Iss. 2
+Vol. 71,
+											Iss. 1
+Vol. 70,
+											Iss. 4
+Vol. 70,
+											Iss. 3
+Vol. 70,
+											Iss. 2
+Vol. 70,
+											Iss. 1
+Vol. 69,
+											Iss. 4
+Vol. 69,
+											Iss. 3
+Vol. 69,
+											Iss. 2
+Vol. 69,
+											Iss. 1
+Vol. 68,
+											Iss. 4
+Vol. 68,
+											Iss. 3
+Vol. 68,
+											Iss. 2
+Vol. 68,
+											Iss. 1
+Vol. 67,
+											Iss. 4
+Vol. 67,
+											Iss. 3
+Vol. 67,
+											Iss. 2
+Vol. 67,
+											Iss. 1
+Vol. 66,
+											Iss. 4
+Vol. 66,
+											Iss. 3
+Vol. 66,
+											Iss. 2
+Vol. 66,
+											Iss. 1
+Vol. 65,
+											Iss. 4
+Vol. 65,
+											Iss. 2
+Vol. 65,
+											Iss. 1
+Vol. 64,
+											Iss. 4
+Vol. 64,
+											Iss. 3
+Vol. 64,
+											Iss. 2
+Vol. 64,
+											Iss. 1
+Vol. 63,
+											Iss. 4
+Vol. 63,
+											Iss. 3
+Vol. 63,
+											Iss. 2
+Vol. 63,
+											Iss. 1
+Vol. 62,
+											Iss. 3
+Vol. 62,
+											Iss. 2
+Vol. 62,
+											Iss. 1
+Vol. 61,
+											Iss. 4
+Vol. 61,
+											Iss. 3
+Vol. 61,
+											Iss. 2
+Vol. 61,
+											Iss. 1
+Vol. 60,
+											Iss. 4
+Vol. 60,
+											Iss. 3
+Vol. 60,
+											Iss. 2
+Vol. 60,
+											Iss. 1
+Vol. 59,
+											Iss. 4
+Vol. 59,
+											Iss. 3
+Vol. 59,
+											Iss. 2
+Vol. 59,
+											Iss. 1
+Vol. 58,
+											Iss. 3
+Vol. 58,
+											Iss. 2
+Vol. 58,
+											Iss. 1
+Vol. 57,
+											Iss. 4
+Vol. 57,
+											Iss. 3
+Vol. 57,
+											Iss. 2
+Vol. 57,
+											Iss. 1
+Vol. 56,
+											Iss. 3
+Vol. 56,
+											Iss. 2
+Vol. 56,
+											Iss. 1
+Vol. 55,
+											Iss. 3
+Vol. 55,
+											Iss. 2
+Vol. 55,
+											Iss. 1
+Vol. 54,
+											Iss. 2
+Vol. 54,
+											Iss. 1
+Vol. 53,
+											Iss. 4
+Vol. 53,
+											Iss. 3
+Vol. 53,
+											Iss. 2
+Vol. 53,
+											Iss. 1
+Vol. 52,
+											Iss. 4
+Vol. 52,
+											Iss. 3
+Vol. 52,
+											Iss. 2
+Vol. 52,
+											Iss. 1
+Vol. 51,
+											Iss. 4
+Vol. 51,
+											Iss. 3
+Vol. 51,
+											Iss. 2
+Vol. 51,
+											Iss. 1
+Vol. 50,
+											Iss. 4
+Vol. 50,
+											Iss. 3
+Vol. 50,
+											Iss. 2
+Vol. 50,
+											Iss. 1
+Vol. 49,
+											Iss. 4
+Vol. 49,
+											Iss. 3
+Vol. 49,
+											Iss. 2
+Vol. 49,
+											Iss. 1
+Vol. 48,
+											Iss. 4
+Vol. 48,
+											Iss. 3
+Vol. 48,
+											Iss. 2
+Vol. 48,
+											Iss. 1
+Vol. 47,
+											Iss. 4
+Vol. 47,
+											Iss. 3
+Vol. 47,
+											Iss. 2
+Vol. 47,
+											Iss. 1
+Vol. 46,
+											Iss. 4
+Vol. 46,
+											Iss. 3
+Vol. 46,
+											Iss. 2
+Vol. 46,
+											Iss. 1
+Vol. 45,
+											Iss. 5
+Vol. 45,
+											Iss. 4
+Vol. 45,
+											Iss. 3
+Vol. 45,
+											Iss. 2
+Vol. 45,
+											Iss. 1
+Vol. 44,
+											Iss. 5
+Vol. 44,
+											Iss. 4
+Vol. 44,
+											Iss. 3
+Vol. 44,
+											Iss. 2
+Vol. 44,
+											Iss. 1
+Vol. 43,
+											Iss. 4
+Vol. 43,
+											Iss. 3
+Vol. 43,
+											Iss. 2
+Vol. 43,
+											Iss. 1
+Vol. 42,
+											Iss. 2
+Vol. 42,
+											Iss. 1
+Vol. 41,
+											Iss. 6
+Vol. 41,
+											Iss. 5
+Vol. 41,
+											Iss. 4
+Vol. 41,
+											Iss. 3
+Vol. 41,
+											Iss. 2
+Vol. 41,
+											Iss. 1
+Vol. 40,
+											Iss. 6
+Vol. 40,
+											Iss. 5
+Vol. 40,
+											Iss. 4
+Vol. 40,
+											Iss. 3
+Vol. 40,
+											Iss. 2
+Vol. 40,
+											Iss. 1
+Vol. 39,
+											Iss. 6
+Vol. 39,
+											Iss. 5
+Vol. 39,
+											Iss. 4
+Vol. 39,
+											Iss. 3
+Vol. 39,
+											Iss. 2
+Vol. 39,
+											Iss. 1
+Vol. 38,
+											Iss. 6
+Vol. 38,
+											Iss. 5
+Vol. 38,
+											Iss. 4
+Vol. 38,
+											Iss. 3
+Vol. 38,
+											Iss. 2
+Vol. 38,
+											Iss. 1
+Vol. 37,
+											Iss. 6
+Vol. 37,
+											Iss. 5
+Vol. 37,
+											Iss. 4
+Vol. 37,
+											Iss. 3
+Vol. 37,
+											Iss. 2
+Vol. 37,
+											Iss. 1
+Vol. 36,
+											Iss. 6
+Vol. 36,
+											Iss. 5
+Vol. 36,
+											Iss. 4
+Vol. 36,
+											Iss. 3
+Vol. 36,
+											Iss. 2
+Vol. 36,
+											Iss. 1
+Vol. 35,
+											Iss. 6
+Vol. 35,
+											Iss. 5
+Vol. 35,
+											Iss. 4
+Vol. 35,
+											Iss. 3
+Vol. 35,
+											Iss. 2
+Vol. 35,
+											Iss. 1
+Vol. 34,
+											Iss. 6
+Vol. 34,
+											Iss. 5
+Vol. 34,
+											Iss. 4
+Vol. 34,
+											Iss. 3
+Vol. 34,
+											Iss. 2
+Vol. 34,
+											Iss. 1
+Vol. 33,
+											Iss. 6
+Vol. 33,
+											Iss. 5
+Vol. 33,
+											Iss. 4
+Vol. 33,
+											Iss. 3
+Vol. 33,
+											Iss. 2
+Vol. 33,
+											Iss. 1
+Vol. 32,
+											Iss. 7
+Vol. 32,
+											Iss. 6
+Vol. 32,
+											Iss. 5
+Vol. 32,
+											Iss. 4
+Vol. 32,
+											Iss. 3
+Vol. 32,
+											Iss. 2
+Vol. 32,
+											Iss. 1
+Vol. 31,
+											Iss. 12
+Vol. 31,
+											Iss. 11
+Vol. 31,
+											Iss. 10
+Vol. 31,
+											Iss. 9
+Vol. 31,
+											Iss. 8
+Vol. 31,
+											Iss. 7
+Vol. 31,
+											Iss. 6
+Vol. 31,
+											Iss. 5
+Vol. 31,
+											Iss. 4
+Vol. 31,
+											Iss. 3
+Vol. 31,
+											Iss. 2
+Vol. 31,
+											Iss. 1
+Vol. 30,
+											Iss. 12
+Vol. 30,
+											Iss. 11
+Vol. 30,
+											Iss. 10
+Vol. 30,
+											Iss. 9
+Vol. 30,
+											Iss. 8
+Vol. 30,
+											Iss. 7
+Vol. 30,
+											Iss. 6
+Vol. 30,
+											Iss. 5
+Vol. 30,
+											Iss. 4
+Vol. 30,
+											Iss. 3
+Vol. 30,
+											Iss. 2
+Vol. 30,
+											Iss. 1
+Vol. 29,
+											Iss. 12
+Vol. 29,
+											Iss. 11
+Vol. 29,
+											Iss. 10
+Vol. 29,
+											Iss. 9
+Vol. 29,
+											Iss. 8
+Vol. 29,
+											Iss. 7
+Vol. 29,
+											Iss. 6
+Vol. 29,
+											Iss. 5
+Vol. 29,
+											Iss. 4
+Vol. 29,
+											Iss. 3
+Vol. 29,
+											Iss. 2
+Vol. 29,
+											Iss. 1
+Vol. 28,
+											Iss. 12
+Vol. 28,
+											Iss. 11
+Vol. 28,
+											Iss. 10
+Vol. 28,
+											Iss. 9
+Vol. 28,
+											Iss. 8
+Vol. 28,
+											Iss. 7
+Vol. 28,
+											Iss. 6
+Vol. 28,
+											Iss. 5
+Vol. 28,
+											Iss. 4
+Vol. 28,
+											Iss. 3
+Vol. 28,
+											Iss. 2
+Vol. 28,
+											Iss. 1
+Vol. 27,
+											Iss. 12
+Vol. 27,
+											Iss. 11
+Vol. 27,
+											Iss. 10
+Vol. 27,
+											Iss. 9
+Vol. 27,
+											Iss. 8
+Vol. 27,
+											Iss. 7
+Vol. 27,
+											Iss. 6
+Vol. 27,
+											Iss. 5
+Vol. 27,
+											Iss. 4
+Vol. 27,
+											Iss. 3
+Vol. 27,
+											Iss. 2
+Vol. 27,
+											Iss. 1
+Vol. 26,
+											Iss. 12
+Vol. 26,
+											Iss. 11
+Vol. 26,
+											Iss. 10
+Vol. 26,
+											Iss. 9
+Vol. 26,
+											Iss. 8
+Vol. 26,
+											Iss. 7
+Vol. 26,
+											Iss. 6
+Vol. 26,
+											Iss. 5
+Vol. 26,
+											Iss. 4
+Vol. 26,
+											Iss. 3
+Vol. 26,
+											Iss. 2
+Vol. 26,
+											Iss. 1
+Vol. 25,
+											Iss. 12
+Vol. 25,
+											Iss. 11
+Vol. 25,
+											Iss. 10
+Vol. 25,
+											Iss. 9
+Vol. 25,
+											Iss. 8
+Vol. 25,
+											Iss. 7
+Vol. 25,
+											Iss. 6
+Vol. 25,
+											Iss. 5
+Vol. 25,
+											Iss. 4
+Vol. 25,
+											Iss. 3
+Vol. 25,
+											Iss. 2
+Vol. 25,
+											Iss. 1
+Vol. 24,
+											Iss. 12
+Vol. 24,
+											Iss. 11
+Vol. 24,
+											Iss. 10
+Vol. 24,
+											Iss. 9
+Vol. 24,
+											Iss. 8
+Vol. 24,
+											Iss. 7
+Vol. 24,
+											Iss. 6
+Vol. 24,
+											Iss. 5
+Vol. 24,
+											Iss. 4
+Vol. 24,
+											Iss. 3
+Vol. 24,
+											Iss. 2
+Vol. 24,
+											Iss. 1
+Vol. 23,
+											Iss. 12
+Vol. 23,
+											Iss. 11
+Vol. 23,
+											Iss. 10
+Vol. 23,
+											Iss. 9
+Vol. 23,
+											Iss. 8
+Vol. 23,
+											Iss. 7
+Vol. 23,
+											Iss. 6
+Vol. 23,
+											Iss. 5
+Vol. 23,
+											Iss. 4
+Vol. 23,
+											Iss. 3
+Vol. 23,
+											Iss. 2
+Vol. 23,
+											Iss. 1
+Vol. 22,
+											Iss. 12
+Vol. 22,
+											Iss. 11
+Vol. 22,
+											Iss. 10
+Vol. 22,
+											Iss. 9
+Vol. 22,
+											Iss. 8
+Vol. 22,
+											Iss. 7
+Vol. 22,
+											Iss. 6
+Vol. 22,
+											Iss. 5
+Vol. 22,
+											Iss. 4
+Vol. 22,
+											Iss. 3
+Vol. 22,
+											Iss. 2
+Vol. 22,
+											Iss. 1
+Vol. 21,
+											Iss. 12
+Vol. 21,
+											Iss. 11
+Vol. 21,
+											Iss. 10
+Vol. 21,
+											Iss. 9
+Vol. 21,
+											Iss. 8
+Vol. 21,
+											Iss. 7
+Vol. 21,
+											Iss. 6
+Vol. 21,
+											Iss. 5
+Vol. 21,
+											Iss. 4
+Vol. 21,
+											Iss. 3
+Vol. 21,
+											Iss. 2
+Vol. 21,
+											Iss. 1
+Vol. 20,
+											Iss. 12
+Vol. 20,
+											Iss. 11
+Vol. 20,
+											Iss. 10
+Vol. 20,
+											Iss. 9
+Vol. 20,
+											Iss. 8
+Vol. 20,
+											Iss. 7
+Vol. 20,
+											Iss. 6
+Vol. 20,
+											Iss. 5
+Vol. 20,
+											Iss. 3
+Vol. 20,
+											Iss. 2
+Vol. 19,
+											Iss. 12
+Vol. 19,
+											Iss. 11
+Vol. 19,
+											Iss. 10
+Vol. 19,
+											Iss. 9
+Vol. 19,
+											Iss. 8
+Vol. 19,
+											Iss. 7
+Vol. 19,
+											Iss. 6
+Vol. 19,
+											Iss. 5
+Vol. 19,
+											Iss. 4
+Vol. 19,
+											Iss. 3
+Vol. 19,
+											Iss. 2
+Vol. 19,
+											Iss. 1
+Vol. 18,
+											Iss. 12
+Vol. 18,
+											Iss. 11
+Vol. 18,
+											Iss. 10
+Vol. 18,
+											Iss. 9
+Vol. 18,
+											Iss. 8
+Vol. 18,
+											Iss. 7
+Vol. 18,
+											Iss. 6
+Vol. 18,
+											Iss. 5
+Vol. 18,
+											Iss. 4
+Vol. 18,
+											Iss. 3
+Vol. 18,
+											Iss. 2
+Vol. 18,
+											Iss. 1
+Vol. 17,
+											Iss. 12
+Vol. 17,
+											Iss. 11
+Vol. 17,
+											Iss. 10
+Vol. 17,
+											Iss. 9
+Vol. 17,
+											Iss. 8
+Vol. 17,
+											Iss. 7
+Vol. 17,
+											Iss. 6
+Vol. 17,
+											Iss. 5
+Vol. 17,
+											Iss. 4
+Vol. 17,
+											Iss. 3
+Vol. 17,
+											Iss. 2
+Vol. 17,
+											Iss. 1
+Vol. 16,
+											Iss. 12
+Vol. 16,
+											Iss. 11
+Vol. 16,
+											Iss. 10
+Vol. 16,
+											Iss. 9
+Vol. 16,
+											Iss. 8
+Vol. 16,
+											Iss. 7
+Vol. 16,
+											Iss. 6
+Vol. 16,
+											Iss. 5
+Vol. 16,
+											Iss. 4
+Vol. 16,
+											Iss. 3
+Vol. 16,
+											Iss. 2
+Vol. 16,
+											Iss. 1
+Vol. 15,
+											Iss. 12
+Vol. 15,
+											Iss. 11
+Vol. 15,
+											Iss. 10
+Vol. 15,
+											Iss. 9
+Vol. 15,
+											Iss. 8
+Vol. 15,
+											Iss. 7
+Vol. 15,
+											Iss. 6
+Vol. 15,
+											Iss. 5
+Vol. 15,
+											Iss. 4
+Vol. 15,
+											Iss. 3
+Vol. 15,
+											Iss. 2
+Vol. 15,
+											Iss. 1
+Vol. 14,
+											Iss. 14
+Vol. 14,
+											Iss. 13
+Vol. 14,
+											Iss. 12
+Vol. 14,
+											Iss. 11
+Vol. 14,
+											Iss. 10
+Vol. 14,
+											Iss. 9
+Vol. 14,
+											Iss. 8
+Vol. 14,
+											Iss. 7
+Vol. 14,
+											Iss. 6
+Vol. 14,
+											Iss. 5
+Vol. 14,
+											Iss. 4
+Vol. 14,
+											Iss. 3
+Vol. 14,
+											Iss. 2
+Vol. 14,
+											Iss. 1
+Vol. 13,
+											Iss. 12
+Vol. 13,
+											Iss. 11
+Vol. 13,
+											Iss. 10
+Vol. 13,
+											Iss. 9
+Vol. 13,
+											Iss. 8
+Vol. 13,
+											Iss. 7
+Vol. 13,
+											Iss. 6
+Vol. 13,
+											Iss. 5
+Vol. 13,
+											Iss. 4
+Vol. 13,
+											Iss. 3
+Vol. 13,
+											Iss. 2
+Vol. 13,
+											Iss. 1
+Vol. 12,
+											Iss. 12
+Vol. 12,
+											Iss. 11
+Vol. 12,
+											Iss. 10
+Vol. 12,
+											Iss. 9
+Vol. 12,
+											Iss. 8
+Vol. 12,
+											Iss. 7
+Vol. 12,
+											Iss. 6
+Vol. 12,
+											Iss. 5
+Vol. 12,
+											Iss. 4
+Vol. 12,
+											Iss. 3
+Vol. 12,
+											Iss. 2
+Vol. 12,
+											Iss. 1
+Vol. 11,
+											Iss. 12
+Vol. 11,
+											Iss. 11
+Vol. 11,
+											Iss. 10
+Vol. 11,
+											Iss. 9
+Vol. 11,
+											Iss. 8
+Vol. 11,
+											Iss. 7
+Vol. 11,
+											Iss. 6
+Vol. 11,
+											Iss. 5
+Vol. 11,
+											Iss. 4
+Vol. 11,
+											Iss. 3
+Vol. 11,
+											Iss. 2
+Vol. 11,
+											Iss. 1
+Vol. 10,
+											Iss. 12
+Vol. 10,
+											Iss. 11
+Vol. 10,
+											Iss. 10
+Vol. 10,
+											Iss. 9
+Vol. 10,
+											Iss. 8
+Vol. 10,
+											Iss. 7
+Vol. 10,
+											Iss. 6
+Vol. 10,
+											Iss. 5
+Vol. 10,
+											Iss. 4
+Vol. 10,
+											Iss. 3
+Vol. 10,
+											Iss. 2
+Vol. 10,
+											Iss. 1
+Vol. 9,
+											Iss. 12
+Vol. 9,
+											Iss. 11
+Vol. 9,
+											Iss. 10
+Vol. 9,
+											Iss. 9
+Vol. 9,
+											Iss. 8
+Vol. 9,
+											Iss. 7
+Vol. 9,
+											Iss. 6
+Vol. 9,
+											Iss. 5
+Vol. 9,
+											Iss. 4
+Vol. 9,
+											Iss. 3
+Vol. 9,
+											Iss. 2
+Vol. 9,
+											Iss. 1
+Vol. 8,
+											Iss. 12
+Vol. 8,
+											Iss. 11
+Vol. 8,
+											Iss. 10
+Vol. 8,
+											Iss. 9
+Vol. 8,
+											Iss. 8
+Vol. 8,
+											Iss. 7
+Vol. 8,
+											Iss. 6
+Vol. 8,
+											Iss. 5
+Vol. 8,
+											Iss. 4
+Vol. 8,
+											Iss. 3
+Vol. 8,
+											Iss. 2
+Vol. 8,
+											Iss. 1
+Vol. 7,
+											Iss. 12
+Vol. 7,
+											Iss. 11
+Vol. 7,
+											Iss. 10
+Vol. 7,
+											Iss. 9
+Vol. 7,
+											Iss. 8
+Vol. 7,
+											Iss. 7
+Vol. 7,
+											Iss. 6
+Vol. 7,
+											Iss. 5
+Vol. 7,
+											Iss. 4
+Vol. 7,
+											Iss. 3
+Vol. 7,
+											Iss. 2
+Vol. 7,
+											Iss. 1
+Vol. 6,
+											Iss. 12
+Vol. 6,
+											Iss. 11
+Vol. 6,
+											Iss. 10
+Vol. 6,
+											Iss. 9
+Vol. 6,
+											Iss. 8
+Vol. 6,
+											Iss. 7
+Vol. 6,
+											Iss. 6
+Vol. 6,
+											Iss. 5
+Vol. 6,
+											Iss. 4
+Vol. 6,
+											Iss. 3
+Vol. 6,
+											Iss. 2
+Vol. 6,
+											Iss. 1
+Vol. 5,
+											Iss. 9
+Vol. 5,
+											Iss. 8
+Vol. 5,
+											Iss. 7
+Vol. 5,
+											Iss. 6
+Vol. 5,
+											Iss. 5
+Vol. 5,
+											Iss. 4
+Vol. 5,
+											Iss. 3
+Vol. 5,
+											Iss. 2
+Vol. 5,
+											Iss. 1
+Vol. 4,
+											Iss. 12
+Vol. 4,
+											Iss. 11
+Vol. 4,
+											Iss. 10
+Vol. 4,
+											Iss. 9
+Vol. 4,
+											Iss. 8
+Vol. 4,
+											Iss. 7
+Vol. 4,
+											Iss. 6
+Vol. 4,
+											Iss. 5
+Vol. 4,
+											Iss. 4
+Vol. 4,
+											Iss. 3
+Vol. 4,
+											Iss. 2
+Vol. 4,
+											Iss. 1
+Vol. 3,
+											Iss. 12
+Vol. 3,
+											Iss. 11
+Vol. 3,
+											Iss. 10
+Vol. 3,
+											Iss. 9
+Vol. 3,
+											Iss. 8
+Vol. 3,
+											Iss. 7
+Vol. 3,
+											Iss. 6
+Vol. 3,
+											Iss. 5
+Vol. 3,
+											Iss. 4
+Vol. 3,
+											Iss. 3
+Vol. 3,
+											Iss. 2
+Vol. 3,
+											Iss. 1
+Vol. 2,
+											Iss. 12
+Vol. 2,
+											Iss. 11
+Vol. 2,
+											Iss. 10
+Vol. 2,
+											Iss. 9
+Vol. 2,
+											Iss. 8
+Vol. 2,
+											Iss. 7
+Vol. 2,
+											Iss. 6
+Vol. 2,
+											Iss. 5
+Vol. 2,
+											Iss. 4
+Vol. 2,
+											Iss. 3
+Vol. 2,
+											Iss. 2
+Vol. 2,
+											Iss. 1
+Vol. 1,
+											Iss. 13
+Vol. 1,
+											Iss. 12
+Vol. 1,
+											Iss. 11
+Vol. 1,
+											Iss. 10
+Vol. 1,
+											Iss. 9
+Vol. 1,
+											Iss. 8
+Vol. 1,
+											Iss. 7
+Vol. 1,
+											Iss. 6
+Vol. 1,
+											Iss. 5
+Vol. 1,
+											Iss. 4
+Vol. 1,
+											Iss. 3
+Vol. 1,
+											Iss. 2
+Vol. 1,
+											Iss. 1
+Search
+Advanced Search
+ISSN: 0883-9409
+Elsevier - Digital Commons
+Home
+|
+About
+|
+FAQ
+|
+My Account
+|
+Accessibility Statement
+Privacy
+Copyright

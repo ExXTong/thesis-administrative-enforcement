@@ -1,0 +1,80 @@
+# Evidence_BnF_Garbar_2021
+
+- 原件：`09-文献清单/外文文献PDF/primary-sources/gemini-dossier-v2-20261112/Evidence_BnF_Garbar_2021.xml`
+- 字数：4619
+- 文字来源：书目 XML 机械抽取
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+
+---
+# Evidence_BnF_Garbar_2021
+
+- 来源：书目/元数据 XML（非 e-Gov 法令格式），机械抽取，未翻译、未改写
+
+- [001] FRBNF469327690000001
+- [003] http://catalogue.bnf.fr/ark:/12148/cb46932769v
+- [010] $a 978-2-38194-013-7;$b br.;$d 22 EUR
+- [020] $a FR;$b 02216744
+- [073 0] $a 9782381940137
+- [100] $a 20211216d2021    k  h0frey50      ba
+- [101 0] $a fre
+- [102] $a FR
+- [105] $a ||||||||10|y|
+- [106] $a r
+- [181 0] $6 01;$a i;$b xxxe
+- [181] $6 02;$c txt;$2 rdacontent
+- [182 0] $6 01;$a n
+- [182] $6 02;$c n;$2 rdamedia
+- [200 1] $a Comment les responsables publics doivent-ils répondre de leurs actes ?;$b Texte imprimé;$f sous la direction scientifique de Christian Garbar
+- [214 0] $a Poitiers;$c Faculté droit & sciences sociales, Université de Poitiers
+- [214 4] $d C 2021
+- [214 3] $a 37-Monts;$c Impr. Présence graphique
+- [215] $a 1 vol. (308 p.);$d 24 cm
+- [225 |] $a Collection de la Faculté de droit et des sciences sociales de Poitiers, Université de Poitiers;$i Actes et colloques;$e droit public, histoire du droit;$x 2259-6623
+- [300] $a Issu du colloque international éponyme organisé les 28 et 29 novembre 2019 à la Faculté de droit, d'économie et des sciences sociales de l'Université de Tours
+- [308] $a 114
+- [410 0] $0 42657174;$t Collection de la Faculté de droit et des sciences sociales. Actes & colloques;$x 2259-6623;$d 2021
+- [410 0] $0 39057581;$t Collection de la Faculté de droit et des sciences sociales de Poitiers;$x 1762-7125;$v 114
+- [606] $3 11961400;$a État;$x Responsabilité;$2 rameau
+- [606] $3 13564156;$a Hommes politiques;$x Responsabilité pénale;$2 rameau
+- [608] $3 12061148;$a Actes de congrès;$2 rameau
+- [676] $a 342.062;$v 23
+- [686] $a 340;$2 Cadre de classement de la Bibliographie nationale française
+- [702 |] $3 11904078;$o ISNI0000000027187531;$a Garbar;$b Christian-Albert;$f 1947-....;$4 651
+- [801 0] $a FR;$b FR-751131015;$c 20211216;$g AFNOR;$h FRBNF469327690000001;$2 intermrc
+- [930] $5 FR-751131008:46932769001001;$a 2021-335554;$b 759999999;$c Tolbiac - Rez de Jardin - Droit, économie, politique - Magasin;$d O
+- [930] $5 FR-751131008:46932769002001;$a 342 GARB c;$b 759999999;$c Tolbiac - Haut de Jardin - Droit, économie, politique - Salle D - Libre accès;$d N
+- [930] $5 FR-751131008:46932769003001;$a 342 GARB c;$b 759999999;$c Tolbiac - Rez de Jardin - Droit, économie, politique - Salle O - Libre accès;$d N
+- [001] FRBNF469327690000001
+- [003] http://catalogue.bnf.fr/ark:/12148/cb46932769v
+- [010] $a 978-2-38194-013-7;$b br.;$d 22 EUR
+- [020] $a FR;$b 02216744
+- [073 0] $a 9782381940137
+- [100] $a 20211216d2021    k  h0frey50      ba
+- [101 0] $a fre
+- [102] $a FR
+- [105] $a ||||||||10|y|
+- [106] $a r
+- [181 0] $6 01;$a i;$b xxxe
+- [181] $6 02;$c txt;$2 rdacontent
+- [182 0] $6 01;$a n
+- [182] $6 02;$c n;$2 rdamedia
+- [200 1] $a Comment les responsables publics doivent-ils répondre de leurs actes ?;$b Texte imprimé;$f sous la direction scientifique de Christian Garbar
+- [214 0] $a Poitiers;$c Faculté droit & sciences sociales, Université de Poitiers
+- [214 4] $d C 2021
+- [214 3] $a 37-Monts;$c Impr. Présence graphique
+- [215] $a 1 vol. (308 p.);$d 24 cm
+- [225 |] $a Collection de la Faculté de droit et des sciences sociales de Poitiers, Université de Poitiers;$i Actes et colloques;$e droit public, histoire du droit;$x 2259-6623
+- [300] $a Issu du colloque international éponyme organisé les 28 et 29 novembre 2019 à la Faculté de droit, d'économie et des sciences sociales de l'Université de Tours
+- [308] $a 114
+- [410 0] $0 42657174;$t Collection de la Faculté de droit et des sciences sociales. Actes & colloques;$x 2259-6623;$d 2021
+- [410 0] $0 39057581;$t Collection de la Faculté de droit et des sciences sociales de Poitiers;$x 1762-7125;$v 114
+- [606] $3 11961400;$a État;$x Responsabilité;$2 rameau
+- [606] $3 13564156;$a Hommes politiques;$x Responsabilité pénale;$2 rameau
+- [608] $3 12061148;$a Actes de congrès;$2 rameau
+- [676] $a 342.062;$v 23
+- [686] $a 340;$2 Cadre de classement de la Bibliographie nationale française
+- [702 |] $3 11904078;$o ISNI0000000027187531;$a Garbar;$b Christian-Albert;$f 1947-....;$4 651
+- [801 0] $a FR;$b FR-751131015;$c 20211216;$g AFNOR;$h FRBNF469327690000001;$2 intermrc
+- [930] $5 FR-751131008:46932769001001;$a 2021-335554;$b 759999999;$c Tolbiac - Rez de Jardin - Droit, économie, politique - Magasin;$d O
+- [930] $5 FR-751131008:46932769002001;$a 342 GARB c;$b 759999999;$c Tolbiac - Haut de Jardin - Droit, économie, politique - Salle D - Libre accès;$d N
+- [930] $5 FR-751131008:46932769003001;$a 342 GARB c;$b 759999999;$c Tolbiac - Rez de Jardin - Droit, économie, politique - Salle O - Libre accès;$d N

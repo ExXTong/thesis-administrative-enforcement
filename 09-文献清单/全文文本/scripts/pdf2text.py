@@ -55,6 +55,9 @@ SOURCES = [
     # 2026-11-13 核实新上传 ai_studio_code.txt（B3 扩展资料库）时取得的官方法源/判例/书目证据，单独成批
     (LIT / "外文文献PDF" / "primary-sources" / "gemini-txt-20261113",
      OUT / "原始法条" / "gemini-txt-20261113", "原始法条"),
+    # 2026-11-12 第二轮核实 Gemini 更新资料库（v2）取得的法源/判例/书目证据
+    (LIT / "外文文献PDF" / "primary-sources" / "gemini-dossier-v2-20261112",
+     OUT / "原始法条" / "gemini-dossier-v2-20261112", "原始法条"),
 ]
 
 MIN_TEXT_CHARS = 60        # 文字层几乎为空的阈值
@@ -245,8 +248,15 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
 
     raw = path.read_text(encoding="utf-8", errors="replace")
     soup = BeautifulSoup(raw, "html.parser")
-    for tag in soup(["script", "style", "nav", "footer", "header", "form"]):
+    for tag in soup(["script", "style", "nav", "footer", "header"]):
         tag.decompose()
+    # 个别站点（如金诚同达 jtn.com 文章页）把整页正文包在 <form> 里；
+    # 只有当 form 不含正文时才移除，避免误删正文。
+    body_el = soup.body or soup
+    body_len = len(body_el.get_text())
+    for form in soup.find_all("form"):
+        if len(form.get_text()) < 0.5 * max(body_len, 1):
+            form.decompose()
     # gesetze-im-internet.de（德国联邦法律官方汇编）的条文页：正文在 div.jnhtml，
     # 条号与标题在 div.jnentitel。通用 article/main 抽取只会拿到页脚导航，须特判。
     jnhtml = soup.find("div", class_="jnhtml")
@@ -304,7 +314,22 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
         else:
             blocks.append(text)
 
-    body = normalize("\n\n".join(blocks))
+    # 书目/判例门户类页面（出版社书页、裁判所判例页、WEKA 判决页等）的正文常放在
+    # div/table 裸文本里而非 <p> 叶子块，且 <article> 可能只是侧栏广告。块级抽取
+    # 明显漏掉正文时（不足容器文字的六成），改按候选容器整块取文，取文字最多者。
+    candidates = [el for el in (soup.find("article"), soup.find("main"), soup.body) if el is not None]
+    block_text = "\n\n".join(blocks)
+    best_el, best_text = None, ""
+    for el in candidates:
+        txt = el.get_text("\n", strip=True)
+        if len(txt) > len(best_text):
+            best_el, best_text = el, txt
+    method = "网页正文（article）"
+    if best_el is not None and len(block_text) < 0.6 * len(best_text):
+        body = normalize(best_text)
+        method = "网页正文（容器整块取文）"
+    else:
+        body = normalize(block_text)
     title = soup.title.get_text(strip=True) if soup.title else path.stem
     info = {
         "pages": None,
@@ -312,7 +337,7 @@ def html_to_markdown(path: Path) -> tuple[str, dict]:
         "ocr_pages": [],
         "blank_pages": [],
         "pdf_title": title,
-        "method": "网页正文（article）",
+        "method": method,
     }
     return body, info
 
@@ -322,11 +347,15 @@ def xml_to_markdown(path: Path) -> tuple[str, dict]:
 
     只机械抽取：法令名与本則（MainProvision）各条的条号、条标题、各款文字；
     附則（SupplProvision）各条同样抽出并单列，避免与本則条号混淆。不翻译、不改写。
+    非 e-Gov 格式的 XML（如 DNB/BnF 的 MARC21-xml、UNIMARC、OAI-PMH 元数据，
+    用作书目证据）走通用兜底：逐字段机械列出标签与文字，不翻译、不改写。
     """
     import xml.etree.ElementTree as ET
 
     root = ET.parse(path).getroot()
     law = root.find(".//Law")
+    if law is None:
+        return xml_generic_to_markdown(path, root)
     title_el = law.find("LawTitle") if law is not None else None
     law_title = "".join(title_el.itertext()).strip() if title_el is not None else path.stem
     law_id_el = root.find(".//LawId")
@@ -378,6 +407,68 @@ def xml_to_markdown(path: Path) -> tuple[str, dict]:
         "blank_pages": [],
         "pdf_title": law_title,
         "method": "官方 XML 条文抽取",
+    }
+    return body, info
+
+
+def xml_generic_to_markdown(path: Path, root) -> tuple[str, dict]:
+    """非 e-Gov 格式 XML 的通用兜底（书目证据：MARC21-xml、UNIMARC、OAI-PMH 等）。
+
+    只机械列出字段标签与文字：MARC 的 controlfield/datafield＋subfield 逐条展开，
+    其他 XML 逐叶子元素列出「标签路径：文字」。不翻译、不改写、不补全。
+    """
+    import xml.etree.ElementTree as ET
+
+    def localname(tag: str) -> str:
+        return tag.rsplit("}", 1)[-1]
+
+    lines = [f"# {path.stem}", ""]
+    lines.append("- 来源：书目/元数据 XML（非 e-Gov 法令格式），机械抽取，未翻译、未改写")
+    lines.append("")
+    count = 0
+    records = root.findall(".//{*}record")
+    if records:
+        for rec in records:
+            for el in rec.iter():
+                name = localname(el.tag)
+                if name == "controlfield":
+                    text = (el.text or "").strip()
+                    if text:
+                        lines.append(f"- [{el.get('tag', '')}] {text}")
+                        count += 1
+                elif name == "datafield":
+                    tag = el.get("tag", "")
+                    ind = f"{el.get('ind1', ' ')}{el.get('ind2', ' ')}".strip()
+                    subs = []
+                    for sf in el:
+                        if localname(sf.tag) == "subfield":
+                            code = sf.get("code", "")
+                            txt = "".join(sf.itertext()).strip()
+                            if txt:
+                                subs.append(f"${code} {txt}")
+                    if subs:
+                        head = f"- [{tag}" + (f" {ind}" if ind else "") + "]"
+                        lines.append(head + " " + "；".join(subs))
+                        count += 1
+    if count == 0:
+        # 非 MARC（如 OAI-PMH oai_dc）：逐叶子元素列出
+        for el in root.iter():
+            children = list(el)
+            if children:
+                continue
+            text = "".join(el.itertext()).strip()
+            if not text:
+                continue
+            lines.append(f"- {localname(el.tag)}：{text}")
+            count += 1
+    body = normalize("\n".join(lines))
+    info = {
+        "pages": None,
+        "chars": len(body),
+        "ocr_pages": [],
+        "blank_pages": [],
+        "pdf_title": path.stem,
+        "method": "书目 XML 机械抽取",
     }
     return body, info
 

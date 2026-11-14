@@ -1,0 +1,84 @@
+# Evidence_DNB_Hong
+
+- 原件：`09-文献清单/外文文献PDF/primary-sources/gemini-dossier-v2-20261112/Evidence_DNB_Hong.xml`
+- 字数：3656
+- 文字来源：书目 XML 机械抽取
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+
+---
+# Evidence_DNB_Hong
+
+- 来源：书目/元数据 XML（非 e-Gov 法令格式），机械抽取，未翻译、未改写
+
+- [001] 997938870
+- [003] DE-101
+- [005] 20251218063827.0
+- [007] cr||||||||||||
+- [008] 091109s2008    gw |||||om||| 00||||ger
+- [015] $a 09,H12,0408;$2 dnb
+- [016 7] $2 DE-101;$a 997938870
+- [024 7] $2 urn;$a urn:nbn:de:gbv:7-webdoc-2059-5
+- [035] $a (DE-599)DNB997938870
+- [035] $a (OCoLC)1186163886
+- [040] $a 1240;$b ger;$c DE-101;$d 1150
+- [041] $a ger
+- [044] $c XA-DE
+- [082 04] $8 1\u;$a 344.43052;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 344.05
+- [085] $8 1\u;$s 363.2
+- [085] $8 1\u;$z 2;$s 43
+- [100 1] $0 (DE-588)139701087;$0 https://d-nb.info/gnd/139701087;$0 (DE-101)139701087;$a Hong, Eui Pyo;$d 1971-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Die Rechtsnachfolge im Polizeirecht;$b dargestellt am Beispiel der Sanierungspflicht;$c vorgelegt von Eui Pyo Hong
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a Computermedien;$b c;$2 rdamedia
+- [338] $a Online-Ressource;$b cr;$2 rdacarrier
+- [502] $a Göttingen, Univ., Diss., 2009
+- [530] $a Online-Ausg.:
+- [533] $7 s2009uuuu;$a Online-Ausg.:;$d 2009;$e Online-Ressource;$n [Online-Ausg.]
+- [583 1] $a Archivierung/Langzeitarchivierung gewährleistet;$5 DE-101;$2 pdager
+- [655 7] $0 (DE-588)4113937-9;$0 https://d-nb.info/gnd/4113937-9;$0 (DE-101)041139372;$a Hochschulschrift;$2 gnd-content
+- [850] $a DE-101a;$a DE-101b
+- [856 40] $u https://nbn-resolving.org/urn:nbn:de:gbv:7-webdoc-2059-5;$x Resolving-System
+- [856 0] $u https://d-nb.info/997938870/34;$x Langzeitarchivierung Nationalbibliothek
+- [856 4] $s ca. 0,8 MB;$u http://webdoc.sub.gwdg.de/diss/2009/hong/hong.pdf;$x Verlag;$z kostenfrei
+- [856 4] $u http://webdoc.sub.gwdg.de/diss/2009/hong/;$x Verlag
+- [883 2] $8 2\p;$a dnb;$d 20111015;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a rh
+- [927] $a 9961472
+- [001] 997938870
+- [003] DE-101
+- [005] 20251218063827.0
+- [007] cr||||||||||||
+- [008] 091109s2008    gw |||||om||| 00||||ger
+- [015] $a 09,H12,0408;$2 dnb
+- [016 7] $2 DE-101;$a 997938870
+- [024 7] $2 urn;$a urn:nbn:de:gbv:7-webdoc-2059-5
+- [035] $a (DE-599)DNB997938870
+- [035] $a (OCoLC)1186163886
+- [040] $a 1240;$b ger;$c DE-101;$d 1150
+- [041] $a ger
+- [044] $c XA-DE
+- [082 04] $8 1\u;$a 344.43052;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 344.05
+- [085] $8 1\u;$s 363.2
+- [085] $8 1\u;$z 2;$s 43
+- [100 1] $0 (DE-588)139701087;$0 https://d-nb.info/gnd/139701087;$0 (DE-101)139701087;$a Hong, Eui Pyo;$d 1971-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Die Rechtsnachfolge im Polizeirecht;$b dargestellt am Beispiel der Sanierungspflicht;$c vorgelegt von Eui Pyo Hong
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a Computermedien;$b c;$2 rdamedia
+- [338] $a Online-Ressource;$b cr;$2 rdacarrier
+- [502] $a Göttingen, Univ., Diss., 2009
+- [530] $a Online-Ausg.:
+- [533] $7 s2009uuuu;$a Online-Ausg.:;$d 2009;$e Online-Ressource;$n [Online-Ausg.]
+- [583 1] $a Archivierung/Langzeitarchivierung gewährleistet;$5 DE-101;$2 pdager
+- [655 7] $0 (DE-588)4113937-9;$0 https://d-nb.info/gnd/4113937-9;$0 (DE-101)041139372;$a Hochschulschrift;$2 gnd-content
+- [850] $a DE-101a;$a DE-101b
+- [856 40] $u https://nbn-resolving.org/urn:nbn:de:gbv:7-webdoc-2059-5;$x Resolving-System
+- [856 0] $u https://d-nb.info/997938870/34;$x Langzeitarchivierung Nationalbibliothek
+- [856 4] $s ca. 0,8 MB;$u http://webdoc.sub.gwdg.de/diss/2009/hong/hong.pdf;$x Verlag;$z kostenfrei
+- [856 4] $u http://webdoc.sub.gwdg.de/diss/2009/hong/;$x Verlag
+- [883 2] $8 2\p;$a dnb;$d 20111015;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a rh
+- [927] $a 9961472

@@ -1,0 +1,789 @@
+<!DOCTYPE html> 
+
+
+
+<html lang=zh-hant>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/ic_fav.png"/>
+    <link rel="bookmark" href="/static/img/ic_fav.png"/> 
+    <title>論公法上金錢給付義務之行政執行標的｜國立政治大學博碩士論文系統</title>
+    <meta name="robots" content="index, nofollow">
+    <meta name="description" content="依我國行政執行法第26條準用強制執行法之規定，公法上金錢給付義務之執行標的可大別為動產、不動產及其他財產權之執行。然而執行標的之類型相當繁多，期間累積許多關於執行標的之爭議案例，亦衍生諸多爭議。例如各項社會給付之可執行性、公法人財產之執行、因刑事扣押物衍生國家公法債權與刑事犯罪利得扣押之競合關係、保險契約衍生保單價值準備金之可執行性、營業秘密之可執行性等。
+
+然「執行標的可執行性」之探討，多數以強制執行法制為核心論述之，自憲法原則與基本權保護、衝突之角度剖析者，尚不多見。準此，本文爬梳現行法規規定及執行實務上，義務人財產中有哪些得作為或不得作為行政執行標的，並試圖自憲法基本權保護與公法債權實現之角度，釐清各執行標的之可執行性，尋求公益維護與義務人基本權保障之衡平。
+
+在內容上，本文先自公法上金錢給付義務之論述出發，確立其定義、要件、執行架構與限制、執行程序後，論述憲法第15條之財產權保護範圍，並探討公法人有無財產權保障之適用。繼之，界定其執行標的之範圍與強制執行法學說上所稱之「責任財產」相符。最後，則以動產、不動產、其他財產權之分類，輔以法條規定、實務與學說見解，對各該執行標的之可執行性提出以基本權保護為出發點之個人見解，並進行實務案例分析。
+" />
+    <meta name="keywords" contexnt="強制執行、行政執行、公法上金錢給付義務、執行標的、執行客體、社會給付、公法人財產、沒收、刑事扣押、保單價值準備金、營業秘密、" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="論公法上金錢給付義務之行政執行標的｜國立政治大學博碩士論文系統">
+    <meta property="og:url" content="https://thesis.lib.nccu.edu.tw">
+    <meta property="og:image" content="https://thesis.lib.nccu.edu.tw/static/img/favicon.ico">
+    <meta property="og:description" content="論公法上金錢給付義務之行政執行標的">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/ic_fav.png"/>
+    <link rel="bookmark" href="/static/img/ic_fav.png"/> 
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/static/css/base.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    
+    <link rel="stylesheet" href="/static/css/style.css?v=1794475303">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src='/static/js/jquery-ui.min.js'></script>
+    <!-- meta-css -->
+    
+
+  <meta name="DC.title" content="論公法上金錢給付義務之行政執行標的">
+  <meta name="DC.creator" content="郭芳秀">
+  <meta name="DC.issued" contexnt="2020/08/17">
+  <meta name="DC.publisher" content="國立政治大學">
+  
+
+
+    <!-- /meta-css -->
+    <!-- meta-js -->
+    
+    <!-- /meta-js -->
+    <script>
+        function formatSecond(secs) {          
+            var day = Math.floor(secs / 86400);
+            var hr = Math.floor((secs - (day * 86400)) / 3600);
+            var min = Math.floor((secs - (day * 86400) - (hr * 3600)) / 60);
+            var sec = parseInt( secs - (day * 86400) - (hr * 3600) - (min * 60));
+
+            if (min < 10) { min = '0' + min; }
+            if (sec < 10) { sec = '0' + sec; }
+            time_name = ' ';
+            // if (day) time_name += day + ' 天 ';
+            if (hr) time_name += hr + ':';
+            if (min) time_name += min + ':';
+            time_name += sec;
+            // console.log('time_name:'+ time_name);
+            return time_name;
+        }
+    </script>
+</head>
+
+<body class="index">
+    <a href="#AC" class="sr-only sr-only-focusable">跳到主要內容</a>
+    <!-- 【頁首】含主導覽列 -->
+    <nav class="navbar navbar-expand-md navbar-default indexNav flex-wrap" role="navigation">
+        <div class="container-fluid py-md-3">
+            <div class="navbar-header mx-0 me-md-auto">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-ex1-collapse">
+                    <span class="sr-only">選單切換</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#indexSearch" data-bs-toggle="collapse">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+    		    <a class="navbar-brand hidden-xs" href="/thesis/" rel="noreferrer noopener"><img alt="國立政治大學博碩士論文系統系統logo" src="/static/img/logo_nccu.svg"></a>
+		        <a class="navbar-brand visible-xs" href="/thesis/" rel="noreferrer noopener"><img alt="國立政治大學博碩士論文系統系統-手機版logo" src="/static/img/logo_nccu_mobile.svg"></a>
+            </div>
+            <!-- 手機隱藏選單區 -->
+            <div class="collapse justify-content-end navbar-collapse navbar-ex1-collapse px-0">
+                <!-- 左選單 -->
+                <ul class="nav navbar-nav mainMenu a-inverse navbar-right m-0 px-2">
+                    <li>
+                        <a href="/thesis/1/?from=1">論文上傳</a>
+                    </li>
+                    <li>
+                        <a href="/zh-hant/help/aboutedit/?from=1">上傳須知</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-link" data-bs-toggle="dropdown" href="#">論文瀏覽<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/thesis/browse/">論文瀏覽</a></li>
+                            <li><a href="/thesis/rankings/">熱門排行</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/thesis/advance/">進階查詢</a></li>
+                    <!-- <li><a href="/zh-hant/help/download/">檔案下載</a></li> -->
+                </ul>
+                <!-- 右選單 -->
+                <ul class="nav navbar-nav px-3 mb-2 visible-xs">
+                    
+                    <li><a href="https://www.lib.nccu.edu.tw/?Lang=zh-tw" target="_blank" rel="noreferrer noopener">圖書館</a></li>
+                    <li><a href="/zh-hant/help/qa/">常見問題</a></li>
+                    
+                      <li><a href="Javascript: document.setlang.language.value='en'; document.setlang.submit();" title="English">English</a></li>
+                    
+                    <li><a href="/thesis/profile/">個人書房</a></li>
+                </ul>
+            </div>
+            <!-- 手機隱藏選單區結束 -->
+            <!-- 最上，次選單 -->
+            <ul class="nav justify-content-end subMenu clearfix hidden-xs">
+                
+                <li><a href="Javascript: document.setlang.language.value='en'; document.setlang.submit();" title="English">English</a></li>
+                
+                <li><a href="https://www.lib.nccu.edu.tw/?Lang=zh-tw" target="_blank" rel="noreferrer noopener">圖書館</a></li>
+                <li><a href="/thesis/profile/">個人書房</a></li>
+                <li><a href="/thesis/advisor/list/all/">指導教授登入</a></li>
+                <li><a href="/thesis/submissiondocs/">櫃檯查看</a></li>
+                <li><a href="/thesis/review/list/received/">審核管理端</a></li>
+                
+                 
+            </ul>
+            
+            <form name="setlang" action="/setlang/" method="post">
+                <input type="hidden" name="csrfmiddlewaretoken" value="qjBBKAWzWEwoaiPpjcXEvBKjLNJQXnoFyufD8Fi3ABCC7Tual9NIUy1Z2aSh7dz5">
+                <input name="next" type="hidden" value="/thesis/detail/78c266286987dbdf058667885a39241b/" />
+                <input name="language" type="hidden" value="" />
+            </form>
+        </div>
+    </nav>
+    <!-- /【頁首】含主導覽列 -->
+    
+
+
+
+
+    <!-- 【內容區塊】頁首(含導覽列)、頁尾以外的所有內容放置區域 -->
+    <div class="container container-wrapper">
+            <div class="row">
+                <!-- 【內容區塊】開始塞內容 -->
+                <!-- 這個頁面手機板時，內容會比側邊欄先出現，因此使用col-lg-push-3/9 -->
+                <!-- 右邊 -->
+                <div class="col-xl-9 mainContent">
+                    <!-- 標題區塊 -->
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-7">
+                            <!-- 左邊：主標題/麵包屑功能 -->
+                            <h4 class="title css-beforeTriangle mt-0">
+                            
+                                簡易檢索
+                             
+                            / 詳目顯示
+                            </h4>
+                        </div>
+                        <!-- /左邊：主標題/麵包屑功能 -->
+                        <!-- 右邊：小功能(分享、返回等) -->
+                        <div class="col-xs-12 col-lg-5 text-right">
+                            <a class="btn btn-sec btn-xs" role="button" title="回結果列表" aria-label="回結果列表" herf="" onclick="Javascript: window.location = '';"><span class="glyphicon glyphicon-arrow-left"></span>回結果列表</a>
+                        </div>
+                        <!-- /右邊：小功能(分享、返回等) -->
+                    </div>
+                    <!-- /標題區塊 -->
+                    <!-- 主頁籤 -->
+                    <nav class="navbar tabBar">
+                        <div class="container">
+                            <div class="navbar-header mx-0 me-md-auto">
+                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#tabBar">
+                                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                                </button>
+                                <a id="changeTextByClick" class="navbar-brand visible-xs" href="#">論文基本資料</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="tabBar">
+                                <ul class="nav navbar-nav flex-row">
+                                    <li role="presentation">
+                                        <a class="nav-link active" onclick="changeText(this)" href="#parents_1" id="parents_1-tab" role="tab" data-bs-toggle="tab" aria-controls="parents_1" aria-expanded="true">論文基本資料</a>
+                                    </li>
+                                    
+                                    
+                                    <li role="presentation" class="dropdown">
+                                        <a class="nav-link" onclick="changeText(this)" href="#parents_2" role="tab" id="parents_2-tab" data-bs-toggle="tab" aria-controls="parents_2" aria-expanded="false">摘要</a>
+                                    </li>
+                                    
+                                    
+                                    <li role="presentation" class="">
+                                        <a class="nav-link" class="nav-link" onclick="changeText(this)" href="#parents_3" role="tab" id="parents_3-tab" data-bs-toggle="tab" aria-controls="parents_3" aria-expanded="false">目次</a>
+                                    </li>
+                                    
+                                    
+                                    <li role="presentation" class="">
+                                        <a class="nav-link" onclick="changeText(this)" href="#parents_4" id="parents_4-tab" role="tab" data-bs-toggle="tab" aria-controls="parents_4" aria-expanded="true">參考文獻</a>
+                                    </li>
+                                    
+
+                                    
+                                    <li role="presentation" class="">
+                                        <a onclick="changeText(this)" href="#parents_5" role="tab" id="parents_5-tab" data-bs-toggle="tab" aria-controls="parents_5" aria-expanded="false">電子全文</a>
+                                    </li>
+                                    
+                                    <li role="presentation" class="">
+                                        <a class="nav-link" onclick="changeText(this)" href="#parents_6" role="tab" id="parents_6-tab" data-bs-toggle="tab" aria-controls="parents_6" aria-expanded="false">QR CODE</a>
+                                    </li>
+                                </ul>
+                                <script>
+                                //根據點選的頁籤名稱，換標題文字
+                                function changeText(obj) {
+                                    var x = $(obj).text();
+                                    document.getElementById("changeTextByClick").innerHTML = x;
+                                    // console.log(x);
+                                    //根據點選的頁籤名稱，換標題文字
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- /主頁籤 -->
+                    <!-- 主頁籤-對應內容處 -->
+                    <div id="tabContent" class="tab-content tab-contentWrapper">
+                        <!-- 頁籤對應內容：論文基本資料 -->
+                        <div role="tabpanel" class="tab-pane fade active show" id="parents_1" aria-labelledby="parents_1-tab">
+                            <!-- 標題以外內容放置處.content-wrapper -->
+                            <div class="col-xs-12 content-wrapper p-0">
+                                <!-- 搜尋結果-表格 -->
+                                <div class="col-xs-12 p-0">
+                                    <table class="table table-responsive m-0">
+                                        <tr>
+                                            <th width="120">研究生：</th>
+                                            <td>
+                                                
+                                                    
+                                                        郭芳秀<br>
+                                                    
+                                                    
+                                                        Kuo, Fang-Hsiu
+                                                    
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>論文名稱：</th>
+                                            <td>
+                                                
+                                                    
+                                                        
+                                                            論公法上金錢給付義務之行政執行標的<br>
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            The enforcement object of the monetary obligation pursuant under public laws
+                                                        
+                                                    
+                                                
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th>指導教授：</th>
+                                            <td>
+                                                
+                                                    
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=%E8%A9%B9%E9%8E%AE%E6%A6%AE&query_field=cadvisor&query_op=&match_type=phrase">
+                                                                    詹鎮榮
+                                                                </a>
+                                                                
+                                                                <br>
+                                                                
+                                                            
+                                                        
+
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=Chan%2C%20Chen-Jung&query_field=eadvisor&query_op=&match_type=phrase">
+                                                                    Chan, Chen-Jung
+                                                                </a>
+                                                            
+                                                        
+
+                                                        
+                                                    
+                                                
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>口試委員:</th>
+                                            <td>
+                                                
+                                                    
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=%E8%94%A1%E9%9C%87%E6%A6%AE&query_field=ccommittee&query_op=&match_type=phrase">
+                                                                    蔡震榮
+                                                                </a>
+                                                                
+                                                                <br>
+                                                                
+                                                            
+                                                        
+
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=Tsai%2C%20Chen-Jung&query_field=ecommittee&query_op=&match_type=phrase">
+                                                                    Tsai, Chen-Jung
+                                                                </a>
+                                                            
+                                                        
+
+                                                        
+                                                            <br>
+                                                        
+                                                    
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=%E5%90%B3%E7%A7%A6%E9%9B%AF&query_field=ccommittee&query_op=&match_type=phrase">
+                                                                    吳秦雯
+                                                                </a>
+                                                                
+                                                                <br>
+                                                                
+                                                            
+                                                        
+
+                                                        
+                                                            
+                                                                <a href="/thesis/search/?query_term=Wu%2C%20Ching-Wen&query_field=ecommittee&query_op=&match_type=phrase">
+                                                                    Wu, Ching-Wen
+                                                                </a>
+                                                            
+                                                        
+
+                                                        
+                                                    
+                                                
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>學位類別：</th>
+                                            <td>
+                                                碩士
+                                                <br> 
+                                                Master
+                                            </td>
+                                        </tr>
+                    					
+                                        
+                                        <tr>
+                                            <th>系所名稱：</th>
+                                            <td>
+                                                <a href="/thesis/search/?query_term=%E6%B3%95%E5%BE%8B%E5%AD%B8%E7%B3%BB&query_field=dept&query_op=&match_type=phrase">
+                                                
+                                                    
+                                                        法學院 - 法律學系<br>
+                                                        Department of Law
+                                                    
+                                                
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th>論文出版年：</th>
+                                            <td>
+                                                2020
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <th>畢業學年度：</th>
+                                            <td>
+                                                108
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>語文別：</th>
+                                            <td>
+                                                中文
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>論文頁數：</th>
+                                            <td>
+                                                165
+                                            </td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>中文關鍵詞：</th>
+                                            <td>
+                                                
+                                                    
+                                                        <a href="/thesis/search/?query_term=%E5%BC%B7%E5%88%B6%E5%9F%B7%E8%A1%8C&query_field=ckeyword&query_op=&match_type=phrase">強制執行</a>
+                                                            、<a href="/thesis/search/?query_term=%E8%A1%8C%E6%94%BF%E5%9F%B7%E8%A1%8C&query_field=ckeyword&query_op=&match_type=phrase">行政執行</a>
+                                                            、<a href="/thesis/search/?query_term=%E5%85%AC%E6%B3%95%E4%B8%8A%E9%87%91%E9%8C%A2%E7%B5%A6%E4%BB%98%E7%BE%A9%E5%8B%99&query_field=ckeyword&query_op=&match_type=phrase">公法上金錢給付義務</a>
+                                                            、<a href="/thesis/search/?query_term=%E5%9F%B7%E8%A1%8C%E6%A8%99%E7%9A%84&query_field=ckeyword&query_op=&match_type=phrase">執行標的</a>
+                                                            、<a href="/thesis/search/?query_term=%E5%9F%B7%E8%A1%8C%E5%AE%A2%E9%AB%94&query_field=ckeyword&query_op=&match_type=phrase">執行客體</a>
+                                                            、<a href="/thesis/search/?query_term=%E7%A4%BE%E6%9C%83%E7%B5%A6%E4%BB%98&query_field=ckeyword&query_op=&match_type=phrase">社會給付</a>
+                                                            、<a href="/thesis/search/?query_term=%E5%85%AC%E6%B3%95%E4%BA%BA%E8%B2%A1%E7%94%A2&query_field=ckeyword&query_op=&match_type=phrase">公法人財產</a>
+                                                            、<a href="/thesis/search/?query_term=%E6%B2%92%E6%94%B6&query_field=ckeyword&query_op=&match_type=phrase">沒收</a>
+                                                            、<a href="/thesis/search/?query_term=%E5%88%91%E4%BA%8B%E6%89%A3%E6%8A%BC&query_field=ckeyword&query_op=&match_type=phrase">刑事扣押</a>
+                                                            、<a href="/thesis/search/?query_term=%E4%BF%9D%E5%96%AE%E5%83%B9%E5%80%BC%E6%BA%96%E5%82%99%E9%87%91&query_field=ckeyword&query_op=&match_type=phrase">保單價值準備金</a>
+                                                            、<a href="/thesis/search/?query_term=%E7%87%9F%E6%A5%AD%E7%A7%98%E5%AF%86&query_field=ckeyword&query_op=&match_type=phrase">營業秘密</a>
+                                                    
+                                                
+                                            </td>
+                                        </tr>
+                                        
+                                        
+
+                                        
+                                         
+                                        <tr>
+                                            <th> DOI URL： </th>
+                                            <td class="sub">
+                                                <a href="http://doi.org/10.6814/NCCU202001394">http://doi.org/10.6814/NCCU202001394 </a> 
+						</td>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            <th>相關次數：</th>
+                                            <td class="sub">
+                                                <i class="glyphicon glyphicon-eye-open"></i><span>點閱：628</span>&ensp;
+                                                <i class="glyphicon glyphicon-floppy-save"></i><span>下載：40</span>&ensp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>分享至:</th>
+                                            <td class="sub">
+                                            <div id='copyLinkTabs'>
+                                                 <div class="icon">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//thesis.lib.nccu.edu.tw/thesis/detail/78c266286987dbdf058667885a39241b/" target="_blank"><div class="facebook-icon"><span class="sr-only">分享至facebook</span></div></a>
+</div>
+
+                                                <div class="icon">
+    <a href="https://twitter.com/intent/tweet?text=/thesis/detail/78c266286987dbdf058667885a39241b/%20https%3A//thesis.lib.nccu.edu.tw/thesis/detail/78c266286987dbdf058667885a39241b/" class="meta-act-link meta-tweet" target="_blank"><div class="twitter-icon"><span class="sr-only">分享至twitter</span></div></a>
+</div>
+                                            </div>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                    <!-- 複製引用網址 -->
+                                    <script type="text/javascript">
+                                    function copyTextFunction() {
+                                        var copyText = document.getElementById("textForCopy");
+                                        copyText.select();
+                                        copyText.setSelectionRange(0, 99999)
+                                        document.execCommand("copy");
+                                        alert("網址已複製");
+                                    }
+                                    </script>
+                                    <div class="input-group">
+                                        
+                                            <input title="本文網址" id="textForCopy" type="text" class="form-control" value="https://thesis.lib.nccu.edu.tw/thesis/detail/78c266286987dbdf058667885a39241b/">
+                                        
+                                      <span class="input-group-btn">
+                                        <button class="btn btn-gray" type="button" onclick="copyTextFunction()">複製引用網址</button>
+                                      </span>
+                                    </div>
+                                    
+                                    <table class="table m-0">
+                                        <tr>
+                                            <td>
+                                                <a class="btn btn-default" href="https://nccu.primo.exlibrisgroup.com/discovery/search?tab=LibraryCatalog&search_scope=MyInstitution&vid=886NCCU_INST:886NCCU_INST&lang=zh-tw&offset=0&query=creator,contains,郭芳秀" target="_blank" rel="noreferrer noopener">查詢本校圖書館目錄</a>
+                                                <a class="btn btn-default" 
+                                                href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=au=%22郭芳秀%22%20and%20ti=%22論公法上金錢給付義務之行政執行標的%22.&searchmode=basic&searchsymbol=hyLibCore.webpac.search.common_symbol" target="_blank" rel="noreferrer noopener">查詢臺灣博碩士論文知識加值系統</a>                                                
+                                                <a data-bs-toggle="modal" href="#feedback" onclick="javascript:tabAction('#feedback','/ajax/thesis-feedback/?ajax_id=78c266286987dbdf058667885a39241b')" class="btn btn-default">勘誤回報</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="footSort list-inline">
+                                        <li class="hidden-xs w-full">
+                                            <div class="col-xs-3 text-left p-0">
+                                                
+                                            </div>
+                                            <div class="col-xs-6 text-center">
+                                            </div>
+                                            <div class="col-xs-3 text-right p-0">
+                                                
+                                            </div>
+                                        </li>
+                                        <li class="visible-xs w-full">
+                                            <div class="col-xs-3 text-left p-0">
+                                                
+                                            </div>
+                                            <div class="col-xs-6 text-center">
+                                            </div>
+                                            <div class="col-xs-3 text-right p-0">
+                                                
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+                                <!-- /搜尋結果-表格 -->
+                            </div>
+                            <!-- /標題以外內容放置處.content-wrapper -->
+                        </div>
+                        <!-- /頁籤對應內容：論文基本資料 -->
+                        <!-- 頁籤對應內容：摘要 -->
+                        <div role="tabpanel" class="tab-pane fade break" id="parents_2" aria-labelledby="parents_2-tab">
+                            <p >
+                                
+                                
+                                    
+                                        
+                                            <p>依我國行政執行法第26條準用強制執行法之規定，公法上金錢給付義務之執行標的可大別為動產、不動產及其他財產權之執行。然而執行標的之類型相當繁多，期間累積許多關於執行標的之爭議案例，亦衍生諸多爭議。例如各項社會給付之可執行性、公法人財產之執行、因刑事扣押物衍生國家公法債權與刑事犯罪利得扣押之競合關係、保險契約衍生保單價值準備金之可執行性、營業秘密之可執行性等。</p>
+
+<p>然「執行標的可執行性」之探討，多數以強制執行法制為核心論述之，自憲法原則與基本權保護、衝突之角度剖析者，尚不多見。準此，本文爬梳現行法規規定及執行實務上，義務人財產中有哪些得作為或不得作為行政執行標的，並試圖自憲法基本權保護與公法債權實現之角度，釐清各執行標的之可執行性，尋求公益維護與義務人基本權保障之衡平。</p>
+
+<p>在內容上，本文先自公法上金錢給付義務之論述出發，確立其定義、要件、執行架構與限制、執行程序後，論述憲法第15條之財產權保護範圍，並探討公法人有無財產權保障之適用。繼之，界定其執行標的之範圍與強制執行法學說上所稱之「責任財產」相符。最後，則以動產、不動產、其他財產權之分類，輔以法條規定、實務與學說見解，對各該執行標的之可執行性提出以基本權保護為出發點之個人見解，並進行實務案例分析。<br></p>
+                                        
+                                    
+                                
+                                
+                            </p>
+                            <hr>
+                            <p class="break">
+                                
+                            </p>
+                        </div>
+                        <!-- /頁籤對應內容：摘要 -->
+                        <!-- 頁籤對應內容：目次 -->
+                        <div role="tabpanel" class="tab-pane fade" id="parents_3" aria-labelledby="parents_3-tab">
+                          
+                          
+                                
+                                <div class="break"><p>第一章 緒論 1<br>第一節 研究動機與研究目的 1<br>第二節 研究範圍與研究方法 1<br>第三節 研究架構 2</p>
+
+<p>第二章 公法上金錢給付義務之執行 6<br>第一節 公法上金錢給付義務之定義 6<br>第二節 公法上金錢給付義務之執行要件 7<br>第一項 義務人負有公法上金錢給付義務 8<br>第二項 逾期不履行 14<br>第三項 經主管機關移送 15<br>第三節 公法上金錢給付義務之執行架構與限制 16<br>第四節 公法上金錢給付義務之執行程序 24<br>第一項 通知義務人到場清繳或報告財產狀況 24<br>第二項 動產與不動產之執行步驟 26<br>第三項 其他財產權之執行步驟 28<br>第五節 公法上金錢給付義務執行之救濟途徑 30<br>第一項 概說 30<br>第二項 聲明異議 30<br>第三項 聲明異議後之行政爭訟程序 32<br>第四項 行政爭訟之訴訟類型 34<br>第五項 小結 35</p>
+
+<p>第三章 執行標的 38<br>第一節 責任財產之意義 38<br>第二節 責任財產與財產權 39<br>第一項 財產權保護範圍 39<br>第二項 公法人得否主張財產權之適用？ 43<br>第一款 公法人之概念 44<br>第二款 公法人基本權利能力之理論探究 45<br>第一目 德國法之發展 45<br>第二目 我國法之發展 47<br>第三款 結論 49<br>第三節 責任財產之認定 50<br>第四節 責任財產之範圍 51<br>第一項 概說 52<br>第一款 得為執行之標的 52<br>第一目 義務人現有之財產 52<br>第二目 義務人行使代位權或撤銷權而復歸屬義務人之財產 52<br>第三目 義務人將來可取得之財產 53<br>第四目 有限責任之財產 54<br>第二款 不得為執行之標的 57<br>第一目 依法律不得執行 57<br>第二目 依權利性質不得執行 70<br>第二項 動產 72<br>第一款 動產執行範圍 72<br>第二款 強制執行法規定之動產不得執行範圍 79<br>第三項 不動產 86<br>第一款 不動產執行範圍 86<br>第四項 其他財產權 87<br>第一款 其他財產權得為執行標的之要件 88<br>第二款 強制執行法規定不得執行之其他財產權範圍 88<br>第五項 公法人財產 99<br>第一款 對公法人財產執行之意義 99<br>第二款 對公法人財產執行之適用範圍 99</p>
+
+<p>第四章 執行案例分析 113<br>第一節 刑事扣押與行政執行之競合 113<br>第一項 刑事沒收之目的 114<br>第二項 刑法修正前關於沒收與行政執行競合之相關見解 116<br>第一款 學說見解 116<br>第二款 實務見解 117<br>第三項 刑法修正後關於沒收與行政執行競合之相關條文與見解分析 118<br>第一款 刑法第38之3條立法理由與問題初探 118<br>第二款 沒收裁判確定後產生移轉效力 119<br>第一目 國家因沒收裁判確定取得財產之行為性質 119<br>第二目 不受沒收裁判確定移轉效力限制之情形 121<br>第三款 刑事扣押與其他執行程序之競合 122<br>第一目 沒收裁定確定前的禁止處分之效力 122<br>第二目 刑事扣押與其他執行之競合分析 123<br>第四項 小結 125<br>第二節 營業秘密之可執行性 127<br>第一項 現行法規 127<br>第二項 營業秘密之性質 127<br>第三項 營業秘密之可執行性與執行程序 130<br>第四項 執行程序秘密性之維持 131<br>第五項 小結 132<br>第三節 保單價值準備金與解約金之可執行性 132<br>第一項 人身保險與保單價值準備金之功能 133<br>第二項 保單價值準備金之性質與可執行性 134<br>第一款 保單價值準備金為保險人之財產 134<br>第一目 學說見解 134<br>第二目 實務見解 135<br>第三目 本文見解 136<br>第二款 保險契約之執行標的應為保險契約之權利 136<br>第三款 返還保單價值準備金及請求解約金之債權之性質 137<br>第一目 學說見解 138<br>第二目 實務見解 138<br>第三項 保險契約終止權之性質與行使限制 139<br>第一款 學說見解 140<br>第二款 實務見解 142<br>第三款 本文見解 144<br>第四項 小結 146</p>
+
+<p>第五章 結論 151</p>
+
+<p>參考文獻  159</p>
+                                </div>
+                          
+                          
+                        </div>
+                        <!-- /頁籤對應內容：目次 -->
+                        <!-- 頁籤對應內容：參考文獻 -->
+                        <div role="tabpanel" class="tab-pane fade break" id="parents_4" aria-labelledby="parents_4-tab">
+                          
+                            
+                              
+                            
+                            <p>
+                                
+                                    
+                                        <p>中文文獻</p>
+
+<p>一、專書<br>法務部行政執行署，法務部人權攻略：行政執行小故事，<br>人權大道理，2018年12月。<br>司法院民事廳，法院辦理民事執行實務參考手冊，2019年11月。<br>吳光陸，強制執行法，3版，2015年9月。<br>林誠二，債篇各論：新解體系化解說（上），3版，2015年6月。<br>法治斌、董保城，憲法新論，7版，2020年3月。<br>城仲模，行政法之基礎理論，3版，2019年12月。<br>施啟揚，民法總則，8版，2011年10月。<br>張登科，強制執行法，初版，2019年8月。<br>陳  敏，行政法總論，10版，2019年11月。<br>陳清秀，稅法總論，11版，2019年9月。<br>陳新民，憲法基本權利之基本理論（上），5版，2002年7月。<br>黃  立，民法債編總論，3版，2006年11月。<br>黃俊杰，行政執行法，初版，2010年11月。<br>楊與齡，強制執行法實例問題分析，初版，2000年11月。<br>楊與齡，強制執行法論，10版，2007年9月。<br>葉啟洲，保險法實例研習，5版，2017年2月。<br>葛克昌，行政程序與納稅人基本權，3版，2012年4月。<br>臺灣臺北地方法院，民事執行實務問題彙編（三），初版，2015年9月。<br>劉振鯤，圖解保險法入門，5版，2019年9月。<br>蔡震榮，行政執行法，5版，2013年11月。<br>蕭雄淋，新著作權法逐條釋義（一），修正2版，2000年4月。</p>
+
+<p>二、專書論文<br>王偉霖，營業秘密之理論基礎，載：營業秘密法之理論與實務，頁1-64，2020年5月。<br>李建良、劉淑範，「公法人」基本權利能力之問題初探—試解基本權利「本質」之一道難題，載：憲法解釋之理論與實務 第四輯，頁291-410，2005年5月。<br>林谷燕、邵惠玲、郝鳳鳴、郭明政、蔡茂寅，社會法的概念、範疇與體系，載：社會法，頁25-46，2016年9月。<br>姜世明，強制執行程序中之比例原則考量，載：民事程序法之發展與憲法原則，頁299-346，2009年11月。<br>孫迺翊，社會法的憲法基礎，載：社會法，頁71-96，2016年9月。<br>陳盈錦，公法上金錢給付義務強制執行法制之爭議，載：行政執行／行政罰／行政程序／政府資料開放／風險社會與行政訴訟，頁35-68，2017年1月。<br>詹鎮榮，從民營化觀點論公民合資公司之基本權能力，載：民營化法與管制革新，頁43-101，2005年9月。<br>鄧衍森，適當生活水準權利之保障，載：國際人權法理論與實務，頁183-196，2018年10月。<br>簡玉聰，老年福利，載：社會法，頁353-400，2016年9月。</p>
+
+<p>三、期刊論文<br>丁克華，股票邁入全面無實體時代後 集保結算所的蛻變與發展，證交資料，第609期，頁30-32，2013年1月。<br>尤重道，不動產登記效力與保護交易安全，全國律師，第19卷第5期，頁76-95，2015年5月。<br>王士帆，犯罪所得沒收與追徵之保全扣押—談立法定位，月旦裁判時報，第48期，頁63-74，2016年6月。<br>王皇玉，2015年刑事法發展回顧：刑法沒收制度之變革，臺大法學論叢，第45卷特刊，頁1615-1648，2016年11月。<br>王韻茹，從公法人理論與實踐發展觀察部落公法人，成大法學，第35期，頁1-33，2018年6月。<br>李玉君，從老年經濟安全探討國民年金制度之基本問題，台灣法學雜誌，第113期，頁61-73，2008年10月。<br>李建良，論公法人在行政組織建制上的地位與功能─以德國公法人概念與法制為借鏡，月旦法學雜誌，第84期，2002年5月。<br>李建良，論行政強制執行之權利救濟體系與保障內涵—以行為、不行為或容忍義務之執行為探討重心，中研院法學期刊，第14期，頁1-105，2014年3月。<br>李聖傑，犯罪物沒收，月旦法學雜誌，第251期，頁60-72，2016年4月。<br>卓俊雄，人壽保險契約強制執行，月旦法學教室，第163期，頁21-23，2016年5月。<br>周志宏，私立大學收費管制的合憲性—私人興學自由、大學自治與收費管制，東吳公法論叢，第7期，頁451-484，2014年7月。<br>周佳樺，藏品借展之歸還保障—探究美國《豁免司法扣押法》及一案例，博物館學季刊，第26卷第1期，頁105-123，2012年1月。<br>林依仁，文化憲法的意義（下），月旦法學雜誌，第291期，頁108-138，2019年8月。<br>林昇格，論強制執行之主體與客體-2-，中興法學，第18期，頁69-89，1982年3月。<br>林洲富，法院執行第三人財產，月旦法學教室，第58期，頁12-13，2007年8月。<br>林洲富，對於公法人財產之執行，司法周刊，第1138期，頁1-4，2003年6月。<br>林騰鷂，公物概念之研究，東海大學法學研究，第16期，頁1-14，2001年12月。<br>林騰鷂，論行政罰鍰對受罰人遺產之執行—評司法院大法官釋字第六二一號解釋，月旦法學雜誌，第149期，頁236-247，2007年10月。<br>姚其聖，論公法上金錢給付義務之執行名義審查（下），全國律師，第11卷第11期，頁 78-90，2013年11月。<br>姜世明，金錢債權執行程序之動產查封程序，月旦法學教室，第178期，頁34-46，2017年8月。<br>洪志明，刑法沒收制度修正後對刑事執行及行政執行程序之影響，靜宜法學，第7期，頁65-123，2018年12月。<br>胡天賜，從刑法沒收新制探討行政執行與沒收之優先順序，法務通訊，第2843期，頁7-10，2017年3月。<br>徐婉寧，住居租賃轉租之效力，月旦法學教室，第192期，頁15-17，2018年10月。<br>張冠群，從美國法觀點論保險契約（保單現金價值）可否強制執行，保險專刊，第32卷第3期，頁273-308，2016年9月。<br>許宗力，基本權主體，月旦法學教室，第4期，頁80-88，2003年2月。<br>許忠信，從TRIPS國際觀點論智慧財產權法與競爭法之交錯—以營業秘密之保護為核心，全國律師，第11卷第8期，頁4-22，2007年8月。<br>郭宏義，人身保險要保人之何種權利得作為強制執行之標的—兼評目前實務對保單價值準備金、解約金強制執行之作法，保險專刊，第32卷第3期，頁309-332，2016年9月。<br>陳文貴，刑事訴訟法增訂保全扣押相關條文立法過程與簡釋，司法周刊，第1805期，頁20-38，2016年7月。<br>陳典聖，刑事扣押程序與強制執行程序之競合與處理，月旦裁判時報，第61期，頁65-76，2017年7月。<br>陳典聖，對保單價值準備金強制執行程序之研究，法令月刊，第66卷第10期，頁95-115，2015年10月。<br>陳秉訓，從營業秘密法的營業秘密三要件—評科技部長洩露台積電建廠資訊事件，專利師，第31期，頁40-49，2017年10月。<br>陳淑芳，公物之特徵，月旦法學教室，第20期，頁22-23，2004年6月。<br>陳淑芳，文化憲法，法政學報，第18期，頁227-262，2005年6月。<br>陳淑芳，國家管理財團法人權限之劃分與歸屬，法令月刊，第55卷第5期，頁42-61，2008年5月。<br>陳清秀，行政執行程序之救濟，法令月刊，第65卷3期，頁30-62，2014年3月。<br>黃俊杰，公法上金錢給付義務之執行要件，月旦法學教室，第104期，頁34-43，2011年6月。<br>楊智守，刑事沒收裁判確定前後與民事強制執行之衝突探究― 兼評最高法院 106 年度台抗字第 669 號刑事裁定，法令月刊，第69卷第7期，頁60-82，2018年7月。<br>楊舜麟，強制執行法修正債務人生存權保護，會計研究月刊，第404期，頁43-47，2019年7月。<br>詹鎮榮，公有財產提供民間使用法制框架及契約形式—以臺北市政府為例（下），法令月刊，第66卷第9期，頁32-50，2015年9月。<br>詹鎮榮，社會國原則—起源、內涵及規範效力，月旦法學教室，第41期，頁32-41，2006年3月。<br>廖義男，行政執行法簡介，台灣法學雜誌，第8期，頁1-14，2000年3月。<br>劉邦繡，論公法上金錢給付義務強制執行時之擔保人責任－臺中高等行政法院100年度訴字第139號之探討，軍法專刊，第58卷第4期，頁91-104，2012年8月。<br>劉邦繡，論偵查程序中犯罪利得扣押與強制執行程序金錢債權扣押收取之競合，月旦裁判時報，第61期，頁39-64，2017年7月。<br>蔡明誠，物權的客體，台灣法學雜誌，第10期，頁113-117，2000年5月。<br>蔡晶瑩，論財團法人，月旦民商法雜誌，第46期，頁39-51，2014年12月。<br>蔡維音，財產權之保護內涵與釋義學結構，成大法學，第11期，頁31-74，2006年6月。<br>蔡震榮，行政執行與行政救濟，月旦法學教室，第103期，頁45-55，2011年5月。<br>盧秀虹，論行政執行法第18條擔保書狀性質與擔保人地位，法務通訊，第2880期，頁3-5，2017年12月。<br>盧映潔，刑事制裁體系：第一講：刑事制裁體系概說，月旦法學教室，第37期，頁67-76，2005年11月。<br>薛智仁，刑事沒收制度之現代化：2015年沒收實體法之立法疑義，臺大法學論叢，第44卷第3期，頁1053-1123，2015年9月。<br>韓鐘達，淺論保險契約權利之強制執行，執行園地，第11期，頁3-5，2017年3月。</p>
+
+<p>四、學位論文<br>王惠慧，行政執行障礙法律問題之研究（公法上金錢給付義務部分），國立政治大學風險管理與保險學系研究所碩士論文，2004年。<br>周宏明，我國營業秘密禁止設質及供強制執行之探討，嶺東科技大學財經法律研究所碩士論文，2019年。<br>施清火，行政程序法在公法上金錢給付義務強制執行之適用，國立中正大學法律學研究所碩士論文，2006年。<br>趙伯雄，從憲法上言論自由的保障論著作權的限制－以探討著作權法第八十條之二合憲性問題為中心，東吳大學法學院法律學系碩士班碩士論文，2005年。<br>鐘志盛，遺贈稅欠稅案件執行客體財產範圍之探討，國立中正大學會計資訊與法律數位學習碩士在職專班碩士論文，2016年。</p>
+
+<p>五、研究報告<br>蕭小娟、楊嘉源、邱文忠，「論金融商品之執行」，法務部所屬機關自行研究計畫，2000年。</p>
+
+<p>英文文獻</p>
+
+<p>一、期刊論文<br>Anna Lawson, The United Nations Convention on The Rights of Persons with Disabilities: New Era or False Dawn? 34 Syracuse J. Int&#x27;l. L. &amp; Com. 563,(2007).<br>Deepa Varadarajan,The Trade Secret-Contract Interface,103 Iowa Law Review1543, (2018).<br>Mark A. Lemley, The Surprising Virtues of Treating Trade Secrets as IP Rights, 61 Stan. L. Rev. 311,(2008).<br>S. J Soltysinski , Are Trade Secrets Property? 3,IIC, 301,(1986) .<br>Shelby D. Green, Imagining a Right to Housing, Lying in the Interstices, 19 Geo. J. on Poverty L. &amp; Pol&#x27;y 393,(2012).</p>
+                                    
+                                
+                            </p>
+                          
+                        </div>
+                        <!-- /頁籤對應內容：參考文獻 -->
+                        <!-- 頁籤對應內容：電子全文 -->
+                        
+                        <div role="tabpanel" class="tab-pane fade" id="parents_5" aria-labelledby="parents_5-tab">
+                            
+                                
+                                    
+                                        
+                                            <center>
+                                                <a href="#" title="下載檔案" onclick="window.open('/thesis/popupfileful/78c266286987dbdf058667885a39241b/929185/','_blank','status=1,height=400,width=600,toolbar=0,resizeable=0')" rel="noreferrer noopener">
+                                                        <img src='/static/img/ic-downloaded.png' alt="下載圖示">
+                                                </a>
+                                            </center>
+                                        
+                                    
+                                
+                            
+                        </div>
+                        
+                        <!-- /頁籤對應內容：電子全文 -->
+                        <!-- 頁籤對應內容：QR CODE -->
+                        <div role="tabpanel" class="tab-pane fade" id="parents_6" aria-labelledby="parents_6-tab">
+                            <center>
+                                <img src="/thesis/createqrcode/78c266286987dbdf058667885a39241b/" alt="QR CODE" />
+
+                            </center>
+                        </div>
+                        <!-- /頁籤對應內容：QR CODE -->
+                    </div>
+                    <!-- /主頁籤-對應內容處 -->
+                </div>
+                <!-- /右邊 -->
+                <!-- 左邊 -->
+                <div class="col-xl-3 order-last order-xl-first sideContent-right">
+                    <!-- 側邊欄- -->
+                    <!-- 側邊欄-第一種類：手風琴開闔效果區塊 -->
+                    <div class="col-xs-12 p-0">
+                        <div class="panel-group panel-default" role="tablist">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="collapseListGroupHeading_1_1">
+                                    <h4 class="panel-title">
+                                        <a href="#collapseListGroup_1_1" class="" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseListGroup_1_1"><i class="more-less glyphicon glyphicon-minus"></i>相關論文</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse show" role="tabpanel" id="collapseListGroup_1_1" aria-labelledby="collapseListGroupHeading_1_1" aria-expanded="true">
+                                    <ol class="list-group">
+                                        
+                                        <li class="list-group-item">
+                                            
+                                            <a href="/thesis/detail/d5933eaea112ceea78edb2f5426798a4/">處方藥品試驗資料保護之研究─以資料專屬權為中心</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="list-group-item">
+                                            
+                                            <a href="/thesis/detail/28e7033c5948871bbb2095be8ce6007d/">美國、歐盟及我國營業秘密侵害之比較研究—以民事救濟為中心</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="list-group-item">
+                                            
+                                            <a href="/thesis/detail/98438973df0d8dc48fe39d8acdd3d2cb/">單獨沒收制度之分析與檢討</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="list-group-item">
+                                            
+                                            <a href="/thesis/detail/bfe65b73832408640d0c4b358d3f212f/">中國商業秘密保護法制之研究</a>
+                                            
+                                        </li>
+                                        
+                                        <li class="list-group-item">
+                                            
+                                            <a href="/thesis/detail/4fbf19e869ecc7bd549bdd683c136e6a/">論客戶資訊之保護--- 以個人資料保護法與營業秘密法為核心</a>
+                                            
+                                        </li>
+                                        
+                                    </ol>
+                                </div>
+                                
+                                <script type="text/javascript">
+                                    function POSTForm(formid, result, url) {
+                                        var form = $(formid)[0];
+                                        var formData = new FormData(form);
+                                        event.preventDefault();
+                                        $.ajax({
+                                                url: url,
+                                                type:"POST",
+                                                //data: $(formid).serialize(),
+                                                data: formData,
+                                                processData: false,
+                                                contentType: false,
+                                                success:function(datalist){
+                                                    $('#'+result).html(datalist);
+                                                }
+                                            });        
+                                        return false;
+                                    }
+                                    function toggleIcon(e) {
+                                        $(e.target)
+                                        .prev('.panel-heading')
+                                        .find(".more-less")
+                                        .toggleClass('glyphicon-plus glyphicon-minus');
+                                    }
+                                    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+                                    $('.panel-group').on('shown.bs.collapse', toggleIcon);
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /側邊欄-第一種類：手風琴開闔效果區塊 -->
+                    <!-- /側邊欄- -->
+                </div>
+                <!-- /左邊 -->
+                <!-- /【內容區塊】內容結束處 -->
+            </div>
+        </div>
+        <!-- /【內容區塊】頁首(含導覽列)、頁尾以外的所有內容放置區域 -->
+        <div class="modal fade" id="feedback" tabindex="-1" role="dialog" aria-labelledby="ModalLabel_feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- AJAX 塞到這裡 -->
+            </div>
+        </div>
+        </div>
+	<script src='/static/js/checksithash.js?v=2026-11-12'></script>
+
+
+
+    <a accesskey="Z" href="#Z" id="AZ" name="Z" title="下方功能區塊" class="sr-only sr-only-focusable">:::</a>
+
+    <!-- 【頁尾】 -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    
+                    <p><span style="font-size:14px;">國立政治大學圖書館著作權聲明 Copyright &copy; 2025 All rights reserved</span></p>
+
+<p><span style="font-size:14px;">本館地址：11605 台北市文山區指南路二段64號 總機：(02)29393091</span></p>
+                </div>
+                <div class="col-xs-12 col-md-6"> 
+                    
+                    <p>&nbsp;&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /【頁尾】 -->
+    <div id="ui-lang" data-uilang="zh"></div>
+    
+
+    <!--js順序有差要注意-->
+    <!--
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    -->
+    <script>
+        $(document).ready(function () {
+            // Activate Carousel
+            $("#indexCarousel").carousel({ interval: 8000 });
+        });
+    </script>
+    <!-- owl.carousel js-->
+    <script src='/static/js/highlight.js'></script>
+    <script src='/static/js/app.js'></script>
+    <script type="text/javascript">
+        function tabAction(result, url) {
+            url = encodeURI(url);
+            url = url.replace(/%20&%20/g, "%20%26%20");
+            url = url + "&cache=" + (new Date()).getTime();
+            $.get(url, {}, function(data) {
+		// $(result).find('.modal-content').html(data);
+		//  $(result).modal('show');
+                $(result).html(data);
+            });
+        }
+        
+    </script>
+     <script src='/static/js/search.js?v=1794475303'></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N9DGB5072G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N9DGB5072G');
+</script>
+</body>
+</html>
