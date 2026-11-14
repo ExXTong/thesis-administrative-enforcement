@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="static/style.xsl"?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2026-11-12T09:39:43Z</responseDate><request verb="GetRecord" identifier="oai:ediss.uni-goettingen.de:11858/00-1735-0000-0006-B349-C" metadataPrefix="oai_dc">https://ediss.uni-goettingen.de/oai/request</request><GetRecord><record><header><identifier>oai:ediss.uni-goettingen.de:11858/00-1735-0000-0006-B349-C</identifier><datestamp>2022-03-20T16:52:04Z</datestamp><setSpec>com_11858_12</setSpec><setSpec>col_11858_15</setSpec></header><metadata><oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+<dc:title>Die Rechtsnachfolge im Polizeirecht</dc:title>
+<dc:title>Dargestellt am Beispiel der Sanierungspflicht</dc:title>
+<dc:title>The legal succession in police law</dc:title>
+<dc:title>Demonstrated by the decontamination duty</dc:title>
+<dc:creator>Hong, Eui Pyo</dc:creator>
+<dc:contributor>Mann, Thomas Prof. Dr.</dc:contributor>
+<dc:contributor>Mann, Thomas Prof. Dr.</dc:contributor>
+<dc:contributor>Martínez Soria, José PD Dr.</dc:contributor>
+<dc:subject>340 Recht</dc:subject>
+<dc:subject>Law</dc:subject>
+<dc:subject>Polizeirecht</dc:subject>
+<dc:subject>Rechtsnachfolge</dc:subject>
+<dc:subject>Sanierungspflicht</dc:subject>
+<dc:subject>Police law</dc:subject>
+<dc:subject>legal succession</dc:subject>
+<dc:subject>decontamination duty</dc:subject>
+<dc:subject>86.54 Polizeirecht</dc:subject>
+<dc:subject>Ordnungsrecht</dc:subject>
+<dc:description>Die vorliegende Arbeit untersucht die            Rechtsnachfolge im Polizeirecht, dargestellt am            Beispiel der Sanierungspflicht. Es werden daher die            Hauptprobleme der Sanierungsverantwortlichkeit von            Rechtsnachfolgern für die schädliche Bodenveränderung            und Altlasten behandelt. Zunächst werden die Grundlagen            der Rechtsnachfolge dargestellt, damit die tatsächliche            Bedeutung und Umsetzung der            Sanierungsverantwortlichkeit von Rechtsnachfolgern            nachvollziehbar wird. Im nächsten Schritt wird die            Sanierungspflicht des Rechtsnachfolgers im            Bundes-Bodenschutzgesetz untersucht, wobei die            spezifische Frage der Rechtsnachfolge insbesondere mit            dem Schwerpunkt der konkreten Ausgestaltung der            Verantwortlichkeit erläutert wird. Darüber hinaus            werden die Haftungsgrenzen der Sanierungspflicht des            Rechtsnachfolgers untersucht, um mögliche Grenzen            zugunsten des Rechtsnachfolgers aufzuzeigen.            Schließlich wird die Verfassungsmäßigkeit der            Sanierungspflicht des Rechtsnachfolgers erläutert,            wobei Schwerpunkt die Frage ist, ob die Haftung gegen            die Grundrechte des Rechtsnachfolgers und das            verfassungsrechtliche Rückwirkungsverbot verstößt.</dc:description>
+<dc:description>This work examines examples of the decontamination            duty of legal succession in police law. It deals with            the decontamination responsibilities of the legal            successors for the hazardous soil changes and the            clean-up of former waste deposits. Firstly, the            fundamentals of the legal succession are represented.            This should enable one to grasp the actual meaning and            conversion of the decontamination responsibility of            legal successors. The decontamination duty of the legal            successors is examined in the federal soil protection            act (in german called Bundes-Bodenschutzgesetz). Then            the specific questions of the legal succession are            explained in particular as it refers the concrete            arrangement of the responsibility. In addition, the            liabilities of the decontamination duty of the legal            successor are examined to indicate possible limits of            the legal successors. Finally, the constitutionality of            the decontamination duty of the legal successors is            mentioned. Therefore, this part deals with the            liability of the decontamination duty if it is against            the basic rights of the legal successors, and if the            decontamination duty of the legal successors offends            nonretoactivity under constitutional legal            principle.</dc:description>
+<dc:date>2009-03-18T06:27:40Z</dc:date>
+<dc:date>2013-01-18T13:48:16Z</dc:date>
+<dc:date>2013-01-30T23:51:15Z</dc:date>
+<dc:date>2009-03-18</dc:date>
+<dc:date>2009-02-26</dc:date>
+<dc:type>doctoralThesis</dc:type>
+<dc:identifier>https://hdl.handle.net/11858/00-1735-0000-0006-B349-C</dc:identifier>
+<dc:identifier>https://dx.doi.org/10.53846/goediss-2993</dc:identifier>
+<dc:identifier>urn:nbn:de:gbv:7-webdoc-2059-5</dc:identifier>
+<dc:identifier>webdoc-2059</dc:identifier>
+<dc:identifier>595011330</dc:identifier>
+<dc:language>ger</dc:language>
+<dc:rights>https://webdoc.sub.gwdg.de/diss/copyr_diss.html</dc:rights>
+<dc:format>application/pdf</dc:format>
+</oai_dc:dc>
+</metadata></record></GetRecord></OAI-PMH>

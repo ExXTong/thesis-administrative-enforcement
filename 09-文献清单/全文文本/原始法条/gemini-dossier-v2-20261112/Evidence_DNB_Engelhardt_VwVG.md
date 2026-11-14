@@ -1,0 +1,1204 @@
+# Evidence_DNB_Engelhardt_VwVG
+
+- 原件：`09-文献清单/外文文献PDF/primary-sources/gemini-dossier-v2-20261112/Evidence_DNB_Engelhardt_VwVG.xml`
+- 字数：77373
+- 文字来源：书目 XML 机械抽取
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+
+---
+# Evidence_DNB_Engelhardt_VwVG
+
+- 来源：书目/元数据 XML（非 e-Gov 法令格式），机械抽取，未翻译、未改写
+
+- [001] 1340504502
+- [003] DE-101
+- [005] 20250227105012.0
+- [007] tu
+- [008] 240829s2025    gw ||||| |||| 00||||ger
+- [015] $a 25,A09;$z 24,N36;$2 dnb
+- [016 7] $2 DE-101;$a 1340504502
+- [020] $a 9783406809293;$c Gewebe : EUR 95.00 (DE);$9 978-3-406-80929-3
+- [020] $a 3406809294;$9 3-406-80929-4
+- [024 3] $a 9783406809293
+- [035] $a (DE-599)DNB1340504502
+- [035] $a (OCoLC)1483017111
+- [040] $a 1245;$b ger;$c DE-101;$d 9999;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 6\u;$a 342.4306;$q DE-101;$2 23/ger
+- [083 7] $8 7\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 6\u;$b 342.06
+- [085] $8 6\u;$z 2;$s 43
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar : unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begründet von Dr. Hanns Engelhardt (Richter am Bundesgerichtshof a.D.) ; herausgegeben von Arne Schlatmann (Ministerialdirigent im Bundesministerium des Innern und für Heimat, Berlin) ; im Einzelnen bearbeitet von: Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel auf dem Umschlag;$a VwVG, VwZG
+- [250] $a 13., neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2025
+- [300] $a XXIX, 650 Seiten;$c 20 cm, 783 g
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Steuerforderungen
+- [653] $a VwVG
+- [653] $a VwZG
+- [653] $a Zustellungsreformgesetz
+- [653] $a Zustellungsrecht
+- [653] $a Vollstreckungskosten
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $8 2\p;$0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [700 1] $8 3\p;$0 (DE-588)1145479243;$0 https://d-nb.info/gnd/1145479243;$0 (DE-101)1145479243;$a Mosbacher, Wolfgang;$d 1937-;$e Mitwirkender;$4 ctb;$2 gnd
+- [700 1] $8 4\p;$0 (DE-588)103660537X;$0 https://d-nb.info/gnd/103660537X;$0 (DE-101)103660537X;$a Troidl, Thomas;$e Mitwirkender;$4 ctb;$2 gnd
+- [710 2] $8 5\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406763281
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1340504502/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1340504502/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 2] $8 2\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883] $8 3\p;$a cgwrk;$d 20240920;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883] $8 4\p;$a cgwrk;$d 20240920;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883 1] $8 5\p;$a adb;$d 20240829;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 7\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.6;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1340504502
+- [003] DE-101
+- [005] 20250227105012.0
+- [007] tu
+- [008] 240829s2025    gw ||||| |||| 00||||ger
+- [015] $a 25,A09;$z 24,N36;$2 dnb
+- [016 7] $2 DE-101;$a 1340504502
+- [020] $a 9783406809293;$c Gewebe : EUR 95.00 (DE);$9 978-3-406-80929-3
+- [020] $a 3406809294;$9 3-406-80929-4
+- [024 3] $a 9783406809293
+- [035] $a (DE-599)DNB1340504502
+- [035] $a (OCoLC)1483017111
+- [040] $a 1245;$b ger;$c DE-101;$d 9999;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 6\u;$a 342.4306;$q DE-101;$2 23/ger
+- [083 7] $8 7\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 6\u;$b 342.06
+- [085] $8 6\u;$z 2;$s 43
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar : unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begründet von Dr. Hanns Engelhardt (Richter am Bundesgerichtshof a.D.) ; herausgegeben von Arne Schlatmann (Ministerialdirigent im Bundesministerium des Innern und für Heimat, Berlin) ; im Einzelnen bearbeitet von: Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel auf dem Umschlag;$a VwVG, VwZG
+- [250] $a 13., neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2025
+- [300] $a XXIX, 650 Seiten;$c 20 cm, 783 g
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Steuerforderungen
+- [653] $a VwVG
+- [653] $a VwZG
+- [653] $a Zustellungsreformgesetz
+- [653] $a Zustellungsrecht
+- [653] $a Vollstreckungskosten
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $8 2\p;$0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [700 1] $8 3\p;$0 (DE-588)1145479243;$0 https://d-nb.info/gnd/1145479243;$0 (DE-101)1145479243;$a Mosbacher, Wolfgang;$d 1937-;$e Mitwirkender;$4 ctb;$2 gnd
+- [700 1] $8 4\p;$0 (DE-588)103660537X;$0 https://d-nb.info/gnd/103660537X;$0 (DE-101)103660537X;$a Troidl, Thomas;$e Mitwirkender;$4 ctb;$2 gnd
+- [710 2] $8 5\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406763281
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1340504502/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1340504502/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 2] $8 2\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883] $8 3\p;$a cgwrk;$d 20240920;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883] $8 4\p;$a cgwrk;$d 20240920;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883 1] $8 5\p;$a adb;$d 20240829;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 7\p;$a dnb;$d 20250205;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.6;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1222367270
+- [003] DE-101
+- [005] 20260825144801.0
+- [007] tu
+- [008] 201128s2021    gw ||||| |||| 00||||ger
+- [015] $a 21,A29;$z 20,N49;$2 dnb
+- [016 7] $2 DE-101;$a 1222367270
+- [020] $a 9783406763281;$c Gewebe : EUR 85.00 (DE);$9 978-3-406-76328-1
+- [020] $a 3406763286;$9 3-406-76328-6
+- [024 3] $a 9783406763281
+- [035] $a (DE-599)DNB1222367270
+- [035] $a (OCoLC)1247900605
+- [035] $a (OCoLC)1225087561
+- [040] $a 1245;$b ger;$c DE-101;$d 1140;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 4\u;$a 342.4306;$q DE-101;$2 23/ger
+- [083 7] $8 5\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 4\u;$b 342.06
+- [085] $8 4\u;$z 2;$s 43
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirektor beim Deutschen Bundestag ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel auf dem Umschlag;$a VwVG/VwZG
+- [250] $a 12., neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2021
+- [300] $a XXVIII, 631 Seiten;$c 20 cm, 790 g
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Zustellungsreformgesetz
+- [653] $a Zustellungsrecht
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Steuerforderungen
+- [653] $a Vollstreckungskosten
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $8 2\p;$0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [710 2] $8 3\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406710551
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1222367270/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1222367270/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20260825;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 2] $8 2\p;$a dnb;$d 20210628;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 1] $8 3\p;$a adb;$d 20201128;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 5\p;$a dnb;$d 20210628;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.4;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1222367270
+- [003] DE-101
+- [005] 20260825144801.0
+- [007] tu
+- [008] 201128s2021    gw ||||| |||| 00||||ger
+- [015] $a 21,A29;$z 20,N49;$2 dnb
+- [016 7] $2 DE-101;$a 1222367270
+- [020] $a 9783406763281;$c Gewebe : EUR 85.00 (DE);$9 978-3-406-76328-1
+- [020] $a 3406763286;$9 3-406-76328-6
+- [024 3] $a 9783406763281
+- [035] $a (DE-599)DNB1222367270
+- [035] $a (OCoLC)1247900605
+- [035] $a (OCoLC)1225087561
+- [040] $a 1245;$b ger;$c DE-101;$d 1140;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 4\u;$a 342.4306;$q DE-101;$2 23/ger
+- [083 7] $8 5\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 4\u;$b 342.06
+- [085] $8 4\u;$z 2;$s 43
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirektor beim Deutschen Bundestag ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel auf dem Umschlag;$a VwVG/VwZG
+- [250] $a 12., neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2021
+- [300] $a XXVIII, 631 Seiten;$c 20 cm, 790 g
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Zustellungsreformgesetz
+- [653] $a Zustellungsrecht
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Steuerforderungen
+- [653] $a Vollstreckungskosten
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $8 2\p;$0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [710 2] $8 3\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406710551
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1222367270/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1222367270/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20260825;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 2] $8 2\p;$a dnb;$d 20210628;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 1] $8 3\p;$a adb;$d 20201128;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 5\p;$a dnb;$d 20210628;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.4;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1128662299
+- [003] DE-101
+- [005] 20260826180548.0
+- [007] tu
+- [008] 170328s2017    gw ||||| |||| 00||||ger
+- [015] $a 17,A28;$z 17,N14;$2 dnb
+- [016 7] $2 DE-101;$a 1128662299
+- [020] $a 9783406710551;$c Gewebe : EUR 79.00;$9 978-3-406-71055-1
+- [020] $a 3406710557;$9 3-406-71055-7
+- [024 3] $a 9783406710551
+- [035] $a (DE-599)DNB1128662299
+- [035] $a (OCoLC)981915499
+- [040] $a 1245;$b ger;$c DE-101;$d 1140;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 3\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 4\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 3\u;$b 342.06
+- [085] $8 3\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirigent im Bundesministerium des Innern a.D. ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Bernd Stammberger, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel;$a VwVG/VwZG
+- [250] $a 11. neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2017
+- [300] $a XXVIII, 586 Seiten;$c 20 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Vollstreckungskosten
+- [653] $a Dienste
+- [653] $a Steuerforderungen
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [710 2] $8 2\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406647949
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1128662299/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1128662299/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20260826;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 1] $8 2\p;$a adb;$d 20211002;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 4\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.2;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1128662299
+- [003] DE-101
+- [005] 20260826180548.0
+- [007] tu
+- [008] 170328s2017    gw ||||| |||| 00||||ger
+- [015] $a 17,A28;$z 17,N14;$2 dnb
+- [016 7] $2 DE-101;$a 1128662299
+- [020] $a 9783406710551;$c Gewebe : EUR 79.00;$9 978-3-406-71055-1
+- [020] $a 3406710557;$9 3-406-71055-7
+- [024 3] $a 9783406710551
+- [035] $a (DE-599)DNB1128662299
+- [035] $a (OCoLC)981915499
+- [040] $a 1245;$b ger;$c DE-101;$d 1140;$e rda
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 3\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 4\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 3\u;$b 342.06
+- [085] $8 3\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $8 1\p;$0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$e Begründer eines Werkes;$4 fon;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begündet von Dr. Hanns Engelhardt, Richter am Bundesgerichtshof a.D. ; herausgegeben von Arne Schlatmann, Ministerialdirigent im Bundesministerium des Innern a.D. ; im Einzelnen bearbeitet von: Dr. Hanns Engelhardt, Dr. Wolfgang Mosbacher, Arne Schlatmann, Bernd Stammberger, Dr. Thomas Troidl
+- [246 1] $i Abweichender Titel;$a VwVG/VwZG
+- [250] $a 11. neubearbeitete Auflage
+- [264 1] $a München;$b C.H. Beck;$c 2017
+- [300] $a XXVIII, 586 Seiten;$c 20 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a Vollstreckung Steuerforderungen
+- [653] $a Vollstreckung Geldforderungen
+- [653] $a Verwaltungszwang
+- [653] $a Vollstreckungskosten
+- [653] $a Dienste
+- [653] $a Steuerforderungen
+- [653] $a (Produktrabattgruppe)24: W-RSW_Rabatt
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$e Herausgeber;$4 edt;$2 gnd
+- [710 2] $8 2\p;$0 (DE-588)1023902869;$0 https://d-nb.info/gnd/1023902869;$0 (DE-101)1023902869;$a Verlag C.H. Beck;$e Verlag;$4 pbl;$2 gnd
+- [780 00] $i Vorangegangen ist;$z 9783406647949
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1128662299/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1128662299/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20260826;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [883 1] $8 2\p;$a adb;$d 20211002;$q DE-101;$u https://d-nb.info/provenance/plan#adb
+- [883 2] $8 4\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [926 1] $a LN;$o 93;$q Publisher;$v 1.2;$x Recht bestimmter Jurisdiktionen und bestimmter Rechtsgebiete
+- [001] 1032919574
+- [003] DE-101
+- [005] 20220910030559.0
+- [007] tu
+- [008] 130326s2014    gw ||||| |||| 00||||ger
+- [015] $a 14,A43;$z 13,N14;$2 dnb
+- [016 7] $2 DE-101;$a 1032919574
+- [020] $a 9783406647949;$c Gewebe : EUR 75.00;$9 978-3-406-64794-9
+- [020] $a 3406647944;$9 3-406-64794-4
+- [024 3] $a 9783406647949
+- [035] $a (DE-599)DNB1032919574
+- [035] $a (OCoLC)864647159
+- [040] $a 1245;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 2\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 3\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 2\u;$b 342.06
+- [085] $8 2\u;$z 2;$s 43
+- [090] $a b
+- [245 00] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begr. von Hanns Engelhardt. Hrsg. von Arne Schlatmann
+- [250] $a 10., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2014
+- [300] $a XXVII, 590 S.;$c 20 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturangaben
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Herausgeber;$4 edt;$2 gnd
+- [700 1] $8 1\p;$0 (DE-588)1145479243;$0 https://d-nb.info/gnd/1145479243;$0 (DE-101)1145479243;$a Mosbacher, Wolfgang;$d 1937-;$e Mitwirkender;$4 ctb;$2 gnd
+- [780 00] $i Fortsetzung von;$n Vorgänger;$z 9783406609862
+- [780 00] $i Bis 9. Aufl. u.d.T.:;$a Engelhardt, Hanns, 1934-;$t Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$d München : Beck, 2011;$h XXVII, 589 S.;$w (DE-101)1004795947;$b 9., neubearb. Aufl.
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1032919574/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1032919574/04;$3 Inhaltsverzeichnis
+- [883] $8 1\p;$a cgwrk;$d 20220812;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883 2] $8 3\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 1032919574
+- [003] DE-101
+- [005] 20220910030559.0
+- [007] tu
+- [008] 130326s2014    gw ||||| |||| 00||||ger
+- [015] $a 14,A43;$z 13,N14;$2 dnb
+- [016 7] $2 DE-101;$a 1032919574
+- [020] $a 9783406647949;$c Gewebe : EUR 75.00;$9 978-3-406-64794-9
+- [020] $a 3406647944;$9 3-406-64794-4
+- [024 3] $a 9783406647949
+- [035] $a (DE-599)DNB1032919574
+- [035] $a (OCoLC)864647159
+- [040] $a 1245;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 2\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 3\p;$a 340;$q DE-101;$2 23sdnb
+- [085] $8 2\u;$b 342.06
+- [085] $8 2\u;$z 2;$s 43
+- [090] $a b
+- [245 00] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c begr. von Hanns Engelhardt. Hrsg. von Arne Schlatmann
+- [250] $a 10., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2014
+- [300] $a XXVII, 590 S.;$c 20 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturangaben
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (Produktform)Hardback
+- [653] $a (Produktform (spezifisch))Cloth
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Herausgeber;$4 edt;$2 gnd
+- [700 1] $8 1\p;$0 (DE-588)1145479243;$0 https://d-nb.info/gnd/1145479243;$0 (DE-101)1145479243;$a Mosbacher, Wolfgang;$d 1937-;$e Mitwirkender;$4 ctb;$2 gnd
+- [780 00] $i Fortsetzung von;$n Vorgänger;$z 9783406609862
+- [780 00] $i Bis 9. Aufl. u.d.T.:;$a Engelhardt, Hanns, 1934-;$t Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$d München : Beck, 2011;$h XXVII, 589 S.;$w (DE-101)1004795947;$b 9., neubearb. Aufl.
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1032919574/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1032919574/04;$3 Inhaltsverzeichnis
+- [883] $8 1\p;$a cgwrk;$d 20220812;$q DE-101;$u https://d-nb.info/provenance/plan#cgwrk
+- [883 2] $8 3\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 1004795947
+- [003] DE-101
+- [005] 20180205183612.0
+- [007] tu
+- [008] 100720s2011    gw ||||| |||| 00||||ger
+- [015] $a 11,A33;$z 10,N30;$2 dnb
+- [016 7] $2 DE-101;$a 1004795947
+- [020] $a 9783406609862;$c Gewebe : EUR 68.00;$9 978-3-406-60986-2
+- [024 3] $a 9783406609862
+- [035] $a (DE-599)DNB1004795947
+- [035] $a (OCoLC)745364587
+- [035] $a (OCoLC)748697749
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 1\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 342.06
+- [085] $8 1\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 9., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2011
+- [300] $a XXVII, 589 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [785 00] $i 10. Aufl. u.d.T.:;$t Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$d München : Beck, 2014;$h XXVII, 590 S.;$w (DE-101)1032919574;$b 10., neubearb. Aufl.
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1004795947/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1004795947/04;$3 Inhaltsverzeichnis
+- [883 2] $8 2\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 1004795947
+- [003] DE-101
+- [005] 20180205183612.0
+- [007] tu
+- [008] 100720s2011    gw ||||| |||| 00||||ger
+- [015] $a 11,A33;$z 10,N30;$2 dnb
+- [016 7] $2 DE-101;$a 1004795947
+- [020] $a 9783406609862;$c Gewebe : EUR 68.00;$9 978-3-406-60986-2
+- [024 3] $a 9783406609862
+- [035] $a (DE-599)DNB1004795947
+- [035] $a (OCoLC)745364587
+- [035] $a (OCoLC)748697749
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 1\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 342.06
+- [085] $8 1\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 9., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2011
+- [300] $a XXVII, 589 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [653] $a (VLB-WN)1773: Hardcover, Softcover / Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [785 00] $i 10. Aufl. u.d.T.:;$t Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$d München : Beck, 2014;$h XXVII, 590 S.;$w (DE-101)1032919574;$b 10., neubearb. Aufl.
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/1004795947/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/1004795947/04;$3 Inhaltsverzeichnis
+- [883 2] $8 2\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 988284928
+- [003] DE-101
+- [005] 20180205183545.0
+- [007] tu
+- [008] 080415s2008    gw ||||| |||| 00||||ger
+- [015] $a 08,A35,0377;$z 08,N18,0412;$2 dnb
+- [016 7] $2 DE-101;$a 988284928
+- [020] $a 9783406573149;$c Gewebe : EUR 64.00;$9 978-3-406-57314-9
+- [024 3] $a 9783406573149
+- [035] $a (DE-599)DNB988284928
+- [035] $a (OCoLC)244290483
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 1\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 342.06
+- [085] $8 1\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 8., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2008
+- [300] $a XXVI, 556 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [653] $a (VLB-WN)1773: HC/Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/988284928/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/988284928/04;$3 Inhaltsverzeichnis
+- [883 2] $8 2\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 988284928
+- [003] DE-101
+- [005] 20180205183545.0
+- [007] tu
+- [008] 080415s2008    gw ||||| |||| 00||||ger
+- [015] $a 08,A35,0377;$z 08,N18,0412;$2 dnb
+- [016 7] $2 DE-101;$a 988284928
+- [020] $a 9783406573149;$c Gewebe : EUR 64.00;$9 978-3-406-57314-9
+- [024 3] $a 9783406573149
+- [035] $a (DE-599)DNB988284928
+- [035] $a (OCoLC)244290483
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 04] $8 1\u;$a 342.4306;$q DE-101;$2 22/ger
+- [083 7] $8 2\p;$a 340;$q DE-101;$2 22sdnb
+- [085] $8 1\u;$b 342.06
+- [085] $8 1\u;$z 2;$s 43
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 8., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2008
+- [300] $a XXVI, 556 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [653] $a (VLB-WN)1773: HC/Recht/Öffentliches Recht, Verwaltungsrecht, Verfassungsprozessrecht
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/988284928/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/988284928/04;$3 Inhaltsverzeichnis
+- [883 2] $8 2\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 979539285
+- [003] DE-101
+- [005] 20180205183532.0
+- [007] tu
+- [008] 060502s2006    gw ||||| |||| 00||||ger
+- [015] $a 06,A32,0513;$z 06,N21,0580;$2 dnb
+- [016 7] $2 DE-101;$a 979539285
+- [020] $a 9783406549960;$c Gewebe : EUR 62.00;$9 978-3-406-54996-0
+- [020] $a 3406549969;$c Gewebe : EUR 62.00;$9 3-406-54996-9
+- [024 3] $a 9783406549960
+- [035] $a (DE-599)DNB979539285
+- [035] $a (OCoLC)181564871
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 74] $8 1\p;$a 340;$q DE-101;$2 22sdnb
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 7., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2006
+- [300] $a XXVI, 551 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/979539285/blurb/;$3 Inhaltstext
+- [856 42] $m V:DE-603;$q application/pdf;$u https://d-nb.info/979539285/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 979539285
+- [003] DE-101
+- [005] 20180205183532.0
+- [007] tu
+- [008] 060502s2006    gw ||||| |||| 00||||ger
+- [015] $a 06,A32,0513;$z 06,N21,0580;$2 dnb
+- [016 7] $2 DE-101;$a 979539285
+- [020] $a 9783406549960;$c Gewebe : EUR 62.00;$9 978-3-406-54996-0
+- [020] $a 3406549969;$c Gewebe : EUR 62.00;$9 3-406-54996-9
+- [024 3] $a 9783406549960
+- [035] $a (DE-599)DNB979539285
+- [035] $a (OCoLC)181564871
+- [040] $a 1245;$b ger;$c DE-101;$d 1250
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 74] $8 1\p;$a 340;$q DE-101;$2 22sdnb
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar ; unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung, des EG-Beitreibungsgesetzes und des Europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt, Michael App und Arne Schlatmann
+- [250] $a 7., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2006
+- [300] $a XXVI, 551 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)1133571298;$0 https://d-nb.info/gnd/1133571298;$0 (DE-101)1133571298;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 2005
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [700 1] $0 (DE-588)115837493;$0 https://d-nb.info/gnd/115837493;$0 (DE-101)115837493;$a Schlatmann, Arne;$d 1964-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/979539285/blurb/;$3 Inhaltstext
+- [856 42] $m V:DE-603;$q application/pdf;$u https://d-nb.info/979539285/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 970921535
+- [003] DE-101
+- [005] 20171203160720.0
+- [007] tu
+- [008] 040421s2004    gw ||||| |||| 00||||ger
+- [015] $a 04,A27,0266;$z 04,N20,0366;$2 dnb
+- [016 7] $2 DE-101;$a 970921535
+- [020] $a 9783406520747;$c Gewebe : EUR 58.00, sfr 94.00;$9 978-3-406-52074-7
+- [020] $a 340652074X;$c Gewebe : EUR 58.00, sfr 94.00;$9 3-406-52074-X
+- [024 3] $a 9783406520747
+- [035] $a (DE-599)DNB970921535
+- [035] $a (OCoLC)249881395
+- [040] $a 1245;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 74] $8 1\p;$a 340;$q DE-101;$2 22sdnb
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung,  des EG-Beitreibungsgesetzes und des europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt und Michael App
+- [250] $a 6., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2004
+- [300] $a XXV, 527 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/970921535/blurb/;$3 Inhaltstext
+- [856 42] $m V:DE-576;$q application/pdf;$u https://d-nb.info/970921535/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 970921535
+- [003] DE-101
+- [005] 20171203160720.0
+- [007] tu
+- [008] 040421s2004    gw ||||| |||| 00||||ger
+- [015] $a 04,A27,0266;$z 04,N20,0366;$2 dnb
+- [016 7] $2 DE-101;$a 970921535
+- [020] $a 9783406520747;$c Gewebe : EUR 58.00, sfr 94.00;$9 978-3-406-52074-7
+- [020] $a 340652074X;$c Gewebe : EUR 58.00, sfr 94.00;$9 3-406-52074-X
+- [024 3] $a 9783406520747
+- [035] $a (DE-599)DNB970921535
+- [035] $a (OCoLC)249881395
+- [040] $a 1245;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE-BY
+- [082 74] $8 1\p;$a 340;$q DE-101;$2 22sdnb
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter Berücksichtigung der landesrechtlichen Bestimmungen, der Abgabenordnung,  des EG-Beitreibungsgesetzes und des europäischen Übereinkommens über die Zustellung von Schriftstücken in Verwaltungssachen im Ausland;$c von Hanns Engelhardt und Michael App
+- [250] $a 6., neubearb. Aufl.
+- [264 1] $a München;$b Beck;$c 2004
+- [300] $a XXV, 527 S.;$c 19 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [653] $a (VLB-PF)BB: Gebunden
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/970921535/blurb/;$3 Inhaltstext
+- [856 42] $m V:DE-576;$q application/pdf;$u https://d-nb.info/970921535/04;$3 Inhaltsverzeichnis
+- [883 2] $8 1\p;$a dnb;$d 20160229;$q DE-101;$u https://d-nb.info/provenance/plan#dnb
+- [925 r] $a ra
+- [001] 960870156
+- [003] DE-101
+- [005] 20240603125701.0
+- [007] tu
+- [008] 010213s2001    gw ||||| |||| 00||||ger
+- [015] $a 01,A19,0625;$z 01,N11,0232;$2 dnb
+- [016 7] $2 DE-101;$a 960870156
+- [020] $a 9783406474736;$c Gewebe : DM 98.00;$9 978-3-406-47473-6
+- [020] $a 340647473X;$c Gewebe : DM 98.00;$9 3-406-47473-X
+- [035] $a (DE-599)DNB960870156
+- [035] $a (OCoLC)47321920
+- [040] $a 1240;$b ger;$c DE-101;$d 0292
+- [041] $a ger
+- [043] $c XA-DE;$c XA-DE
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung;$c von Hanns Engelhardt und Michael App
+- [250] $a 5., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 2001
+- [300] $a XXIX, 497 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturverz. S. XXV - XXIX
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/960870156/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/960870156/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 960870156
+- [003] DE-101
+- [005] 20240603125701.0
+- [007] tu
+- [008] 010213s2001    gw ||||| |||| 00||||ger
+- [015] $a 01,A19,0625;$z 01,N11,0232;$2 dnb
+- [016 7] $2 DE-101;$a 960870156
+- [020] $a 9783406474736;$c Gewebe : DM 98.00;$9 978-3-406-47473-6
+- [020] $a 340647473X;$c Gewebe : DM 98.00;$9 3-406-47473-X
+- [035] $a (DE-599)DNB960870156
+- [035] $a (OCoLC)47321920
+- [040] $a 1240;$b ger;$c DE-101;$d 0292
+- [041] $a ger
+- [043] $c XA-DE;$c XA-DE
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung;$c von Hanns Engelhardt und Michael App
+- [250] $a 5., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 2001
+- [300] $a XXIX, 497 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturverz. S. XXV - XXIX
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/960870156/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/960870156/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 946252823
+- [003] DE-101
+- [005] 20240425182739.0
+- [007] tu
+- [008] 951201s1996    gw ||||| |||| 00||||ger
+- [015] $a 96,A12,0551;$z 96,N01,0258;$2 dnb
+- [016 7] $2 DE-101;$a 946252823
+- [020] $a 9783406403453;$c Gewebe : DM 78.00, sfr 75.00;$9 978-3-406-40345-3
+- [020] $a 340640345X;$c Gewebe : DM 78.00, sfr 75.00;$9 3-406-40345-X
+- [020] $z 340640345;$c Gewebe : DM 78.00, sfr 75.00;$9 3-406-40345
+- [035] $a (DE-599)DNB946252823
+- [035] $a (OCoLC)722430982
+- [040] $a 1240;$b ger;$c DE-101;$d 0292
+- [041] $a ger
+- [043] $c XA-DE;$c XA-DE
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung;$c von Hanns Engelhardt und Michael App
+- [250] $a 4., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1996
+- [300] $a XXVIII, 478 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturverz. S. XXV - XXIX
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/946252823/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/946252823/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 946252823
+- [003] DE-101
+- [005] 20240425182739.0
+- [007] tu
+- [008] 951201s1996    gw ||||| |||| 00||||ger
+- [015] $a 96,A12,0551;$z 96,N01,0258;$2 dnb
+- [016 7] $2 DE-101;$a 946252823
+- [020] $a 9783406403453;$c Gewebe : DM 78.00, sfr 75.00;$9 978-3-406-40345-3
+- [020] $a 340640345X;$c Gewebe : DM 78.00, sfr 75.00;$9 3-406-40345-X
+- [020] $z 340640345;$c Gewebe : DM 78.00, sfr 75.00;$9 3-406-40345
+- [035] $a (DE-599)DNB946252823
+- [035] $a (OCoLC)722430982
+- [040] $a 1240;$b ger;$c DE-101;$d 0292
+- [041] $a ger
+- [043] $c XA-DE;$c XA-DE
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen und der Regelungen in der Justizbeitreibungsordnung;$c von Hanns Engelhardt und Michael App
+- [250] $a 4., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1996
+- [300] $a XXVIII, 478 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [500] $a Literaturverz. S. XXV - XXIX
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [700 1] $0 (DE-588)112019927;$0 https://d-nb.info/gnd/112019927;$0 (DE-101)112019927;$a App, Michael;$d 1951-;$e Verfasser;$4 aut;$2 gnd
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/946252823/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/946252823/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 920644791
+- [003] DE-101
+- [005] 20241128193328.0
+- [007] tu
+- [008] 920427s1992    gw ||||| |||| 00||||ger
+- [015] $a 92,A35,0518;$z 92,N20,0153;$2 dnb
+- [016 7] $2 DE-101;$a 920644791
+- [020] $a 9783406360060;$c Pp. : DM 68.00;$9 978-3-406-36006-0
+- [020] $a 3406360068;$c Pp. : DM 68.00;$9 3-406-36006-8
+- [035] $a (DE-599)DNB920644791
+- [035] $a (OCoLC)263185361
+- [040] $a 1200;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen;$c von Hanns Engelhardt. Unter Mitarb. von Michael App
+- [250] $a 3., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1992
+- [300] $a XXVII, 432 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [366] $c IP 20241128;$2 onixas
+- [500] $a Literaturverz. S. XXIV - XXVIII
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/920644791/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/920644791/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 920644791
+- [003] DE-101
+- [005] 20241128193328.0
+- [007] tu
+- [008] 920427s1992    gw ||||| |||| 00||||ger
+- [015] $a 92,A35,0518;$z 92,N20,0153;$2 dnb
+- [016 7] $2 DE-101;$a 920644791
+- [020] $a 9783406360060;$c Pp. : DM 68.00;$9 978-3-406-36006-0
+- [020] $a 3406360068;$c Pp. : DM 68.00;$9 3-406-36006-8
+- [035] $a (DE-599)DNB920644791
+- [035] $a (OCoLC)263185361
+- [040] $a 1200;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [090] $a b
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter besonderer Berücksichtigung der landesrechtlichen Bestimmungen;$c von Hanns Engelhardt. Unter Mitarb. von Michael App
+- [250] $a 3., neubearb. und erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1992
+- [300] $a XXVII, 432 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [366] $c IP 20241128;$2 onixas
+- [500] $a Literaturverz. S. XXIV - XXVIII
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/920644791/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/920644791/04;$3 Inhaltsverzeichnis
+- [925 r] $a ra
+- [001] 880303433
+- [003] DE-101
+- [005] 20240830062540.0
+- [007] tu
+- [008] 880209s1988    gw ||||| |||| 00||||ger
+- [015] $a 88,A20,0417;$z 88,N09,0199;$2 dnb
+- [016 7] $2 DE-101;$a 880303433
+- [020] $a 9783406331077;$c Gewebe : DM 48.00;$9 978-3-406-33107-7
+- [020] $a 3406331076;$c Gewebe : DM 48.00;$9 3-406-33107-6
+- [035] $a (DE-599)DNB880303433
+- [035] $a (OCoLC)632835749
+- [040] $a 1200;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter bes. Berücks. d. landesrechtl. Bestimmungen;$c von Hanns Engelhardt
+- [250] $a 2., neubearb. u. erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1988
+- [300] $a XXI, 329 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [366] $c IP 20221008;$2 onixas
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [650 7] $a Zustellung;$2 local
+- [650 7] $a Verwaltungsvollstreckung;$2 local
+- [650 7] $a Verwaltungszustellung;$2 local
+- [650 7] $8 1\p;$0 (DE-588)4191177-5;$0 https://d-nb.info/gnd/4191177-5;$0 (DE-101)041911776;$a Zustellung;$2 gnd
+- [650 7] $8 2\p;$0 (DE-588)4063363-9;$0 https://d-nb.info/gnd/4063363-9;$0 (DE-101)040633632;$a Verwaltungsvollstreckung;$2 gnd
+- [650 7] $8 3\p;$0 (DE-588)4188152-7;$0 https://d-nb.info/gnd/4188152-7;$0 (DE-101)041881524;$a Verwaltungszwang;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/880303433/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/880303433/04;$3 Inhaltsverzeichnis
+- [883 1] $8 1\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
+- [883 1] $8 2\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
+- [883 1] $8 3\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
+- [001] 880303433
+- [003] DE-101
+- [005] 20240830062540.0
+- [007] tu
+- [008] 880209s1988    gw ||||| |||| 00||||ger
+- [015] $a 88,A20,0417;$z 88,N09,0199;$2 dnb
+- [016 7] $2 DE-101;$a 880303433
+- [020] $a 9783406331077;$c Gewebe : DM 48.00;$9 978-3-406-33107-7
+- [020] $a 3406331076;$c Gewebe : DM 48.00;$9 3-406-33107-6
+- [035] $a (DE-599)DNB880303433
+- [035] $a (OCoLC)632835749
+- [040] $a 1200;$b ger;$c DE-101;$d 9999
+- [041] $a ger
+- [044] $c XA-DE
+- [084] $a 19;$a 20;$a 340;$a 360;$q DE-101;$2 sdnb
+- [084] $a 7.4;$a 7.8a;$a 7.4;$a 7.8a;$q DE-101;$2 sswd
+- [100 1] $0 (DE-588)131816500;$0 https://d-nb.info/gnd/131816500;$0 (DE-101)131816500;$a Engelhardt, Hanns;$d 1934-;$e Verfasser;$4 aut;$2 gnd
+- [245 10] $a Verwaltungs-Vollstreckungsgesetz, Verwaltungszustellungsgesetz;$b Kommentar unter bes. Berücks. d. landesrechtl. Bestimmungen;$c von Hanns Engelhardt
+- [250] $a 2., neubearb. u. erg. Aufl.
+- [264 1] $a München;$b Beck;$c 1988
+- [300] $a XXI, 329 S.;$c 17 cm
+- [336] $a Text;$b txt;$2 rdacontent
+- [337] $a ohne Hilfsmittel zu benutzen;$b n;$2 rdamedia
+- [338] $a Band;$b nc;$2 rdacarrier
+- [366] $c IP 20221008;$2 onixas
+- [610 17] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz;$9 rswk-swf;$2 gnd
+- [610 17] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952;$9 rswk-swf;$2 gnd
+- [650 7] $a Zustellung;$2 local
+- [650 7] $a Verwaltungsvollstreckung;$2 local
+- [650 7] $a Verwaltungszustellung;$2 local
+- [650 7] $8 1\p;$0 (DE-588)4191177-5;$0 https://d-nb.info/gnd/4191177-5;$0 (DE-101)041911776;$a Zustellung;$2 gnd
+- [650 7] $8 2\p;$0 (DE-588)4063363-9;$0 https://d-nb.info/gnd/4063363-9;$0 (DE-101)040633632;$a Verwaltungsvollstreckung;$2 gnd
+- [650 7] $8 3\p;$0 (DE-588)4188152-7;$0 https://d-nb.info/gnd/4188152-7;$0 (DE-101)041881524;$a Verwaltungszwang;$2 gnd
+- [655 7] $0 (DE-588)4136710-8;$0 https://d-nb.info/gnd/4136710-8;$0 (DE-101)041367103;$a Kommentar;$2 gnd-content
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [655 7] $a Kommentar;$9 rswk-swf;$2 gnd
+- [689 00] $0 (DE-588)4188147-3;$0 https://d-nb.info/gnd/4188147-3;$0 (DE-101)041881478;$D b;$a Deutschland;$t Verwaltungs-Vollstreckungsgesetz
+- [689 01] $A f;$a Kommentar
+- [689 0] $5 DE-101;$5 DE-101
+- [689 10] $0 (DE-588)4188151-5;$0 https://d-nb.info/gnd/4188151-5;$0 (DE-101)041881516;$D b;$a Deutschland;$t Verwaltungszustellungsgesetz;$f 1952
+- [689 11] $A f;$a Kommentar
+- [689 1] $5 DE-101;$5 DE-101
+- [850] $a DE-101a;$a DE-101b
+- [856 42] $m X:MVB;$q text/html;$u https://services.dnb.de/plus/idn/880303433/blurb/;$3 Inhaltstext
+- [856 42] $m B:DE-101;$q application/pdf;$u https://d-nb.info/880303433/04;$3 Inhaltsverzeichnis
+- [883 1] $8 1\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
+- [883 1] $8 2\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
+- [883 1] $8 3\p;$a kasw;$c 1,000;$d 20230820;$q DE-101;$u https://d-nb.info/provenance/plan#kasw
