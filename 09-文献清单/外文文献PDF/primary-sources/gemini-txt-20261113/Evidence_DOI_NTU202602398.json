@@ -1,0 +1,8 @@
+{
+ "DOI": "10.6342/NTU202602398",
+ "resolution": {
+  "http_status": 301,
+  "target": "https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/103193"
+ },
+ "note": "doi.org redirect observed 2026-11-14 (curl -w url_effective); tdr.lib.ntu.edu.tw unreachable (000) from this host; CSL-JSON content negotiation timed out at handle host. Metadata (author/title) not obtained."
+}

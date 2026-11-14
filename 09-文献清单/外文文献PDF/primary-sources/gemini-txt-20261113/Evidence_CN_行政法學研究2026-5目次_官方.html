@@ -1,0 +1,301 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	行政法学研究
+</title><meta name="keywords" content="&lt;%=keyWordsInfo %>" />
+    
+    
+    <script src="../Script/jquery-3.7.1.min.js" type="text/javascript"></script>
+    <script src="../Script/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+    <script src="../Script/jquery-migrate-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/WKI/WebPublication/js/js.js?v=3.09"></script>
+    <script src="../js/changeTabs.js" type="text/javascript"></script>
+    <!--<link href="../CSS/index.css" rel="stylesheet" type="text/css" />-->
+    <link href="../CSS/nivo-slider.css" rel="stylesheet" type="text/css" /><link href="../CSS/default.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        a
+        {
+            color: #a0b3d6;
+        }
+        .tabs
+        {
+            border: 1px solid #a0b3d6;
+            margin: 100px;
+            width: 300px;
+        }
+        .tabs-nav a
+        {
+            background: white;
+            line-height: 30px;
+            padding: 0 20px;
+            display: inline-block;
+            border-right: 1px solid #a0b3d6;
+            border-bottom: 1px solid #a0b3d6;
+        }
+        .tabs-nav .on
+        {
+            background: #EAEAEA;
+            border-bottom: 1px solid white;
+        }
+        .tabs-content
+        {
+            padding: 1px;
+            border-top: 1px solid #a0b3d6;
+            margin-top: -1px;
+        }
+        
+        /*撤稿 样式*/
+        .sign
+        {
+            display: inline-block;
+            vertical-align: super;
+            height: 20px;
+            padding: 0 5px;
+            margin-left: 7px;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: normal;
+            color: #dc4f4f;
+            letter-spacing: -1px;
+            border: 1px solid #dc4f4f;
+            border-radius: 5px;
+       }
+     
+        
+        /*本期&首发 模块样式*/
+        .tab_issuse{overflow: hidden;border-bottom:1px solid #878787;font-size: 14px;}
+		.tab_issuse a{display: block; float: left; padding: 0 20px; text-align: center; border-right:1px solid #cfcfcf;  line-height: 32px; text-decoration: none;font-weight: bold;cursor: pointer;}
+		.tab_active{background: #a8a8a8;color: #fff;}
+		.tab_not{background: #f6f6f6;color: #666;}        
+    </style>
+    <script language="javascript" type="text/javascript">
+        window.onload = function () {
+            $("div[id^=test]").each(function () {
+                tabs($(this).attr("id"), 'mouseover');
+            });
+            $("#closeAd").click(function () {
+                $("#ad").animate({ top: "100px", opacity: "0" }, 300, function () { $("#ad").hide(); });
+            });
+
+            //遍历中华医学预防杂志系列
+            if ("xzfx".toLowerCase() == "cpma") {
+                var cpmaimgArr = "".split("|");
+                var i = 0;
+                // for (i = 0; i < cpmaimgArr.length; i++) {
+                // var imgsrc = "//c61.cnki.net/CJFD/big/" + cpmaimgArr[i]
+                if (cpmaimgArr.length > 0) {
+                    $("div[class=jour_grid] img").each(function () {
+                        var imgsrc = "//c61.cnki.net/CJFD/big/" + cpmaimgArr[i]
+                        var src = $(this).attr("src");
+                        $(this).attr('src', imgsrc);
+                        i++;
+                    });
+                }
+                // }
+            }
+        }
+
+        function searchPaper() {
+            var mid = "xzfx";
+            var basePath = "/WKI";
+            var isMagazineEng = "";
+            if (isMagazineEng != "1") {
+                var url = basePath + "/WebPublication/advSearchArticle.aspx";
+            }
+            else {
+                var url = basePath + "/WebPublication/advSearchArticleEng.aspx";
+            }
+            window.open(url);
+        }
+
+        function simpleSearch() {
+            var paperKey = $("#inputKeyword").val();
+            if (paperKey != null && paperKey != "") {
+                window.location.href = "../WebPublication/advSearchPaperList.aspx?pks=" + encodeURIComponent(paperKey);
+            }
+        }
+
+        function getSelectData() {
+            //开始请求  本期目次     
+            $.post("wkJournalInfo.ashx",
+           { Action: "post" },
+               function (dataStr, textStatus) {
+                   if (textStatus == "success") {
+                       $("#divPicB").html(dataStr);
+                   }
+                   else {
+                       $("#divPicB").html("wushuju");
+                   }
+               }, "html");
+            //开始请求  过刊浏览     
+            $.post("wkJournalInfoG.ashx",
+            { Action: "post" },
+               function (dataStr, textStatus) {
+                   if (textStatus == "success") {
+                       $("#divPicG").html(dataStr);
+                   }
+                   else {
+                       $("#divPicG").html("wushuju");
+                   }
+               }, "html");
+        }
+
+        // window.onload=function()
+        //  {   
+        //   
+        // $("#divPicB").html("<table  align=\"center\"><tr><td ><img src=\"../../images/progress2.gif\" /></td></tr></table>");
+        // $("#divPicG").html("<table  align=\"center\"><tr><td ><img src=\"../../images/progress2.gif\" /></td></tr></table>");
+        // getSelectData();
+        //  }
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                pauseTime: 3000
+            });
+        });
+
+        function UserLoginout() {
+            $.post("userLogout.ashx",
+           { Action: "post" },
+              function (data, textStatus) {
+                  if (textStatus == "success") {
+                      window.location.href = window.location.href;
+                  }
+              }
+         , "html");
+        }
+
+        //获取本期目次
+        function GetThisissue(year, issue) {
+            $.ajax({
+                url: "getThisIssuePaperInfo.ashx",
+                data: { y: year, i: issue },
+                dataType: "html",
+                success: function (data) {
+                    $(".zxlist").html(data);
+                }
+            })
+        }
+        //获取网络首发
+        function GetFirstPublish() {
+            $.ajax({
+                url: "getFirstPublishPaperInfo.ashx", 
+                dataType: "html",
+                success: function (data) {
+                    $(".zxlist").html(data);
+                }
+            })
+        }
+        //下载链接--文件名
+        function downFileContentTypeTwo(contentID, magazineID, columnID) {
+            var basePath = "/WKI";
+            var url = basePath + "/WebPublication/wkDownFileByLink.aspx?fid=" + contentID + "&mid=" + magazineID + "&cid=" + columnID;
+            window.open(url);
+        }
+    </script>
+    <link id="styleID" rel="Stylesheet" type="text/css" href="css/d/skin1_yellow.css" /></head>
+<body>
+     <!--<div  style="margin:0 auto;line-height:20px;background-color:white;color:blue;text-align:center;z-index: 9999;position: fixed;right: 30%;top:0">
+      温馨提示：建议您使用Chrome80、火狐74+、IE9+浏览器 ，当您的浏览器版本过低，可能会影响部分功能正常使用。
+    </div>-->
+    <form name="form1" method="post" action="index.aspx?mid=xzfx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="JJyrOJ336/ViKem7LoK6+f3sxHRSa9miEuJoCy+CYT+1CdVyCYmSFxVxaDT1Yyf5sRCJioFDhr2pvm0TG4NolJMVdV7/J1uQpPCrqFrdAy0XgIXmsPNwaSoDE5/ALTlSL9ZE7g==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8D4423BA" />
+</div><div class="header"><div class="container"><div class="pic"><img src="//cbimg.cnki.net/Editor/2013/0301/xzfx/d307a930-4d99-4cb2-8b8d-f8ed2ff4ea7b.jpg" /></div></div></div><div id="nav" class="nav"><div class="container"><ul id="menu" class="first_menu1"><li><a href="index.aspx?mid=xzfx" >首页</a></li><li><a href="wkTextContent.aspx?navigationContentID=cfae0210-bdea-48fd-b1e3-c7b97eeb01fe&mid=xzfx" >期刊简介</a></li><li><a href="wkTextContent.aspx?navigationContentID=556f3dc3-3b77-4e18-94a7-1b790f9dcafd&mid=xzfx" >编委会</a></li><li><a href="wkTextContent.aspx?navigationContentID=5e1cd8fd-905b-4835-a58f-396389feafd1&mid=xzfx" >投稿须知</a></li><li><a href="wkTextContent.aspx?navigationContentID=317cd446-84ea-4acd-8351-a71fe46feb89&mid=xzfx" >审稿制度</a></li><li><a href="wkTextContent.aspx?navigationContentID=a5ac4206-1382-4d7a-836c-83fd3b5b447a&mid=xzfx" >编辑规范及业务考核制度</a></li><li><a href="wkTextContent.aspx?navigationContentID=5ea9b66e-8779-49f8-9379-2cb0669c9c7f&mid=xzfx" >转载情况</a></li><li><a href="wkTextContent.aspx?navigationContentID=ea06062c-ebca-4b66-8903-f1ca650fe5ee&mid=xzfx" >获奖情况</a></li><li><a href="wkTextContent.aspx?navigationContentID=cae7faa7-4e74-499b-9735-51cfd6255e5d&mid=xzfx" >联系我们</a></li></ul></div></div><div class="content"><div class="container"><div id="d1"  class="left"><div><dl class="search"><dd><input id="inputKeyword" type="text" placeholder="请输入关键词"  onkeypress="if(event.keyCode==13) {inputGo.click();return false;}"/><input id="inputGo" type="button" value="检索" onClick="simpleSearch()"/>&nbsp;<input class="inputGoMore" name="Input2" type="button" value="高级搜索" onClick="searchPaper() " /></dd></dl></div><div class="column0"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="wkList.aspx?columnID=9bec3ef8-78aa-48d3-abbb-1e34930414c9" >作者投稿系统</a><em></em></h3><!--column_titbox_title end --><span class="column_titbox_more"><a href="wkList.aspx?columnID=9bec3ef8-78aa-48d3-abbb-1e34930414c9" >更多&gt;&gt; </a></span><!--column_titbox_more end --><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><ul class="column_contbox_list"><li class="column_contbox_noline"><a href="https://xzfx.cbpt.cnki.net/index.aspx?t=1" target="_blank"  title="作者投稿" style="color:none;">作者投稿</a></li></ul><!--column_contbox_list end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --></div><!--column end --></div><div class="column1"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="wkList.aspx?columnID=a65daeb2-731f-4d1a-bde1-b74df9a421ba" >在线办公系统</a><em></em></h3><!--column_titbox_title end --><span class="column_titbox_more"><a href="wkList.aspx?columnID=a65daeb2-731f-4d1a-bde1-b74df9a421ba" >更多&gt;&gt; </a></span><!--column_titbox_more end --><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><ul class="column_contbox_list"><li><a href="https://XZFX.cbpt.cnki.net/index.aspx?t=3" target="_blank"  title="编辑办公系统" style="color:none;">编辑办公系统</a></li><li class="gray"><a href="https://XZFX.cbpt.cnki.net/index.aspx?t=2" target="_blank"  title="外审专家系统" style="color:none;">外审专家系统</a></li><li class="column_contbox_noline"><a href="https://XZFX.cbpt.cnki.net/index.aspx?t=1" target="_blank"  title="作者投稿系统" style="color:none;">作者投稿系统</a></li></ul><!--column_contbox_list end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --></div><!--column end --></div><div class="0"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="wkList.aspx?columnID=2f93ec0e-d206-4b4a-92c9-c5de75b9dc0e" >在线期刊</a><em></em></h3><!--column_titbox_title end --><span class="column_titbox_more"><a href="wkList.aspx?columnID=2f93ec0e-d206-4b4a-92c9-c5de75b9dc0e" >更多&gt;&gt; </a></span><!--column_titbox_more end --><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><ul class="column_contbox_list"><li><a href="/WKI/WebPublication/browseTopList.aspx?mid=xzfx" target="_blank"  title="摘要查看排行">摘要查看排行</a></li><li class="column_contbox_noline"><a href="/WKI/WebPublication/refNum.aspx?mid=xzfx" target="_blank"  title="被引频次排行">被引频次排行</a></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?colType=3&mid=xzfx" target="_blank"  title="本期目次">本期目次</a></li><li class="column_contbox_noline"><a href="/WKI/WebPublication/wkTextContent.aspx?colType=4&tp=gklb&mid=xzfx" target="_blank"  title="过刊浏览">过刊浏览</a></li><li><a href="/WKI/WebPublication/downloadTopList.aspx?mid=xzfx" target="_blank"  title="全文下载排行">全文下载排行</a></li></ul><!--column_contbox_list end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --></div><!--column end --></div><div class="0"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="wkList.aspx?columnID=0aaa958c-01c1-4aaf-9a79-d6c3ee6025ed" >友情链接</a><em></em></h3><!--column_titbox_title end --><span class="column_titbox_more"><a href="wkList.aspx?columnID=0aaa958c-01c1-4aaf-9a79-d6c3ee6025ed" >更多&gt;&gt; </a></span><!--column_titbox_more end --><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><ul class="column_contbox_list"><li><a href="http://fzzfyjy.cupl.edu.cn/" target="_blank"  title="法治政府网" style="color:none;">法治政府网</a></li><li class="gray"><a href="http://www.cupl.edu.cn/" target="_blank"  title="中国政法大学" style="color:none;">中国政法大学</a></li><li><a href="http://www.moe.gov.cn/" target="_blank"  title="教育部" style="color:none;">教育部</a></li><li class="gray column_contbox_noline"><a href="http://www.cnki.net" target="_blank"  title="中国知网" style="color:none;">中国知网</a></li></ul><!--column_contbox_list end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --></div><!--column end --></div><div class="column1"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="#">访问量统计</a><em></em></h3><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><div class="column_contbox_text"><div class="visitClass">访问量:629308</div></div><!--column_contbox_text end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --> </div><!--column end --></div><div class="0"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="#">过刊浏览</a><em></em></h3><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><div class="column_contbox_pastlist1"><ul><li><strong>2026年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2026&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2026&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2026&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2026&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2026&st=05">05期</a></li><li></ul><ul class="gray"><li><strong>2025年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2025&st=06">06期</a></li><li></ul><ul><li><strong>2024年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2024&st=06">06期</a></li><li></ul><ul class="gray"><li><strong>2023年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2023&st=06">06期</a></li><li></ul><ul><li><strong>2022年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2022&st=06">06期</a></li><li></ul><ul class="gray"><li><strong>2021年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2021&st=06">06期</a></li><li></ul><ul><li><strong>2020年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2020&st=06">06期</a></li><li></ul><ul class="gray"><li><strong>2019年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2019&st=06">06期</a></li><li></ul><ul><li><strong>2018年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2018&st=06">06期</a></li><li></ul><ul class="gray"><li><strong>2017年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2017&st=06">06期</a></li><li></ul><ul><li><strong>2016年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2016&st=06">06期</a></li><li></ul><ul class="gray"><li><strong>2015年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=04">04期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=05">05期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2015&st=06">06期</a></li><li></ul><ul><li><strong>2014年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2014&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2014&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2014&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2014&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2013年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2013&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2013&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2013&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2013&st=04">04期</a></li><li></ul><ul><li><strong>2012年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2012&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2012&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2012&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2012&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2011年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2011&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2011&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2011&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2011&st=04">04期</a></li><li></ul><ul><li><strong>2010年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2010&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2010&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2010&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2010&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2009年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2009&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2009&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2009&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2009&st=04">04期</a></li><li></ul><ul><li><strong>2008年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2008&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2008&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2008&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2008&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2007年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2007&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2007&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2007&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2007&st=04">04期</a></li><li></ul><ul><li><strong>2006年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2006&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2006&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2006&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2006&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2005年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2005&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2005&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2005&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2005&st=04">04期</a></li><li></ul><ul><li><strong>2004年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2004&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2004&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2004&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2004&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2003年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2003&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2003&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2003&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2003&st=04">04期</a></li><li></ul><ul><li><strong>2002年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2002&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2002&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2002&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2002&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>2001年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2001&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2001&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2001&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2001&st=04">04期</a></li><li></ul><ul><li><strong>2000年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2000&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2000&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2000&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=2000&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>1999年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1999&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1999&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1999&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1999&st=04">04期</a></li><li></ul><ul><li><strong>1998年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1998&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1998&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1998&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1998&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>1997年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1997&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1997&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1997&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1997&st=04">04期</a></li><li></ul><ul><li><strong>1996年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1996&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1996&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1996&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1996&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>1995年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1995&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1995&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1995&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1995&st=04">04期</a></li><li></ul><ul><li><strong>1994年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1994&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1994&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1994&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1994&st=04">04期</a></li><li></ul><ul class="gray"><li><strong>1993年</strong></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1993&st=01">01期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1993&st=02">02期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1993&st=03">03期</a></li><li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=&colType=4&yt=1993&st=04">04期</a></li><li></ul></div><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --> </div><!--column end --></div><br /></div><div id="d2" class="right"><div class="column3"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="#">期刊封面</a><em></em></h3><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><div class="column_contbox_text"><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+<img alt="" id="pykmtp" src="" style="width: 188px; height: 236px; float: left;" />&nbsp;期刊名称：行政法学研究</p>
+
+<p>&nbsp;创办日期：1993年</p>
+
+<p>&nbsp;主办单位：中国政法大学</p>
+
+<p>&nbsp;主管单位：中华人民共和国教育部</p>
+
+<p>&nbsp;刊期：双月刊</p>
+
+<p>&nbsp;语种：中文</p>
+
+<p>&nbsp;开本：大16开</p>
+
+<p>&nbsp;Email：xzfxyj@cupl.edu.cn</p>
+
+<p>&nbsp;投稿系统：http://xzfx.chinajournal.net.cn</p>
+
+<p>&nbsp;国内统一刊号（CN）：11-3110/D</p>
+
+<p>&nbsp;国际标准刊号（ISSN）：1005-0078</p>
+
+<p>&nbsp;邮发代号：82-664</p>
+
+<p>&nbsp;国内定价：35.00元</p>
+
+<p>&nbsp;国外定价：8.00美元</p>
+<script>
+<!--
+$(document).ready(function(){
+var urlCount = $("a:contains('首页')").attr("href");
+var urlCount4 = urlCount.substr(urlCount.length-4);
+$("#pykmtp").attr("src","http://acad.cnki.net/fengmian/CJFD/big/"+urlCount4+".jpg");
+
+$("a:contains('作者投稿系统')").parent().addClass("zuozhe");
+$("a:contains('编辑办公系统')").parent().addClass("bianwei");
+$("a:contains('专家审稿系统')").parent().addClass("zhuanjia");
+});
+-->
+</script></div><!--column_contbox_text end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --> </div><!--column end --></div><div class="column3"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="wkList.aspx?columnID=e3018fc5-6606-4572-b705-08820c9d7066" >通知公告</a><em></em></h3><!--column_titbox_title end --><span class="column_titbox_more"><a href="wkList.aspx?columnID=e3018fc5-6606-4572-b705-08820c9d7066" >更多&gt;&gt; </a></span><!--column_titbox_more end --><div class="clear"></div></div><!--column_titbox end --><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><!--column_radius_top end--><ul class="column_contbox_list"><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=ed7a2353-c15d-401b-ae35-f6cbe4959b49&mid=xzfx" target="_blank" title="《行政法学研究》编辑部主办的“检察公益诉讼立法”研讨会在北京召开" style="color:none;">《行政法学研究》编辑部主办的“检察公益诉讼立法”研讨会在北京召开</a></li><li class="gray"><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=c1a2425c-cadf-4cd2-a8ee-2c637df54cbc&mid=xzfx" target="_blank" title="《行政法学研究》编委会暨习近平法治思想与法治政府建设学术研讨会在北京召开" style="color:none;">《行政法学研究》编委会暨习近平法治思想与法治政府建设学术研讨会在北京召开</a></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=a3cf3b5c-18c6-4cba-8156-ad767e6d4b96&mid=xzfx" target="_blank" title="《行政法学研究》杂志社2019年论坛暨“行政处罚”专题征稿通知" style="color:none;">《行政法学研究》杂志社2019年论坛暨“行政处罚”专题征稿通知</a></li><li class="gray"><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=deb1b679-dac8-44a7-88c6-b60d2f65680c&mid=xzfx" target="_blank" title="《行政法学研究》严正声明" style="color:none;">《行政法学研究》严正声明</a></li><li><a href="/WKI/WebPublication/wkTextContent.aspx?contentID=fca95c56-d570-4ea0-ae08-dafb04cd0ae6&mid=xzfx" target="_blank" title="《行政法学研究》编委会暨《行政诉讼法》修改座谈会在京举行" style="color:none;">《行政法学研究》编委会暨《行政诉讼法》修改座谈会在京举行</a></li><li class="list_more"><a href="/WKI/WebPublication/wkList.aspx?columnID=e3018fc5-6606-4572-b705-08820c9d7066&mid=xzfx" target="_blank" >more&gt;&gt;</a></li></ul><!--column_contbox_list end--><div class="column_radius_bottom"><b></b><samp></samp></div><!--column_radius_bottom end--></div><!--column_contbox end --></div><!--column end --></div><div class="0"><div class="column"><div class="column_titbox"><h3 class="column_titbox_title"><a href="#" >本期目次</a><em></em></h3><div class="clear"></div></div><div class="column_contbox"><div class="column_radius_top"><b></b><samp></samp></div><div class="zxlist"><ul class="column_contbox_zxlist"><h1>习近平法治思想</h1><ul class="column_contbox_zxlist"><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=ecc0cd29-072b-4106-a798-58af4723b2bb" target="_blank" >中国立法学自主知识体系的理论基础与构建方案</a></h3><samp>宋方青;刘永胜;</samp><span>2026年05期 No.159 3-19页  <a href="../WebPublication/paperDigest.aspx?paperID=ecc0cd29-072b-4106-a798-58af4723b2bb" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605001" target="_blank" >下载</a> 196K] </br>[下载次数：<FONT color=red>418</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>69</FONT> ] </span></li></ul><h1>执法与监管</h1><ul class="column_contbox_zxlist"><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=446fad45-47f0-4bae-96de-5f8a28deb167" target="_blank" >论行政许可有效期法定</a></h3><samp>王太高;</samp><span>2026年05期 No.159 20-33页  <a href="../WebPublication/paperDigest.aspx?paperID=446fad45-47f0-4bae-96de-5f8a28deb167" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605002" target="_blank" >下载</a> 171K] </br>[下载次数：<FONT color=red>318</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>213</FONT> ] </span></li><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=b4e14594-4ae3-478b-9b84-c0896c0539a4" target="_blank" >行政罚款数额罚与倍比罚的设定选择</a></h3><samp>李晴;</samp><span>2026年05期 No.159 34-47页  <a href="../WebPublication/paperDigest.aspx?paperID=b4e14594-4ae3-478b-9b84-c0896c0539a4" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605003" target="_blank" >下载</a> 165K] </br>[下载次数：<FONT color=red>390</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>201</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=af050600-eae8-4702-b22e-b2292e923a32" target="_blank" >公司行政罚款的董事赔偿责任边界——以《公司法》第188条“损失”的解释为中心</a></h3><samp>张杨;</samp><span>2026年05期 No.159 48-62页  <a href="../WebPublication/paperDigest.aspx?paperID=af050600-eae8-4702-b22e-b2292e923a32" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605004" target="_blank" >下载</a> 189K] </br>[下载次数：<FONT color=red>351</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>183</FONT> ] </span></li></ul><h1>法典及法典化</h1><ul class="column_contbox_zxlist"><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=b772774d-c37e-41c5-bd34-d413033843a8" target="_blank" >《生态环境法典》行政双罚制中单位成员处罚责任研究</a></h3><samp>陈倩;</samp><span>2026年05期 No.159 63-76页  <a href="../WebPublication/paperDigest.aspx?paperID=b772774d-c37e-41c5-bd34-d413033843a8" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605005" target="_blank" >下载</a> 172K] </br>[下载次数：<FONT color=red>502</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>181</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=29c66af6-b529-44b4-a506-87b1c67f43bc" target="_blank" >教育法典公私法交融的规范逻辑与体系建构</a></h3><samp>郭海蓝;</samp><span>2026年05期 No.159 77-90页  <a href="../WebPublication/paperDigest.aspx?paperID=29c66af6-b529-44b4-a506-87b1c67f43bc" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605006" target="_blank" >下载</a> 168K] </br>[下载次数：<FONT color=red>340</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>181</FONT> ] </span></li></ul><h1>学术专论</h1><ul class="column_contbox_zxlist"><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=c6e178d7-e1a0-4c92-aa6a-7e7ec6f4e034" target="_blank" >论行政诉讼释明的范围与限度</a></h3><samp>李大勇;</samp><span>2026年05期 No.159 91-106页  <a href="../WebPublication/paperDigest.aspx?paperID=c6e178d7-e1a0-4c92-aa6a-7e7ec6f4e034" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605007" target="_blank" >下载</a> 179K] </br>[下载次数：<FONT color=red>460</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>180</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=4e535b97-bf6f-4ebb-b75e-32ffc26bcf85" target="_blank" >网络运营者审查违法信息的程序义务范式及其制度建构</a></h3><samp>王玎;</samp><span>2026年05期 No.159 107-123页  <a href="../WebPublication/paperDigest.aspx?paperID=4e535b97-bf6f-4ebb-b75e-32ffc26bcf85" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605008" target="_blank" >下载</a> 182K] </br>[下载次数：<FONT color=red>238</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>179</FONT> ] </span></li><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=314a9d0a-ac84-4ddf-96e5-4011e2bdc202" target="_blank" >行政违法行为检察监督范围的规范构造</a></h3><samp>王勇;</samp><span>2026年05期 No.159 124-135页  <a href="../WebPublication/paperDigest.aspx?paperID=314a9d0a-ac84-4ddf-96e5-4011e2bdc202" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605009" target="_blank" >下载</a> 153K] </br>[下载次数：<FONT color=red>531</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>190</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=cc55cd84-7ffe-4a15-b8e2-f13ad5724233" target="_blank" >个人信息处理同意规则的类型化构造及其动态调适</a></h3><samp>于晓洋;</samp><span>2026年05期 No.159 136-151页  <a href="../WebPublication/paperDigest.aspx?paperID=cc55cd84-7ffe-4a15-b8e2-f13ad5724233" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605010" target="_blank" >下载</a> 183K] </br>[下载次数：<FONT color=red>587</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>178</FONT> ] </span></li><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=9c631d73-6005-4259-b8e4-e2472ea1f2aa" target="_blank" >论行政机关间的协助义务</a></h3><samp>周全;</samp><span>2026年05期 No.159 152-164页  <a href="../WebPublication/paperDigest.aspx?paperID=9c631d73-6005-4259-b8e4-e2472ea1f2aa" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605011" target="_blank" >下载</a> 157K] </br>[下载次数：<FONT color=red>273</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>182</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=39f6a2cc-b7e0-4285-a8c2-d462561a1340" target="_blank" >论学位授予纠纷中品行标准的司法审查</a></h3><samp>邓经超;</samp><span>2026年05期 No.159 165-177页  <a href="../WebPublication/paperDigest.aspx?paperID=39f6a2cc-b7e0-4285-a8c2-d462561a1340" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605012" target="_blank" >下载</a> 160K] </br>[下载次数：<FONT color=red>278</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>175</FONT> ] </span></li></ul><h1>青年论坛</h1><ul class="column_contbox_zxlist"><li> <h3> <a href="../WebPublication/paperDigest.aspx?paperID=934b8dc2-2c32-4a69-a318-4be8bdff68e1" target="_blank" >行政法上结果除去请求权的证立及诉讼实现</a></h3><samp>石佳乐;</samp><span>2026年05期 No.159 178-192页  <a href="../WebPublication/paperDigest.aspx?paperID=934b8dc2-2c32-4a69-a318-4be8bdff68e1" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605013" target="_blank" >下载</a> 172K] </br>[下载次数：<FONT color=red>404</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>184</FONT> ] </span></li><li class="gray"><h3> <a href="../WebPublication/paperDigest.aspx?paperID=c6410e37-64b2-4c7b-bac1-2486fd88080d" target="_blank" >投稿须知</a></h3><samp></samp><span>2026年05期 No.159 193页  <a href="../WebPublication/paperDigest.aspx?paperID=c6410e37-64b2-4c7b-bac1-2486fd88080d" target="_blank" >[查看摘要]</a><a href="//mall.cnki.net/eread/mall/forward/maga/XZFX202605.html" target="_blank" >[在线阅读]</a>[<a href="../WebPublication/kbDownload.aspx?fn=XZFX202605014" target="_blank" >下载</a> 519K] </br>[下载次数：<FONT color=red>44</FONT> ] |[网刊下载次数：<FONT color=red>0</FONT> ] |[引用频次：<FONT color=red>0</FONT> ] |[阅读次数：<FONT color=red>53</FONT> ] </span></li><a  style='color:red;' href="/WKI/WebPublication/DownloadIssueInfo.aspx?mid=xzfx&year=2026&issue=05" target="_blank">下载本期数据</a></ul></div><div class="column_radius_bottom"><b></b><samp></samp></div></div></div></div><br /></div><div class="clear"></div></div></div><div id="d4"  class="bottom"><div class="container"><br /></div></div><div class="footer"><div class="container"><p>地址：北京市海淀区西土城路25号中国政法大学《行政法学研究》编辑部<br />
+邮编：100088 &nbsp; &nbsp;电话：010-58908184 &nbsp; &nbsp;邮箱：xzfxyj@cupl.edu.cn<br />
+版权所有：《行政法学研究》编辑部 &nbsp; &nbsp;技术支持：中国知网<br />
+<script>
+$(document).ready(function(){
+
+$("#d2 .column3:eq(0)").css("width","440px");
+$("#d2 .column3:eq(1)").css({width:"350px",marginTop:"30px",overflow:"hidden"});
+$("a:contains(《行政法学研究》编委会暨习近平法治思想与法治政府建设学术研讨会在北京召开)").attr({target:"_blank",href:"https://mp.weixin.qq.com/s?__biz=MzI4MjA5Mzg2Mg==&mid=2247484392&idx=1&sn=e5494bbde236e03e9ff0f4872fd16d05&chksm=eb9e73a1dce9fab79269516af7b820739a1de0330a33d7ea31fa7606da4fa07a8177ebb1f8b4&mpshare=1&scene=23&srcid=04234eaTZbbovaBoINJMkmZv&sharer_sharetime=1620715345403&sharer_shareid=26dc66d132ecf09558fe0a543f03423d#rd"});
+$("#d1 li:contains('作者投稿系统'),#d3 a:contains('作者投稿系统')").hide();
+$("#d1 li:contains('作者投稿') a,a:contains('编辑办公系统'),a:contains('外审专家系统')").css({color:"#44617b",fontWeight:"bold"});
+$("#d1 .column_contbox a").css("fontSize","14px");
+$("dt img").css("width","80px");
+$(".column_contbox_pastlist1 ul li strong").css({position:"static",display:"block"});
+$(".column_contbox_pastlist1").css({height:"310px",overflow:"auto",padding:"0"});
+$(".column_contbox_pastlist1 ul").css("width","97.5%");
+$(".column_contbox_pastlist1 ul li a").css("margin","0 8px")
+});
+</script></p>
+</div></div></form>
+    <div style="display: none">
+            <script src="//s20.cnzz.com/stat.php?id=3025433&web_id=3025433&show=pic" language="javascript"></script>
+    </div>
+    <div style="display: none">
+       <script type="text/javascript">            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1503178'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s84.cnzz.com/stat.php%3Fid%3D1503178%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+    <input type="hidden" id="hiddUserID" value="" />
+    <input type="hidden" id="hiddUserName" value="" />
+</body>
+<script type="text/javascript">
+   /* $(function () {
+        // 延迟CNZZ统计, 以免影响页面载入
+        var cz = document.createElement("script");
+        cz.src = "//s84.cnzz.com/stat.php?id=1503178&web_id=1503178&&show=pic";
+        document.getElementsByTagName('body')[0].appendChild(cz);
+    });*/
+    var iswk = "open";
+    if (iswk == "open") {
+        document.write(unescape("%3Cscript src='/WKI/Script/mobile.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+</script>
+<script type="text/javascript">
+    $(function () {
+        $(".tab_issuse a").click(function () {
+            $(this).addClass("tab_active").removeClass("tab_not").siblings().addClass("tab_not").removeClass("tab_active");
+        })
+    })
+	</script>
+
+<!--<script src="/WKI/Script/mobile.js" type="text/javascript"></script>-->
+</html>

@@ -4,7 +4,7 @@
 - 字数：71041
 - 文字来源：网页正文（article）
 - 原件元数据标题：Décision n° 88-248 DC du 17 janvier 1989 | Conseil constitutionnel
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 Le Conseil constitutionnel a été saisi, le 22 décembre 1988, par MM Bernard Pons, Claude Labbé, Jacques Chirac, Alain Juppé, Pierre Mazeaud, Mme Elisabeth Hubert, M Jean Ueberschlag, Mme Suzanne Sauvaigo, MM Jean Kiffer, Jean-Louis Goasduff, Pierre Pasquini, Mme Roselyne Bachelot, MM Michel Cointat, Philippe Auberger, Roland Nungesser, Patrick Ollier, Franck Borotra, Christian Estrosi, Mme Lucette Michaux-Chevry, MM Robert-André Vivien, Patrick Balkany, Lucien Guichon, Régis Perbet, Claude-Gérard Marcus, Mme Michèle Alliot-Marie, MM Robert Pandraud, Eric Raoult, Jean-Michel Dubernard, Bernard Debré, Martial Taugourdeau, Arnaud Lepercq, Jean-Yves Chamard, François Fillon, Jacques Godfrain, Mme Nicole Catala, MM Jacques Baumel, Jean-Paul Charié, Alain Jonemann, Patrick Devedjian, Nicolas Sarkozy, Georges Gorse, Edouard Balladur, Michel Barnier, Etienne Pinte, Mme Michèle Barzach, MM Pierre Raynal, Jean-Claude Gaudin, Philippe Mestre, André Rossi, Gilbert Gantier, Pierre Lequiller, Marc Reymann, Francisque Perrut, Henri Bayard, Michel Pelchat, Jean-Marie Caro, José Rossi, Maurice Ligot, René Beaumont, Jean Brocard, Maurice Dousset, Gilles de Robien, Alain Mayoud, Léonce Deprez, députés, dans les conditions prévues à l'article 61, alinéa 2, de la Constitution, de la conformité à celle-ci de la loi modifiant la loi n° 86-1067 du 30 septembre 1986 relative à la liberté de communication ;

@@ -4,7 +4,7 @@
 - 字数：14272
 - 文字来源：网页正文（article）
 - 原件元数据标题：Rule 25. Substitution of Parties | Federal Rules of Civil Procedure | US Law | LII / Legal Information Institute
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 (a) Death.

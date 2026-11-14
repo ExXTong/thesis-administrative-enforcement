@@ -3,7 +3,7 @@
 - 原件：`09-文献清单/外文文献PDF/primary-sources/gemini-dossier-20261112/Japan_KokuzeiChoshuHo_334AC0000000147.xml`
 - 字数：95124
 - 文字来源：官方 XML 条文抽取
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 # Japan_KokuzeiChoshuHo_334AC0000000147

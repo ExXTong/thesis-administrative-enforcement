@@ -5,7 +5,7 @@
 - 字数：11026
 - 文字来源：内嵌文本层
 - 原件元数据标题：U.S. Reports: Schreiber and Others v. Sharpless, 110 U.S. 76 (1884).
-- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-12
+- 生成：`09-文献清单/全文文本/scripts/pdf2text.py`，2026-11-14
 
 ---
 --- 第 1 页 ---
